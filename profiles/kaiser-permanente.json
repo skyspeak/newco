@@ -1,0 +1,78 @@
+{
+  "slug": "kaiser-permanente",
+  "company": "Kaiser Permanente",
+  "domain": "kaiserpermanente.org",
+  "activity_statements": [
+    {
+      "statement": "operates an integrated health plan and hospital system serving 12.9 million members across nine regional markets including California, Colorado, Georgia, Hawaii, Mid-Atlantic, Nevada, Northwest and Washington",
+      "source_url": "https://about.kaiserpermanente.org/who-we-are/fast-facts",
+      "confidence": 0.98
+    },
+    {
+      "statement": "employs 225,854 staff including 25,270 physicians and 78,630 nurses across 40 hospitals and 610 medical offices in its regional markets",
+      "source_url": "https://about.kaiserpermanente.org/who-we-are/fast-facts",
+      "confidence": 0.98
+    },
+    {
+      "statement": "delivers an integrated prepaid care model combining health insurance, hospital operations and physician medical groups under one organization for enrolled members",
+      "source_url": "https://about.kaiserpermanente.org/our-story/our-history",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Kaiser Foundation Health Plan (insurance), Kaiser Foundation Hospitals and The Permanente Medical Groups as three integrated entities serving the same member population",
+      "source_url": "https://about.kaiserpermanente.org/who-we-are/fast-facts",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides primary, specialty and preventive care to members through a closed physician-group model where physicians continuously develop and refine medical practices for efficiency",
+      "source_url": "https://about.kaiserpermanente.org/who-we-are/fast-facts",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "integrated-health-plan-delivery",
+    "hospital-operations",
+    "clinical-care-delivery",
+    "prepaid-health-insurance",
+    "primary-care-network",
+    "physician-employment-at-scale",
+    "preventive-care",
+    "health-data-and-electronic-records",
+    "regional-health-systems",
+    "population-health-management"
+  ],
+  "function_mix": [
+    { "family": "physicians-and-advanced-practice", "weight": 0.28 },
+    { "family": "nursing", "weight": 0.25 },
+    { "family": "health-plan-and-insurance-operations", "weight": 0.15 },
+    { "family": "allied-health-and-clinical-support", "weight": 0.15 },
+    { "family": "hospital-administration", "weight": 0.1 },
+    { "family": "technology-and-data", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["human-service", "physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Kaiser Foundation Health Plan",
+      "weight": 0.35,
+      "capability_tags": ["prepaid-health-insurance", "population-health-management"]
+    },
+    {
+      "name": "Kaiser Foundation Hospitals",
+      "weight": 0.40,
+      "capability_tags": ["hospital-operations", "clinical-care-delivery"]
+    },
+    {
+      "name": "Permanente Medical Groups",
+      "weight": 0.25,
+      "capability_tags": ["physician-employment-at-scale", "primary-care-network", "preventive-care"]
+    }
+  ],
+  "name_reality_gap": "Labeled Hospitals and Health Care; Kaiser Permanente is structurally unique as it simultaneously operates a health plan (insurer), hospitals and physician medical groups as an integrated system — the Hospitals label misses the insurer and physician-employer dimensions, which are 60% of the entity.",
+  "sources": [
+    { "url": "https://about.kaiserpermanente.org/who-we-are/fast-facts", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://about.kaiserpermanente.org/our-story/our-history", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Excellent fast-facts page with precise headcounts and facility counts as of June 2026. The integrated three-entity structure is a well-documented and distinctive model.",
+  "extraction_confidence": 0.94
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "roche",
+  "company": "Roche",
+  "domain": "roche.com",
+  "activity_statements": [
+    {
+      "statement": "develops and markets transformative prescription medicines in oncology, neurology, cardiovascular/metabolic diseases, ophthalmology, infectious diseases, and immunology for patients in 100+ countries",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manufactures and sells in-vitro diagnostics including laboratory instruments, reagents, point-of-care tests, and digital pathology tools as the world's largest IVD provider",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "conducts R&D across biotechnology and molecular biology to discover and develop medicines and diagnostic solutions, with 125+ years of innovation history",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "develops AI-enabled clinical decision support tools including algorithms that predict nighttime hypoglycemia up to 7 hours in advance for diabetes patients, achieving a 31% reduction in severe events",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates Roche Diagnostics as a separate division providing automated lab systems, blood glucose monitors, and molecular testing platforms to hospitals and clinical labs",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "expands healthcare access globally through philanthropic programs and access-to-medicine initiatives in low- and middle-income countries",
+      "source_url": "https://www.roche.com/about",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "pharmaceutical-drug-development",
+    "in-vitro-diagnostics",
+    "oncology-therapeutics",
+    "neurology-therapeutics",
+    "biomarker-and-companion-diagnostics",
+    "clinical-trial-operations",
+    "molecular-biology-research",
+    "digital-health-and-ai-diagnostics",
+    "laboratory-instrument-manufacturing",
+    "regulatory-drug-approval"
+  ],
+  "function_mix": [
+    { "family": "research-and-drug-discovery", "weight": 0.28 },
+    { "family": "clinical-development-and-trials", "weight": 0.20 },
+    { "family": "diagnostics-engineering", "weight": 0.18 },
+    { "family": "manufacturing-and-quality", "weight": 0.15 },
+    { "family": "regulatory-affairs", "weight": 0.08 },
+    { "family": "medical-and-commercial-affairs", "weight": 0.07 },
+    { "family": "software-engineering", "weight": 0.04 }
+  ],
+  "value_chain": ["research", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "Pharmaceuticals",
+      "weight": 0.72,
+      "capability_tags": ["pharmaceutical-drug-development", "oncology-therapeutics", "neurology-therapeutics", "clinical-trial-operations", "regulatory-drug-approval"]
+    },
+    {
+      "name": "Diagnostics",
+      "weight": 0.28,
+      "capability_tags": ["in-vitro-diagnostics", "biomarker-and-companion-diagnostics", "laboratory-instrument-manufacturing", "digital-health-and-ai-diagnostics"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Biotechnology Research' captures only the pharma/research side; Roche is equally the world's largest manufacturer and distributor of in-vitro diagnostic instruments and reagents — a large-scale physical-product hardware and consumables business invisible behind the biotech label.",
+  "sources": [
+    { "url": "https://www.roche.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Roche about page provided strong operational content covering both divisions. Segment revenue weight (72/28 pharma/diagnostics) is consistent with Roche's historically reported division split. AI diagnostics detail came directly from the about page case study.",
+  "extraction_confidence": 0.90
+}

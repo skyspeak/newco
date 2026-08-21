@@ -1,0 +1,86 @@
+{
+  "slug": "deloitte",
+  "company": "Deloitte",
+  "domain": "deloitte.com",
+  "activity_statements": [
+    {
+      "statement": "provides audit and assurance services to public and private companies including nearly 90% of the Fortune 500",
+      "source_url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers management consulting services helping organizations transform operations, technology and strategy across industries",
+      "source_url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides tax advisory and compliance services to corporations, governments and individuals across 150+ countries",
+      "source_url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers financial advisory services including transactions, restructuring and forensics to corporate clients and more than 9,000 U.S.-based private companies",
+      "source_url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs approximately 470,000 professionals across more than 150 countries delivering technology-enabled advisory services through strategic alliances with technology platforms",
+      "source_url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "audit-and-assurance",
+    "management-consulting",
+    "tax-advisory",
+    "financial-advisory",
+    "technology-consulting",
+    "regulatory-compliance-ops",
+    "enterprise-transformation",
+    "human-capital-advisory",
+    "risk-advisory",
+    "deals-and-restructuring"
+  ],
+  "function_mix": [
+    { "family": "audit-and-assurance", "weight": 0.25 },
+    { "family": "consulting", "weight": 0.30 },
+    { "family": "tax-and-legal", "weight": 0.20 },
+    { "family": "financial-advisory", "weight": 0.15 },
+    { "family": "technology-implementation", "weight": 0.10 }
+  ],
+  "value_chain": ["service", "assure", "advisory"],
+  "delivery_mode": ["human-service", "advisory", "software"],
+  "segments": [
+    {
+      "name": "Audit & Assurance",
+      "weight": 0.25,
+      "capability_tags": ["audit-and-assurance", "regulatory-compliance-ops"]
+    },
+    {
+      "name": "Consulting",
+      "weight": 0.30,
+      "capability_tags": ["management-consulting", "enterprise-transformation", "technology-consulting"]
+    },
+    {
+      "name": "Tax",
+      "weight": 0.20,
+      "capability_tags": ["tax-advisory", "regulatory-compliance-ops"]
+    },
+    {
+      "name": "Financial Advisory",
+      "weight": 0.15,
+      "capability_tags": ["deals-and-restructuring", "financial-advisory"]
+    },
+    {
+      "name": "Risk Advisory",
+      "weight": 0.10,
+      "capability_tags": ["risk-advisory"]
+    }
+  ],
+  "name_reality_gap": "none — Deloitte name is well understood as professional services, and the label Professional Services is accurate.",
+  "sources": [
+    { "url": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/about-deloitte.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good single source. Service line weights are industry-knowledge estimates; detailed revenue splits by service line not publicly disclosed by Deloitte (partnership structure). Technology-consulting crossover is significant but not separately quantified.",
+  "extraction_confidence": 0.85
+}

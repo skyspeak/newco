@@ -1,0 +1,91 @@
+{
+  "slug": "state-street",
+  "company": "State Street",
+  "domain": "statestreet.com",
+  "activity_statements": [
+    {
+      "statement": "holds $54.5 trillion in assets under custody and/or administration as one of the world's largest custodians, providing safekeeping and settlement for institutional investors in 100+ markets",
+      "source_url": "https://www.statestreet.com/us/en/discover/investment-servicing",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides comprehensive investment servicing including fund accounting, administration, performance analytics, risk analytics, fund distribution and regulatory reporting to asset managers, owners and insurers globally",
+      "source_url": "https://www.statestreet.com/us/en/about/our-story",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages investments as the fourth-largest asset manager worldwide through State Street Global Advisors (SSGA), including SPDR ETFs",
+      "source_url": "https://www.statestreet.com/us/en/about/our-story",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides trading, financing, foreign exchange and research capabilities to institutional investors through State Street Markets to access liquidity and optimize execution",
+      "source_url": "https://www.statestreet.com/us/en/about/our-story",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates State Street Alpha, a front-to-back investment platform combining cloud-native technology, AI-driven tools and data intelligence to modernize institutional investment operations",
+      "source_url": "https://www.statestreet.com/us/en/discover/investment-servicing",
+      "confidence": 0.88
+    },
+    {
+      "statement": "offers digital asset custody and servicing enabling institutional clients to manage both traditional and digital asset portfolios on a single institutional-grade platform",
+      "source_url": "https://www.statestreet.com/gb/en/solutions/global-custody-services",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "asset-custody",
+    "fund-administration",
+    "institutional-asset-management",
+    "etf-servicing",
+    "securities-settlement",
+    "foreign-exchange-trading",
+    "investment-analytics-platform",
+    "digital-asset-servicing",
+    "data-intelligence",
+    "regulatory-reporting",
+    "proxy-voting-services",
+    "core-transaction-processing"
+  ],
+  "function_mix": [
+    { "family": "investment-operations-and-custody", "weight": 0.35 },
+    { "family": "software-engineering", "weight": 0.20 },
+    { "family": "fund-accounting-and-administration", "weight": 0.15 },
+    { "family": "asset-management-and-portfolio", "weight": 0.15 },
+    { "family": "trading-and-markets", "weight": 0.1 },
+    { "family": "risk-and-compliance", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service", "advisory"],
+  "segments": [
+    {
+      "name": "Investment Servicing",
+      "weight": 0.55,
+      "capability_tags": ["asset-custody", "fund-administration", "securities-settlement", "regulatory-reporting"]
+    },
+    {
+      "name": "Investment Management (SSGA)",
+      "weight": 0.30,
+      "capability_tags": ["institutional-asset-management", "etf-servicing"]
+    },
+    {
+      "name": "Markets",
+      "weight": 0.10,
+      "capability_tags": ["foreign-exchange-trading", "core-transaction-processing"]
+    },
+    {
+      "name": "Data Intelligence & Alpha Platform",
+      "weight": 0.05,
+      "capability_tags": ["investment-analytics-platform", "data-intelligence"]
+    }
+  ],
+  "name_reality_gap": "Labeled Financial Services; most people associate State Street with banking, but it is almost entirely a back-office infrastructure and technology provider for institutional investors — holding $54.5T in custody makes it one of the largest financial utilities in the world, not a consumer or commercial bank.",
+  "sources": [
+    { "url": "https://www.statestreet.com/us/en/about/our-story", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.statestreet.com/us/en/discover/investment-servicing", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.statestreet.com/gb/en/solutions/global-custody-services", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About-State-Street direct pages returned 404s; found rich content via search results including the Our Story page and the Investment Servicing and Global Custody pages. AUC/A figure ($54.5T) directly sourced. Investment Management rank (#4 globally) directly sourced.",
+  "extraction_confidence": 0.92
+}

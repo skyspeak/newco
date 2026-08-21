@@ -1,0 +1,122 @@
+[
+  {
+    "company": "GlobalFoundries",
+    "domain": "gf.com",
+    "cluster": 2,
+    "matched_capabilities": ["semiconductor-fabrication"],
+    "activity_evidence": "GlobalFoundries operates advanced wafer fabs across the US, Europe, and Asia, manufacturing essential semiconductors for automotive, aerospace, defense, data center, and IoT markets using proprietary process platforms including 22FDX and RF-SOI.",
+    "why_off_index": "Pure-play B2B foundry with no consumer brand; serves only OEM and fabless IC customers; IPO'd in 2021 and does not pursue employer-brand rankings.",
+    "source_url": "https://gf.com/",
+    "confidence": 0.95
+  },
+  {
+    "company": "CAES (Cobham Advanced Electronic Solutions)",
+    "domain": "caes.com",
+    "cluster": 2,
+    "matched_capabilities": ["electronic-warfare", "semiconductor-fabrication", "space-and-satellite"],
+    "activity_evidence": "CAES designs, engineers, tests, and manufactures RF/microwave and millimeter-wave components enabling missile defense radars, missile seekers, and electronic warfare systems, and was awarded a $172M multi-year contract by Raytheon Technologies for SPY-6 radar assemblies.",
+    "why_off_index": "Defense electronics subcontractor with zero consumer identity; work is classified or B2B government contracts; now a Honeywell subsidiary with no independent employer-brand presence.",
+    "source_url": "https://caes.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Exolaunch",
+    "domain": "exolaunch.com",
+    "cluster": 2,
+    "matched_capabilities": ["space-and-satellite"],
+    "activity_evidence": "Exolaunch manufactures flight-proven satellite separation systems (CarboNIX, Quadro FleX) and provides end-to-end launch mission management and satellite integration, having deployed 800+ satellites across 41 rideshare missions on SpaceX Transporter flights.",
+    "why_off_index": "Private Berlin-based deep-tech B2B supplier to satellite operators and space agencies; no consumer brand or consumer product; owned by EQT AB private equity and invisible to employer-brand indexes.",
+    "source_url": "https://exolaunch.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Kepler Communications",
+    "domain": "kepler.space",
+    "cluster": 2,
+    "matched_capabilities": ["space-and-satellite"],
+    "activity_evidence": "Kepler Communications designs, manufactures, and deploys a LEO satellite constellation that acts as space-based internet exchange points, providing real-time on-orbit data relay, connectivity, and edge computing as a network service for space missions.",
+    "why_off_index": "Private Canadian deep-tech company; purely B2B infrastructure for satellite operators; no consumer product or public employer-ranking profile.",
+    "source_url": "https://kepler.space/",
+    "confidence": 0.88
+  },
+  {
+    "company": "LeoStella",
+    "domain": "leostella.com",
+    "cluster": 2,
+    "matched_capabilities": ["space-and-satellite", "vehicle-manufacturing"],
+    "activity_evidence": "LeoStella manufactures small Earth observation satellites at scale in its Tukwila, WA facility, with 20 satellites operating in LEO and a pipeline including SDA Hybrid Acquisition for Proliferated Low-Earth Orbit program contracts.",
+    "why_off_index": "Private joint-venture contract manufacturer for space hardware; known only in defense/space circles; operates under BlackSky Technology with no public employer-brand presence.",
+    "source_url": "https://leostella.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "Anchor Manufacturing Group",
+    "domain": "anchor-mfg.com",
+    "cluster": 2,
+    "matched_capabilities": ["vehicle-manufacturing", "vehicle-design-and-engineering"],
+    "activity_evidence": "Anchor Manufacturing produces complex energy-absorbing welded assemblies and metal stampings for structural, chassis, braking, and steering systems supplied to North American, European, and Asian automotive OEMs and Tier I/II manufacturers from its 350,000 sq ft Cleveland facility.",
+    "why_off_index": "Private Tier-II automotive supplier in Cleveland, Ohio; entirely B2B supply chain; no consumer brand or retail presence; IATF 16949-certified but invisible to employer-brand indexes.",
+    "source_url": "https://anchor-mfg.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Midwest Engineered Systems (MWES)",
+    "domain": "mwes.com",
+    "cluster": 2,
+    "matched_capabilities": ["industrial-automation", "vehicle-manufacturing"],
+    "activity_evidence": "MWES designs, builds, and integrates custom robotic automation systems including welding cells, material handling, assembly lines, and web handling systems for automotive, aerospace, medical, and food manufacturing customers, delivering 8,000+ automation solutions over 35 years.",
+    "why_off_index": "Private Waukesha, WI industrial automation integrator; exclusively B2B contract work; no consumer product or employer-brand profile.",
+    "source_url": "https://mwes.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Enpower Electric",
+    "domain": "enpower.com",
+    "cluster": 2,
+    "matched_capabilities": ["electric-vehicle-development", "dealer-network-distribution"],
+    "activity_evidence": "Enpower Electric designs and manufactures EV powertrain systems including drive motors, motor controllers, on-board chargers, and DC-DC converters supplied as Tier-1 components to automakers including GEELY, SGMW, CHANGAN, BAIC, JAC, Ford, and XPENG.",
+    "why_off_index": "Shenzhen-listed (SHE: 300681) Chinese Tier-1 EV powertrain supplier; entirely B2B to OEMs; invisible to Western employer-brand indexes and has no consumer product identity.",
+    "source_url": "https://enpower.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "Electronic Warfare Associates (EWA)",
+    "domain": "ewa-gsi.com",
+    "cluster": 2,
+    "matched_capabilities": ["electronic-warfare", "space-and-satellite"],
+    "activity_evidence": "EWA provides specialized electronic warfare products and services including RF threat simulators, EW analysis and training systems, radar design and development, signal analysis software, and embedded training hardware under contracts with the US Department of Defense.",
+    "why_off_index": "Veteran-owned private defense subcontractor with classified government work; no consumer brand; 85-person firm invisible to any employer-ranking survey.",
+    "source_url": "https://ewa-gsi.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "ISI Robotics",
+    "domain": "isirobots.com",
+    "cluster": 2,
+    "matched_capabilities": ["industrial-automation"],
+    "activity_evidence": "ISI Robotics designs, engineers, manufactures, and programs custom robotic automation cells for welding, cutting, machine tending, material handling, and palletizing applications, acting as a certified integrator for ABB, Fanuc, KUKA, Panasonic, and Yaskawa robots serving automotive and aerospace manufacturers.",
+    "why_off_index": "Private Darlington, SC automation integrator; 100% B2B with no consumer presence; too small and specialized to appear on employer-brand rankings.",
+    "source_url": "https://isirobots.com/",
+    "confidence": 0.86
+  },
+  {
+    "company": "Punch Powertrain",
+    "domain": "punchpowertrain.com",
+    "cluster": 2,
+    "matched_capabilities": ["electric-vehicle-development", "vehicle-manufacturing", "dealer-network-distribution"],
+    "activity_evidence": "Punch Powertrain designs and manufactures hybrid and electric transmission and propulsion systems for automotive OEMs and mobility providers globally, supplying integrated eDrive solutions including e-motors and power electronics for electrified vehicle platforms.",
+    "why_off_index": "Belgian privately-held Tier-1 automotive powertrain supplier; entirely B2B to OEMs with no consumer brand; completely absent from employer-ranking indexes.",
+    "source_url": "https://punchpowertrain.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "SATLANTIS",
+    "domain": "satlantis.com",
+    "cluster": 2,
+    "matched_capabilities": ["space-and-satellite", "vehicle-design-and-engineering"],
+    "activity_evidence": "SATLANTIS designs and manufactures Earth and Universe Observation payloads for small satellites, developing the ELCANO FlexSat microsatellite constellation with multi-payload architecture combining high-resolution imaging, video, near-infrared, thermal, and polarimetric capabilities, and was selected by NASA as a Commercial SmallSat Data Acquisition awardee.",
+    "why_off_index": "Private Spanish space-tech company with zero consumer brand; purely B2B to satellite program owners and government space agencies; invisible to employer-brand rankings.",
+    "source_url": "https://satlantis.com/",
+    "confidence": 0.87
+  }
+]

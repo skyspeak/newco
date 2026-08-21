@@ -1,0 +1,79 @@
+{
+  "slug": "gap",
+  "company": "Gap",
+  "domain": "gap.com",
+  "activity_statements": [
+    {
+      "statement": "operates a house of four American apparel brands — Old Navy, Gap, Banana Republic and Athleta — through owned stores, e-commerce and international franchise partnerships",
+      "source_url": "https://gapinc.com/en-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "designs, sources and sells apparel, accessories and home goods targeting distinct consumer segments from value (Old Navy) to premium casual (Banana Republic) to athletic/lifestyle (Athleta)",
+      "source_url": "https://gapinc.com/en-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "runs global supply chain and sourcing operations to produce apparel merchandise across multiple price points for sale in North America and internationally",
+      "source_url": "https://gapinc.com/en-us/",
+      "confidence": 0.8
+    },
+    {
+      "statement": "operates e-commerce sites for each of its four brands and integrates digital and physical retail channels for consumers",
+      "source_url": "https://gapinc.com/en-us/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manages brand identity and cultural positioning as a company that uses fashion and community engagement to shape culture across its four brand portfolios",
+      "source_url": "https://gapinc.com/en-us/",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "fashion-design-and-sourcing",
+    "multi-brand-retail-portfolio",
+    "omnichannel-retail",
+    "apparel-supply-chain",
+    "franchise-and-licensing",
+    "store-operations",
+    "e-commerce-fulfillment",
+    "brand-marketing"
+  ],
+  "function_mix": [
+    { "family": "store-associates-and-operations", "weight": 0.40 },
+    { "family": "design-and-merchandising", "weight": 0.2 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.2 },
+    { "family": "e-commerce-and-technology", "weight": 0.1 },
+    { "family": "brand-marketing", "weight": 0.1 }
+  ],
+  "value_chain": ["design", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "software", "marketplace"],
+  "segments": [
+    {
+      "name": "Old Navy",
+      "weight": 0.45,
+      "capability_tags": ["fashion-design-and-sourcing", "omnichannel-retail"]
+    },
+    {
+      "name": "Gap",
+      "weight": 0.25,
+      "capability_tags": ["fashion-design-and-sourcing", "store-operations"]
+    },
+    {
+      "name": "Banana Republic",
+      "weight": 0.15,
+      "capability_tags": ["fashion-design-and-sourcing", "brand-marketing"]
+    },
+    {
+      "name": "Athleta",
+      "weight": 0.15,
+      "capability_tags": ["fashion-design-and-sourcing", "omnichannel-retail"]
+    }
+  ],
+  "name_reality_gap": "The company name Gap is associated with a single brand; it is actually a holding company for four distinct brands (Old Navy, Gap, Banana Republic, Athleta) with different price points, consumer segments and competitive positions — investors and employees navigate a multi-brand portfolio company.",
+  "sources": [
+    { "url": "https://gapinc.com/en-us/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Gap.com and gapinc.com about pages were inaccessible or error-returning; gap.com home redirected geographically. The gapinc.com homepage provided clear four-brand structure. Segment revenue shares estimated from publicly known brand sizes. More detail available in Gap Inc 10-K but not fetched.",
+  "extraction_confidence": 0.78
+}

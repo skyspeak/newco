@@ -1,0 +1,89 @@
+{
+  "slug": "fedex",
+  "company": "FedEx",
+  "domain": "fedex.com",
+  "activity_statements": [
+    {
+      "statement": "operates a unified air-ground express package delivery network (Federal Express segment) serving businesses and consumers worldwide",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1048911&type=10-K",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides less-than-truckload (LTL) freight transportation services for commercial shippers through FedEx Freight",
+      "source_url": "https://careers.fedex.com/fedex/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers 9.9 million packages per day across 220+ countries and territories",
+      "source_url": "https://careers.fedex.com/fedex/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "offers e-commerce fulfillment solutions, customs brokerage, and global freight forwarding through FedEx Logistics",
+      "source_url": "https://investors.fedex.com/financial-information/annual-reports/default.aspx",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates retail shipping centers (FedEx Office) providing document services and package drop-off access points for consumers and businesses",
+      "source_url": "https://investors.fedex.com/financial-information/annual-reports/default.aspx",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs package handlers, drivers, pilots, maintenance technicians and facility operations staff across a 500,000+ person global workforce",
+      "source_url": "https://careers.fedex.com/fedex/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops digital logistics solutions through FedEx Dataworks to transform customer and team-member digital experiences",
+      "source_url": "https://investors.fedex.com/financial-information/annual-reports/default.aspx",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "air-express-network",
+    "last-mile-delivery",
+    "less-than-truckload-freight",
+    "package-sortation",
+    "international-customs-brokerage",
+    "supply-chain-solutions",
+    "e-commerce-fulfillment",
+    "fleet-operations",
+    "freight-forwarding",
+    "digital-logistics-platform"
+  ],
+  "function_mix": [
+    { "family": "package-handlers-and-sorters", "weight": 0.30 },
+    { "family": "drivers-and-couriers", "weight": 0.25 },
+    { "family": "pilots-and-aviation-crew", "weight": 0.08 },
+    { "family": "facility-and-maintenance-operations", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "logistics-and-supply-chain", "weight": 0.10 },
+    { "family": "customer-service", "weight": 0.07 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Federal Express (Air-Ground Express)",
+      "weight": 0.78,
+      "capability_tags": ["air-express-network", "last-mile-delivery", "package-sortation", "e-commerce-fulfillment"]
+    },
+    {
+      "name": "FedEx Freight (LTL)",
+      "weight": 0.18,
+      "capability_tags": ["less-than-truckload-freight", "freight-forwarding"]
+    },
+    {
+      "name": "FedEx Logistics / Office / Dataworks",
+      "weight": 0.04,
+      "capability_tags": ["international-customs-brokerage", "supply-chain-solutions", "digital-logistics-platform"]
+    }
+  ],
+  "name_reality_gap": "The FedEx name accurately signals package and freight delivery; however, the firm is also a significant LTL trucking operator, a customs brokerage, and an emerging digital-logistics software business — categories obscured by the express-delivery brand identity.",
+  "sources": [
+    { "url": "https://careers.fedex.com/fedex/", "kind": "careers-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://investors.fedex.com/financial-information/annual-reports/default.aspx", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "FedEx main website pages blocked (permission errors). Used careers page and 10-K excerpt retrieved via ExaSearch. FedEx completed One FedEx consolidation on June 1, 2024: Ground merged into Federal Express. Two reportable segments from FY2025: Federal Express and FedEx Freight.",
+  "extraction_confidence": 0.85
+}

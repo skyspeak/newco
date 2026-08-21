@@ -1,0 +1,60 @@
+{
+  "slug": "in-n-out-burger",
+  "company": "In-N-Out Burger",
+  "domain": "in-n-out.com",
+  "activity_statements": [
+    {
+      "statement": "operates 370+ quick-service burger restaurants across California, Nevada, Arizona, Utah, Texas, Oregon, Colorado, Washington, and Tennessee with a menu unchanged since 1948",
+      "source_url": "https://talent.innout.com/en_US/careers/JobDetail/Senior-Supplier-Quality-Assurance-Specialist-Produce-Lathrop-CA/8580",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates 8 owned distribution centers (CA, TX, NV, AZ, CO, UT, OR) that receive, warehouse, and deliver all product to restaurants — fully vertically integrated supply chain",
+      "source_url": "http://www.foodhaccp.com/1/211119j.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "prepares all food fresh and made-to-order in each restaurant with no heat lamps or freezers, maintaining cold chain integrity from distribution centers",
+      "source_url": "https://talent.innout.com/en_US/careers/JobDetail/Senior-Supplier-Quality-Assurance-Specialist-Produce-Lathrop-CA/8580",
+      "confidence": 0.90
+    },
+    {
+      "statement": "maintains food safety and quality assurance programs (FSMA-compliant) across all supply chain functions including produce QA, cold chain management, and supplier auditing",
+      "source_url": "https://talent.innout.com/en_US/careers/JobDetail/Senior-Supplier-Quality-Assurance-Specialist-Produce-Lathrop-CA/8580",
+      "confidence": 0.92
+    },
+    {
+      "statement": "remains privately owned and operated under family ownership with no franchise model and no external shareholders",
+      "source_url": "http://www.foodhaccp.com/1/211119j.html",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "quick-service-restaurant-operations",
+    "vertically-integrated-supply-chain",
+    "cold-chain-logistics",
+    "food-safety-and-quality-assurance",
+    "owned-distribution-centers",
+    "fresh-food-preparation",
+    "supplier-management",
+    "restaurant-crew-training"
+  ],
+  "function_mix": [
+    { "family": "restaurant-crew-operations", "weight": 0.55 },
+    { "family": "distribution-and-warehousing", "weight": 0.20 },
+    { "family": "food-safety-and-quality", "weight": 0.08 },
+    { "family": "purchasing-and-supply-chain", "weight": 0.08 },
+    { "family": "management-and-operations", "weight": 0.09 }
+  ],
+  "value_chain": ["distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Restaurants & Food Service' label is accurate but hides that In-N-Out Burger is also a vertically integrated food logistics company operating 8 regional distribution centers and a rigorous supplier quality program — more supply chain infrastructure than most fast-food brands maintain.",
+  "sources": [
+    { "url": "https://www.in-n-out.com/ca-transparency-supply-chain", "kind": "other", "retrieved_at": "2026-08-19" },
+    { "url": "http://www.foodhaccp.com/1/211119j.html", "kind": "other", "retrieved_at": "2026-08-19" },
+    { "url": "https://talent.innout.com/en_US/careers/JobDetail/Senior-Supplier-Quality-Assurance-Specialist-Produce-Lathrop-CA/8580", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "in-n-out.com direct pages mostly returned 404; profile built from supply chain transparency page, a job posting on the careers site, and a third-party food safety job listing. These sources provided good operational detail on the vertically-integrated supply chain model.",
+  "extraction_confidence": 0.80
+}

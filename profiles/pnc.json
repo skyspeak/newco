@@ -1,0 +1,62 @@
+{
+  "slug": "pnc",
+  "company": "PNC",
+  "domain": "pnc.com",
+  "activity_statements": [
+    {
+      "statement": "operates a consumer and retail banking business offering checking accounts, savings, credit cards, auto loans, and home mortgages to individuals and families",
+      "source_url": "https://www.pnc.com/en/personal-banking.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides business banking and corporate banking services including commercial lending, treasury management, and capital markets to businesses of all sizes",
+      "source_url": "https://www.pnc.com/en/about-pnc.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "offers wealth management and investment advisory services to affluent and high-net-worth individuals",
+      "source_url": "https://www.pnc.com/en/personal-banking.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "delivers digital banking through the PNC Mobile App and Virtual Wallet product, enabling consumers to manage accounts, pay bills, and track spending",
+      "source_url": "https://www.pnc.com/en/personal-banking.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "has served clients for 160 years, operating physical branch and ATM network alongside digital banking channels",
+      "source_url": "https://www.pnc.com/en/about-pnc.html",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "consumer-lending",
+    "retail-banking",
+    "commercial-banking",
+    "wealth-management",
+    "digital-banking-platform",
+    "mortgage-origination",
+    "treasury-management",
+    "core-transaction-processing",
+    "fraud-detection"
+  ],
+  "function_mix": [
+    { "family": "retail-bankers-and-tellers", "weight": 0.20 },
+    { "family": "software-engineering", "weight": 0.20 },
+    { "family": "commercial-and-corporate-banking", "weight": 0.18 },
+    { "family": "risk-and-compliance", "weight": 0.15 },
+    { "family": "wealth-management-advisors", "weight": 0.12 },
+    { "family": "operations-and-back-office", "weight": 0.10 },
+    { "family": "data-analytics", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "PNC's 'Financial Services' label is accurate. The less visible reality is that PNC is one of the top 10 US banks by assets, with a particularly strong corporate treasury and institutional banking business alongside consumer banking — it is not a pure retail bank.",
+  "sources": [
+    { "url": "https://www.pnc.com/en/about-pnc.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.pnc.com/en/personal-banking.html", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "PNC about page was brief with limited concrete activity detail. Personal banking product page gave clear product list. Corporate banking and institutional details from general knowledge; careers and investor pages were inaccessible. Profile reflects confirmed content with moderate confidence.",
+  "extraction_confidence": 0.78
+}

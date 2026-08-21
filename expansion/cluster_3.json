@@ -1,0 +1,122 @@
+[
+  {
+    "company": "Medelis",
+    "domain": "medelis.com",
+    "cluster": 3,
+    "matched_capabilities": ["pharmaceutical-drug-development", "oncology-therapies", "regulatory-approval-management"],
+    "activity_evidence": "Medelis conducts Phase 1 through Phase 3 oncology clinical trials in North America and Europe as a specialty CRO, managing complex immunotherapy and oncology drug development programs for biotech and pharma sponsors from study design through regulatory submission support.",
+    "why_off_index": "Private specialty oncology CRO with 13 employees; entirely B2B service to pharma/biotech sponsors; no consumer product or employer-brand profile.",
+    "source_url": "https://medelis.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Biologics Consulting",
+    "domain": "biologicsconsulting.com",
+    "cluster": 3,
+    "matched_capabilities": ["regulatory-submissions", "regulatory-approval-management", "pharmaceutical-drug-development"],
+    "activity_evidence": "Biologics Consulting prepares and submits FDA-ready IND, NDA, and BLA applications for biologics, cell and gene therapies, and pharmaceuticals, providing CMC authoring, regulatory strategy, and e-publishing services that have supported over 4,500 clients across 58 countries.",
+    "why_off_index": "Private Alexandria, VA consultancy with 49 employees; entirely B2B regulatory services to pharma/biotech companies; no consumer brand; operating since 1993 without employer-ranking presence.",
+    "source_url": "https://biologicsconsulting.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Inventys Research Company",
+    "domain": "inventys.in",
+    "cluster": 3,
+    "matched_capabilities": ["pharmaceutical-drug-development", "specialty-chemicals", "global-distribution"],
+    "activity_evidence": "Inventys provides exclusive synthesis and CDMO manufacturing services for crop protection, pharmaceutical intermediates, and specialty chemicals, operating 150+ reactors with flow chemistry at commercial scale and supplying 75% of its revenue to regulated US, Western European, and Japanese markets.",
+    "why_off_index": "Private Mumbai-based CDMO with zero consumer product identity; purely B2B to global pharma and agrochemical innovators; invisible to employer-brand rankings despite being recognized by FT as one of 250 fastest-growing Asia-Pacific companies.",
+    "source_url": "https://inventys.in/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Cohizon Life Sciences",
+    "domain": "sajjan.com",
+    "cluster": 3,
+    "matched_capabilities": ["pharmaceutical-drug-development", "specialty-chemicals", "global-distribution"],
+    "activity_evidence": "Cohizon Life Sciences provides contract research, process development, and commercial manufacturing of agrochemical intermediates, specialty chemicals, and pharmaceutical intermediates from two ISO-certified sites in Ankleshwar, Gujarat, with distribution to 35+ countries including the US, Japan, and European nations.",
+    "why_off_index": "Private Indian CDMO (formerly Sajjan India) with no consumer identity; exclusively B2B to global agrochemical and specialty chemical innovators; too regional and B2B-focused to appear on Western employer-brand indexes.",
+    "source_url": "https://sajjan.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Stasis Drilling Solutions",
+    "domain": "stasisdrilling.com",
+    "cluster": 3,
+    "matched_capabilities": ["upstream-oil-and-gas"],
+    "activity_evidence": "Stasis Drilling Solutions delivers managed pressure drilling equipment, engineering, and on-site/remote services for upstream well operations, providing pressure control and hydraulics management on active rigs in the Permian, Bakken, and internationally in Saudi Arabia.",
+    "why_off_index": "Private Houston oilfield services firm with 74 employees; unglamorous B2B drilling services with no consumer brand; completely absent from employer-ranking indexes.",
+    "source_url": "https://stasisdrilling.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "Catapharma Chemicals",
+    "domain": "catapharma.com",
+    "cluster": 3,
+    "matched_capabilities": ["specialty-chemicals", "pharmaceutical-drug-development"],
+    "activity_evidence": "Catapharma Chemicals manufactures specialty and fine chemical intermediates for pharmaceutical, agrochemical, and perfumery applications using catalytic hydrogenation and other complex chemistries to produce piperazine derivatives, catechol derivatives, and aliphatic amines exported to 30+ countries.",
+    "why_off_index": "Private Nashik, India specialty chemical producer; zero consumer brand; pure B2B supplier to pharma API manufacturers; 42 employees and completely unknown to employer-brand rankers.",
+    "source_url": "https://catapharma.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Conventus Biomedical Solutions",
+    "domain": "conventusbiomed.com",
+    "cluster": 3,
+    "matched_capabilities": ["regulatory-submissions", "regulatory-approval-management", "pharmaceutical-drug-development"],
+    "activity_evidence": "Conventus Biomedical Solutions prepares and files IND applications with FDA for biologics and pharmaceutical products, including biologics INDs in cardiovascular indications, and provides global regulatory management and CMC strategy from early development through Phase 3.",
+    "why_off_index": "Private San Diego regulatory consulting boutique with 6 employees; entirely B2B service to drug developers; no consumer product; too small and specialized for any employer-ranking index.",
+    "source_url": "https://conventusbiomed.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "One X: A Completions Partner",
+    "domain": "onexcp.com",
+    "cluster": 3,
+    "matched_capabilities": ["upstream-oil-and-gas"],
+    "activity_evidence": "One X provides comprehensive oil and gas well completion services through three divisions: pressure control (frac stacks and zippers), drillout services, and flowback management, operating across the Permian, Midland, Greeley, and other US unconventional oil basins.",
+    "why_off_index": "Private Woodlands, TX oilfield completions operator with 141 employees; unglamorous B2B services to E&P operators; owned by Kingswood Capital Management private equity with no employer-brand footprint.",
+    "source_url": "https://onexcp.com/",
+    "confidence": 0.84
+  },
+  {
+    "company": "Alchem Synthon",
+    "domain": "alchemsynthon.com",
+    "cluster": 3,
+    "matched_capabilities": ["specialty-chemicals", "pharmaceutical-drug-development"],
+    "activity_evidence": "Alchem Synthon manufactures fine and specialty chemical intermediates for pharma, agrochemical, and performance chemical markets using complex chemistries including fluorination, Grignard reactions, Friedel-Crafts reactions, and continuous flow chemistry from cGMP-compliant facilities in Ambernath, India.",
+    "why_off_index": "Private Indian fine chemical manufacturer; purely B2B contract manufacturing for global innovators; completely invisible to employer-brand indexes with no consumer product.",
+    "source_url": "https://alchemsynthon.com/",
+    "confidence": 0.86
+  },
+  {
+    "company": "B&B Oilfield Services",
+    "domain": "bboilfield.com",
+    "cluster": 3,
+    "matched_capabilities": ["upstream-oil-and-gas"],
+    "activity_evidence": "B&B Oilfield Services designs and manufactures API 6A wellhead systems and gate valves, and provides field services for well integrity management, decommissioning, and slot recovery across onshore and offshore oil and gas wells globally.",
+    "why_off_index": "Private New Iberia, LA wellhead manufacturer and field services company with 23 employees; purely B2B to oil and gas operators; invisible to employer-brand rankings.",
+    "source_url": "https://bboilfield.com/",
+    "confidence": 0.84
+  },
+  {
+    "company": "CritiTech Particle Engineering Solutions",
+    "domain": "crititech.com",
+    "cluster": 3,
+    "matched_capabilities": ["pharmaceutical-drug-development", "regulatory-submissions"],
+    "activity_evidence": "CritiTech is a CDMO specializing in particle engineering for pharmaceutical drug development, providing spray drying and supercritical precipitation services from proof-of-concept through Phase III cGMP clinical production for drug formulations.",
+    "why_off_index": "Private Lawrence, KS pharmaceutical CDMO with 17 employees; entirely B2B service to pharma/biotech sponsors; no consumer product or employer-brand profile.",
+    "source_url": "https://crititech.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Northern Oilfield Services",
+    "domain": "nos-llc.com",
+    "cluster": 3,
+    "matched_capabilities": ["upstream-oil-and-gas"],
+    "activity_evidence": "Northern Oilfield Services delivers wellhead installation and service, valve repair, torque and test, frac tree and zipper manifold support, and production services to operators across the Bakken, Williston Basin, Rockies, and Mid-Continent oil and gas regions.",
+    "why_off_index": "Small private partnership based in Williston, ND with 7 employees; regional B2B oilfield services invisible to any employer-ranking survey.",
+    "source_url": "https://nos-llc.com/",
+    "confidence": 0.83
+  }
+]

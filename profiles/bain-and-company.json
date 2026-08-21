@@ -1,0 +1,62 @@
+{
+  "slug": "bain-and-company",
+  "company": "Bain & Company",
+  "domain": "bain.com",
+  "activity_statements": [
+    {
+      "statement": "advises global business leaders and private equity investors on strategy, change management, and industry-defining challenges, operating across 67 cities in 40 countries",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "serves private equity firms and their portfolio companies on investment diligence, value creation, and exit strategy",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "has worked with more than two-thirds of the Global 500 and 9,000+ companies worldwide since its 1973 founding",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides consulting recognized as a leader in digital business, innovation, strategy, experience design, customer experience, and carbon-zero transformation",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "fields a 19,000-person workforce combining strategists, industry/functional experts, technologists, and advisors across a global integrated team",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "delivers pro bono management consulting to nonprofit and public-sector organizations, pledging $2B of pro bono work by 2035",
+      "source_url": "https://www.bain.com/about/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "strategy-consulting",
+    "private-equity-advisory",
+    "change-management",
+    "digital-transformation-consulting",
+    "customer-experience-design",
+    "sustainability-consulting",
+    "organizational-effectiveness",
+    "go-to-market-strategy"
+  ],
+  "function_mix": [
+    { "family": "management-consulting", "weight": 0.70 },
+    { "family": "data-and-analytics", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "operations-support", "weight": 0.10 }
+  ],
+  "value_chain": ["advisory"],
+  "delivery_mode": ["advisory", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Index label 'Consulting Finance & Insurance' implies financial-sector-specific work; Bain is a general management consulting firm serving all industries globally, with private equity being a prominent practice but not the sole or majority client base.",
+  "sources": [
+    { "url": "https://www.bain.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided good content on firm size, history, and positioning. No detailed practice area revenue split available (private company).",
+  "extraction_confidence": 0.88
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "maximus",
+  "company": "Maximus",
+  "domain": "maximus.com",
+  "activity_statements": [
+    {
+      "statement": "administers government health and human services programs including Medicaid eligibility and enrollment, SNAP eligibility determination, and clinical assessments for federal, state, and local agencies",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates omnichannel contact centers (web, phone, email, text, live agents) as the citizen-facing service delivery layer for government benefit programs",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides conflict-free clinical assessments and care planning for Medicaid home and community-based services, ensuring individuals receive appropriate care settings",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "delivers IT modernization and digital transformation services for federal health agencies including CMS and VA, using advanced architectures and AI to improve program performance",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "supports defense and national security agencies through mission-focused technology and operations services",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.82
+    },
+    {
+      "statement": "provides program management consulting to help government agencies transform policy goals into service delivery outcomes, including backlog management and operational optimization",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "manages Medicaid enterprise system operations for state Medicaid agencies, improving member and provider engagement through technology and process integration",
+      "source_url": "https://www.maximus.com/",
+      "confidence": 0.87
+    }
+  ],
+  "capability_tags": [
+    "government-program-administration",
+    "benefits-eligibility-processing",
+    "government-contact-center-operations",
+    "medicaid-enterprise-services",
+    "clinical-assessment-services",
+    "government-it-modernization",
+    "digital-government-services",
+    "federal-health-program-operations",
+    "human-services-case-management",
+    "veterans-services"
+  ],
+  "function_mix": [
+    { "family": "government-program-operations", "weight": 0.35 },
+    { "family": "software-engineering", "weight": 0.22 },
+    { "family": "contact-center-operations", "weight": 0.18 },
+    { "family": "clinical-services", "weight": 0.12 },
+    { "family": "consulting-and-advisory", "weight": 0.08 },
+    { "family": "data-and-analytics", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [
+    {
+      "name": "Federal Services",
+      "weight": 0.55,
+      "capability_tags": ["federal-health-program-operations", "government-it-modernization", "veterans-services", "defense-services"]
+    },
+    {
+      "name": "US Services (State and Local)",
+      "weight": 0.45,
+      "capability_tags": ["benefits-eligibility-processing", "government-contact-center-operations", "medicaid-enterprise-services", "clinical-assessment-services", "human-services-case-management"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Government Administration' implies Maximus is a government entity; it is a for-profit government services contractor. Its operational core is running the intake, enrollment, and case-management processes that citizens use to access Medicaid, SNAP, and other public programs — effectively outsourced government bureaucracy.",
+  "sources": [
+    { "url": "https://www.maximus.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "maximus.com/about-maximus returned 404; homepage provided rich operational content. Segment revenue weights (Federal vs US Services) are directional estimates from Maximus's publicly known segment structure.",
+  "extraction_confidence": 0.87
+}

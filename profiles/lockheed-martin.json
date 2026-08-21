@@ -1,0 +1,102 @@
+{
+  "slug": "lockheed-martin",
+  "company": "Lockheed Martin",
+  "domain": "lockheedmartin.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures tactical aircraft including the F-35 and F-22 for the U.S. DoD and allied governments",
+      "source_url": "https://www.lockheedmartin.com/en-us/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and produces integrated air and missile defense, precision fires, and close combat weapon systems for military customers",
+      "source_url": "https://www.lockheedmartin.com/en-us/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manufactures Sikorsky military and commercial helicopters for five U.S. armed forces branches and military customers in 40+ nations",
+      "source_url": "https://www.lockheedmartin.com/en-us/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides maritime systems, undersea systems, sensors, radar, and command-and-control platforms for naval forces",
+      "source_url": "https://www.lockheedmartin.com/en-us/capabilities.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "builds national security, civil, and commercial spacecraft and provides strategic missile defense and hypersonics solutions",
+      "source_url": "https://www.lockheedmartin.com/en-us/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers full-spectrum offensive and defensive cyber capabilities and electronic warfare systems to defense and intelligence community clients",
+      "source_url": "https://www.lockheedmartin.com/en-us/capabilities.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates combat simulation and training systems for military personnel preparing for complex missions",
+      "source_url": "https://www.lockheedmartin.com/en-us/capabilities.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "develops autonomous and uncrewed systems and AI/ML-driven decision-support tools for defense customers",
+      "source_url": "https://www.lockheedmartin.com/en-us/capabilities.html",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "defense-systems-integration",
+    "tactical-aircraft-manufacturing",
+    "missile-defense",
+    "rotary-wing-aircraft",
+    "space-systems",
+    "cyber-operations",
+    "radar-and-sensors",
+    "command-and-control",
+    "combat-simulation-training",
+    "autonomous-systems",
+    "undersea-systems",
+    "electronic-warfare",
+    "hypersonics",
+    "ai-decision-support"
+  ],
+  "function_mix": [
+    { "family": "systems-engineering", "weight": 0.35 },
+    { "family": "software-engineering", "weight": 0.2 },
+    { "family": "advanced-manufacturing", "weight": 0.2 },
+    { "family": "ai-and-ml", "weight": 0.1 },
+    { "family": "cybersecurity", "weight": 0.1 },
+    { "family": "program-management", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "design", "manufacture"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Aeronautics",
+      "weight": 0.40,
+      "capability_tags": ["tactical-aircraft-manufacturing", "defense-systems-integration"]
+    },
+    {
+      "name": "Missiles and Fire Control",
+      "weight": 0.19,
+      "capability_tags": ["missile-defense", "precision-munitions"]
+    },
+    {
+      "name": "Rotary and Mission Systems",
+      "weight": 0.23,
+      "capability_tags": ["rotary-wing-aircraft", "radar-and-sensors", "command-and-control", "undersea-systems", "electronic-warfare", "combat-simulation-training"]
+    },
+    {
+      "name": "Space",
+      "weight": 0.17,
+      "capability_tags": ["space-systems", "missile-defense", "hypersonics"]
+    }
+  ],
+  "name_reality_gap": "Name correctly signals defense/aerospace manufacturing, but the breadth into software, AI/ML, and full-spectrum cyber is obscured — it is as much a defense-technology software company as a hardware manufacturer, with teams across AI, machine learning, and software engineering building battlefield digital systems.",
+  "sources": [
+    { "url": "https://www.lockheedmartin.com/en-us/who-we-are.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.lockheedmartin.com/en-us/capabilities.html", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong public data available. 2025 segment revenue figures directly from company's who-we-are page. Function mix reflects careers page emphasis on engineering, AI/ML, and advanced manufacturing.",
+  "extraction_confidence": 0.92
+}

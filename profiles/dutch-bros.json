@@ -1,0 +1,48 @@
+{
+  "slug": "dutch-bros",
+  "company": "Dutch Bros",
+  "domain": "dutchbros.com",
+  "activity_statements": [
+    {
+      "statement": "operates a chain of drive-thru coffee and beverage shops offering Dutch Coffee, energy drinks (Dutch Bros Rebel), and handcrafted beverages with 25 flavor options",
+      "source_url": "https://www.dutchbros.com/our-story",
+      "confidence": 0.95
+    },
+    {
+      "statement": "runs a loyalty and mobile ordering program (Dutch Rewards) that enables app-based order-ahead and customer retention",
+      "source_url": "https://www.dutchbros.com/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "expands its drive-thru shop count through a company-operated and franchised model, primarily in the western US",
+      "source_url": "https://www.dutchbros.com/our-story",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "drive-thru-foodservice",
+    "beverage-customization",
+    "loyalty-and-rewards-program",
+    "mobile-ordering",
+    "quick-service-restaurant-operations",
+    "franchise-expansion"
+  ],
+  "function_mix": [
+    { "family": "baristas-and-shop-crew", "weight": 0.55 },
+    { "family": "operations-and-training", "weight": 0.15 },
+    { "family": "real-estate-and-construction", "weight": 0.10 },
+    { "family": "software-and-it", "weight": 0.08 },
+    { "family": "marketing", "weight": 0.07 },
+    { "family": "finance", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "Dutch Bros could be mistaken for a small regional chain; it is publicly traded (NYSE: BROS) with hundreds of locations and an aggressive national expansion strategy. Its core identity as a drive-thru-only format (no sit-down seating) differentiates it meaningfully from sit-down coffee shop competitors.",
+  "sources": [
+    { "url": "https://www.dutchbros.com/our-story", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.dutchbros.com/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Limited public detail from web pages. Dutch Bros is a publicly traded company; investor relations pages timed out. Profile based on brand website content. Exact shop count and financials not confirmed from sources read.",
+  "extraction_confidence": 0.72
+}

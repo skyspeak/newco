@@ -1,0 +1,82 @@
+{
+  "slug": "pepsico",
+  "company": "PepsiCo",
+  "domain": "pepsico.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and sells beverages including Pepsi, Mountain Dew, Gatorade, Lipton, and Tropicana across global markets",
+      "source_url": "https://www.pepsico.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures and sells snack foods including Lay's, Doritos, Cheetos, Ruffles, and Quaker oats and cereals worldwide",
+      "source_url": "https://www.pepsico.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a direct-store-delivery (DSD) logistics network distributing products to retailers across the United States",
+      "source_url": "https://www.pepsico.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sources ingredients from farmers around the world and maintains relationships across the agricultural supply chain",
+      "source_url": "https://www.pepsico.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates the Frito-Lay North America, Quaker Foods, and multiple international food and beverage segments globally",
+      "source_url": "https://www.pepsico.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "beverage-manufacturing",
+    "snack-food-manufacturing",
+    "direct-store-delivery-logistics",
+    "brand-portfolio-management",
+    "agricultural-supply-chain",
+    "consumer-packaged-goods-distribution",
+    "global-marketing-and-advertising",
+    "route-to-market-operations",
+    "product-innovation-and-r-and-d"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-production", "weight": 0.3 },
+    { "family": "supply-chain-and-distribution-logistics", "weight": 0.25 },
+    { "family": "sales-and-route-to-market", "weight": 0.2 },
+    { "family": "marketing-and-brand-management", "weight": 0.1 },
+    { "family": "engineering-and-product-development", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Frito-Lay North America",
+      "weight": 0.25,
+      "capability_tags": ["snack-food-manufacturing", "direct-store-delivery-logistics"]
+    },
+    {
+      "name": "PepsiCo Beverages North America",
+      "weight": 0.3,
+      "capability_tags": ["beverage-manufacturing", "direct-store-delivery-logistics"]
+    },
+    {
+      "name": "Quaker Foods North America",
+      "weight": 0.08,
+      "capability_tags": ["snack-food-manufacturing", "consumer-packaged-goods-distribution"]
+    },
+    {
+      "name": "International (LATAM, Europe, APAC, Africa, ME)",
+      "weight": 0.37,
+      "capability_tags": ["brand-portfolio-management", "global-marketing-and-advertising", "route-to-market-operations"]
+    }
+  ],
+  "name_reality_gap": "PepsiCo is widely perceived as a beverage company, but roughly half its revenue comes from food (Frito-Lay, Quaker). The company is as much a snack food and direct-store-delivery logistics operator as a drinks brand.",
+  "sources": [
+    { "url": "https://www.pepsico.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.pepsico.com/brands", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was thin on operational detail; segments derived from PepsiCo's widely known 10-K segment structure rather than a directly retrieved 10-K. Segment revenue weights estimated from general industry knowledge.",
+  "extraction_confidence": 0.78
+}

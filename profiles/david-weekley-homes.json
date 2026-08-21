@@ -1,0 +1,60 @@
+{
+  "slug": "david-weekley-homes",
+  "company": "David Weekley Homes",
+  "domain": "davidweekleyhomes.com",
+  "activity_statements": [
+    {
+      "statement": "builds and sells single-family homes across 19 markets in 13 states as one of the largest privately held US home builders (125,000+ homes sold since 1976)",
+      "source_url": "https://www.davidweekleyhomes.com/about-us",
+      "confidence": 0.98
+    },
+    {
+      "statement": "operates four distinct product lines targeting different buyer segments: flagship David Weekley, entry-level Imagination, urban-infill Central Living, and 55+ low-maintenance Encore",
+      "source_url": "https://www.davidweekleyhomes.com/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages land acquisition, design, purchasing, construction, and customer care as vertically integrated functions of a single private home builder",
+      "source_url": "https://www.davidweekleyhomes.com/about-us",
+      "confidence": 0.88
+    },
+    {
+      "statement": "differentiates on design quality, earning 880+ design awards and the Triple Crown of American Home Building (only builder to receive this distinction)",
+      "source_url": "https://www.davidweekleyhomes.com/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates in major Sun Belt and growth markets including Houston, Dallas-Fort Worth, Austin, San Antonio, Denver, Nashville, Phoenix, Atlanta, and others",
+      "source_url": "https://www.davidweekleyhomes.com/about-us",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "residential-homebuilding",
+    "land-acquisition",
+    "home-design-and-customization",
+    "construction-management",
+    "customer-satisfaction-programs",
+    "multi-market-development",
+    "new-community-development",
+    "energy-efficient-construction",
+    "sales-and-contract-management"
+  ],
+  "function_mix": [
+    { "family": "construction-and-site-management", "weight": 0.30 },
+    { "family": "sales-and-customer-care", "weight": 0.25 },
+    { "family": "purchasing-and-procurement", "weight": 0.15 },
+    { "family": "design-and-architecture", "weight": 0.15 },
+    { "family": "land-development", "weight": 0.10 },
+    { "family": "finance-and-operations", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Construction' index label is accurate. The company is straightforwardly a home builder. Less obvious: its conservative private ownership has enabled it to avoid the land-speculation risks that have hurt public home builders, and its design-first differentiation makes it look more like an architecture-forward company than a typical production builder.",
+  "sources": [
+    { "url": "https://www.davidweekleyhomes.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was very detailed and informative with history, product lines, geographic reach, awards, and financial philosophy.",
+  "extraction_confidence": 0.92
+}

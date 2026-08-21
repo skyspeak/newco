@@ -1,0 +1,88 @@
+{
+  "slug": "cvs-health",
+  "company": "CVS Health",
+  "domain": "cvshealth.com",
+  "activity_statements": [
+    {
+      "statement": "operates 9,000+ retail pharmacy locations that dispense prescriptions, sell consumer health and personal care products, and host MinuteClinic walk-in clinics",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages pharmacy benefits for approximately 90 million plan members through the Caremark PBM, including formulary management, mail-order pharmacy, and specialty drug dispensing",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "underwrites and administers health insurance (Aetna) for an estimated 36 million members through commercial, Medicare Advantage, Medicare Part D, and Medicaid products",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates 1,000+ MinuteClinic and primary care walk-in medical clinics embedded in retail pharmacy locations",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides dedicated senior pharmacy care services to more than 800,000 patients per year through specialty programs",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers specialty pharmacy dispensing and clinical management for complex and high-cost medications through CVS Specialty",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs 300,000+ colleagues spanning pharmacy, clinical, insurance operations, and retail roles",
+      "source_url": "https://www.cvshealth.com/about",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "pharmacy-benefit-management",
+    "health-insurance-underwriting",
+    "retail-pharmacy-network",
+    "clinical-care-delivery",
+    "specialty-pharmacy",
+    "medicare-advantage",
+    "pharmacy-formulary-management",
+    "value-based-care",
+    "walk-in-clinic-operations",
+    "consumer-health-retail"
+  ],
+  "function_mix": [
+    { "family": "pharmacists-and-pharmacy-technicians", "weight": 0.30 },
+    { "family": "insurance-claims-and-underwriting", "weight": 0.20 },
+    { "family": "clinical-and-nursing", "weight": 0.12 },
+    { "family": "retail-store-operations", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "data-analytics", "weight": 0.07 },
+    { "family": "customer-service", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["human-service", "physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Health Care Benefits (Aetna Insurance)",
+      "weight": 0.40,
+      "capability_tags": ["health-insurance-underwriting", "medicare-advantage", "value-based-care"]
+    },
+    {
+      "name": "Health Services (Caremark PBM)",
+      "weight": 0.35,
+      "capability_tags": ["pharmacy-benefit-management", "pharmacy-formulary-management", "specialty-pharmacy"]
+    },
+    {
+      "name": "Pharmacy & Consumer Wellness (Retail + MinuteClinic)",
+      "weight": 0.25,
+      "capability_tags": ["retail-pharmacy-network", "walk-in-clinic-operations", "consumer-health-retail", "clinical-care-delivery"]
+    }
+  ],
+  "name_reality_gap": "CVS Health is commonly perceived as a drug store chain, but activity evidence shows it is simultaneously one of the nation's largest health insurers (Aetna, 36M members), the largest pharmacy benefit manager (Caremark, 90M plan members), and an operator of 1,000+ walk-in clinics — making it more accurately described as a vertically integrated managed care and pharmacy conglomerate.",
+  "sources": [
+    { "url": "https://www.cvshealth.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "CVS Health 10-K 2024 accessed via ExaSearch providing detailed segment data. Primary cvshealth.com product pages returned 404 errors; used about page and 10-K text for activity statements.",
+  "extraction_confidence": 0.9
+}

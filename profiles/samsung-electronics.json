@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-electronics",
+  "company": "Samsung Electronics",
+  "domain": "samsung.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and sells Galaxy smartphones, TVs, monitors, and home digital appliances globally under the Device eXperience (DX) division (KRW 174.89 trillion 2024 revenue)",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.98
+    },
+    {
+      "statement": "designs and manufactures DRAM memory (DDR5, LPDDR5x, HBM) and NAND flash storage for data centers, mobile, and PC markets through the Device Solutions (DS) division (KRW 111.07 trillion 2024)",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.98
+    },
+    {
+      "statement": "operates a semiconductor foundry business producing chips for external customers including HPC and AI chips at 4nm and 2nm GAA process nodes",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.97
+    },
+    {
+      "statement": "manufactures OLED display panels for smartphones and large-screen TVs through Samsung Display Corporation (SDC) (KRW 29.16 trillion 2024)",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.97
+    },
+    {
+      "statement": "provides connected car audio systems, infotainment, and enterprise software through its Harman International subsidiary (KRW 14.27 trillion 2024)",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.95
+    },
+    {
+      "statement": "designs System LSI chips including mobile SoCs (Exynos) and image sensors for smartphones sold to OEM customers globally",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results",
+      "confidence": 0.93
+    }
+  ],
+  "capability_tags": [
+    "semiconductor-fabrication",
+    "memory-manufacturing",
+    "consumer-electronics-manufacturing",
+    "smartphone-manufacturing",
+    "oled-display-manufacturing",
+    "foundry-services",
+    "system-on-chip-design",
+    "high-bandwidth-memory",
+    "connected-vehicle-tech",
+    "ai-chip-manufacturing"
+  ],
+  "function_mix": [
+    { "family": "semiconductor-engineering", "weight": 0.35 },
+    { "family": "hardware-design", "weight": 0.2 },
+    { "family": "advanced-manufacturing", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.1 },
+    { "family": "supply-chain", "weight": 0.1 },
+    { "family": "sales-and-marketing", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Device eXperience (DX) — smartphones, TVs, appliances",
+      "weight": 0.46,
+      "capability_tags": ["smartphone-manufacturing", "consumer-electronics-manufacturing"]
+    },
+    {
+      "name": "Device Solutions (DS) — memory, foundry, System LSI",
+      "weight": 0.37,
+      "capability_tags": ["semiconductor-fabrication", "memory-manufacturing", "foundry-services", "high-bandwidth-memory", "system-on-chip-design", "ai-chip-manufacturing"]
+    },
+    {
+      "name": "Samsung Display (SDC)",
+      "weight": 0.1,
+      "capability_tags": ["oled-display-manufacturing"]
+    },
+    {
+      "name": "Harman International",
+      "weight": 0.05,
+      "capability_tags": ["connected-vehicle-tech"]
+    }
+  ],
+  "name_reality_gap": "Indexed as 'Computers & Electronics Manufacturing' — understates the semiconductor and AI chip manufacturing reality. Samsung is one of the world's largest semiconductor companies (DRAM, NAND, foundry), not primarily a consumer electronics brand — the DS division alone generated KRW 111T, roughly equivalent to its entire consumer-facing division.",
+  "sources": [
+    { "url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Samsung.com and news.samsung.com crawls timed out (504 errors). Data sourced via ExaAnswer query which returned the official Samsung FY2024 earnings press release with segment revenue breakdowns. Strong confidence in the segment figures. Direct web crawls of samsung.com domains consistently failed.",
+  "extraction_confidence": 0.9
+}

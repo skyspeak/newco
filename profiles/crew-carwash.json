@@ -1,0 +1,49 @@
+{
+  "slug": "crew-carwash",
+  "company": "Crew Carwash",
+  "domain": "crewcarwash.com",
+  "activity_statements": [
+    {
+      "statement": "operates 60+ automated car wash locations across Indiana, Illinois, and Minnesota providing exterior tunnel washing, self-serve vacuum stations, and interior cleaning services to consumers",
+      "source_url": "https://exa.ai/library/organization/1r8x0pzrv7b",
+      "confidence": 0.90
+    },
+    {
+      "statement": "sells unlimited wash membership/subscription plans to regular customers enabling recurring revenue at its Midwest car wash locations",
+      "source_url": "https://exa.ai/library/organization/1r8x0pzrv7b",
+      "confidence": 0.80
+    },
+    {
+      "statement": "operates as a privately-held, family-owned business (Dahm family) founded in 1948, growing from Indiana's first automated carwash to one of the largest carwash chains in the nation",
+      "source_url": "https://exa.ai/library/organization/1r8x0pzrv7b",
+      "confidence": 0.90
+    },
+    {
+      "statement": "actively expanding into new Midwest markets including Wisconsin as of 2026, with new location openings and site development",
+      "source_url": "https://exa.ai/library/organization/1r8x0pzrv7b",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "automated-car-wash-operations",
+    "subscription-membership-services",
+    "consumer-vehicle-services",
+    "real-estate-site-development",
+    "frontline-workforce-management"
+  ],
+  "function_mix": [
+    { "family": "site-operations-and-customer-service", "weight": 0.70 },
+    { "family": "maintenance-and-equipment", "weight": 0.15 },
+    { "family": "management-and-training", "weight": 0.10 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — the name accurately describes what the company does. The index label 'Consumer Services' is accurate if generic.",
+  "sources": [
+    { "url": "https://exa.ai/library/organization/1r8x0pzrv7b", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Both crewcarwash.com and careers.crewcarwash.com were inaccessible (404 and timeout respectively). Profile was built from Exa library organization data sourced from LinkedIn and public records. This is an aggregated third-party source rather than first-party company sources. Extraction confidence reflects this limitation.",
+  "extraction_confidence": 0.72
+}

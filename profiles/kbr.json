@@ -1,0 +1,66 @@
+{
+  "slug": "kbr",
+  "company": "KBR",
+  "domain": "kbr.com",
+  "activity_statements": [
+    {
+      "statement": "delivers mission-critical science, technology, and engineering solutions to U.S. and allied government clients in defense, intelligence, and space domains",
+      "source_url": "https://www.kbr.com/en/who-we-are",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides engineering, procurement, and construction (EPC) services for energy transition and industrial process industries including refining, chemicals, and ammonia",
+      "source_url": "https://www.kbr.com/en/markets",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates as a prime contractor and systems integrator for U.S. government programs in national security, cybersecurity, and space exploration",
+      "source_url": "https://www.kbr.com/en/who-we-are",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers digital acceleration services (KBR Digital Accelerators) to help government and industrial clients transform operations with data and analytics",
+      "source_url": "https://www.kbr.com/en/markets",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "government-services-contracting",
+    "defense-and-intelligence-services",
+    "space-mission-support",
+    "engineering-procurement-construction",
+    "energy-transition-engineering",
+    "industrial-process-engineering",
+    "systems-integration",
+    "digital-transformation-services",
+    "cybersecurity-services"
+  ],
+  "function_mix": [
+    { "family": "systems-engineering", "weight": 0.3 },
+    { "family": "program-management", "weight": 0.25 },
+    { "family": "process-engineering", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "project-construction", "weight": 0.1 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["human-service", "advisory", "physical-asset"],
+  "segments": [
+    {
+      "name": "Mission Technology Solutions",
+      "weight": 0.55,
+      "capability_tags": ["government-services-contracting", "defense-and-intelligence-services", "space-mission-support", "cybersecurity-services"]
+    },
+    {
+      "name": "Sustainable Technology Solutions",
+      "weight": 0.45,
+      "capability_tags": ["engineering-procurement-construction", "energy-transition-engineering", "industrial-process-engineering"]
+    }
+  ],
+  "name_reality_gap": "Indexed as 'Aerospace & Defense' — partially right for Mission Technology Solutions, but significantly misses the large Sustainable Technology Solutions segment (refining, chemicals, energy EPC) which has nothing to do with aerospace. KBR is as much an industrial engineering services company as a defense contractor.",
+  "sources": [
+    { "url": "https://www.kbr.com/en/who-we-are", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.kbr.com/en/markets", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Both who-we-are and markets pages loaded well. Two-segment structure explicitly named on the markets page. Sustainable Technology segment's specifics (ammonia, refining, chemicals EPC) are from KBR's well-known public reporting.",
+  "extraction_confidence": 0.85
+}

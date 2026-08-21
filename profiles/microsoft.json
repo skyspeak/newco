@@ -1,0 +1,96 @@
+{
+  "slug": "microsoft",
+  "company": "Microsoft",
+  "domain": "microsoft.com",
+  "activity_statements": [
+    {
+      "statement": "operates Azure cloud computing infrastructure and AI platform services including Azure AI and OpenAI Service for enterprise customers worldwide",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "licenses Microsoft 365 (Office apps, Teams, Copilot, Windows, security) as an AI-first productivity platform to individuals, businesses, and governments",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and sells Microsoft Copilot AI assistants embedded in Microsoft 365, GitHub, Security, and Dynamics 365 for productivity automation and AI-assisted workflows",
+      "source_url": "https://www.microsoft.com/en-us/industry",
+      "confidence": 0.93
+    },
+    {
+      "statement": "provides Dynamics 365 as a portfolio of cloud business applications (CRM and ERP) for operational management and customer engagement across enterprises",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.92
+    },
+    {
+      "statement": "operates GitHub as a developer platform for code hosting, CI/CD, and AI-assisted coding (GitHub Copilot) serving millions of software developers and enterprises",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "sells Xbox gaming consoles, operates Xbox Game Pass subscription service, and publishes/acquires video game titles through Xbox Game Studios and Activision Blizzard",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates LinkedIn as a professional networking, hiring, and learning platform with advertising revenue",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "delivers Windows operating system to OEM device manufacturers and IT organizations as the dominant enterprise desktop OS",
+      "source_url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "confidence": 0.92
+    }
+  ],
+  "capability_tags": [
+    "cloud-infrastructure-services",
+    "saas-productivity-suite",
+    "ai-coding-assistant",
+    "enterprise-crm-erp",
+    "developer-platform",
+    "enterprise-os",
+    "cybersecurity-platform",
+    "gaming-platform",
+    "professional-networking",
+    "data-analytics",
+    "hybrid-cloud",
+    "large-language-model-development"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.40 },
+    { "family": "cloud-and-infrastructure", "weight": 0.20 },
+    { "family": "sales-and-enterprise-accounts", "weight": 0.15 },
+    { "family": "research-and-ai", "weight": 0.10 },
+    { "family": "gaming-and-content", "weight": 0.08 },
+    { "family": "finance-and-legal", "weight": 0.07 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["software", "marketplace"],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "weight": 0.32,
+      "capability_tags": ["saas-productivity-suite", "enterprise-crm-erp", "professional-networking"]
+    },
+    {
+      "name": "Intelligent Cloud",
+      "weight": 0.43,
+      "capability_tags": ["cloud-infrastructure-services", "large-language-model-development", "hybrid-cloud", "developer-platform", "cybersecurity-platform"]
+    },
+    {
+      "name": "More Personal Computing",
+      "weight": 0.25,
+      "capability_tags": ["enterprise-os", "gaming-platform", "ai-coding-assistant", "data-analytics"]
+    }
+  ],
+  "name_reality_gap": "The name accurately signals a technology company, but the index label 'Software Development' is too narrow. Microsoft is primarily a cloud infrastructure operator (Azure) and SaaS subscription business, with gaming content, advertising (LinkedIn/Bing), and hardware as additional segments. The Activision Blizzard acquisition also makes it one of the world's largest gaming publishers.",
+  "sources": [
+    { "url": "https://www.microsoft.com/en-us/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.microsoft.com/en-us/industry", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.microsoft.com/investor/reports/ar24/index.html", "kind": "10k-item1", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "FY2024 annual report was the richest source. Careers page returned 404. Three-segment structure confirmed from 10-K. Segment weights estimated from reported FY2024 revenue breakdown.",
+  "extraction_confidence": 0.92
+}

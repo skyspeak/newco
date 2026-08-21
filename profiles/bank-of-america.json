@@ -1,0 +1,90 @@
+{
+  "slug": "bank-of-america",
+  "company": "Bank of America",
+  "domain": "bankofamerica.com",
+  "activity_statements": [
+    {
+      "statement": "operates retail bank branches and consumer deposit services (checking, savings, CDs) for individuals across the U.S.",
+      "source_url": "https://www.bankofamerica.com/deposits/checking/checking-accounts/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides personal lending (mortgages, auto loans, credit cards) and investing services (via Merrill Lynch) to retail consumers",
+      "source_url": "https://www.bankofamerica.com/about/our-company/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers business banking and commercial lending services to small and mid-size businesses across U.S. communities",
+      "source_url": "https://www.bankofamerica.com/about/our-company/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Erica, an AI-powered virtual financial assistant embedded in the mobile banking app for retail customers",
+      "source_url": "https://www.bankofamerica.com/deposits/checking/checking-accounts/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides global corporate and investment banking, capital markets, and treasury solutions to large corporations and institutional clients",
+      "source_url": "https://www.bankofamerica.com/about/our-company/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "runs the Preferred Rewards loyalty program linking banking and investment accounts to fee-waiver and benefit tiers for retail customers",
+      "source_url": "https://www.bankofamerica.com/deposits/checking/checking-accounts/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "retail-deposit-banking",
+    "consumer-lending",
+    "physical-branch-network",
+    "investment-advisory",
+    "corporate-banking",
+    "payment-processing",
+    "fraud-detection",
+    "ai-virtual-assistant",
+    "wealth-management",
+    "capital-markets",
+    "digital-banking-platform",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.25 },
+    { "family": "retail-banking-operations", "weight": 0.25 },
+    { "family": "risk-and-compliance", "weight": 0.2 },
+    { "family": "data-and-analytics", "weight": 0.15 },
+    { "family": "financial-advisory", "weight": 0.1 },
+    { "family": "operations-and-back-office", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Consumer Banking",
+      "weight": 0.35,
+      "capability_tags": ["retail-deposit-banking", "consumer-lending", "physical-branch-network", "digital-banking-platform"]
+    },
+    {
+      "name": "Global Wealth and Investment Management (Merrill)",
+      "weight": 0.2,
+      "capability_tags": ["wealth-management", "investment-advisory", "financial-advisory"]
+    },
+    {
+      "name": "Global Banking",
+      "weight": 0.25,
+      "capability_tags": ["corporate-banking", "capital-markets"]
+    },
+    {
+      "name": "Global Markets",
+      "weight": 0.2,
+      "capability_tags": ["capital-markets", "payment-processing"]
+    }
+  ],
+  "name_reality_gap": "none — the name accurately represents a large retail and commercial bank; no hidden identity.",
+  "sources": [
+    { "url": "https://www.bankofamerica.com/about/our-company/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.bankofamerica.com/deposits/checking/checking-accounts/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was marketing-focused; product page provided concrete account feature details. Segment structure inferred from well-known 10-K structure (Consumer, GWIM, Global Banking, Global Markets) which is publicly reported. Investor page 404'd.",
+  "extraction_confidence": 0.82
+}

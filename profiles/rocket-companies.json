@@ -1,0 +1,59 @@
+{
+  "slug": "rocket-companies",
+  "company": "Rocket Companies",
+  "domain": "rocketcompanies.com",
+  "activity_statements": [
+    {
+      "statement": "originates residential mortgages digitally through Rocket Mortgage, having originated over $1.8 trillion in home loans as the nation's leading retail mortgage lender",
+      "source_url": "https://www.rocketcompanies.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "has completed over 1 million e-closings, processing mortgage transactions entirely digitally without physical document signing",
+      "source_url": "https://www.rocketcompanies.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a Detroit-based technology platform enabling fast digital mortgage approvals and streamlined loan processing",
+      "source_url": "https://www.rocketcompanies.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides personal loans and real estate agent services through its ecosystem of cross-selling businesses",
+      "source_url": "https://www.rocketcompanies.com/about-us/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "achieves a 97% client retention rate through digital customer experience and brand loyalty in the mortgage category",
+      "source_url": "https://www.rocketcompanies.com/about-us/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "digital-mortgage-origination",
+    "consumer-lending",
+    "e-closing-and-digital-closing",
+    "mortgage-platform-technology",
+    "personal-loan-origination",
+    "real-estate-agent-marketplace",
+    "loan-servicing",
+    "customer-retention-and-loyalty",
+    "fintech-product-development"
+  ],
+  "function_mix": [
+    { "family": "mortgage-operations-and-underwriting", "weight": 0.3 },
+    { "family": "software-engineering-and-technology", "weight": 0.25 },
+    { "family": "client-service-and-loan-officers", "weight": 0.2 },
+    { "family": "sales-and-marketing", "weight": 0.15 },
+    { "family": "risk-and-compliance", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Financial Services & Insurance' index label implies a traditional financial firm; Rocket Companies is a fintech built on proprietary technology — it was one of the first companies to fully digitize the mortgage closing process and operates more like a software company that makes its money from mortgage origination than a traditional bank or lender.",
+  "sources": [
+    { "url": "https://www.rocketcompanies.com/about-us/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was detailed and direct. Companies page timed out; secondary businesses described at high level from about page narrative. Private company details from founder context.",
+  "extraction_confidence": 0.85
+}

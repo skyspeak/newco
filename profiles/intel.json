@@ -1,0 +1,82 @@
+{
+  "slug": "intel",
+  "company": "Intel",
+  "domain": "intel.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures CPUs, GPUs, and AI accelerators for data centers, PCs, and edge computing, running on approximately 70% of the world's PCs",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Intel Foundry, the only US-headquartered leading-edge chip fabrication facility, providing full-stack design, manufacturing, and advanced packaging services",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "builds AI platforms spanning processors, accelerators, and software across cloud, enterprise, and edge on open ecosystems for the Intelligence Era",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "invests in a €5 billion expansion of semiconductor manufacturing in Europe to broaden the European semiconductor supply chain",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "holds 70,000+ Intel-owned patent assets and targets 1 trillion transistors on a single device by 2030",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.92
+    },
+    {
+      "statement": "collaborates with Google Cloud to scale agentic AI across enterprise business functions using Intel silicon",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "designs handheld gaming processors (Arc G-Series) for portable gaming devices, extending silicon reach beyond PC and data center",
+      "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "semiconductor-fabrication",
+    "chip-design",
+    "advanced-packaging",
+    "ai-accelerator-silicon",
+    "foundry-services",
+    "data-center-infrastructure",
+    "pc-processor-platform",
+    "edge-computing",
+    "software-optimization-stack",
+    "ip-portfolio-management"
+  ],
+  "function_mix": [
+    { "family": "hardware-engineering", "weight": 0.30 },
+    { "family": "software-engineering", "weight": 0.22 },
+    { "family": "semiconductor-process-engineering", "weight": 0.18 },
+    { "family": "research-and-development", "weight": 0.12 },
+    { "family": "supply-chain-and-manufacturing-ops", "weight": 0.10 },
+    { "family": "sales-and-business-development", "weight": 0.08 }
+  ],
+  "value_chain": ["research", "design", "manufacture"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Intel Products (Client Computing, Data Center & AI, Network & Edge)",
+      "weight": 0.72,
+      "capability_tags": ["chip-design", "ai-accelerator-silicon", "data-center-infrastructure", "pc-processor-platform"]
+    },
+    {
+      "name": "Intel Foundry",
+      "weight": 0.28,
+      "capability_tags": ["semiconductor-fabrication", "advanced-packaging", "foundry-services"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Semiconductor Manufacturing' is accurate but underweights Intel's growing identity as a foundry-for-hire (Intel Foundry) competing directly with TSMC and Samsung for third-party chip orders — a structural shift that makes Intel simultaneously a chip designer, a mass manufacturer, and a contract fabricator.",
+  "sources": [
+    { "url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided solid operational content. Segment revenue weighting directional based on public knowledge of Intel's business mix; exact segment figures not extracted.",
+  "extraction_confidence": 0.88
+}

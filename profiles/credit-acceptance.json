@@ -1,0 +1,46 @@
+{
+  "slug": "credit-acceptance",
+  "company": "Credit Acceptance",
+  "domain": "creditacceptance.com",
+  "activity_statements": [
+    {
+      "statement": "partners with automobile dealers to provide vehicle financing to credit-challenged consumers who would otherwise not qualify for traditional auto loans",
+      "source_url": "https://www.creditacceptance.com/about-us",
+      "confidence": 0.97
+    },
+    {
+      "statement": "originates and services consumer auto loans on behalf of dealer partners, purchasing dealer-assigned contracts and managing collections",
+      "source_url": "https://www.creditacceptance.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers pre-qualification tools and dealer management software enabling dealers to structure financing deals for subprime borrowers",
+      "source_url": "https://www.creditacceptance.com/about-us",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "consumer-auto-lending",
+    "subprime-credit-underwriting",
+    "dealer-financing-programs",
+    "loan-servicing",
+    "credit-risk-management",
+    "collections-operations"
+  ],
+  "function_mix": [
+    { "family": "credit-underwriting", "weight": 0.25 },
+    { "family": "loan-servicing-and-collections", "weight": 0.25 },
+    { "family": "software-engineering", "weight": 0.2 },
+    { "family": "data-and-analytics", "weight": 0.15 },
+    { "family": "dealer-sales", "weight": 0.15 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Indexed as 'Financial Services & Insurance' — accurate in sector but misses the very specific niche: Credit Acceptance is a subprime auto lender operating through a dealer channel, not a generalist financial services firm. It is not an insurer.",
+  "sources": [
+    { "url": "https://www.creditacceptance.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was clear on business model. Public company with well-documented 10-K; subprime auto lending via dealer channel is the singular business line.",
+  "extraction_confidence": 0.9
+}

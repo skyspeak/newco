@@ -1,0 +1,82 @@
+{
+  "slug": "toyota",
+  "company": "Toyota",
+  "domain": "toyota.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures passenger vehicles and trucks at North American assembly plants employing tens of thousands of production workers",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Calty Design Research studios in Ann Arbor and Newport Beach to develop exterior/interior vehicle designs for production and concept vehicles",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.9
+    },
+    {
+      "statement": "conducts North American R&D from Ann Arbor generating 2,667 USPTO patents in 2023, more than any other automaker for 10 consecutive years",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.95
+    },
+    {
+      "statement": "sells vehicles through nearly 1,500 Toyota and Lexus dealerships across North America",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides vehicle financing, leasing, and protection plans through Toyota Financial Services to consumers and dealers across three customer service centers in the U.S.",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.9
+    },
+    {
+      "statement": "globally spends approximately $1 million per hour on R&D to develop next-generation vehicles and advanced mobility concepts",
+      "source_url": "https://www.toyota.com/usa/operations",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "vehicle-design-and-engineering",
+    "automotive-manufacturing",
+    "dealer-network-distribution",
+    "vehicle-financing-and-leasing",
+    "automotive-r-and-d",
+    "hybrid-and-electric-vehicle-development",
+    "supply-chain-and-parts-management",
+    "advanced-mobility-research",
+    "brand-management-toyota-and-lexus"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-production", "weight": 0.35 },
+    { "family": "engineering-and-r-and-d", "weight": 0.2 },
+    { "family": "supply-chain-and-parts-management", "weight": 0.15 },
+    { "family": "sales-and-dealer-support", "weight": 0.1 },
+    { "family": "financial-services", "weight": 0.1 },
+    { "family": "design-and-concept-development", "weight": 0.05 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Vehicle Manufacturing & Sales",
+      "weight": 0.8,
+      "capability_tags": ["automotive-manufacturing", "dealer-network-distribution", "vehicle-design-and-engineering"]
+    },
+    {
+      "name": "Toyota Financial Services",
+      "weight": 0.15,
+      "capability_tags": ["vehicle-financing-and-leasing"]
+    },
+    {
+      "name": "R&D and Advanced Mobility",
+      "weight": 0.05,
+      "capability_tags": ["automotive-r-and-d", "advanced-mobility-research", "hybrid-and-electric-vehicle-development"]
+    }
+  ],
+  "name_reality_gap": "none — Toyota is transparently an automotive manufacturer. The financial services arm and scale of R&D spending (~$1M/hour globally) are less visible from the brand name but do not constitute a hidden identity.",
+  "sources": [
+    { "url": "https://www.toyota.com/usa/operations", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "North America operations page was highly informative. Global segment data (e.g., exact manufacturing plant count) not retrieved; 10-K not directly accessed. Financial services size estimated from page data about TFS (3,300 associates).",
+  "extraction_confidence": 0.85
+}

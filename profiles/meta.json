@@ -1,0 +1,77 @@
+{
+  "slug": "meta",
+  "company": "Meta",
+  "domain": "meta.com",
+  "activity_statements": [
+    {
+      "statement": "operates Facebook, Instagram, WhatsApp and Messenger serving billions of users globally through free, advertising-supported social networking platforms",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "sells advertising inventory across Facebook and Instagram enabling businesses to reach targeted audiences using data-driven ad-placement systems",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops mixed-reality hardware and software including Meta Quest VR headsets and Ray-Ban Meta smart glasses for immersive consumer experiences",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "invests in and develops large-scale AI systems including generative AI models, the Meta AI assistant and AI infrastructure at scale for use across its platforms",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates extensive AI data center infrastructure built and owned by Meta to power its AI and platform operations globally",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides commerce and business tools enabling small and medium businesses to advertise, sell and connect with customers through its platforms",
+      "source_url": "https://about.meta.com/company-info/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "social-network-platforms",
+    "ad-inventory-marketplace",
+    "ai-and-machine-learning",
+    "mixed-reality-hardware",
+    "data-center-operations",
+    "consumer-ai-products",
+    "mobile-app-development",
+    "content-moderation-at-scale",
+    "developer-platform",
+    "software-engineering-at-scale"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.40 },
+    { "family": "ai-and-machine-learning-research", "weight": 0.20 },
+    { "family": "data-center-and-infrastructure", "weight": 0.15 },
+    { "family": "ads-and-product-management", "weight": 0.10 },
+    { "family": "hardware-engineering", "weight": 0.08 },
+    { "family": "policy-and-trust-and-safety", "weight": 0.07 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["software", "marketplace", "physical-asset"],
+  "segments": [
+    {
+      "name": "Family of Apps (Facebook, Instagram, WhatsApp, Messenger)",
+      "weight": 0.97,
+      "capability_tags": ["social-network-platforms", "ad-inventory-marketplace", "mobile-app-development"]
+    },
+    {
+      "name": "Reality Labs (VR/AR)",
+      "weight": 0.03,
+      "capability_tags": ["mixed-reality-hardware", "consumer-ai-products"]
+    }
+  ],
+  "name_reality_gap": "Labeled Software Development; Meta is primarily an advertising-revenue business — over 97% of revenue comes from selling targeted ad placements, making it more accurately described as a digital advertising marketplace that uses social software as the delivery mechanism for ad inventory.",
+  "sources": [
+    { "url": "https://about.meta.com/company-info/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Clear source. Revenue split (advertising vs. Reality Labs) drawn from public knowledge consistent with source framing. AI data center investment confirmed in source via news reference.",
+  "extraction_confidence": 0.92
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cheesecake-factory",
+  "company": "Cheesecake Factory",
+  "domain": "thecheesecakefactory.com",
+  "activity_statements": [
+    {
+      "statement": "operates full-service restaurants under The Cheesecake Factory brand with 250+ menu items made fresh from scratch in each restaurant kitchen",
+      "source_url": "https://www.thecheesecakefactory.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates industrial bakery production facilities in California and North Carolina producing cheesecakes for its own restaurants, other restaurants and club store retailers",
+      "source_url": "https://www.thecheesecakefactory.com/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "owns and operates North Italia, Fox Restaurant Concepts and approximately twelve additional restaurant brands acquired in 2019",
+      "source_url": "https://www.thecheesecakefactory.com/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Grand Lux Cafe restaurants as a sister concept to The Cheesecake Factory",
+      "source_url": "https://www.thecheesecakefactory.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates international Cheesecake Factory restaurant locations through licensing in Middle East, Latin America and Asia",
+      "source_url": "https://www.thecheesecakefactory.com/about/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "full-service-restaurant-operations",
+    "scratch-kitchen-production",
+    "industrial-bakery-manufacturing",
+    "multi-brand-restaurant-portfolio",
+    "franchise-and-licensing",
+    "food-supply-chain",
+    "restaurant-workforce-management",
+    "consumer-dining-experience"
+  ],
+  "function_mix": [
+    { "family": "restaurant-operations-and-kitchen-staff", "weight": 0.60 },
+    { "family": "bakery-manufacturing", "weight": 0.15 },
+    { "family": "corporate-and-brand-management", "weight": 0.1 },
+    { "family": "supply-chain-and-procurement", "weight": 0.1 },
+    { "family": "technology-and-digital", "weight": 0.05 }
+  ],
+  "value_chain": ["manufacture", "operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "The Cheesecake Factory Restaurants",
+      "weight": 0.65,
+      "capability_tags": ["full-service-restaurant-operations", "scratch-kitchen-production"]
+    },
+    {
+      "name": "North Italia & Fox Restaurant Concepts",
+      "weight": 0.25,
+      "capability_tags": ["full-service-restaurant-operations", "multi-brand-restaurant-portfolio"]
+    },
+    {
+      "name": "Bakery Division",
+      "weight": 0.10,
+      "capability_tags": ["industrial-bakery-manufacturing", "food-supply-chain"]
+    }
+  ],
+  "name_reality_gap": "Name suggests a single dessert-focused restaurant; activity evidence shows a multi-brand restaurant group with industrial bakery manufacturing operations, 250-item scratch menus unusual for the industry, and wholesale supply of cheesecakes to other restaurants and retailers.",
+  "sources": [
+    { "url": "https://www.thecheesecakefactory.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Single strong source with detailed historical timeline. Restaurant brand acquisitions and bakery facilities clearly documented. Segment weight estimates are approximate.",
+  "extraction_confidence": 0.88
+}

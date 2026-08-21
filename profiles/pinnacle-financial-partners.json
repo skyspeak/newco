@@ -1,0 +1,71 @@
+{
+  "slug": "pinnacle-financial-partners",
+  "company": "Pinnacle Financial Partners",
+  "domain": "pnfp.com",
+  "activity_statements": [
+    {
+      "statement": "operates as a relationship-driven commercial bank serving middle-market businesses, owner-operators, commercial real estate clients, and affluent households primarily across Southeastern and Mid-Atlantic US markets",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "provides commercial lending including lines of credit, term loans, commercial real estate financing, and working capital facilities to business clients",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "offers treasury management and payments services enabling corporate clients to manage cash flows, receivables, and disbursements",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers wealth management and private banking services for business owners, executives, and affluent individuals",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides specialty lending to healthcare and other licensed professionals nationally through BHG Financial (formerly Bankers Healthcare Group), acquired in 2021",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates through a banker-centric model of recruiting experienced local financial services professionals and giving them significant local client authority backed by centralized credit discipline",
+      "source_url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "trades on NYSE (PNFP) with market capitalization of approximately $14.5B and corporate headquarters in Nashville, TN with expanding Atlanta presence",
+      "source_url": "https://pnfp.com/",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "commercial-lending",
+    "commercial-real-estate-lending",
+    "treasury-and-cash-management",
+    "private-banking",
+    "wealth-management",
+    "specialty-professional-lending",
+    "relationship-banking",
+    "deposit-gathering",
+    "mortgage-banking"
+  ],
+  "function_mix": [
+    { "family": "commercial-banking-relationship-managers", "weight": 0.35 },
+    { "family": "credit-underwriting-and-risk", "weight": 0.20 },
+    { "family": "treasury-and-operations", "weight": 0.15 },
+    { "family": "wealth-management-advisors", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "compliance-and-regulatory", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "Index label 'Financial Services & Insurance' is broader than Pinnacle's actual focus; Pinnacle is a pure commercial bank (no insurance), but its BHG Financial subsidiary providing national specialty lending to medical professionals makes it meaningfully different from a typical community or regional bank.",
+  "sources": [
+    { "url": "https://pnfp.com/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://umbrex.com/resources/company-profiles/pinnacle-financial-partners/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "pnfp.com/about and /personal-banking returned 404; homepage provided minimal content. Substantial operational detail sourced from umbrex.com third-party company profile based on Pinnacle's public filings. BHG Financial details from public knowledge of 2021 acquisition.",
+  "extraction_confidence": 0.80
+}

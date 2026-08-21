@@ -1,0 +1,88 @@
+{
+  "slug": "abbott",
+  "company": "Abbott",
+  "domain": "abbott.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and sells the FreeStyle Libre continuous glucose monitoring system (CGM) for diabetes patients worldwide",
+      "source_url": "https://www.abbott.com/products.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and sells cardiac rhythm management and heart failure devices (implantable devices, monitors) for cardiologists and hospitals",
+      "source_url": "https://www.abbott.com/about-abbott.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures neuromodulation devices (spinal cord stimulators, deep brain stimulators) for patients with chronic pain and movement disorders",
+      "source_url": "https://www.abbott.com/about-abbott.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "produces laboratory-based diagnostics instruments and reagents for hospital and clinical labs globally",
+      "source_url": "https://www.abbott.com/about-abbott.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manufactures and distributes nutrition products (e.g., Ensure, Similac) for patients and consumers in 160+ countries",
+      "source_url": "https://www.abbott.com/about-abbott.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells established branded pharmaceutical products in emerging markets across Africa, Asia, and Latin America",
+      "source_url": "https://www.abbott.com/about-abbott.html",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "medical-device-manufacturing",
+    "continuous-glucose-monitoring",
+    "cardiac-rhythm-management",
+    "neuromodulation-devices",
+    "diagnostics-instruments",
+    "clinical-nutrition",
+    "point-of-care-diagnostics",
+    "global-distribution",
+    "regulatory-compliance-ops",
+    "medical-device-rd"
+  ],
+  "function_mix": [
+    { "family": "research-and-development", "weight": 0.25 },
+    { "family": "advanced-manufacturing", "weight": 0.25 },
+    { "family": "regulatory-and-quality", "weight": 0.15 },
+    { "family": "sales-and-clinical-support", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.1 },
+    { "family": "supply-chain", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "design", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Medical Devices",
+      "weight": 0.45,
+      "capability_tags": ["continuous-glucose-monitoring", "cardiac-rhythm-management", "neuromodulation-devices", "medical-device-manufacturing"]
+    },
+    {
+      "name": "Diagnostics",
+      "weight": 0.3,
+      "capability_tags": ["diagnostics-instruments", "point-of-care-diagnostics"]
+    },
+    {
+      "name": "Nutrition",
+      "weight": 0.15,
+      "capability_tags": ["clinical-nutrition", "global-distribution"]
+    },
+    {
+      "name": "Established Pharmaceuticals",
+      "weight": 0.1,
+      "capability_tags": ["global-distribution"]
+    }
+  ],
+  "name_reality_gap": "Indexed as 'Hospitals and Health Care' — significantly misleading. Abbott does not operate hospitals; it manufactures and sells medical devices, diagnostics instruments, and nutrition products. The company is a medical-device and diagnostics manufacturer that sells to hospitals, not a healthcare provider.",
+  "sources": [
+    { "url": "https://www.abbott.com/about-abbott.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.abbott.com/products.html", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was light on specifics; product page confirmed FreeStyle Libre CGM as lead product. Segment structure and products (Ensure, Similac, cardiac devices) are from well-known public reporting. Many product sub-pages returned 404.",
+  "extraction_confidence": 0.85
+}

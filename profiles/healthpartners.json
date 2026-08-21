@@ -1,0 +1,70 @@
+{
+  "slug": "healthpartners",
+  "company": "HealthPartners",
+  "domain": "healthpartners.com",
+  "activity_statements": [
+    {
+      "statement": "operates an integrated nonprofit health system providing both health insurance and clinical care in Minnesota and Wisconsin",
+      "source_url": "https://www.healthpartners.com/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "offers health insurance plans for individuals, employers, Medicare, and Medicaid members, covering health, dental, and vision",
+      "source_url": "https://www.healthpartners.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers clinical care through hospitals (including Regions Hospital in St. Paul and Methodist Hospital) and a network of medical group clinics",
+      "source_url": "https://www.healthpartners.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides dental care through a network of affiliated dental clinics in the Twin Cities region and beyond",
+      "source_url": "https://www.healthpartners.com/",
+      "confidence": 0.80
+    },
+    {
+      "statement": "aims to make healthcare affordable and simple by owning both the insurance and care delivery sides, enabling coordination between payer and provider",
+      "source_url": "https://www.healthpartners.com/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "health-insurance-underwriting",
+    "clinical-care-delivery",
+    "hospital-operations",
+    "integrated-payer-provider",
+    "employer-health-benefits",
+    "medicare-medicaid-plans",
+    "dental-care-network",
+    "population-health-management"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-delivery", "weight": 0.35 },
+    { "family": "insurance-underwriting-and-actuarial", "weight": 0.20 },
+    { "family": "care-management-and-nursing", "weight": 0.18 },
+    { "family": "administrative-and-billing-operations", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "finance-and-corporate", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["human-service", "physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Health Insurance",
+      "weight": 0.45,
+      "capability_tags": ["health-insurance-underwriting", "employer-health-benefits", "medicare-medicaid-plans", "population-health-management"]
+    },
+    {
+      "name": "Care Delivery (Hospitals and Clinics)",
+      "weight": 0.55,
+      "capability_tags": ["clinical-care-delivery", "hospital-operations", "dental-care-network"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Hospitals & Health Care' captures only the care delivery side; HealthPartners is equally a health insurer — its integrated payer-provider structure is the distinctive operational reality that the label misses.",
+  "sources": [
+    { "url": "https://www.healthpartners.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "healthpartners.com/about-us and /hp/health-care/ timed out; homepage provided brief but clear description of the integrated model. Limited detail on hospital system size, premium volume, and clinical program specifics. Confidence is moderate.",
+  "extraction_confidence": 0.72
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "american-red-cross",
+  "company": "American Red Cross",
+  "domain": "redcross.org",
+  "activity_statements": [
+    {
+      "statement": "provides disaster relief and recovery services to families and communities affected by emergencies across the United States and internationally",
+      "source_url": "https://www.redcross.org/about-us.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "collects, processes and distributes blood and blood products to hospitals and medical facilities as a major US blood supply operator",
+      "source_url": "https://www.redcross.org/about-us.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "trains individuals and organizations in health and safety including CPR, first aid, lifeguarding, and emergency response through certification courses",
+      "source_url": "https://www.redcross.org/about-us.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers international humanitarian aid, development programs and emergency response in partnership with the International Red Cross and Red Crescent Movement",
+      "source_url": "https://www.redcross.org/about-us.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides emergency communications, financial assistance and support services to US military service members, veterans and their families",
+      "source_url": "https://www.redcross.org/about-us.html",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "disaster-relief-operations",
+    "blood-collection-and-supply",
+    "safety-training-and-certification",
+    "international-humanitarian-aid",
+    "military-family-services",
+    "volunteer-management",
+    "emergency-response-logistics",
+    "donation-management",
+    "community-preparedness"
+  ],
+  "function_mix": [
+    { "family": "disaster-relief-and-emergency-response", "weight": 0.3 },
+    { "family": "blood-services-operations", "weight": 0.3 },
+    { "family": "training-and-certification", "weight": 0.15 },
+    { "family": "international-programs", "weight": 0.1 },
+    { "family": "fundraising-and-donor-relations", "weight": 0.1 },
+    { "family": "military-and-veteran-services", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "distribute"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Disaster Relief",
+      "weight": 0.30,
+      "capability_tags": ["disaster-relief-operations", "emergency-response-logistics"]
+    },
+    {
+      "name": "Biomedical Services (Blood)",
+      "weight": 0.30,
+      "capability_tags": ["blood-collection-and-supply", "cold-chain-logistics"]
+    },
+    {
+      "name": "Training & Health Safety",
+      "weight": 0.15,
+      "capability_tags": ["safety-training-and-certification", "community-preparedness"]
+    },
+    {
+      "name": "International Services",
+      "weight": 0.15,
+      "capability_tags": ["international-humanitarian-aid"]
+    },
+    {
+      "name": "Military and Veteran Services",
+      "weight": 0.10,
+      "capability_tags": ["military-family-services"]
+    }
+  ],
+  "name_reality_gap": "Labeled Nonprofit Organizations; what the evidence shows is that the Red Cross is simultaneously the US's largest blood supply operator (biomedical logistics), a national emergency-response infrastructure provider, and a safety-training certification business — none of which are obvious from nonprofit label.",
+  "sources": [
+    { "url": "https://www.redcross.org/about-us.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good single source. Blood services represent ~40% of Red Cross revenue per public filings (well known), making it a significant biomedical logistics operation beyond the humanitarian framing. Extraction limited to about page; financial breakdown not sourced.",
+  "extraction_confidence": 0.85
+}

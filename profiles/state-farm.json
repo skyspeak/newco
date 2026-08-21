@@ -1,0 +1,61 @@
+{
+  "slug": "state-farm",
+  "company": "State Farm",
+  "domain": "statefarm.com",
+  "activity_statements": [
+    {
+      "statement": "underwrites and sells personal auto, home, renters, and life insurance policies to US consumers through a network of 19,000 exclusive agents",
+      "source_url": "https://www.statefarm.com/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates as a mutual insurance company (policyholder-owned) with a 100+ year history of personal lines insurance underwriting",
+      "source_url": "https://www.statefarm.com/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides financial planning and banking services alongside insurance products, helping customers with savings, loans, and annuities",
+      "source_url": "https://www.statefarm.com/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "invests in technology startups through State Farm Ventures with the goal of developing new insurance and financial products",
+      "source_url": "https://www.statefarm.com/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "administers claims and customer support for millions of policyholders through its distributed agent and call center network",
+      "source_url": "https://www.statefarm.com/about-us",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "personal-lines-insurance",
+    "auto-insurance-underwriting",
+    "homeowners-insurance",
+    "life-insurance",
+    "claims-management",
+    "agent-distribution-network",
+    "actuarial-modeling",
+    "mutual-insurer-structure",
+    "insurtech-investing"
+  ],
+  "function_mix": [
+    { "family": "insurance-agents", "weight": 0.30 },
+    { "family": "claims-adjusters-and-investigators", "weight": 0.20 },
+    { "family": "actuarial-and-underwriting", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "customer-service", "weight": 0.12 },
+    { "family": "finance-and-investments", "weight": 0.08 },
+    { "family": "risk-and-compliance", "weight": 0.03 }
+  ],
+  "value_chain": ["service", "assure"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "The 'Insurance' label is accurate. What it hides is that State Farm is the largest US property and casualty insurer by premium volume, operates as a mutual company (not publicly traded, accountable to policyholders not shareholders), and has a meaningful financial services arm alongside its core insurance products.",
+  "sources": [
+    { "url": "https://www.statefarm.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "State Farm about page provided key facts including 19,000 agents, mutual structure, product categories, and State Farm Ventures. Detailed financial data unavailable as a private mutual company.",
+  "extraction_confidence": 0.82
+}

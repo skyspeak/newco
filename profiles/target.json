@@ -1,0 +1,87 @@
+{
+  "slug": "target",
+  "company": "Target",
+  "domain": "target.com",
+  "activity_statements": [
+    {
+      "statement": "operates 2,000+ general merchandise retail stores across all 50 US states and DC, selling national brands and 45+ Target-exclusive owned brands",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "runs a supply chain network of 66 facilities that moves products to stores and directly to customer homes across the country",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Roundel, an owned retail media advertising network that monetizes Target's first-party shopper data for brand advertisers",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates Shipt, a same-day delivery marketplace platform connecting shoppers to delivery drivers for grocery and retail orders",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "maintains 20+ global sourcing offices to procure merchandise including Target-exclusive private-label lines",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.88
+    },
+    {
+      "statement": "serves 75%+ of the US population within 10 miles of a store, enabling same-day fulfillment via in-store pickup and drive-up for digital orders",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "employs 400,000+ team members across stores, supply chain, and corporate functions with $105B in net sales in 2025",
+      "source_url": "https://corporate.target.com/about",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "mass-merchandise-retail",
+    "private-label-product-development",
+    "omnichannel-fulfillment",
+    "retail-media-ad-marketplace",
+    "same-day-delivery-marketplace",
+    "supply-chain-network",
+    "global-merchandise-sourcing",
+    "first-party-shopper-data",
+    "digital-commerce-platform"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations", "weight": 0.38 },
+    { "family": "supply-chain-and-distribution", "weight": 0.22 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "product-development-and-curation", "weight": 0.10 },
+    { "family": "marketing-and-data-analytics", "weight": 0.10 },
+    { "family": "finance-and-corporate", "weight": 0.05 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "marketplace"],
+  "segments": [
+    {
+      "name": "Core Retail (Stores + Digital)",
+      "weight": 0.88,
+      "capability_tags": ["mass-merchandise-retail", "omnichannel-fulfillment", "private-label-product-development"]
+    },
+    {
+      "name": "Roundel (Retail Media)",
+      "weight": 0.06,
+      "capability_tags": ["retail-media-ad-marketplace", "first-party-shopper-data"]
+    },
+    {
+      "name": "Shipt (Delivery Marketplace)",
+      "weight": 0.06,
+      "capability_tags": ["same-day-delivery-marketplace"]
+    }
+  ],
+  "name_reality_gap": "Reads as a simple retailer; evidence shows Target is also operating a retail-media advertising network (Roundel) and a gig-economy delivery marketplace (Shipt), making it a three-sided platform business alongside its core retail operations.",
+  "sources": [
+    { "url": "https://corporate.target.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://corporate.target.com/careers/", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong sources from corporate.target.com. Roundel and Shipt segment weights are rough estimates; Target does not separately report these as financial segments.",
+  "extraction_confidence": 0.90
+}

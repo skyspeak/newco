@@ -1,0 +1,107 @@
+{
+  "slug": "amazon",
+  "company": "Amazon",
+  "domain": "amazon.com",
+  "activity_statements": [
+    {
+      "statement": "operates one of the world's largest online retail marketplaces offering hundreds of millions of products to consumers and third-party sellers globally",
+      "source_url": "https://www.aboutamazon.com/what-we-do",
+      "confidence": 0.95
+    },
+    {
+      "statement": "runs AWS, the world's most broadly adopted cloud platform, serving millions of enterprise, startup, and government customers with compute, storage, AI, and managed services",
+      "source_url": "https://aws.amazon.com/what-is-aws/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "designs and manufactures custom silicon chips (Trainium for AI training, Graviton for general compute) for cloud and AI workloads, exceeding a $25B annual revenue run rate",
+      "source_url": "https://www.amazon.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "produces and distributes streaming entertainment through Prime Video, Amazon MGM Studios, MGM+, Amazon Music, Audible, Amazon Games, and Twitch",
+      "source_url": "https://www.aboutamazon.com/what-we-do",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Amazon Pharmacy and Amazon One Medical to provide prescription fulfillment and primary care services to consumers",
+      "source_url": "https://www.aboutamazon.com/what-we-do",
+      "confidence": 0.9
+    },
+    {
+      "statement": "runs a global fulfillment and delivery network with AI-driven robotics, 25,000+ Amazon Locker pickup locations, and expanding Prime Air drone delivery",
+      "source_url": "https://www.aboutamazon.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "sells digital advertising to brands seeking access to Amazon's shopping audience, generating $19.8B in Q2 revenue, up 26% year-over-year",
+      "source_url": "https://www.amazon.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "develops Alexa AI assistants and a constellation of consumer electronic devices (Echo, Fire TV, Kindle, Ring) for the smart home and entertainment markets",
+      "source_url": "https://www.aboutamazon.com/what-we-do",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "cloud-infrastructure",
+    "ai-ml-platform",
+    "custom-silicon-design",
+    "e-commerce-marketplace",
+    "fulfillment-and-last-mile",
+    "ad-inventory-marketplace",
+    "streaming-content",
+    "consumer-electronics",
+    "pharmacy-fulfillment",
+    "primary-care-delivery",
+    "third-party-seller-platform",
+    "robotics-fulfillment"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.25 },
+    { "family": "warehouse-and-fulfillment-operations", "weight": 0.30 },
+    { "family": "data-and-ai-research", "weight": 0.12 },
+    { "family": "delivery-and-logistics", "weight": 0.15 },
+    { "family": "content-and-entertainment", "weight": 0.08 },
+    { "family": "customer-service", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute", "operate", "service"],
+  "delivery_mode": ["software", "marketplace", "physical-asset", "content"],
+  "segments": [
+    {
+      "name": "AWS (Cloud & AI Services)",
+      "weight": 0.18,
+      "capability_tags": ["cloud-infrastructure", "ai-ml-platform", "custom-silicon-design"]
+    },
+    {
+      "name": "North America Retail & Advertising",
+      "weight": 0.46,
+      "capability_tags": ["e-commerce-marketplace", "fulfillment-and-last-mile", "ad-inventory-marketplace", "third-party-seller-platform"]
+    },
+    {
+      "name": "International Retail",
+      "weight": 0.22,
+      "capability_tags": ["e-commerce-marketplace", "fulfillment-and-last-mile"]
+    },
+    {
+      "name": "Entertainment & Devices",
+      "weight": 0.07,
+      "capability_tags": ["streaming-content", "consumer-electronics"]
+    },
+    {
+      "name": "Health Services",
+      "weight": 0.03,
+      "capability_tags": ["pharmacy-fulfillment", "primary-care-delivery"]
+    }
+  ],
+  "name_reality_gap": "Amazon is classified as 'Software Development' by best-places-to-work indexes, and to many connotes online shopping — but the activity evidence shows a conglomerate spanning cloud infrastructure (AWS, the largest profit center), custom chip manufacturing, an ad network, streaming studios, primary care clinics, and a physical fulfillment/delivery operation employing hundreds of thousands of warehouse workers.",
+  "sources": [
+    { "url": "https://www.aboutamazon.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.aboutamazon.com/what-we-do", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://aws.amazon.com/what-is-aws/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.amazon.com/about", "kind": "newsroom", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong sources available. Revenue segment weights are estimates based on published Q2 2026 data referenced in news articles on amazon.com/about page.",
+  "extraction_confidence": 0.9
+}

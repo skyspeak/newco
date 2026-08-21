@@ -1,0 +1,75 @@
+{
+  "slug": "stellantis",
+  "company": "Stellantis",
+  "domain": "stellantis.com",
+  "activity_statements": [
+    {
+      "statement": "designs, manufactures, and sells passenger cars, SUVs, trucks, and vans under 14 automotive brands including Jeep, Ram, Dodge, Chrysler, FIAT, Peugeot, Citroën, Opel, Alfa Romeo, and Maserati",
+      "source_url": "https://www.stellantis.com/en/company",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates vehicle manufacturing plants and supply chains across North America, Europe, Latin America, and international markets producing millions of units annually",
+      "source_url": "https://www.stellantis.com/en/company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides fleet vehicle leasing and mobility services through Leasys and Free2move mobility subsidiaries",
+      "source_url": "https://www.stellantis.com/en/brands",
+      "confidence": 0.88
+    },
+    {
+      "statement": "develops electric vehicles across multiple brands as part of a multi-brand EV transition strategy including Jeep 4xe, FIAT 500e, and others",
+      "source_url": "https://www.stellantis.com/en/company",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates Stellantis Financial Services providing auto financing and leasing to consumers and commercial fleet buyers",
+      "source_url": "https://www.stellantis.com/en/company",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "vehicle-manufacturing",
+    "multi-brand-automotive",
+    "electric-vehicle-development",
+    "fleet-services",
+    "auto-financing",
+    "global-supply-chain",
+    "mobility-services",
+    "powertrain-engineering"
+  ],
+  "function_mix": [
+    { "family": "advanced-manufacturing", "weight": 0.4 },
+    { "family": "mechanical-engineering", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "supply-chain", "weight": 0.15 },
+    { "family": "sales-and-marketing", "weight": 0.1 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "North America (RAM, Jeep, Dodge, Chrysler)",
+      "weight": 0.45,
+      "capability_tags": ["vehicle-manufacturing", "multi-brand-automotive"]
+    },
+    {
+      "name": "Enlarged Europe (Peugeot, Citroën, Opel, FIAT, Alfa Romeo, Maserati, DS)",
+      "weight": 0.4,
+      "capability_tags": ["vehicle-manufacturing", "multi-brand-automotive"]
+    },
+    {
+      "name": "Mobility (Free2move, Leasys) and Financial Services",
+      "weight": 0.15,
+      "capability_tags": ["mobility-services", "fleet-services", "auto-financing"]
+    }
+  ],
+  "name_reality_gap": "Name is not widely recognized by consumers — Stellantis was formed in 2021 from the merger of PSA Group and Fiat Chrysler. Someone unfamiliar would not know it is the parent of Jeep, Ram, Dodge, FIAT, Peugeot, and Citroën. The name obscures the multi-brand automotive conglomerate identity.",
+  "sources": [
+    { "url": "https://www.stellantis.com/en/company", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.stellantis.com/en/brands", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Company page confirmed brand list. About sub-pages largely 404'd. Segment structure based on Stellantis's well-documented public reporting. Free2move and Leasys explicitly named on brands page.",
+  "extraction_confidence": 0.83
+}

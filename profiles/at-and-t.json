@@ -1,0 +1,89 @@
+{
+  "slug": "at-and-t",
+  "company": "AT&T",
+  "domain": "att.com",
+  "activity_statements": [
+    {
+      "statement": "operates a nationwide wireless network serving 120 million mobility subscribers (91M postpaid including 74M phone subscribers) under AT&T, Cricket, and AT&T PREPAID brands",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides fiber broadband to 14.7 million US customers (10.4 million on fiber, 1.5 million on AT&T Internet Air 5G fixed wireless) as part of Consumer Wireline segment",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.97
+    },
+    {
+      "statement": "provides enterprise connectivity including fiber ethernet, dedicated internet, fixed wireless, IP voice, and managed professional services to multinational corporations, SMBs, and government customers through Business Wireline",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates FirstNet, the dedicated wireless network for first responders across the United States",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides wireless service in Mexico to approximately 24.7 million subscribers under AT&T and Unefon brands through Latin America segment",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "transitions legacy copper-based voice and data infrastructure to software-defined network (SDN) and fiber-based services",
+      "source_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "confidence": 0.93
+    }
+  ],
+  "capability_tags": [
+    "wireless-network-operations",
+    "fiber-broadband-deployment",
+    "5g-network-infrastructure",
+    "enterprise-connectivity-services",
+    "fixed-wireless-access",
+    "network-infrastructure-modernization",
+    "managed-network-services",
+    "first-responder-network",
+    "software-defined-networking",
+    "consumer-internet-services",
+    "24x7-noc"
+  ],
+  "function_mix": [
+    { "family": "network-engineering-and-operations", "weight": 0.30 },
+    { "family": "field-service-technicians", "weight": 0.20 },
+    { "family": "customer-service-operations", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "sales-and-marketing", "weight": 0.12 },
+    { "family": "finance-and-regulatory", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "Mobility",
+      "weight": 0.54,
+      "capability_tags": ["wireless-network-operations", "5g-network-infrastructure", "first-responder-network"]
+    },
+    {
+      "name": "Consumer Wireline",
+      "weight": 0.18,
+      "capability_tags": ["fiber-broadband-deployment", "fixed-wireless-access", "consumer-internet-services"]
+    },
+    {
+      "name": "Business Wireline",
+      "weight": 0.25,
+      "capability_tags": ["enterprise-connectivity-services", "managed-network-services", "software-defined-networking"]
+    },
+    {
+      "name": "Latin America",
+      "weight": 0.03,
+      "capability_tags": ["wireless-network-operations"]
+    }
+  ],
+  "name_reality_gap": "none - AT&T accurately signals telecommunications. However, the 'Telecommunications' label undersells the scale of the enterprise IT services and managed connectivity business; a significant workforce operates as enterprise IT professionals.",
+  "sources": [
+    { "url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf", "kind": "10k-item1", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.att.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "10-K Annual Report 2025 via Exa provided detailed segment data including subscriber counts, revenue percentages, and business unit descriptions. att.com/about returned product marketing content only. Excellent sourcing from 10-K.",
+  "extraction_confidence": 0.95
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "chevron",
+  "company": "Chevron",
+  "domain": "chevron.com",
+  "activity_statements": [
+    {
+      "statement": "explores for and produces crude oil and natural gas in upstream operations across multiple international geographies",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.88
+    },
+    {
+      "statement": "refines crude oil into petroleum products (gasoline, diesel, jet fuel) and markets them through Chevron and Texaco branded retail and commercial networks",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "produces and markets lubricants and fuel additives through its brands for automotive and industrial customers",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.82
+    },
+    {
+      "statement": "invests in lower-carbon energy solutions and digital technologies to reduce costs and enhance safety across exploration and production operations",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.78
+    },
+    {
+      "statement": "operates chemical manufacturing facilities producing commodity and specialty chemicals derived from petroleum feedstocks",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.75
+    },
+    {
+      "statement": "transports oil, natural gas, and refined products through pipelines and shipping operations globally",
+      "source_url": "https://www.chevron.com/about",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "upstream-oil-and-gas",
+    "petroleum-refining",
+    "fuel-retail-network",
+    "lubricants-manufacturing",
+    "chemical-manufacturing",
+    "pipeline-and-logistics",
+    "digital-oilfield-operations",
+    "lower-carbon-energy-transition",
+    "global-energy-trading"
+  ],
+  "function_mix": [
+    { "family": "petroleum-engineering", "weight": 0.25 },
+    { "family": "operations-and-plant-management", "weight": 0.22 },
+    { "family": "software-and-digital-engineering", "weight": 0.15 },
+    { "family": "geoscience-and-geology", "weight": 0.12 },
+    { "family": "supply-chain-and-logistics", "weight": 0.10 },
+    { "family": "finance-and-trading", "weight": 0.10 },
+    { "family": "health-safety-environment", "weight": 0.06 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Upstream",
+      "weight": 0.60,
+      "capability_tags": ["upstream-oil-and-gas", "digital-oilfield-operations", "geoscience-and-geology"]
+    },
+    {
+      "name": "Downstream and Chemicals",
+      "weight": 0.40,
+      "capability_tags": ["petroleum-refining", "fuel-retail-network", "chemical-manufacturing", "lubricants-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "none — Chevron is accurately understood as an integrated oil and gas company.",
+  "sources": [
+    { "url": "https://www.chevron.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided values-focused content with limited operational specifics; segment details inferred from industry knowledge of Chevron's publicly known upstream/downstream structure. Confidence moderate for operational details not explicitly stated on the about page.",
+  "extraction_confidence": 0.78
+}

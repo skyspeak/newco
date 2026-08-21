@@ -1,0 +1,77 @@
+{
+  "slug": "merck",
+  "company": "Merck",
+  "domain": "merck.com",
+  "activity_statements": [
+    {
+      "statement": "discovers, develops, manufactures, and commercializes prescription medicines across oncology, vaccines, infectious diseases, cardiometabolic, immunology, and neuroscience",
+      "source_url": "https://www.merck.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and distributes vaccines for humans (including Gardasil for HPV, Varivax for varicella) and has been doing so for over 130 years",
+      "source_url": "https://www.merck.com/research/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "employs approximately 24,700 people in R&D and invested $15.8 billion in research and development in 2025",
+      "source_url": "https://www.merck.com/research/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manufactures and sells veterinary medicines and vaccines through Merck Animal Health for livestock and companion animals",
+      "source_url": "https://www.merck.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "partners with external biotech companies through licensing and business development to build a hybrid pipeline of internally-discovered and externally-sourced drug candidates",
+      "source_url": "https://www.merck.com/research/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "conducts global clinical trials to generate evidence for regulatory submissions across FDA, EMA, and other health authorities",
+      "source_url": "https://www.merck.com/research/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "pharmaceutical-drug-development",
+    "oncology-therapies",
+    "vaccine-development",
+    "regulatory-approval-management",
+    "clinical-trial-operations",
+    "animal-health-pharmaceuticals",
+    "drug-manufacturing",
+    "biotech-licensing",
+    "immunology-treatments"
+  ],
+  "function_mix": [
+    { "family": "research-and-development-scientists", "weight": 0.35 },
+    { "family": "clinical-and-regulatory-affairs", "weight": 0.20 },
+    { "family": "pharmaceutical-manufacturing", "weight": 0.18 },
+    { "family": "commercial-and-sales", "weight": 0.15 },
+    { "family": "supply-chain-and-quality", "weight": 0.07 },
+    { "family": "software-and-data-science", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Pharmaceutical (Human Health)",
+      "weight": 0.85,
+      "capability_tags": ["pharmaceutical-drug-development", "oncology-therapies", "vaccine-development", "immunology-treatments", "clinical-trial-operations", "regulatory-approval-management"]
+    },
+    {
+      "name": "Animal Health",
+      "weight": 0.15,
+      "capability_tags": ["animal-health-pharmaceuticals", "drug-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "Merck is labeled 'Healthcare Biotech & Pharmaceuticals' which is accurate. The less-visible reality is that Merck operates a major Animal Health segment (veterinary drugs and vaccines for livestock and pets) alongside its human health business, and that Keytruda (cancer immunotherapy) has become one of the world's best-selling drugs, making Merck an oncology powerhouse as much as a diversified pharma company.",
+  "sources": [
+    { "url": "https://www.merck.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.merck.com/research/", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good sources available from merck.com. R&D investment ($15.8B in 2025) and R&D headcount (~24.7K) taken directly from research page. Segment weight estimates based on known Merck reporting (Animal Health is approximately 15% of revenue).",
+  "extraction_confidence": 0.88
+}

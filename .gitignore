@@ -1,0 +1,20 @@
+# Byte-compiled / virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Pipeline binaries (JSON/HTML snapshots are committed so the map can be read without running)
+out/similarity.npy
+out/validate_report.json

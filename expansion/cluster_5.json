@@ -1,0 +1,112 @@
+[
+  {
+    "company": "OpenX",
+    "domain": "openx.com",
+    "cluster": 5,
+    "matched_capabilities": ["ad-inventory-marketplace"],
+    "activity_evidence": "Operates an independent supply-side platform and ad exchange that connects publishers with advertisers through programmatic auctions, offering ad server, SSP, and yield-optimization tools across the open web.",
+    "why_off_index": "Pure B2B adtech infrastructure firm; no consumer brand; serves publishers and advertisers behind the scenes; invisible to employer-ranking indexes.",
+    "source_url": "https://openx.com/",
+    "confidence": 0.95
+  },
+  {
+    "company": "Admixer",
+    "domain": "admixer.com",
+    "cluster": 5,
+    "matched_capabilities": ["ad-inventory-marketplace", "developer-platform"],
+    "activity_evidence": "Develops and operates a full-stack programmatic ad ecosystem including an SSP for inventory monetization, DSP for advertisers, publisher ad server, and ad exchange, serving 3,000+ customers across buy- and sell-side players.",
+    "why_off_index": "Independent B2B adtech company based in the UK and Ukraine with no consumer brand; entirely invisible to US employer-brand rankings.",
+    "source_url": "https://admixer.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Chocolate Platform",
+    "domain": "chocolateplatform.com",
+    "cluster": 5,
+    "matched_capabilities": ["ad-inventory-marketplace"],
+    "activity_evidence": "Runs the world's first 100% server-side auction video SSP, connecting premium brands with 7,700+ publisher websites and apps across 20+ billion monthly impressions through a programmatic ad inventory marketplace.",
+    "why_off_index": "Private B2B video adtech platform with no consumer identity; small enough to be invisible to employer-ranking indexes; operates purely as infrastructure.",
+    "source_url": "https://chocolateplatform.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Stream Data Centers",
+    "domain": "streamdatacenters.com",
+    "cluster": 5,
+    "matched_capabilities": ["data-center-operations"],
+    "activity_evidence": "Develops and operates wholesale colocation and build-to-suit data center facilities across Dallas, Phoenix, Chicago, San Antonio, and Atlanta, with over 90% of inventory leased to Fortune 100 customers.",
+    "why_off_index": "Private wholesale data center developer within the Apollo ecosystem; purely B2B infrastructure with no consumer brand; absent from all employer-ranking lists.",
+    "source_url": "https://streamdatacenters.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "CoreSite",
+    "domain": "coresite.com",
+    "cluster": 5,
+    "matched_capabilities": ["data-center-operations"],
+    "activity_evidence": "Owns and operates 30 network-dense, cloud-enabled data centers totaling 4.8 million square feet across 11 U.S. markets, providing high-density colocation, low-latency interconnection, and cloud onramps.",
+    "why_off_index": "Colocation REIT infrastructure provider; entirely B2B; no consumer presence; never appears in best-places-to-work rankings aimed at branded employers.",
+    "source_url": "https://coresite.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Netrality Data Centers",
+    "domain": "netrality.com",
+    "cluster": 5,
+    "matched_capabilities": ["data-center-operations"],
+    "activity_evidence": "Provides strategic interconnection and colocation services through carrier-neutral urban edge-focused data center facilities designed for direct connects to SaaS, cloud, and network providers.",
+    "why_off_index": "Private colocation operator focused on network interconnection; B2B infrastructure with no consumer brand; invisible to employer-brand rankings.",
+    "source_url": "https://netrality.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Havok",
+    "domain": "havok.com",
+    "cluster": 5,
+    "matched_capabilities": ["developer-platform", "content-production"],
+    "activity_evidence": "Provides production-tested game middleware — Havok Physics, Havok Navigation, and Havok Cloth — used in hundreds of AAA games, with integrations for Unreal Engine 5 and proprietary engines on all major gaming platforms.",
+    "why_off_index": "Private B2B game middleware company headquartered in Ireland; exclusively a developer tools vendor with no consumer product; entirely absent from employer-ranking lists.",
+    "source_url": "https://havok.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "CRI Middleware",
+    "domain": "criware.com",
+    "cluster": 5,
+    "matched_capabilities": ["developer-platform", "content-production"],
+    "activity_evidence": "Develops foundational audio, video, animation, and runtime middleware technologies — CRIWARE — that integrate with Unity and Unreal Engine pipelines for games, embedded platforms, and performance-critical applications.",
+    "why_off_index": "Small Japan-based B2B middleware company; no consumer brand; entirely a developer-facing infrastructure vendor; invisible to employer-ranking indexes.",
+    "source_url": "https://criware.com/",
+    "confidence": 0.89
+  },
+  {
+    "company": "Crytek",
+    "domain": "crytek.com",
+    "cluster": 5,
+    "matched_capabilities": ["developer-platform", "content-production"],
+    "activity_evidence": "Develops and licenses CRYENGINE, a 3D game development engine used to create games across PC, consoles, and VR, alongside publishing its own game titles and providing development technology to other studios.",
+    "why_off_index": "Germany-based independent game engine and studio; no US employer-brand presence; operates primarily B2B on the engine licensing side; absent from US employer-ranking lists.",
+    "source_url": "https://crytek.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "LOOM",
+    "domain": "loompost.tv",
+    "cluster": 5,
+    "matched_capabilities": ["content-production"],
+    "activity_evidence": "Operates a full-service post-production studio providing editorial, color grading, VFX, animation, finishing, and mastering for Netflix, Hulu, Amazon, and international film studios across Los Angeles and Brussels.",
+    "why_off_index": "Small private post-production house; B2B service vendor invisible to consumers; too small for employer-ranking consideration; no consumer brand of its own.",
+    "source_url": "https://loompost.tv/",
+    "confidence": 0.85
+  },
+  {
+    "company": "CDNetworks",
+    "domain": "cdnetworks.com",
+    "cluster": 5,
+    "matched_capabilities": ["data-center-operations", "content-production"],
+    "activity_evidence": "Delivers globally distributed content delivery network services through 3,000+ points of presence, offering web performance, media delivery, enterprise application acceleration, cloud security, and colocation services.",
+    "why_off_index": "APAC-origin B2B CDN and edge infrastructure provider; no consumer brand; operates entirely as infrastructure for other businesses; absent from US employer-ranking lists.",
+    "source_url": "https://cdnetworks.com/",
+    "confidence": 0.87
+  }
+]

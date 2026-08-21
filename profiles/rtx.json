@@ -1,0 +1,82 @@
+{
+  "slug": "rtx",
+  "company": "RTX",
+  "domain": "rtx.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures aerospace and defense products through Collins Aerospace, including electric power systems, flight control systems, avionics, engine nacelles, and aircraft interiors for commercial and military customers",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs, produces, and services commercial and military aircraft engines through Pratt & Whitney, including engines for the F-35 and A320neo family",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.9
+    },
+    {
+      "statement": "develops and manufactures advanced defense systems through Raytheon including missile systems, radar systems (SPY-6 family), and electronic warfare capabilities for military customers",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides aftermarket maintenance, overhaul, spare parts, and technical support for commercial airlines and government customers through Collins Aerospace and Pratt & Whitney service organizations",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.88
+    },
+    {
+      "statement": "produces critical munitions, decoy systems (MALD), and electronic warfare systems for US and allied military forces",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.88
+    },
+    {
+      "statement": "serves commercial and government customers in original equipment and aftermarket segments across the aerospace industry in 150+ countries",
+      "source_url": "https://www.rtx.com/raytheon",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "aircraft-engine-manufacturing",
+    "aerospace-systems-integration",
+    "missile-systems",
+    "radar-systems",
+    "avionics-and-flight-systems",
+    "aftermarket-mro-services",
+    "electronic-warfare",
+    "defense-prime-contractor",
+    "commercial-aviation-components",
+    "space-and-satellite"
+  ],
+  "function_mix": [
+    { "family": "aerospace-and-defense-engineers", "weight": 0.35 },
+    { "family": "manufacturing-and-assembly-technicians", "weight": 0.28 },
+    { "family": "program-management", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.12 },
+    { "family": "quality-and-safety", "weight": 0.08 },
+    { "family": "contracts-and-government-affairs", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "design", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Collins Aerospace",
+      "weight": 0.35,
+      "capability_tags": ["aerospace-systems-integration", "avionics-and-flight-systems", "commercial-aviation-components", "aftermarket-mro-services"]
+    },
+    {
+      "name": "Pratt & Whitney",
+      "weight": 0.35,
+      "capability_tags": ["aircraft-engine-manufacturing", "aftermarket-mro-services"]
+    },
+    {
+      "name": "Raytheon",
+      "weight": 0.30,
+      "capability_tags": ["missile-systems", "radar-systems", "electronic-warfare", "defense-prime-contractor"]
+    }
+  ],
+  "name_reality_gap": "RTX is indexed as 'Aviation and Aerospace Component Manufacturing,' which significantly understates its defense role. Raytheon (one of RTX's three segments) is a major prime defense contractor building missiles, radars, and electronic warfare systems — it is as much a weapons manufacturer as an aerospace parts company. The RTX corporate rebrand from Raytheon Technologies obscures the defense weapons heritage.",
+  "sources": [
+    { "url": "https://www.rtx.com/raytheon", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "RTX main website pages (who-we-are/our-company, our-businesses) returned 404 or timed out. Raytheon segment page loaded. RTX 10-K accessed via ExaSearch provided detailed segment descriptions for Collins Aerospace, Pratt & Whitney, and Raytheon. Segment weights are approximate equal split based on known RTX reporting.",
+  "extraction_confidence": 0.85
+}

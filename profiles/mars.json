@@ -1,0 +1,81 @@
+{
+  "slug": "mars",
+  "company": "Mars",
+  "domain": "mars.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and sells pet nutrition products under brands including Royal Canin, Pedigree, Whiskas, Cesar, and Waltham through 100,000+ Petcare associates serving half the world's pets",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates VCA, AniCura, and Banfield Pet Hospital veterinary clinic chains providing clinical veterinary care and specialty animal health services",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "manufactures and sells confectionery and snacking products including M&M's, Snickers, Twix, Milky Way, Skittles, Starburst, Extra gum, Kind bars, and Pringles (via Kellanova acquisition)",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "produces and sells food and nutrition products including Ben's Original rice, Dolmio pasta sauces, and Tasty Bite meal products",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates as a private, family-owned company for over 100 years with approximately 150,000 associates and no public financial disclosure",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "completed acquisition of Kellanova (maker of Pringles, Pop-Tarts, Cheez-It, RXBAR) in 2024/2025, substantially expanding the snacking segment",
+      "source_url": "https://www.mars.com/about",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "consumer-packaged-goods-manufacturing",
+    "pet-food-production",
+    "veterinary-clinic-operations",
+    "confectionery-production",
+    "global-brand-management",
+    "food-manufacturing",
+    "animal-genetics-diagnostics",
+    "cold-chain-logistics",
+    "franchise-retail-distribution"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-production", "weight": 0.30 },
+    { "family": "veterinary-and-clinical", "weight": 0.20 },
+    { "family": "sales-and-commercial", "weight": 0.20 },
+    { "family": "supply-chain-and-logistics", "weight": 0.15 },
+    { "family": "research-and-development", "weight": 0.10 },
+    { "family": "corporate-and-support", "weight": 0.05 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Petcare (nutrition + health services)",
+      "weight": 0.45,
+      "capability_tags": ["pet-food-production", "veterinary-clinic-operations", "animal-genetics-diagnostics"]
+    },
+    {
+      "name": "Snacking (confectionery, snacks via Kellanova)",
+      "weight": 0.45,
+      "capability_tags": ["confectionery-production", "consumer-packaged-goods-manufacturing", "global-brand-management"]
+    },
+    {
+      "name": "Food & Nutrition",
+      "weight": 0.10,
+      "capability_tags": ["food-manufacturing", "consumer-packaged-goods-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "The name 'Mars' evokes chocolate and candy, but by headcount and arguably by revenue the company is now as much a pet care company as a confectionery company — it operates a network of veterinary hospitals and is the world's largest pet food company. The index label 'Manufacturing & Energy' is technically accurate for some activities but completely misses the veterinary clinical services dimension.",
+  "sources": [
+    { "url": "https://www.mars.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Only the about page was accessible (history and what-we-do pages returned 404). Brands detail sourced from ExaAnswer research synthesis (mars.com/our-brands). Mars is a private company with no public financial statements. Segment weight estimates are rough.",
+  "extraction_confidence": 0.80
+}

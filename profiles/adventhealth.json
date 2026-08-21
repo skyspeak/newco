@@ -1,0 +1,60 @@
+{
+  "slug": "adventhealth",
+  "company": "AdventHealth",
+  "domain": "adventhealth.com",
+  "activity_statements": [
+    {
+      "statement": "operates 50+ hospital campuses and hundreds of outpatient care sites across nine states, delivering inpatient and outpatient clinical care",
+      "source_url": "https://www.adventhealth.com/who-we-are",
+      "confidence": 0.95
+    },
+    {
+      "statement": "employs 100,000+ caregivers across physician practices, hospitals, outpatient clinics, skilled nursing facilities, home health agencies, and hospice centers",
+      "source_url": "https://www.adventhealth.com/who-we-are",
+      "confidence": 0.95
+    },
+    {
+      "statement": "coordinates value-based care and population health management through the AdventHealth Population Health Services Organization (PHSO) and AdventHealth Provider Network (AHPN)",
+      "source_url": "https://www.adventhealth.com/who-we-are",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides whole-person care integrating physical, emotional, and spiritual wellness under a Christian mission of 'Extending the Healing Ministry of Christ'",
+      "source_url": "https://www.adventhealth.com/who-we-are",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers skilled nursing, home health, and hospice services as part of a post-acute care continuum",
+      "source_url": "https://www.adventhealth.com/who-we-are",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "inpatient-hospital-operations",
+    "outpatient-clinic-operations",
+    "population-health-management",
+    "value-based-care",
+    "skilled-nursing-facilities",
+    "home-health-services",
+    "hospice-care",
+    "physician-practice-management"
+  ],
+  "function_mix": [
+    { "family": "clinical-nursing-and-allied-health", "weight": 0.40 },
+    { "family": "physicians-and-advanced-practice", "weight": 0.20 },
+    { "family": "hospital-operations-and-administration", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "finance-and-billing", "weight": 0.10 },
+    { "family": "facilities-and-environmental-services", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "AdventHealth's name does not readily signal the organization's scale (50+ hospitals, nine states, 100,000+ caregivers) or its Seventh-day Adventist religious mission. The 'Hospitals & Health Care' label is accurate at a category level but understates that it is a fully integrated system spanning acute, post-acute, and population health.",
+  "sources": [
+    { "url": "https://www.adventhealth.com/who-we-are", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Multiple AdventHealth URLs (hospitals-and-locations, about-adventhealth, careers What-We-Do) returned 404 or 500 errors. Who-we-are page provided sufficient detail for a solid profile. Financial data unavailable (private nonprofit).",
+  "extraction_confidence": 0.82
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "foot-locker",
+  "company": "Foot Locker",
+  "domain": "footlocker.com",
+  "activity_statements": [
+    {
+      "statement": "operates specialty athletic footwear and apparel retail stores globally under Foot Locker, Kids Foot Locker, Champs Sports, WSS, and atmos banners",
+      "source_url": "https://www.footlocker.com/en/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells branded athletic footwear from Nike, Adidas, New Balance, Jordan, and other major athletic brands to consumers across North America, Europe, Asia, and Australia",
+      "source_url": "https://www.footlocker.com/en/about-us",
+      "confidence": 0.8
+    },
+    {
+      "statement": "operates the FLX loyalty program rewarding repeat purchases with points and exclusive access",
+      "source_url": "https://www.footlocker.com/en/about-us",
+      "confidence": 0.8
+    },
+    {
+      "statement": "operates e-commerce platforms alongside physical store networks for omni-channel sneaker and athletic apparel retail",
+      "source_url": "https://www.footlocker.com/en/about-us",
+      "confidence": 0.8
+    },
+    {
+      "statement": "serves the global sneaker culture community with curated brand assortments, exclusive releases, and licensed store presence in Europe, the Middle East, and Asia",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "athletic-footwear-retail",
+    "omni-channel-retail-operations",
+    "store-network-management",
+    "loyalty-program-management",
+    "brand-curation-and-exclusive-access",
+    "sneaker-culture-community",
+    "e-commerce-and-digital-retail",
+    "global-retail-franchise-and-licensing"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations-and-associates", "weight": 0.5 },
+    { "family": "merchandising-and-buying", "weight": 0.15 },
+    { "family": "e-commerce-and-technology", "weight": 0.15 },
+    { "family": "supply-chain-and-logistics", "weight": 0.1 },
+    { "family": "marketing-and-brand", "weight": 0.07 },
+    { "family": "corporate-and-administrative", "weight": 0.03 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "none — Foot Locker is straightforwardly an athletic footwear retailer. However, it serves as a cultural hub for sneaker culture beyond pure retail, with curated brand access and exclusive drops that make it part entertainment/community platform.",
+  "sources": [
+    { "url": "https://www.footlocker.com/en/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://exa.ai/library/organization/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Foot Locker's about-us page returned a JS shell with almost no content. Basic operational description sourced from Exa search results referencing the Dick's Sporting Goods company history (which mentioned Foot Locker banners). Profile is relatively sparse. No 10-K retrieved directly.",
+  "extraction_confidence": 0.7
+}

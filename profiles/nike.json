@@ -1,0 +1,95 @@
+{
+  "slug": "nike",
+  "company": "Nike",
+  "domain": "nike.com",
+  "activity_statements": [
+    {
+      "statement": "designs and develops athletic footwear, apparel, and equipment for a wide variety of sports and fitness activities under the Nike, Jordan, and Converse brands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.97
+    },
+    {
+      "statement": "markets and sells products through Nike Direct (owned retail stores and digital platforms) and wholesale accounts including sporting goods retailers and department stores in nearly every country",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.97
+    },
+    {
+      "statement": "outsources nearly all footwear and apparel manufacturing to independent contract factories primarily outside the US, managing 184 strategic Tier 2 material suppliers as of May 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates digital commerce platforms in 40+ countries and 72 distribution centers outside the US to fulfill direct-to-consumer orders",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.93
+    },
+    {
+      "statement": "runs innovation research to design performance footwear and apparel that reduces injury, maximizes athletic comfort, and decreases environmental impact",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.9
+    },
+    {
+      "statement": "markets apparel with licensed college and professional team and league logos through wholesale and direct-to-consumer channels",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates Converse as a separate segment, designing, marketing, licensing, and selling casual sneakers, apparel, and accessories globally",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "confidence": 0.92
+    },
+    {
+      "statement": "generated FY2025 total revenue of approximately $44B, with footwear at $29.5B, apparel $13B, and Nike Direct contributing $18.8B",
+      "source_url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2025/NIKE-Inc--Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "confidence": 0.92
+    }
+  ],
+  "capability_tags": [
+    "athletic-footwear-design",
+    "apparel-design",
+    "direct-to-consumer-retail",
+    "digital-commerce-platform",
+    "contract-manufacturing-management",
+    "global-brand-marketing",
+    "licensed-ip-management",
+    "global-distribution-network",
+    "athlete-performance-research",
+    "omnichannel-retail"
+  ],
+  "function_mix": [
+    { "family": "product-design-and-development", "weight": 0.25 },
+    { "family": "retail-and-store-operations", "weight": 0.22 },
+    { "family": "marketing-and-brand", "weight": 0.18 },
+    { "family": "software-engineering", "weight": 0.12 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.12 },
+    { "family": "data-and-analytics", "weight": 0.06 },
+    { "family": "distribution-and-logistics", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "software", "marketplace"],
+  "segments": [
+    {
+      "name": "Nike Brand — North America",
+      "weight": 0.43,
+      "capability_tags": ["direct-to-consumer-retail", "athletic-footwear-design", "digital-commerce-platform"]
+    },
+    {
+      "name": "Nike Brand — International (EMEA, Greater China, APLA)",
+      "weight": 0.48,
+      "capability_tags": ["global-distribution-network", "omnichannel-retail", "contract-manufacturing-management"]
+    },
+    {
+      "name": "Converse",
+      "weight": 0.09,
+      "capability_tags": ["licensed-ip-management", "direct-to-consumer-retail"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Retail' understates the reality: Nike is primarily a design and brand-management company that outsources nearly all manufacturing; its largest operational investments are in product design/innovation, digital platforms, and global brand marketing — not store operations or physical retail infrastructure.",
+  "sources": [
+    { "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm", "kind": "10k-item1", "retrieved_at": "2026-08-19" },
+    { "url": "https://careers.nike.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2025/NIKE-Inc--Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx", "kind": "newsroom", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "nike.com returned 404/500 errors; profile built from SEC 10-K (FY2025), Nike careers page, and earnings release. Very high confidence due to detailed 10-K content.",
+  "extraction_confidence": 0.93
+}

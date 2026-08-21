@@ -1,0 +1,67 @@
+{
+  "slug": "delta-air-lines",
+  "company": "Delta Air Lines",
+  "domain": "delta.com",
+  "activity_statements": [
+    {
+      "statement": "operates scheduled passenger air service to up to 275 destinations in 50 countries for nearly 200 million travelers annually",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "runs up to 4,000 daily flight departures across its domestic and international network",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Delta Sky Club airport lounges for premium members and credit card holders",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells advertising inventory to brands seeking to reach a high-income frequent-traveler audience",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.8
+    },
+    {
+      "statement": "operates a frequent-flyer loyalty program generating revenue through miles sold to co-brand credit card and airline partners",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs roughly 100,000 people across flight operations, cabin service, ground handling, maintenance, and corporate functions",
+      "source_url": "https://www.delta.com/us/en/about-delta/overview",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "scheduled-passenger-air-service",
+    "hub-and-spoke-network-operations",
+    "aircraft-maintenance-and-repair",
+    "airport-lounge-operations",
+    "loyalty-program-management",
+    "co-brand-credit-card-partnership",
+    "cargo-air-transport",
+    "ground-handling-operations",
+    "revenue-management-and-pricing",
+    "sustainability-and-carbon-management"
+  ],
+  "function_mix": [
+    { "family": "flight-operations", "weight": 0.25 },
+    { "family": "cabin-crew-and-customer-service", "weight": 0.2 },
+    { "family": "aircraft-maintenance-and-technical", "weight": 0.15 },
+    { "family": "ground-operations-and-airport-services", "weight": 0.15 },
+    { "family": "software-engineering-and-technology", "weight": 0.1 },
+    { "family": "revenue-and-commercial-management", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — Delta Air Lines is clearly identified as an airline. However, the loyalty program and co-brand credit card partnership represent a meaningful financial segment not visible from the brand name alone.",
+  "sources": [
+    { "url": "https://www.delta.com/us/en/about-delta/overview", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided fleet size, destinations, and headcount. Loyalty and cargo revenue detail from industry knowledge of Delta's 2024 financial structure; no 10-K segment data retrieved directly.",
+  "extraction_confidence": 0.82
+}

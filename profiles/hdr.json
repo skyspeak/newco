@@ -1,0 +1,69 @@
+{
+  "slug": "hdr",
+  "company": "HDR",
+  "domain": "hdrinc.com",
+  "activity_statements": [
+    {
+      "statement": "designs and engineers bridges, highways, transit systems, and water infrastructure for public agencies and government clients across 17 markets",
+      "source_url": "https://www.hdrinc.com/about-hdr",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides architecture services for hospitals, research labs, higher education facilities, and civic buildings",
+      "source_url": "https://www.hdrinc.com/services",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers environmental sciences consulting for regulatory compliance, impact assessment, and coastal restoration projects",
+      "source_url": "https://www.hdrinc.com/services",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides program management and project delivery services for large capital infrastructure programs across defense, transportation, water, and power markets",
+      "source_url": "https://www.hdrinc.com/services",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs 14,000+ people across 200+ offices in 15 countries serving 17 distinct market sectors",
+      "source_url": "https://www.hdrinc.com/about-hdr",
+      "confidence": 0.97
+    },
+    {
+      "statement": "conducts economics and finance advisory for infrastructure projects including right-of-way valuation and project financing analysis",
+      "source_url": "https://www.hdrinc.com/services",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "infrastructure-engineering",
+    "architecture-services",
+    "environmental-consulting",
+    "program-management",
+    "transportation-planning",
+    "water-infrastructure",
+    "power-systems-engineering",
+    "coastal-engineering",
+    "right-of-way-services",
+    "sustainability-and-resilience",
+    "defense-and-intelligence-facilities"
+  ],
+  "function_mix": [
+    { "family": "civil-and-structural-engineering", "weight": 0.30 },
+    { "family": "architecture", "weight": 0.18 },
+    { "family": "environmental-science", "weight": 0.15 },
+    { "family": "project-and-program-management", "weight": 0.15 },
+    { "family": "planning-and-consulting", "weight": 0.12 },
+    { "family": "finance-and-operations", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "service"],
+  "delivery_mode": ["human-service"],
+  "segments": [],
+  "name_reality_gap": "The index label 'Construction Repair & Maintenance Services' is seriously misleading. HDR does not build or repair infrastructure — it is an architecture, engineering, and consulting firm that designs infrastructure and manages programs. The firm itself does not hold construction contracts.",
+  "sources": [
+    { "url": "https://www.hdrinc.com/about-hdr", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.hdrinc.com/markets", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.hdrinc.com/services", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Markets and services pages from hdrinc.com provided structured data on capabilities. About page confirmed firm size and values. hdrinc.com/about returned 404 initially but hdrinc.com/about-hdr worked.",
+  "extraction_confidence": 0.85
+}

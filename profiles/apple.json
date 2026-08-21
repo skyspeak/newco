@@ -1,0 +1,93 @@
+{
+  "slug": "apple",
+  "company": "Apple",
+  "domain": "apple.com",
+  "activity_statements": [
+    {
+      "statement": "designs, manufactures, and sells consumer electronics including iPhone, Mac, iPad, Apple Watch, Apple Vision Pro, and AirPods to individual and business consumers worldwide",
+      "source_url": "https://www.apple.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates a digital services subscription business including Apple TV+ (original streaming video), Apple Music (audio streaming), Apple Arcade (mobile games), Apple Fitness+, and Apple News+ for end consumers",
+      "source_url": "https://www.apple.com/services/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and licenses iOS, macOS, watchOS, and visionOS operating systems that power its hardware product lines",
+      "source_url": "https://www.apple.com/iphone/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Apple Store retail locations and an online store with two-hour delivery, Personal Setup specialist sessions, and Guided Shopping for direct-to-consumer sales",
+      "source_url": "https://www.apple.com/iphone/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "offers Apple Card (consumer credit card), Apple Pay (mobile payments), Apple Trade In, and Apple Upgrade (device leasing program) as financial services for consumers",
+      "source_url": "https://www.apple.com/iphone/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "designs custom silicon (Apple-branded chips) for its own hardware to optimize performance and AI inference on device",
+      "source_url": "https://www.apple.com/mac/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates iCloud storage and sync platform enabling cross-device data continuity for consumers across Apple hardware",
+      "source_url": "https://www.apple.com/iphone/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "sells Mac computers (MacBook Neo, MacBook Air, MacBook Pro, iMac, Mac mini, Mac Studio) to education, creative professional, and consumer segments with education pricing programs",
+      "source_url": "https://www.apple.com/mac/",
+      "confidence": 0.93
+    }
+  ],
+  "capability_tags": [
+    "consumer-hardware-design",
+    "semiconductor-design",
+    "mobile-os-platform",
+    "retail-store-operations",
+    "digital-content-streaming",
+    "app-marketplace",
+    "consumer-payments",
+    "device-trade-in-leasing",
+    "supply-chain-manufacturing",
+    "on-device-ai",
+    "developer-ecosystem",
+    "subscription-services"
+  ],
+  "function_mix": [
+    { "family": "hardware-engineering", "weight": 0.25 },
+    { "family": "software-engineering", "weight": 0.30 },
+    { "family": "retail-store-operations", "weight": 0.15 },
+    { "family": "supply-chain-and-logistics", "weight": 0.10 },
+    { "family": "design-and-creative", "weight": 0.10 },
+    { "family": "content-and-media", "weight": 0.05 },
+    { "family": "finance-and-legal", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "operate", "service"],
+  "delivery_mode": ["software", "physical-asset", "content", "marketplace"],
+  "segments": [
+    {
+      "name": "Products (Hardware)",
+      "weight": 0.60,
+      "capability_tags": ["consumer-hardware-design", "semiconductor-design", "retail-store-operations", "supply-chain-manufacturing"]
+    },
+    {
+      "name": "Services",
+      "weight": 0.40,
+      "capability_tags": ["digital-content-streaming", "app-marketplace", "subscription-services", "consumer-payments", "developer-ecosystem"]
+    }
+  ],
+  "name_reality_gap": "The name correctly signals a technology company, but the index label 'Computers and Electronics Manufacturing' understates that Apple is now heavily a services and software company — Services is its fastest-growing and highest-margin segment, encompassing streaming, gaming, payments, and app distribution.",
+  "sources": [
+    { "url": "https://www.apple.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.apple.com/iphone/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.apple.com/mac/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.apple.com/services/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Jobs/teams page returned a 500 error. Strong data from product and services pages. No 10-K accessed but product portfolio is well-documented publicly.",
+  "extraction_confidence": 0.9
+}

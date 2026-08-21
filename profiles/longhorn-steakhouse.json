@@ -1,0 +1,52 @@
+{
+  "slug": "longhorn-steakhouse",
+  "company": "LongHorn Steakhouse",
+  "domain": "longhornsteakhouse.com",
+  "activity_statements": [
+    {
+      "statement": "operates 500+ casual dining steakhouse restaurants serving fresh, never-frozen steaks grilled to order across the United States",
+      "source_url": "https://longhornsteakhouse.com/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates as a subsidiary of Darden Restaurants since 2007, sharing corporate infrastructure, supply chain, and HR systems",
+      "source_url": "https://longhornsteakhouse.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "has donated nearly 28 million pounds of fresh food to community food banks since 2008",
+      "source_url": "https://longhornsteakhouse.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "trains kitchen staff to grill steaks to precise temperature specifications without shortcuts or pre-cooking",
+      "source_url": "https://longhornsteakhouse.com/about-us",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "casual-dining-restaurant-operations",
+    "full-service-restaurant-staffing",
+    "food-preparation-and-quality-control",
+    "supply-chain-and-fresh-protein-sourcing",
+    "customer-hospitality-training",
+    "restaurant-brand-management",
+    "community-food-donation-program"
+  ],
+  "function_mix": [
+    { "family": "restaurant-crew-and-kitchen-operations", "weight": 0.55 },
+    { "family": "restaurant-management", "weight": 0.2 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.1 },
+    { "family": "marketing-and-brand", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — LongHorn Steakhouse is a steakhouse chain and the name accurately describes the business. As a Darden subsidiary, its back-office, supply chain, and corporate functions are shared with Olive Garden, Yard House, and other Darden brands.",
+  "sources": [
+    { "url": "https://longhornsteakhouse.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was informative. LongHorn is a Darden subsidiary; standalone 10-K not available. Exact location count (500+) taken from about page.",
+  "extraction_confidence": 0.85
+}

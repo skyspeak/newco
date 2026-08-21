@@ -1,0 +1,71 @@
+{
+  "slug": "marriott-international",
+  "company": "Marriott International",
+  "domain": "marriott.com",
+  "activity_statements": [
+    {
+      "statement": "franchises and manages 9,900+ hotel properties across 30+ brands in 146 countries and territories under an asset-light model",
+      "source_url": "https://www.marriott.com/marriott/aboutmarriott.mi",
+      "confidence": 0.98
+    },
+    {
+      "statement": "operates the Marriott Bonvoy loyalty program connecting 200+ million members to hotel bookings, experiences, and rewards across its global portfolio",
+      "source_url": "https://www.marriott.com/marriott/aboutmarriott.mi",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manages luxury hotel brands (Ritz-Carlton, St. Regis, W Hotels, Bulgari) delivering premium hospitality for high-end leisure and business travelers",
+      "source_url": "https://www.marriott.com/marriott/aboutmarriott.mi",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides select-service hotel operations (Courtyard, Fairfield, Moxy) for value-conscious and business travelers at scale",
+      "source_url": "https://www.marriott.com/marriott/aboutmarriott.mi",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manages extended-stay properties (Residence Inn, Element, TownePlace Suites) for long-duration guests including corporate relocations",
+      "source_url": "https://www.marriott.com/marriott/aboutmarriott.mi",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "hotel-management-contracts",
+    "franchise-management",
+    "loyalty-program",
+    "luxury-hospitality",
+    "select-service-hotels",
+    "extended-stay-hotels",
+    "asset-light-hospitality",
+    "meetings-and-events",
+    "global-distribution-system"
+  ],
+  "function_mix": [
+    { "family": "hospitality-operations", "weight": 0.45 },
+    { "family": "food-and-beverage", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.1 },
+    { "family": "sales-and-marketing", "weight": 0.15 },
+    { "family": "real-estate-development", "weight": 0.05 },
+    { "family": "finance-and-accounting", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service", "software"],
+  "segments": [
+    {
+      "name": "U.S. and Canada (managed + franchised)",
+      "weight": 0.55,
+      "capability_tags": ["hotel-management-contracts", "franchise-management", "loyalty-program"]
+    },
+    {
+      "name": "International",
+      "weight": 0.45,
+      "capability_tags": ["hotel-management-contracts", "luxury-hospitality"]
+    }
+  ],
+  "name_reality_gap": "none — Marriott International clearly signals a global hotel company. Notably, Marriott is primarily a fee-based management and franchising business, not a hotel owner — a distinction invisible to most outsiders.",
+  "sources": [
+    { "url": "https://www.marriott.com/marriott/aboutmarriott.mi", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page loaded and provided concrete data (9,900+ properties, 146 countries, 30+ brands). Asset-light model evident from page content. Bonvoy membership scale (200M+) is well-documented public fact.",
+  "extraction_confidence": 0.88
+}

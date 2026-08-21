@@ -1,0 +1,63 @@
+{
+  "slug": "grainger",
+  "company": "Grainger",
+  "domain": "grainger.com",
+  "activity_statements": [
+    {
+      "statement": "distributes 1.5 million+ industrial-quality MRO (maintenance, repair, and operations) products including safety equipment, material handling tools, HVAC, electrical, and plumbing supplies to 4.5 million+ business customers worldwide",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates KeepStock on-site inventory management services providing vending machines and managed inventory replenishment programs inside customer facilities",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides consultative B2B sales, technical product expertise, and e-commerce ordering platform for industrial customers seeking to reduce total operating costs",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates approximately 245 US branches and 32 Canadian branches for local pickup and delivery of industrial supplies",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates Zoro.com as a consumer-facing online MRO marketplace subsidiary serving smaller businesses",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.85
+    },
+    {
+      "statement": "generates approximately $17.9 billion in annual revenue serving customers in 53 countries with ~11,000 employees",
+      "source_url": "https://www.linkedin.com/company/w.w.-grainger",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "mro-distribution",
+    "industrial-supply-chain",
+    "b2b-e-commerce",
+    "on-site-inventory-management",
+    "consultative-b2b-sales",
+    "safety-products-distribution",
+    "industrial-branch-network",
+    "supplier-managed-inventory"
+  ],
+  "function_mix": [
+    { "family": "sales-and-account-management", "weight": 0.35 },
+    { "family": "operations-and-warehouse", "weight": 0.25 },
+    { "family": "customer-service", "weight": 0.15 },
+    { "family": "technology-and-e-commerce", "weight": 0.15 },
+    { "family": "finance-and-corporate", "weight": 0.10 }
+  ],
+  "value_chain": ["distribute", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [],
+  "name_reality_gap": "Indexed as 'Manufacturing' but Grainger manufactures nothing — it is a wholesale distributor and B2B marketplace for industrial supplies. The confusion may arise because it sells to manufacturers, but its core competency is supply chain aggregation, inventory management, and consultative sales to industrial buyers.",
+  "sources": [
+    { "url": "https://www.linkedin.com/company/w.w.-grainger", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Grainger.com pages consistently returned 'technical difficulty' errors for all paths tried (know-how/about-grainger, solutions, content/about-grainger). Investor relations page timed out. Careers page timed out. Profile built from Exa library organization data sourced from LinkedIn public profile and SEC filings. Data is reliable for basic facts. Direct site access would improve detail on product categories and KeepStock specifics.",
+  "extraction_confidence": 0.78
+}

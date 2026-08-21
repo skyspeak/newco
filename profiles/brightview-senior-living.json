@@ -1,0 +1,53 @@
+{
+  "slug": "brightview-senior-living",
+  "company": "Brightview Senior Living",
+  "domain": "brightviewseniorliving.com",
+  "activity_statements": [
+    {
+      "statement": "builds, owns, and operates 45+ rental senior living communities across 8 East Coast states providing independent living, assisted living, and memory care",
+      "source_url": "https://www.brightviewseniorliving.com/about-us/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "delivers Wellspring Village dementia and Alzheimer's memory care neighborhoods within its senior living communities",
+      "source_url": "https://www.brightviewseniorliving.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides residents with daily care services, chef-prepared meals, transportation, and wellness programming (SPICE model) in a rental format with no large entrance fee",
+      "source_url": "https://www.brightviewseniorliving.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and acquires new senior living community sites, having invested more than $2 billion in senior housing development",
+      "source_url": "https://www.brightviewseniorliving.com/about-us/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "senior-living-operations",
+    "assisted-living",
+    "memory-care",
+    "independent-senior-living",
+    "residential-real-estate-development",
+    "clinical-care-delivery",
+    "food-and-dining-services",
+    "wellness-programming"
+  ],
+  "function_mix": [
+    { "family": "direct-care-workers", "weight": 0.45 },
+    { "family": "culinary-and-hospitality", "weight": 0.2 },
+    { "family": "facility-operations", "weight": 0.15 },
+    { "family": "real-estate-development", "weight": 0.1 },
+    { "family": "healthcare-administration", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Indexed as 'Hospitality' — partially true in that hospitality-style amenities are part of the model, but the primary activity is residential senior care including assisted living and dementia care requiring nursing and clinical staffing, not a conventional hospitality operation.",
+  "sources": [
+    { "url": "https://www.brightviewseniorliving.com/about-us/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was detailed and concrete. Rental model (no entrance fee) is a notable business model distinction from other senior living operators.",
+  "extraction_confidence": 0.93
+}

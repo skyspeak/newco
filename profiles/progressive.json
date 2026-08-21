@@ -1,0 +1,76 @@
+{
+  "slug": "progressive",
+  "company": "Progressive",
+  "domain": "progressive.com",
+  "activity_statements": [
+    {
+      "statement": "underwrites and administers personal automobile insurance as the largest auto insurer in the U.S. with 35 million policies in force and $74.4B in 2024 net written premiums",
+      "source_url": "https://www.progressive.com/about/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "offers commercial auto insurance for small businesses with fleets including trucks, vans, and specialty vehicles",
+      "source_url": "https://www.progressive.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells homeowners, renters, and umbrella insurance policies to personal lines customers, often bundled with auto",
+      "source_url": "https://www.progressive.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates the Snapshot telematics program that uses driving behavior data to individually price personal auto insurance premiums",
+      "source_url": "https://www.progressive.com/about/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "distributes insurance through both direct digital/phone channels and a network of independent agents",
+      "source_url": "https://www.progressive.com/about/",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "auto-insurance-underwriting",
+    "property-insurance",
+    "telematics-pricing",
+    "claims-adjudication",
+    "actuarial-modeling",
+    "direct-to-consumer-insurance",
+    "independent-agent-distribution",
+    "data-driven-underwriting",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "claims-adjusting", "weight": 0.25 },
+    { "family": "actuarial-and-underwriting", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.2 },
+    { "family": "customer-service", "weight": 0.2 },
+    { "family": "data-and-analytics", "weight": 0.1 },
+    { "family": "risk-and-compliance", "weight": 0.05 }
+  ],
+  "value_chain": ["assure", "operate", "service"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [
+    {
+      "name": "Personal Lines (auto)",
+      "weight": 0.7,
+      "capability_tags": ["auto-insurance-underwriting", "telematics-pricing", "direct-to-consumer-insurance"]
+    },
+    {
+      "name": "Commercial Lines",
+      "weight": 0.2,
+      "capability_tags": ["auto-insurance-underwriting", "claims-adjudication"]
+    },
+    {
+      "name": "Property (home/renters)",
+      "weight": 0.1,
+      "capability_tags": ["property-insurance"]
+    }
+  ],
+  "name_reality_gap": "Indexed as 'Financial Services & Insurance' — accurate but undersells the data and tech intensity: Progressive's Snapshot telematics program and pricing algorithms make it as much a data-analytics and software company as an insurer. Growth of 21% YoY in premiums reflects scale, not the innovation model.",
+  "sources": [
+    { "url": "https://www.progressive.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page confirmed largest auto insurer status, 35M policies in force, $74.4B net written premium. Snapshot telematics is well-documented. Strong data available.",
+  "extraction_confidence": 0.9
+}

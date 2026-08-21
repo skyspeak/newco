@@ -1,0 +1,60 @@
+{
+  "slug": "epam-systems",
+  "company": "EPAM Systems",
+  "domain": "epam.com",
+  "activity_statements": [
+    {
+      "statement": "delivers custom software engineering and product development services to enterprises in financial services, healthcare, manufacturing, and other sectors",
+      "source_url": "https://www.epam.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "implements AI and generative AI transformation programs (AI.Run.Transform) for Fortune 2000 clients, recognized by Gartner as a GenAI consulting leader",
+      "source_url": "https://www.epam.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides digital experience design and UX consulting through EPAM Continuum for clients seeking product strategy and user experience transformation",
+      "source_url": "https://www.epam.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "supplies cloud architecture, data engineering, and platform engineering services partnering with Microsoft Azure, AWS, and Google Cloud",
+      "source_url": "https://www.epam.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates engineering talent delivery centers in Eastern Europe, India, Latin America, and other regions serving 345+ global enterprise clients",
+      "source_url": "https://www.epam.com/about",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "software-engineering-services",
+    "ai-implementation",
+    "cloud-migration",
+    "digital-product-development",
+    "data-engineering",
+    "ux-and-design-consulting",
+    "offshore-nearshore-delivery",
+    "genai-consulting",
+    "quality-assurance",
+    "platform-engineering"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.55 },
+    { "family": "ai-and-ml", "weight": 0.15 },
+    { "family": "ux-design", "weight": 0.1 },
+    { "family": "data-and-analytics", "weight": 0.1 },
+    { "family": "strategy-consulting", "weight": 0.1 }
+  ],
+  "value_chain": ["design", "service"],
+  "delivery_mode": ["software", "human-service", "advisory"],
+  "segments": [],
+  "name_reality_gap": "Name and index label ('Technology & AI') correctly describe an IT services company. However, EPAM is often mistaken for a product company — it is a pure services/consulting firm that builds products for others, not one that ships its own software products at scale.",
+  "sources": [
+    { "url": "https://www.epam.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Very detailed about page. Strong data on scale (62,750+ employees, 55+ countries, 345+ clients). AI offerings explicitly named. Function mix clearly dominated by software engineering headcount.",
+  "extraction_confidence": 0.93
+}

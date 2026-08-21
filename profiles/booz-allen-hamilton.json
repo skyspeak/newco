@@ -1,0 +1,67 @@
+{
+  "slug": "booz-allen-hamilton",
+  "company": "Booz Allen Hamilton",
+  "domain": "boozallen.com",
+  "activity_statements": [
+    {
+      "statement": "delivers AI solutions to the federal government as the leading AI provider with 2,500+ AI specialists building secure, mission-specific systems for civil and defense agencies",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides cybersecurity services with 8,000+ cyber professionals delivering intelligence-grade solutions to defend national security and critical infrastructure assets",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "modernizes legacy government IT systems through digital transformation, designing cloud-enabled infrastructure, platforms and applications for federal agencies",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers defense technology solutions for warfighters including rapid innovation programs that safeguard national security and maintain technological supremacy",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "develops space technology capabilities fusing AI, cyber and multi-modal data for domain awareness, ISR (intelligence, surveillance, reconnaissance) and battle management",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "invests in quantum-enabled and quantum-safe capabilities for government clients over a decade-long development program",
+      "source_url": "https://www.boozallen.com/expertise.html",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "government-technology-services",
+    "cybersecurity-operations",
+    "ai-and-machine-learning",
+    "cloud-migration",
+    "defense-technology",
+    "intelligence-community-support",
+    "national-security-consulting",
+    "space-domain-awareness",
+    "quantum-computing",
+    "digital-transformation",
+    "data-analytics-for-government"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.30 },
+    { "family": "cybersecurity", "weight": 0.25 },
+    { "family": "ai-and-data-science", "weight": 0.20 },
+    { "family": "management-consulting", "weight": 0.15 },
+    { "family": "domain-experts-scientists", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["software", "human-service", "advisory"],
+  "segments": [],
+  "name_reality_gap": "Labeled Information Technology; historically Booz Allen was known as a management consulting firm, but the activity evidence shows it is now primarily a defense-and-intelligence technology integrator with 8,000+ cyber professionals and 2,500+ AI specialists — far more a tech contractor than a management consultancy.",
+  "sources": [
+    { "url": "https://www.boozallen.com/about.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.boozallen.com/expertise.html", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Two strong sources. Headcount figures for AI (2,500+) and cyber (8,000+) practices directly quoted. Quantum and space practices noted but smaller. Government client concentration well established.",
+  "extraction_confidence": 0.92
+}

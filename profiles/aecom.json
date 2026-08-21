@@ -1,0 +1,80 @@
+{
+  "slug": "aecom",
+  "company": "AECOM",
+  "domain": "aecom.com",
+  "activity_statements": [
+    {
+      "statement": "delivers engineering, design, and construction management services for large infrastructure projects including bridges, tunnels, ports, stadiums, and towers for public and private sector clients globally",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides program management and advisory services for complex, multi-year capital programs for government and institutional clients",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers environmental services including air quality consulting, remediation and restoration, EHS compliance, environmental and social impact assessment, and permitting",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides architecture, urban planning, landscape architecture, and interior architecture services for large-scale public and private developments",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "conducts disaster recovery program management and life-sustaining infrastructure restoration for government clients following natural disasters",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides IT and cybersecurity infrastructure services and digital EHS/ESG solutions for large organizations",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.82
+    },
+    {
+      "statement": "structures and advises on public-private partnerships and alternative delivery models for infrastructure financing and construction",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.83
+    },
+    {
+      "statement": "offers cost management, risk management, and economics consulting for major capital projects",
+      "source_url": "https://www.aecom.com/services/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "infrastructure-engineering",
+    "program-management",
+    "environmental-remediation",
+    "ehs-compliance",
+    "construction-management",
+    "public-private-partnerships",
+    "disaster-recovery-ops",
+    "urban-planning",
+    "cost-management",
+    "it-and-cybersecurity-services",
+    "government-contracting",
+    "climate-adaptation-consulting"
+  ],
+  "function_mix": [
+    { "family": "civil-and-structural-engineering", "weight": 0.30 },
+    { "family": "program-and-project-management", "weight": 0.20 },
+    { "family": "environmental-sciences", "weight": 0.15 },
+    { "family": "architecture-and-design", "weight": 0.12 },
+    { "family": "advisory-and-consulting", "weight": 0.12 },
+    { "family": "finance-and-economics", "weight": 0.06 },
+    { "family": "it-and-digital-services", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["human-service", "advisory", "software"],
+  "segments": [],
+  "name_reality_gap": "Index label 'Civil Engineering' captures only one slice; AECOM also delivers environmental consulting, disaster recovery program management, public-private partnership advisory, IT/cybersecurity, and economics work — making it closer to a professional-services conglomerate than a traditional engineering firm.",
+  "sources": [
+    { "url": "https://www.aecom.com/services/", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.aecom.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page returned cached military exercise content (likely a stale crawl); services page provided reliable service taxonomy. Profile based on services page. Headcount and revenue data not gathered; private company details not available.",
+  "extraction_confidence": 0.82
+}

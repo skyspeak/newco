@@ -1,0 +1,58 @@
+{
+  "slug": "lululemon",
+  "company": "lululemon",
+  "domain": "lululemon.com",
+  "activity_statements": [
+    {
+      "statement": "designs and sells high-performance athletic apparel, footwear, and accessories for yoga, running, training, and other active pursuits through 800+ stores and e-commerce globally",
+      "source_url": "https://info.lululemon.com/about/our-story",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates 800+ company-owned retail stores across 24 market locations worldwide as the primary sales channel for premium athletic wear",
+      "source_url": "https://info.lululemon.com/about/our-story",
+      "confidence": 0.95
+    },
+    {
+      "statement": "builds community around fitness and wellness through in-store events, ambassador programs, and brand experiences to drive customer loyalty",
+      "source_url": "https://info.lululemon.com/about/our-story",
+      "confidence": 0.8
+    },
+    {
+      "statement": "employs 39,000 people across retail stores, distribution, corporate, and design functions",
+      "source_url": "https://info.lululemon.com/about/our-story",
+      "confidence": 0.9
+    },
+    {
+      "statement": "executes an international expansion strategy with priority markets in Asia and Europe to grow beyond the North American core",
+      "source_url": "https://info.lululemon.com/about/our-story",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "athletic-apparel-design",
+    "retail-store-operations",
+    "direct-to-consumer-retail",
+    "e-commerce-retail",
+    "brand-community-building",
+    "performance-apparel-manufacturing",
+    "global-retail-expansion"
+  ],
+  "function_mix": [
+    { "family": "retail-store-associates", "weight": 0.45 },
+    { "family": "product-design-and-development", "weight": 0.15 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.15 },
+    { "family": "software-and-e-commerce", "weight": 0.10 },
+    { "family": "marketing-and-brand", "weight": 0.08 },
+    { "family": "finance-and-operations", "weight": 0.07 }
+  ],
+  "value_chain": ["design", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [],
+  "name_reality_gap": "The 'Retail & Wholesale' label is accurate; what it hides is that lululemon is a premium brand built as much on community and culture as on fabric — and that its supply chain is entirely outsourced manufacturing, making design, brand, and retail the actual competencies.",
+  "sources": [
+    { "url": "https://info.lululemon.com/about/our-story", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Main lululemon.com pages timed out. info.lululemon.com about page loaded and provided key facts. Limited financial detail beyond employee count (39K) and store count (800+).",
+  "extraction_confidence": 0.8
+}

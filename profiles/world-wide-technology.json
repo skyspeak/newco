@@ -1,0 +1,60 @@
+{
+  "slug": "world-wide-technology",
+  "company": "World Wide Technology",
+  "domain": "wwt.com",
+  "activity_statements": [
+    {
+      "statement": "resells and integrates enterprise IT hardware and software (Cisco, NVIDIA, NetApp, Palo Alto, Microsoft, AWS) for large enterprise and government customers",
+      "source_url": "https://www.wwt.com/solutions",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates an Advanced Technology Center (ATC) running 30,000+ VMs and 1,000+ simultaneous on-demand labs enabling enterprise customers to proof-of-concept and validate IT solutions before deployment",
+      "source_url": "https://www.wwt.com/solutions",
+      "confidence": 0.92
+    },
+    {
+      "statement": "delivers AI-at-scale implementation services as a primary launch partner for the Red Hat AI Factory with NVIDIA, enabling enterprise AI industrialization",
+      "source_url": "https://www.wwt.com/solutions",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides cybersecurity consulting and security posture assessment services for enterprises and government clients under its ARMOR framework",
+      "source_url": "https://www.wwt.com/solutions",
+      "confidence": 0.88
+    },
+    {
+      "statement": "holds major U.S. Army contracts (GEMSS EA) to supply Cisco network security products and support services to the military",
+      "source_url": "https://www.wwt.com/solutions",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "it-product-resale",
+    "systems-integration",
+    "enterprise-ai-implementation",
+    "cybersecurity-services",
+    "technology-lab-services",
+    "cloud-infrastructure",
+    "government-it-contracting",
+    "network-engineering",
+    "managed-services",
+    "professional-services"
+  ],
+  "function_mix": [
+    { "family": "systems-engineering", "weight": 0.3 },
+    { "family": "software-engineering", "weight": 0.25 },
+    { "family": "ai-and-ml", "weight": 0.15 },
+    { "family": "cybersecurity", "weight": 0.15 },
+    { "family": "sales-and-presales", "weight": 0.15 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["software", "human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "Indexed as 'Information Technology' — this captures it at a high level, but 'World Wide Technology' sounds like a global hardware conglomerate. In reality WWT is primarily a privately-held IT solutions integrator and reseller, not a manufacturer. The ATC lab infrastructure and AI implementation capabilities are not what the name suggests.",
+  "sources": [
+    { "url": "https://www.wwt.com/solutions", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "WWT.com is JS-gated with a browser check that blocks standard crawlers. The solutions page loaded but contained primarily news/blog content rather than a structured product/service overview. ATC details, GEMSS contract, and partner list extracted from page content that did render. Site blocked multiple URL attempts. Confidence moderate — core business (IT resale + integration) is well-known public fact for WWT.",
+  "extraction_confidence": 0.72
+}

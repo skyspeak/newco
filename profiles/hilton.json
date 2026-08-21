@@ -1,0 +1,60 @@
+{
+  "slug": "hilton",
+  "company": "Hilton",
+  "domain": "hilton.com",
+  "activity_statements": [
+    {
+      "statement": "franchises and manages hotels across 22+ brands including Hilton Hotels & Resorts, Hampton by Hilton, DoubleTree, Waldorf Astoria, Conrad, Curio Collection, Tapestry, Canopy, and LXR Hotels",
+      "source_url": "https://newsroom.hilton.com/hilton/en/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Hilton Honors, a loyalty program giving members points redeemable across the global hotel portfolio",
+      "source_url": "https://newsroom.hilton.com/hilton/en/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "opens new hotels globally — including recent properties in Turkey, Vietnam, Ireland, Southeast Asia, Malaysia, Florida Keys, and Hawaii — primarily through franchise and management contract structures rather than property ownership",
+      "source_url": "https://newsroom.hilton.com/hilton/en/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a capital-light asset model where Hilton earns management fees and franchise royalties rather than owning hotel real estate",
+      "source_url": "https://newsroom.hilton.com/hilton/en/about/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates the Hilton Honors mobile app enabling room upgrades, digital check-in, and reward booking across properties worldwide",
+      "source_url": "https://newsroom.hilton.com/hilton/en/about/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "hotel-franchise-operations",
+    "hotel-management-contracts",
+    "loyalty-program-management",
+    "hospitality-brand-portfolio",
+    "revenue-management-and-pricing",
+    "property-development-pipeline",
+    "mobile-and-digital-guest-experience",
+    "food-and-beverage-operations",
+    "luxury-and-lifestyle-brand-management"
+  ],
+  "function_mix": [
+    { "family": "hotel-operations-and-hospitality", "weight": 0.3 },
+    { "family": "franchise-sales-and-owner-relations", "weight": 0.2 },
+    { "family": "software-engineering-and-technology", "weight": 0.15 },
+    { "family": "marketing-and-brand-management", "weight": 0.15 },
+    { "family": "revenue-and-commercial-management", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "Hilton looks like a hotel company but it is primarily a franchise and brand management company — most Hilton properties are owned by independent investors who pay franchise fees and management fees to Hilton. This means Hilton is primarily a software, brand, and revenue-management operator, not a real estate company.",
+  "sources": [
+    { "url": "https://newsroom.hilton.com/hilton/en/about/", "kind": "newsroom", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Hilton's main website pages returned Akamai JS shells. Newsroom provided brand portfolio and recent openings evidence. Specific property count (around 7,000+ globally) not directly extracted but widely documented. No 10-K retrieved directly.",
+  "extraction_confidence": 0.78
+}

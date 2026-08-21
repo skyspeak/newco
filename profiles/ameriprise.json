@@ -1,0 +1,69 @@
+{
+  "slug": "ameriprise",
+  "company": "Ameriprise",
+  "domain": "ameriprise.com",
+  "activity_statements": [
+    {
+      "statement": "provides personal financial planning and wealth management advisory services to retail clients through a network of 10,000+ financial advisors",
+      "source_url": "https://www.ameriprise.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages investment portfolios and sells brokerage accounts, mutual funds, and annuities to individual investors and retirees",
+      "source_url": "https://www.ameriprise.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Columbia Threadneedle Investments, managing institutional and retail asset management strategies globally",
+      "source_url": "https://www.ameriprise.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells life insurance, long-term care insurance, and disability products to clients through its advisor network",
+      "source_url": "https://www.ameriprise.com/about",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "financial-advisory",
+    "wealth-management",
+    "retirement-planning",
+    "investment-management",
+    "institutional-asset-management",
+    "insurance-products",
+    "annuity-products",
+    "financial-advisor-network"
+  ],
+  "function_mix": [
+    { "family": "financial-advisory", "weight": 0.4 },
+    { "family": "investment-management", "weight": 0.25 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "operations-and-back-office", "weight": 0.1 },
+    { "family": "risk-and-compliance", "weight": 0.1 }
+  ],
+  "value_chain": ["service", "assure"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [
+    {
+      "name": "Advice and Wealth Management",
+      "weight": 0.55,
+      "capability_tags": ["financial-advisory", "wealth-management", "retirement-planning", "financial-advisor-network"]
+    },
+    {
+      "name": "Asset Management (Columbia Threadneedle)",
+      "weight": 0.25,
+      "capability_tags": ["institutional-asset-management", "investment-management"]
+    },
+    {
+      "name": "Retirement and Protection Solutions",
+      "weight": 0.2,
+      "capability_tags": ["annuity-products", "insurance-products"]
+    }
+  ],
+  "name_reality_gap": "none — Ameriprise is accurately a financial planning and wealth management firm.",
+  "sources": [
+    { "url": "https://www.ameriprise.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was light but confirmed core activities. Columbia Threadneedle and insurance products are well-documented public facts. No in-depth product pages were accessible (several 404'd).",
+  "extraction_confidence": 0.78
+}

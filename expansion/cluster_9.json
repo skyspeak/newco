@@ -1,0 +1,122 @@
+[
+  {
+    "company": "Engage3",
+    "domain": "engage3.com",
+    "cluster": 9,
+    "matched_capabilities": ["competitive-pricing-intelligence", "product-attribute-data"],
+    "activity_evidence": "Engage3 combines in-store audits, web-scraping, and POS data with ML algorithms to deliver competitive pricing intelligence and Price Image optimization for 8 of the top 10 global retailers.",
+    "why_off_index": "Private SaaS company with no consumer brand; sells exclusively to retailers and CPG brands; too niche for employer-brand rankings despite serving nearly all major retailers.",
+    "source_url": "https://engage3.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Datasembly",
+    "domain": "datasembly.com",
+    "cluster": 9,
+    "matched_capabilities": ["competitive-pricing-intelligence", "retail-audit-services", "product-attribute-data"],
+    "activity_evidence": "Datasembly collects over 12 billion weekly prices from 150,000+ stores at 230+ retailers, delivering real-time hyper-local pricing, promotion, and assortment intelligence to CPG brands and retailers.",
+    "why_off_index": "Private data intelligence company with zero consumer brand; serves CPGs and retailers through pure B2B relationships; invisible to employer-ranking organizations.",
+    "source_url": "https://datasembly.com/",
+    "confidence": 0.94
+  },
+  {
+    "company": "Retail Velocity",
+    "domain": "retailvelocity.com",
+    "cluster": 9,
+    "matched_capabilities": ["cpg-sales-support", "product-attribute-data", "competitive-pricing-intelligence"],
+    "activity_evidence": "Retail Velocity automatically collects and harmonizes daily POS and inventory data from 625+ retailer connectors, providing CPG brands with a unified platform for sell-through analytics, supply chain decisions, and retailer collaboration.",
+    "why_off_index": "Private CPG data analytics company founded in 1994; operates entirely as a B2B SaaS platform for consumer goods manufacturers; no consumer brand or employer-ranking visibility.",
+    "source_url": "https://retailvelocity.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Strategic Retail Solutions",
+    "domain": "srsmerchandising.com",
+    "cluster": 9,
+    "matched_capabilities": ["field-service-merchandising", "cpg-sales-support", "out-of-stock-resolution", "retail-audit-services"],
+    "activity_evidence": "SRS Merchandising deploys teams of in-store specialists to execute planogram resets, display builds, and compliance audits across grocery, mass, drug, convenience, home improvement, and specialty channels for CPG brand clients.",
+    "why_off_index": "Private field marketing agency operating entirely through B2B contracts with CPG manufacturers; no consumer presence; field labor workforce invisible to employer-ranking methodologies.",
+    "source_url": "https://srsmerchandising.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Observa",
+    "domain": "observanow.com",
+    "cluster": 9,
+    "matched_capabilities": ["retail-audit-services", "out-of-stock-resolution", "field-service-merchandising", "competitive-pricing-intelligence"],
+    "activity_evidence": "Observa delivers shelf audits, promotional audits, out-of-stock resolution, and competitive category intelligence for CPG brands and retailers via a nationwide network of in-store execution workers.",
+    "why_off_index": "Private gig-economy retail execution platform with no consumer brand; operates through CPG and retailer B2B contracts; workforce model and niche make it invisible to employer rankings.",
+    "source_url": "https://observanow.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Field Force Merchandising",
+    "domain": "fieldforcemerchandising.com",
+    "cluster": 9,
+    "matched_capabilities": ["field-service-merchandising", "cpg-sales-support", "out-of-stock-resolution"],
+    "activity_evidence": "Field Force Merchandising executes CPG client programs in all 50 states across grocery, mass, drug, convenience, home improvement, office supply, club, and specialty outlets, with field reps serving as the manufacturer's eyes and hands at store level.",
+    "why_off_index": "Family-owned field merchandising agency with no consumer brand; field workforce dispersed across 50 states; operates under B2B contracts with CPG manufacturers invisible to employer-ranking surveys.",
+    "source_url": "https://fieldforcemerchandising.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "RMS Merchandising",
+    "domain": "rmservicing.com",
+    "cluster": 9,
+    "matched_capabilities": ["field-service-merchandising", "out-of-stock-resolution", "retail-audit-services", "cpg-sales-support"],
+    "activity_evidence": "RMS Merchandising spends over one million hours annually in Target stores performing back-room inventory audits, planogram maintenance, reset and revision audits, and scan-based trading management as a Target Preferred Partner.",
+    "why_off_index": "Private retail merchandising firm with no consumer brand; B2B contracts with CPG manufacturers and retailers; dispersed field workforce model never appears in employer-brand surveys.",
+    "source_url": "https://rmservicing.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Gainwell Technologies",
+    "domain": "gainwelltechnologies.com",
+    "cluster": 9,
+    "matched_capabilities": ["public-program-administration"],
+    "activity_evidence": "Gainwell Technologies operates Medicaid enterprise management systems, eligibility verification, and human services program administration for states, supporting 70% of U.S. Medicaid and CHIP enrollees through BPO and technology services.",
+    "why_off_index": "Privately held government health IT and BPO firm spun off from DXC Technology in 2021; serves state Medicaid agencies exclusively through government contracts; no consumer brand and no employer-ranking footprint.",
+    "source_url": "https://gainwelltechnologies.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Nationwide Title Clearing",
+    "domain": "nationwidetitleclearing.com",
+    "cluster": 9,
+    "matched_capabilities": ["enterprise-connectivity-services", "public-program-administration"],
+    "activity_evidence": "NTC (a Covius Solution) processes lien releases, assignments of mortgage, and post-close document workflows for the nation's top mortgage lenders, servicers, and investors with 30+ years of mortgage lifecycle operations.",
+    "why_off_index": "B2B mortgage operations outsourcing firm with no consumer presence; works behind the scenes for lenders and servicers; purely institutional client base makes it invisible to employer-ranking organizations.",
+    "source_url": "https://nationwidetitleclearing.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "ServiceLink",
+    "domain": "servicelink.com",
+    "cluster": 9,
+    "matched_capabilities": ["enterprise-connectivity-services", "public-program-administration"],
+    "activity_evidence": "ServiceLink provides title, appraisal, flood, closing, and default management services to mortgage lenders, servicers, and investors using its EXOS technology platform to manage the end-to-end loan origination and default ecosystem.",
+    "why_off_index": "B2B mortgage services platform with no consumer brand; operates entirely through lender and servicer contracts; unglamorous back-office function that never surfaces in employer-ranking methodology.",
+    "source_url": "https://servicelink.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Harmonya",
+    "domain": "harmonya.com",
+    "cluster": 9,
+    "matched_capabilities": ["product-attribute-data", "competitive-pricing-intelligence", "cpg-sales-support"],
+    "activity_evidence": "Harmonya enriches 40M+ products at the UPC level across 17,000+ tracked attributes, connecting product listings and consumer reviews to demand intelligence that CPG teams use for assortment optimization and retail media targeting.",
+    "why_off_index": "Private CPG product intelligence startup with no consumer brand; operates exclusively through B2B SaaS contracts with brands and retailers; too niche for employer-ranking attention.",
+    "source_url": "https://harmonya.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "1WorldSync",
+    "domain": "1worldsync.com",
+    "cluster": 9,
+    "matched_capabilities": ["product-attribute-data", "cpg-sales-support"],
+    "activity_evidence": "1WorldSync provides product content orchestration, GDSN syndication, and managed services for creating and distributing accurate product attribute data to 17,000+ brands and retailers globally.",
+    "why_off_index": "Private B2B product data network powering 85% of leading brands and retailers; entirely invisible to consumers; operates infrastructure-level data services that generate no employer-brand awareness.",
+    "source_url": "https://1worldsync.com/",
+    "confidence": 0.91
+  }
+]

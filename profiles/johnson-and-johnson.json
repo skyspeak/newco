@@ -1,0 +1,72 @@
+{
+  "slug": "johnson-and-johnson",
+  "company": "Johnson & Johnson",
+  "domain": "jnj.com",
+  "activity_statements": [
+    {
+      "statement": "develops, manufactures, and commercializes prescription medicines in oncology, immunology, neuroscience, cardiovascular, and infectious disease for patients worldwide",
+      "source_url": "https://www.jnj.com/innovation",
+      "confidence": 0.85
+    },
+    {
+      "statement": "designs and sells surgical devices, orthopedic implants, and electrophysiology systems through the MedTech segment (DePuy Synthes, Biosense Webster, Ethicon brands)",
+      "source_url": "https://www.jnj.com/innovation",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manufactures and markets ACUVUE contact lenses and ophthalmic surgical equipment through the Vision business",
+      "source_url": "https://www.jnj.com/innovation",
+      "confidence": 0.8
+    },
+    {
+      "statement": "conducts clinical trials and drug development research across multiple therapeutic areas with the goal of bringing novel medicines to market",
+      "source_url": "https://www.jnj.com/innovation",
+      "confidence": 0.85
+    },
+    {
+      "statement": "completed the Kenvue spinoff in 2023, divesting the consumer health (Band-Aid, Tylenol, Neutrogena) segment to focus solely on pharmaceutical and medical technology",
+      "source_url": "https://www.jnj.com/innovation",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "pharmaceutical-drug-development",
+    "oncology-therapies",
+    "immunology-treatments",
+    "surgical-devices",
+    "orthopedic-implants",
+    "electrophysiology-systems",
+    "ophthalmic-products",
+    "clinical-trial-operations",
+    "regulatory-approval-management",
+    "global-pharma-commercialization"
+  ],
+  "function_mix": [
+    { "family": "research-and-development-scientists", "weight": 0.30 },
+    { "family": "clinical-and-regulatory-affairs", "weight": 0.20 },
+    { "family": "pharmaceutical-manufacturing", "weight": 0.15 },
+    { "family": "medical-device-engineering", "weight": 0.15 },
+    { "family": "commercial-and-sales", "weight": 0.12 },
+    { "family": "quality-and-safety", "weight": 0.08 }
+  ],
+  "value_chain": ["research", "design", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Innovative Medicine (Pharmaceuticals)",
+      "weight": 0.55,
+      "capability_tags": ["pharmaceutical-drug-development", "oncology-therapies", "immunology-treatments", "clinical-trial-operations", "regulatory-approval-management"]
+    },
+    {
+      "name": "MedTech (Medical Devices)",
+      "weight": 0.45,
+      "capability_tags": ["surgical-devices", "orthopedic-implants", "electrophysiology-systems", "ophthalmic-products"]
+    }
+  ],
+  "name_reality_gap": "The J&J name historically evoked consumer brands like Band-Aid and baby shampoo; since the 2023 Kenvue spinoff, the company is now purely a pharmaceutical and medical device manufacturer with no consumer products — the index label of 'Hospitals & Health Care' misses that J&J does not deliver care but rather creates the medicines and devices that care settings use.",
+  "sources": [
+    { "url": "https://www.jnj.com/innovation", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "jnj.com main pages (about-jnj, our-business) returned maintenance errors during extraction. Profile built primarily from innovation page content and widely-known public facts about J&J's post-Kenvue two-segment structure. Segment weight estimates are approximate.",
+  "extraction_confidence": 0.7
+}

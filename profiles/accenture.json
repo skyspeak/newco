@@ -1,0 +1,74 @@
+{
+  "slug": "accenture",
+  "company": "Accenture",
+  "domain": "accenture.com",
+  "activity_statements": [
+    {
+      "statement": "delivers technology transformation consulting (cloud, AI, cybersecurity) for enterprises and governments across 120+ countries",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates managed services for clients' ongoing business processes including finance, HR, supply chain, and IT operations",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs and deploys AI and generative AI systems for enterprise clients seeking productivity and automation gains",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides digital engineering and manufacturing consulting to help industrial clients modernize production operations",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.85
+    },
+    {
+      "statement": "staffs and runs large infrastructure and capital projects on behalf of public and private sector clients",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.85
+    },
+    {
+      "statement": "serves 9,000+ clients globally across more than 120 countries through 799,000 employees in 200+ cities",
+      "source_url": "https://www.accenture.com/us-en/about/company-index",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides cybersecurity strategy and managed security services to protect enterprise clients from threats",
+      "source_url": "https://www.accenture.com/us-en/services",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "management-consulting",
+    "technology-implementation",
+    "cloud-migration",
+    "ai-deployment",
+    "cybersecurity-services",
+    "managed-services-outsourcing",
+    "digital-engineering",
+    "supply-chain-advisory",
+    "finance-transformation",
+    "learning-and-talent-development",
+    "sustainability-consulting",
+    "ecosystem-partner-integration"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.30 },
+    { "family": "management-consulting", "weight": 0.25 },
+    { "family": "data-and-ai", "weight": 0.15 },
+    { "family": "cloud-and-infrastructure", "weight": 0.12 },
+    { "family": "cybersecurity", "weight": 0.08 },
+    { "family": "finance-and-operations", "weight": 0.10 }
+  ],
+  "value_chain": ["service", "operate"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "The name 'Accenture' carries no industry signal and the index label 'Business Consulting and Services' undersells the scale of software engineering and managed technology operations work. A large share of the workforce writes and runs code and operates client systems rather than producing consulting reports.",
+  "sources": [
+    { "url": "https://www.accenture.com/us-en/about/company-index", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.accenture.com/us-en/services", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About and services pages provided good coverage of capabilities and scale. Careers page returned 404; function mix estimated from service lines. No 10-K (public company but detailed segment financials not retrieved).",
+  "extraction_confidence": 0.82
+}

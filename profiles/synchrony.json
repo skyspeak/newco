@@ -1,0 +1,80 @@
+{
+  "slug": "synchrony",
+  "company": "Synchrony",
+  "domain": "synchrony.com",
+  "activity_statements": [
+    {
+      "statement": "issues private-label and co-branded credit cards for national and regional retailers, healthcare providers, and other merchant partners — leading provider of private-label credit cards in the US",
+      "source_url": "https://www.synchrony.com/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates CareCredit, a health and wellness credit card accepted at 270,000+ healthcare provider and retail locations including dental, veterinary, vision, pharmacy, and wellness sites",
+      "source_url": "https://www.carecredit.com/pressrelease/synchrony-albertsons-collaboration/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "offers FDIC-insured savings products (high-yield savings accounts, CDs) through Synchrony Bank as an online bank",
+      "source_url": "https://www.synchrony.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "connects retail and healthcare partners to consumers through a digital financial ecosystem providing omnichannel financing and payment solutions",
+      "source_url": "https://www.carecredit.com/pressrelease/synchrony-albertsons-collaboration/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides point-of-sale financing programs across retail, healthcare, home, auto, outdoor, pet, and telecommunications industries for merchant partners",
+      "source_url": "https://www.carecredit.com/pressrelease/synchrony-albertsons-collaboration/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "private-label-credit-cards",
+    "consumer-lending",
+    "point-of-sale-financing",
+    "healthcare-financing",
+    "online-banking",
+    "savings-products",
+    "partner-financial-ecosystem",
+    "digital-payments-platform",
+    "credit-risk-management",
+    "fraud-detection",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "credit-underwriting-and-risk", "weight": 0.25 },
+    { "family": "technology-and-platform-engineering", "weight": 0.25 },
+    { "family": "sales-and-partner-management", "weight": 0.20 },
+    { "family": "data-and-analytics", "weight": 0.12 },
+    { "family": "customer-service-operations", "weight": 0.10 },
+    { "family": "regulatory-compliance-and-finance", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [
+    {
+      "name": "Partner Finance (Credit Cards)",
+      "weight": 0.75,
+      "capability_tags": ["private-label-credit-cards", "consumer-lending", "point-of-sale-financing", "credit-risk-management"]
+    },
+    {
+      "name": "Synchrony Bank (Savings)",
+      "weight": 0.15,
+      "capability_tags": ["online-banking", "savings-products", "regulatory-compliance-ops"]
+    },
+    {
+      "name": "CareCredit (Health & Wellness)",
+      "weight": 0.10,
+      "capability_tags": ["healthcare-financing", "point-of-sale-financing", "digital-payments-platform"]
+    }
+  ],
+  "name_reality_gap": "The name 'Synchrony' is opaque and the index label 'Financial Services' gives no hint of the actual business. The firm is essentially a white-label credit card and financing infrastructure provider embedded inside retail and healthcare checkout flows — a B2B fintech as much as a consumer bank.",
+  "sources": [
+    { "url": "https://www.synchrony.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.carecredit.com/pressrelease/synchrony-albertsons-collaboration/", "kind": "newsroom", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.synchrony.com/contenthub/newsroom/synchrony-extends-partnership-with-affordable-care-offering-care.html", "kind": "newsroom", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Synchrony's main about page and Bank page were accessible; business-solutions and what-we-do pages timed out. Profile supplemented with CareCredit press releases that give clear evidence of partner-driven credit card business model.",
+  "extraction_confidence": 0.85
+}

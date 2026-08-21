@@ -1,0 +1,65 @@
+{
+  "slug": "starbucks",
+  "company": "Starbucks",
+  "domain": "starbucks.com",
+  "activity_statements": [
+    {
+      "statement": "operates approximately 36,000 retail coffeehouse locations globally (company-owned and licensed) serving espresso beverages, teas, Refreshers, food, and packaged goods to consumers",
+      "source_url": "https://www.starbucks.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "employs approximately 400,000 global associates (baristas and coffeehouse leaders) to staff company-operated stores",
+      "source_url": "https://careers.starbucks.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "operates five US manufacturing and distribution centers that produce and distribute beverages and food products to retail locations",
+      "source_url": "https://careers.starbucks.com/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "sources, roasts, and blends coffee beans through a global supply chain working directly with coffee-growing farmers in countries including Ethiopia, Colombia, and Costa Rica",
+      "source_url": "https://www.starbucks.com/about-us/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates the Starbucks Rewards loyalty program and mobile ordering app enabling digital ordering and reward accumulation for frequent customers",
+      "source_url": "https://www.starbucks.com/about-us/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates Reserve Roastery premium coffeehouse locations in select US cities (NYC, Chicago) offering elevated coffee experiences and curated menus",
+      "source_url": "https://careers.starbucks.com/",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "coffeehouse-retail-operations",
+    "beverage-manufacturing",
+    "food-and-beverage-distribution",
+    "global-supply-chain-sourcing",
+    "loyalty-program",
+    "mobile-ordering",
+    "franchise-licensing",
+    "barista-workforce-management",
+    "cold-chain-logistics"
+  ],
+  "function_mix": [
+    { "family": "store-operations-and-baristas", "weight": 0.60 },
+    { "family": "manufacturing-and-distribution", "weight": 0.15 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.10 },
+    { "family": "technology-and-digital", "weight": 0.08 },
+    { "family": "corporate-and-support", "weight": 0.07 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — the name is an honest description of a coffeehouse chain. The index label 'Restaurants & Food Service' is accurate, though the digital loyalty/mobile ordering platform is an underappreciated technology asset.",
+  "sources": [
+    { "url": "https://www.starbucks.com/about-us/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://careers.starbucks.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Investor annual reports page returned 404. Stories page timed out. About and careers pages provided good coverage. Store count of 36,000 is from widely reported public data; careers page confirms 400,000 employees and five US manufacturing/distribution centers.",
+  "extraction_confidence": 0.85
+}

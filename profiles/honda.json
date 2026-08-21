@@ -1,0 +1,85 @@
+{
+  "slug": "honda",
+  "company": "Honda",
+  "domain": "honda.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures automobiles (Honda and Acura brands) for consumers and fleet buyers globally, with North America as its largest market",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "produces motorcycles, ATVs, and side-by-side vehicles from 50cc to 1800cc across sports, business, commuter, and off-road categories",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides vehicle financing and leasing services through its Financial Services segment, generating approximately 16% of total revenue",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures and sells power equipment including generators, lawn mowers, outboard marine motors, and small general-purpose engines",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs and manufactures HondaJet business aircraft through Honda Aircraft Company",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.9
+    },
+    {
+      "statement": "develops electric vehicle models and home electrification products (EV charging, solar) as part of an electrification strategy",
+      "source_url": "https://www.honda.com/about/overview",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "automobile-manufacturing",
+    "motorcycle-manufacturing",
+    "small-engine-manufacturing",
+    "marine-engine-manufacturing",
+    "business-aircraft-manufacturing",
+    "vehicle-financing",
+    "electric-vehicle-development",
+    "power-equipment-manufacturing"
+  ],
+  "function_mix": [
+    { "family": "automotive-and-mechanical-engineers", "weight": 0.25 },
+    { "family": "manufacturing-and-assembly", "weight": 0.35 },
+    { "family": "supply-chain-and-procurement", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "finance-and-financial-services", "weight": 0.10 },
+    { "family": "sales-and-marketing", "weight": 0.08 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Automobile Business",
+      "weight": 0.66,
+      "capability_tags": ["automobile-manufacturing", "electric-vehicle-development"]
+    },
+    {
+      "name": "Financial Services Business",
+      "weight": 0.16,
+      "capability_tags": ["vehicle-financing"]
+    },
+    {
+      "name": "Motorcycle Business",
+      "weight": 0.16,
+      "capability_tags": ["motorcycle-manufacturing"]
+    },
+    {
+      "name": "Power Products and Other",
+      "weight": 0.02,
+      "capability_tags": ["small-engine-manufacturing", "power-equipment-manufacturing", "marine-engine-manufacturing", "business-aircraft-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "Honda is labeled 'Motor Vehicle Manufacturing' which is accurate for its largest segment, but undersells that Honda is also the world's largest motorcycle manufacturer, a major small-engine and power equipment maker, a business jet manufacturer (HondaJet), and a financial services provider — a much broader industrial conglomerate than the car brand image suggests.",
+  "sources": [
+    { "url": "https://www.honda.com/about/overview", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "honda.com/about/overview returned a 404 but the page content was served via cached version showing brand structure. Honda 20-F annual report accessed via ExaSearch provided exact segment revenue breakdown for FY2024. Segment weights calculated from FY2024 revenue data.",
+  "extraction_confidence": 0.88
+}

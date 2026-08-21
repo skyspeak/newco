@@ -1,0 +1,159 @@
+[
+  {
+    "company": "Jack Henry",
+    "domain": "jackhenry.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "core-transaction-processing",
+      "digital-banking",
+      "fraud-detection",
+      "payment-processing"
+    ],
+    "activity_evidence": "Jack Henry provides core banking technology, payment processing, and fraud-risk management to approximately 7,500 community and regional banks and credit unions through a cloud-native, integrated platform built in partnership with Google Cloud Platform.",
+    "why_off_index": "B2B financial technology infrastructure provider serving community banks; publicly traded on Nasdaq but entirely invisible to consumer-facing employer-brand rankings as it operates entirely in the financial institution back office",
+    "source_url": "https://jackhenry.com/",
+    "confidence": 0.94
+  },
+  {
+    "company": "Finastra",
+    "domain": "finastra.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "core-transaction-processing",
+      "digital-banking",
+      "payment-processing",
+      "capital-markets"
+    ],
+    "activity_evidence": "Finastra delivers core banking, digital banking, payments, and capital markets software to over 7,000 financial institutions worldwide including 80% of the top 50 global banks, moving roughly $7 trillion in transactions daily.",
+    "why_off_index": "Private equity-owned (Vista Equity Partners) B2B financial infrastructure firm with no consumer brand; serves banks and financial institutions as an invisible backend provider absent from all consumer-facing employer rankings",
+    "source_url": "https://finastra.com/about",
+    "confidence": 0.93
+  },
+  {
+    "company": "TRISTAR Insurance Group",
+    "domain": "tristargroup.net",
+    "cluster": 1,
+    "matched_capabilities": [
+      "claims-adjudication",
+      "personal-lines-insurance",
+      "actuarial-modeling"
+    ],
+    "activity_evidence": "TRISTAR operates as the largest privately held third-party claims administrator in the United States, with 1,000+ professionals managing property/casualty claims, benefits administration, and managed care services for self-insured employers and captive programs.",
+    "why_off_index": "Privately held B2B TPA processing claims behind self-insured employers and captives; no consumer brand, no retail presence, and entirely absent from employer-brand survey universes",
+    "source_url": "https://tristargroup.net/",
+    "confidence": 0.90
+  },
+  {
+    "company": "CBCS",
+    "domain": "cbcsclaims.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "claims-adjudication",
+      "fraud-detection",
+      "personal-lines-insurance"
+    ],
+    "activity_evidence": "CBCS administers workers' compensation and property/casualty claims from FNOL to resolution for large deductible, self-insured, risk retention groups, and captive clients, using technology solutions to track and manage data across the full claims management process.",
+    "why_off_index": "Independent private TPA headquartered in Dubuque, Iowa; entirely B2B serving self-insured employers with no consumer-facing identity and zero presence in employer-brand rankings",
+    "source_url": "https://cbcsclaims.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Grinnell Mutual",
+    "domain": "grinnellmutual.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "personal-lines-insurance",
+      "claims-adjudication",
+      "actuarial-modeling"
+    ],
+    "activity_evidence": "Grinnell Mutual is the largest primary reinsurer of farm mutual companies in North America, underwriting personal lines auto and homeowners insurance across 12 states through 1,700+ independent agencies while operating three underwriting companies.",
+    "why_off_index": "Private Iowa-based mutual reinsurer serving farm mutuals and rural independent agents; no consumer brand nationally, regional and cooperative structure keeps it entirely off national employer-brand indexes",
+    "source_url": "https://grinnellmutual.com/about-us",
+    "confidence": 0.89
+  },
+  {
+    "company": "Mutual Re",
+    "domain": "mutualre.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "actuarial-modeling",
+      "personal-lines-insurance",
+      "claims-adjudication"
+    ],
+    "activity_evidence": "Mutual Re, organized in 1921, provides reinsurance services and underwriting expertise to small-to-mid-sized mutual insurance companies across the U.S., maintaining over $6 billion in capital through joint liability among five assuming companies.",
+    "why_off_index": "Century-old reinsurance underwriting association serving township mutuals; 9-person firm with no consumer presence, purely a B2B intermediary in the reinsurance chain that never appears in employer rankings",
+    "source_url": "https://mutualre.com/",
+    "confidence": 0.85
+  },
+  {
+    "company": "GPW and Associates",
+    "domain": "gpwa.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+    ],
+    "activity_evidence": "GPW and Associates provides actuarial services, reinsurance management, and captive insurance administration for over 4,000 clients, delivering Statements of Actuarial Opinion, loss reserve opinions, rate filing support, and captive feasibility studies.",
+    "why_off_index": "Private Phoenix-based actuarial consulting and captive management firm; B2B services for insurers, captives, and self-insured businesses with no consumer presence and absent from all employer-brand surveys",
+    "source_url": "https://gpwa.com/",
+    "confidence": 0.86
+  },
+  {
+    "company": "Kerper-Bowron",
+    "domain": "kerper-bowron.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "actuarial-modeling",
+      "personal-lines-insurance",
+      "claims-adjudication"
+    ],
+    "activity_evidence": "Kerper-Bowron provides actuarial opinions, loss reserve analysis, pricing analysis, and predictive modeling for personal lines auto, homeowners, and F&I (GAP, vehicle service contracts) insurance products, including managing accounting for Producer Owned Reinsurance Companies.",
+    "why_off_index": "Six-person Birmingham actuarial partnership serving niche F&I and captive reinsurance clients; entirely B2B and invisible to employer-brand rankings by scale and by design",
+    "source_url": "https://kerper-bowron.com/",
+    "confidence": 0.84
+  },
+  {
+    "company": "Mbanq",
+    "domain": "mbanq.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "core-transaction-processing",
+      "digital-banking",
+      "payment-processing",
+      "fraud-detection"
+    ],
+    "activity_evidence": "Mbanq provides a cloud-hosted core banking platform and Card-as-a-Service to banks, credit unions, fintechs, and brands, including payment processing, dispute resolution, AI-driven fraud detection, and digital banking infrastructure for rapid deployment worldwide.",
+    "why_off_index": "Privately held banking-as-a-service infrastructure provider headquartered in Naples, Florida; serves financial institutions as a B2B vendor with no consumer brand, absent from all employer-brand indexes",
+    "source_url": "https://mbanq.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Huggins Actuarial Services",
+    "domain": "hugginsactuarial.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "actuarial-modeling",
+      "personal-lines-insurance",
+      "claims-adjudication"
+    ],
+    "activity_evidence": "Huggins Actuarial Services delivers property/casualty actuarial and strategic consulting including reserve opinions, rate analysis, captive feasibility, expert testimony, and risk management for insurers, reinsurers, self-insurers, and captive programs.",
+    "why_off_index": "Privately held independent actuarial consulting firm headquartered in Media, PA; five-person partnership serving insurance and reinsurance clients B2B with no consumer visibility and zero employer-brand footprint",
+    "source_url": "https://hugginsactuarial.com/",
+    "confidence": 0.83
+  },
+  {
+    "company": "RAM Mutual Insurance Company",
+    "domain": "rammutual.com",
+    "cluster": 1,
+    "matched_capabilities": [
+      "personal-lines-insurance",
+      "actuarial-modeling",
+      "claims-adjudication"
+    ],
+    "activity_evidence": "RAM Mutual, founded in 1931, provides reinsurance to the majority of Minnesota township mutual companies and offers a full line of personal and commercial insurance products through approximately 600 independent agencies, serving around 42,000 policyholders.",
+    "why_off_index": "Regional Minnesota mutual insurer and township reinsurer with 32 employees; serves rural policyholders through independent agents with no national employer-brand presence and absent from all best-places-to-work lists",
+    "source_url": "https://rammutual.com/",
+    "confidence": 0.81
+  }
+]

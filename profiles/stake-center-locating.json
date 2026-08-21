@@ -1,0 +1,55 @@
+{
+  "slug": "stake-center-locating",
+  "company": "Stake Center Locating",
+  "domain": "stakecenters.com",
+  "activity_statements": [
+    {
+      "statement": "locates underground utilities (electricity, gas, cable, fiber optic, communication lines) before excavation across 48 states and Washington D.C., completing 850,000+ locate requests per month",
+      "source_url": "https://exa.ai/library/organization/50zfn7f0mj5",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides high-risk infrastructure and fiber optic network locating services, operating as the market leader in that specialty",
+      "source_url": "https://exa.ai/library/organization/50zfn7f0mj5",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides mapping, real-time status updates, damage prevention training, and safety services to utility providers and infrastructure operators",
+      "source_url": "https://www.bloomberg.com/profile/company/4592466Z:US",
+      "confidence": 0.9
+    },
+    {
+      "statement": "deploys locate technicians in the field to physically mark underground utility corridors with paint and flags to enable safe digging",
+      "source_url": "https://exa.ai/library/organization/50zfn7f0mj5",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "underground-utility-locating",
+    "damage-prevention-services",
+    "fiber-optic-network-locating",
+    "field-service-technicians",
+    "safety-training-and-compliance",
+    "real-time-excavation-status-tracking",
+    "infrastructure-protection-services",
+    "b2b-utility-services"
+  ],
+  "function_mix": [
+    { "family": "field-locate-technicians", "weight": 0.65 },
+    { "family": "operations-management", "weight": 0.13 },
+    { "family": "technical-and-mapping-systems", "weight": 0.07 },
+    { "family": "sales-and-client-management", "weight": 0.06 },
+    { "family": "hr-and-administrative", "weight": 0.05 },
+    { "family": "finance-and-corporate", "weight": 0.04 }
+  ],
+  "value_chain": ["service", "assure"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "The 'Energy Mining & Utilities' index label implies Stake Center is an energy producer or utility operator; it is actually a B2B field services company that locates other utilities' underground infrastructure before construction crews dig. It is closer to an outsourced safety and inspection services firm than an energy company.",
+  "sources": [
+    { "url": "https://exa.ai/library/organization/50zfn7f0mj5", "kind": "other", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.bloomberg.com/profile/company/4592466Z:US", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Company website timed out. Excellent description from Exa company profile (LinkedIn-sourced) and Bloomberg company profile. Workforce breakdown by department directly from Exa data (~69 operations, 36 technical, etc.). Revenue ~$150M reported in Exa profile.",
+  "extraction_confidence": 0.85
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "pwc",
+  "company": "PwC",
+  "domain": "pwc.com",
+  "activity_statements": [
+    {
+      "statement": "conducts financial statement audits and sustainability/ESG assurance engagements for public and private companies across 136-149 countries through 364,000-370,000 professionals",
+      "source_url": "https://www.pwc.com/us/en/about-us.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides tax advisory, compliance, and planning services including international tax, transfer pricing, M&A tax, and state/local tax to multinational corporations and private clients",
+      "source_url": "https://www.pwc.com/us/en/services.html",
+      "confidence": 0.93
+    },
+    {
+      "statement": "delivers management consulting services including digital transformation, ERP implementation, AI strategy, supply chain optimization, finance transformation, and organizational effectiveness",
+      "source_url": "https://www.pwc.com/us/en/services.html",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides deals advisory including M&A due diligence, restructuring, and transaction services for corporate and private equity clients",
+      "source_url": "https://www.pwc.com/us/en/services.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "offers cybersecurity, risk, and regulatory advisory services helping organizations address digital security, governance, and compliance requirements",
+      "source_url": "https://www.pwc.com/us/en/services.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "generated $56.9 billion in global gross revenue for the year ending June 30, 2025 across its global network",
+      "source_url": "https://www.pwc.com/gx/en/about.html",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "financial-statement-audit",
+    "esg-reporting-assurance",
+    "tax-compliance-advisory",
+    "management-consulting",
+    "digital-transformation-advisory",
+    "deals-and-m-and-a-advisory",
+    "cybersecurity-advisory",
+    "regulatory-compliance-ops",
+    "erp-implementation",
+    "risk-management-advisory"
+  ],
+  "function_mix": [
+    { "family": "audit-and-assurance", "weight": 0.35 },
+    { "family": "tax-professionals", "weight": 0.25 },
+    { "family": "advisory-and-consulting", "weight": 0.30 },
+    { "family": "deals-advisory", "weight": 0.07 },
+    { "family": "corporate-and-support", "weight": 0.03 }
+  ],
+  "value_chain": ["assure", "advisory", "service"],
+  "delivery_mode": ["human-service", "advisory"],
+  "segments": [
+    {
+      "name": "Audit & Assurance",
+      "weight": 0.35,
+      "capability_tags": ["financial-statement-audit", "esg-reporting-assurance"]
+    },
+    {
+      "name": "Tax",
+      "weight": 0.25,
+      "capability_tags": ["tax-compliance-advisory", "regulatory-compliance-ops"]
+    },
+    {
+      "name": "Advisory (Consulting + Deals)",
+      "weight": 0.40,
+      "capability_tags": ["management-consulting", "digital-transformation-advisory", "deals-and-m-and-a-advisory", "cybersecurity-advisory"]
+    }
+  ],
+  "name_reality_gap": "Labeled as 'IT Services and IT Consulting' but PwC is primarily an audit, tax, and professional services firm. IT/technology consulting is one component of its advisory practice but does not represent the majority of what PwC does — most revenue and headcount are in audit, tax, and non-IT advisory.",
+  "sources": [
+    { "url": "https://www.pwc.com/gx/en/about.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.pwc.com/us/en/about-us.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.pwc.com/us/en/services.html", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Three PwC pages all returned good content. Segment weights estimated from PwC's publicly disclosed Global Annual Review 2025 revenue breakdown. PwC operates as a network of legally separate national firms; 'one company' characterizations are structural approximations.",
+  "extraction_confidence": 0.90
+}

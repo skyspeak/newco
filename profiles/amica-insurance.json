@@ -1,0 +1,59 @@
+{
+  "slug": "amica-insurance",
+  "company": "Amica Insurance",
+  "domain": "amica.com",
+  "activity_statements": [
+    {
+      "statement": "writes and underwrites personal lines auto, homeowners, life, marine, personal excess liability (umbrella), and small business insurance directly to policyholders without independent agents",
+      "source_url": "https://careers.amica.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates 44 branch locations nationwide as a direct-writing mutual insurer licensed in all 50 US states",
+      "source_url": "https://careers.amica.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manages approximately $6.3 billion in company assets and approximately $62 billion in life insurance subsidiary assets under management",
+      "source_url": "https://careers.amica.com/",
+      "confidence": 0.80
+    },
+    {
+      "statement": "adjudicates insurance claims for auto, homeowners, life, and marine policies through a claims workforce serving policyholders who own the company as mutual members",
+      "source_url": "https://careers.amica.com/",
+      "confidence": 0.83
+    },
+    {
+      "statement": "offers annuity products through its life insurance subsidiary to policyholders seeking retirement income solutions",
+      "source_url": "https://careers.amica.com/",
+      "confidence": 0.78
+    }
+  ],
+  "capability_tags": [
+    "personal-lines-insurance",
+    "direct-writer-insurance",
+    "claims-adjudication",
+    "auto-insurance-underwriting",
+    "homeowners-underwriting",
+    "life-insurance",
+    "annuity-products",
+    "mutual-insurer-governance",
+    "actuarial-modeling"
+  ],
+  "function_mix": [
+    { "family": "customer-service-and-frontline", "weight": 0.35 },
+    { "family": "claims-and-adjusting", "weight": 0.25 },
+    { "family": "underwriting-and-actuarial", "weight": 0.20 },
+    { "family": "technology-and-innovation", "weight": 0.12 },
+    { "family": "corporate-and-administration", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "none — the name clearly signals an insurance company. The mutual ownership structure (policyholders own the company) is the main differentiator from publicly-traded competitors.",
+  "sources": [
+    { "url": "https://careers.amica.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Both main amica.com website pages (about-amica/company-overview and about-amica) returned 500 errors. Only the careers page was accessible. Financial figures ($6.3B assets, $62B life subsidiary AUM) sourced from ExaAnswer research synthesis. Profile is partial; extraction confidence reflects dependence on limited source access.",
+  "extraction_confidence": 0.72
+}

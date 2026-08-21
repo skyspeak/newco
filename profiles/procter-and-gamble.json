@@ -1,0 +1,89 @@
+{
+  "slug": "procter-and-gamble",
+  "company": "Procter & Gamble",
+  "domain": "pg.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and markets daily-use consumer products across 10 categories organized in 5 operating sectors: Fabric & Home Care (36% of sales), Baby/Feminine/Family Care (24%), Beauty (18%), Health Care (14%) and Grooming (8%)",
+      "source_url": "https://us.pg.com/annualreport2025/financial-highlights/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "generates $84.3 billion in annual net sales (FY2025) selling branded consumer products in North America (52%), Europe (22%), Latin America (7%), Greater China (7%), Asia Pacific (7%) and IMEA (5%)",
+      "source_url": "https://us.pg.com/annualreport2025/financial-highlights/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "operates global manufacturing, supply chain and distribution infrastructure producing consumer goods across the full product portfolio under brands including Tide, Pampers, Gillette, Oral-B, Crest, Head & Shoulders, Pantene, Olay, Dawn, Febreze, Bounty and Charmin",
+      "source_url": "https://us.pg.com/annualreport2025/portfolio-daily-use-where-performance-drives-brand-choice/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "focuses portfolio on daily-use product categories where performance drives brand choice and maintains superior-quality products at multiple price tiers globally",
+      "source_url": "https://us.pg.com/annualreport2025/portfolio-daily-use-where-performance-drives-brand-choice/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "invests in consumer research, brand marketing and retail partnerships to defend market leadership positions in each of its 10 product categories",
+      "source_url": "https://us.pg.com/who-we-are/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "consumer-goods-manufacturing",
+    "global-brand-management",
+    "consumer-product-research",
+    "retail-shelf-and-trade",
+    "supply-chain-management",
+    "private-label-competition",
+    "product-innovation",
+    "marketing-and-media-buying",
+    "regulatory-compliance-ops",
+    "global-distribution"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-operations", "weight": 0.30 },
+    { "family": "marketing-and-brand-management", "weight": 0.20 },
+    { "family": "supply-chain-and-logistics", "weight": 0.20 },
+    { "family": "research-and-development", "weight": 0.15 },
+    { "family": "sales-and-customer-business", "weight": 0.10 },
+    { "family": "corporate-and-finance", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Fabric & Home Care",
+      "weight": 0.36,
+      "capability_tags": ["consumer-goods-manufacturing", "global-brand-management"]
+    },
+    {
+      "name": "Baby, Feminine & Family Care",
+      "weight": 0.24,
+      "capability_tags": ["consumer-goods-manufacturing", "supply-chain-management"]
+    },
+    {
+      "name": "Beauty",
+      "weight": 0.18,
+      "capability_tags": ["consumer-goods-manufacturing", "global-brand-management"]
+    },
+    {
+      "name": "Health Care",
+      "weight": 0.14,
+      "capability_tags": ["consumer-goods-manufacturing", "product-innovation"]
+    },
+    {
+      "name": "Grooming",
+      "weight": 0.08,
+      "capability_tags": ["consumer-goods-manufacturing", "global-brand-management"]
+    }
+  ],
+  "name_reality_gap": "none — Procter & Gamble and the Manufacturing label are accurate; it is a classic branded consumer goods manufacturer and marketer.",
+  "sources": [
+    { "url": "https://us.pg.com/who-we-are/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://us.pg.com/annualreport2025/portfolio-daily-use-where-performance-drives-brand-choice/", "kind": "segment-reporting", "retrieved_at": "2026-08-19" },
+    { "url": "https://us.pg.com/annualreport2025/financial-highlights/", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Excellent financial data from 2025 Annual Report with precise segment revenue shares. Brands list drawn from public knowledge consistent with 10-category framework described in source.",
+  "extraction_confidence": 0.95
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "five-below",
+  "company": "Five Below",
+  "domain": "fivebelow.com",
+  "activity_statements": [
+    {
+      "statement": "operates discount specialty retail stores selling trendy, affordable merchandise primarily priced at or below $5 (and some items up to $25 via Five Beyond), targeting teens, tweens, and value-seeking families",
+      "source_url": "https://www.fivebelow.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "sells products across categories including Toys & Games, Style (apparel and accessories), Room (home decor), Tech, Beauty, Arts & Crafts, Candy & Snacks, Sports, Books, and Pet Supplies",
+      "source_url": "https://www.fivebelow.com/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "sells licensed brand merchandise from partners including Disney, Pokemon, SpongeBob, Bluey, Hello Kitty, and Funko in a discount retail format",
+      "source_url": "https://www.fivebelow.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "curates trend-right merchandise on rapid buying cycles, refreshing store assortments frequently to match youth and seasonal trends",
+      "source_url": "https://www.fivebelow.com/",
+      "confidence": 0.78
+    },
+    {
+      "statement": "operates 1,600+ stores in the US with in-store and online pickup options for customers",
+      "source_url": "https://www.fivebelow.com/",
+      "confidence": 0.78
+    }
+  ],
+  "capability_tags": [
+    "discount-specialty-retail",
+    "youth-merchandise-curation",
+    "licensed-character-merchandise",
+    "trend-driven-buying",
+    "value-price-retail",
+    "multi-category-retail"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations", "weight": 0.45 },
+    { "family": "merchandise-buying-and-planning", "weight": 0.25 },
+    { "family": "supply-chain-and-distribution", "weight": 0.15 },
+    { "family": "software-and-digital", "weight": 0.08 },
+    { "family": "marketing", "weight": 0.07 }
+  ],
+  "value_chain": ["distribute", "operate"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [],
+  "name_reality_gap": "The name 'Five Below' implies all items are $5 or less; the company has meaningfully expanded its 'Five Beyond' section selling items up to $25, blurring its original one-price identity. The 'Retail' index label is accurate but misses the youth-trend-and-licensed-character positioning that distinguishes Five Below from general discounters.",
+  "sources": [
+    { "url": "https://www.fivebelow.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "corporate.fivebelow.com/about timed out repeatedly; fivebelow.com homepage provided product category evidence but limited corporate operational detail. Store count and Five Beyond detail sourced from publicly known information. Extraction confidence reduced due to source limitations.",
+  "extraction_confidence": 0.68
+}

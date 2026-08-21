@@ -1,0 +1,55 @@
+{
+  "slug": "kimley-horn",
+  "company": "Kimley-Horn",
+  "domain": "kimley-horn.com",
+  "activity_statements": [
+    {
+      "statement": "provides civil and transportation engineering, planning, and development consulting for public infrastructure and private real estate clients nationwide",
+      "source_url": "https://www.kimley-horn.com/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "designs transportation infrastructure including roads, highways, roundabouts, traffic signal systems, and pedestrian/bicycle facilities for government agencies and developers",
+      "source_url": "https://www.kimley-horn.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "supports private real estate development projects from site planning through entitlement and infrastructure design for commercial, mixed-use, and industrial clients",
+      "source_url": "https://www.kimley-horn.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "delivers fully integrated multi-discipline design on projects of all scales across local, regional, and national initiatives with 90%+ repeat client rate",
+      "source_url": "https://www.kimley-horn.com/about/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "civil-engineering",
+    "transportation-engineering",
+    "traffic-planning",
+    "site-development-planning",
+    "land-use-planning",
+    "infrastructure-design",
+    "stormwater-and-drainage",
+    "entitlement-services",
+    "urban-planning",
+    "environmental-permitting"
+  ],
+  "function_mix": [
+    { "family": "civil-and-transportation-engineering", "weight": 0.50 },
+    { "family": "planning-and-land-use", "weight": 0.20 },
+    { "family": "project-management", "weight": 0.15 },
+    { "family": "environmental-services", "weight": 0.10 },
+    { "family": "administration-and-finance", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "service"],
+  "delivery_mode": ["human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Construction & Engineering' index label is misleading — Kimley-Horn is an engineering consulting and design firm, not a construction contractor. It designs and plans infrastructure but does not build it. The name itself carries no industry signal.",
+  "sources": [
+    { "url": "https://www.kimley-horn.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page described culture, client relationships, and practice scope but was fairly high-level. Specific service line and market detail known from public information; about page confirmed positioning. No careers page retrieved for function mix evidence.",
+  "extraction_confidence": 0.78
+}

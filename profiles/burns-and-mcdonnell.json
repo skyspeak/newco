@@ -1,0 +1,86 @@
+{
+  "slug": "burns-and-mcdonnell",
+  "company": "Burns & McDonnell",
+  "domain": "burnsmcd.com",
+  "activity_statements": [
+    {
+      "statement": "designs and builds critical infrastructure including electric power generation, electrical transmission and distribution systems, water treatment facilities, and transportation infrastructure for utilities, government, and private clients",
+      "source_url": "https://www.burnsmcd.com/services",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides full-service engineering, architecture, construction management, and self-perform construction on major capital projects across aviation, buildings, federal/military, industrial, mining, oil/gas, and telecommunications sectors",
+      "source_url": "https://www.burnsmcd.com/services",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates as a 100% employee-owned company with 75+ offices worldwide delivering projects from inception through commissioning, operations, and maintenance",
+      "source_url": "https://www.burnsmcd.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides program management, project management, and commissioning services for large-scale capital programs in energy, data centers, sustainable aviation, and space exploration",
+      "source_url": "https://careers.burnsmcd.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates 1898 & Co., a business, technology, and cybersecurity consultancy for critical infrastructure industries including utilities and industrial firms",
+      "source_url": "https://www.burnsmcd.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates AZCO, a heavy industrial construction subsidiary with union craft personnel for self-perform construction on industrial projects",
+      "source_url": "https://www.burnsmcd.com/about",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "engineering-design",
+    "infrastructure-construction",
+    "electric-power-engineering",
+    "transmission-distribution-engineering",
+    "water-infrastructure",
+    "program-management",
+    "field-service-technicians",
+    "critical-infrastructure-consulting",
+    "data-center-design",
+    "environmental-engineering",
+    "federal-government-projects",
+    "renewable-energy-engineering"
+  ],
+  "function_mix": [
+    { "family": "engineering-disciplines", "weight": 0.45 },
+    { "family": "construction-and-trades", "weight": 0.25 },
+    { "family": "project-and-program-management", "weight": 0.15 },
+    { "family": "architecture", "weight": 0.05 },
+    { "family": "consulting-and-advisory", "weight": 0.05 },
+    { "family": "corporate-and-support", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "operate", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Burns & McDonnell (Engineering, Design, Construction)",
+      "weight": 0.80,
+      "capability_tags": ["engineering-design", "infrastructure-construction", "electric-power-engineering", "program-management"]
+    },
+    {
+      "name": "1898 & Co. (Consulting)",
+      "weight": 0.12,
+      "capability_tags": ["critical-infrastructure-consulting"]
+    },
+    {
+      "name": "AZCO (Heavy Industrial Construction)",
+      "weight": 0.08,
+      "capability_tags": ["field-service-technicians", "infrastructure-construction"]
+    }
+  ],
+  "name_reality_gap": "Labeled as 'Construction Repair & Maintenance Services' which is reductive. Burns & McDonnell is primarily an engineering firm — one of the largest employee-owned AEC firms in the US — that designs and then builds infrastructure. The construction is the downstream execution of the engineering work; the firm's market position comes from engineering capability and integrated delivery, not repair and maintenance.",
+  "sources": [
+    { "url": "https://www.burnsmcd.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.burnsmcd.com/services", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://careers.burnsmcd.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Markets page returned 404. Three other pages all returned good content. Segment weight estimates are rough since Burns & McDonnell is private and does not disclose segment financials.",
+  "extraction_confidence": 0.87
+}

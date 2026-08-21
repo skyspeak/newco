@@ -1,0 +1,85 @@
+{
+  "slug": "wells-fargo",
+  "company": "Wells Fargo",
+  "domain": "wellsfargo.com",
+  "activity_statements": [
+    {
+      "statement": "operates as the fourth-largest US bank holding company with $2.1 trillion in assets, $986 billion in loans and $1.4 trillion in deposits as of December 31, 2025",
+      "source_url": "https://www.wellsfargo.com/about/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides consumer financial products including checking/savings accounts, credit and debit cards, and home, auto, personal and small business lending to individuals and businesses primarily in the US",
+      "source_url": "https://www.wellsfargo.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers wealth management, brokerage, financial planning, private banking, trust and fiduciary services to high-net-worth and institutional clients",
+      "source_url": "https://www.wellsfargo.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides commercial banking, credit and capital markets solutions to private, family-owned and public companies across multiple industry sectors and municipalities",
+      "source_url": "https://www.wellsfargo.com/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates as a financial holding company founded in 1852, serving customers through a national branch network and digital banking platforms",
+      "source_url": "https://www.wellsfargo.com/about/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "consumer-lending",
+    "retail-banking-branches",
+    "commercial-banking",
+    "wealth-management",
+    "mortgage-origination",
+    "investment-banking",
+    "payment-processing",
+    "fraud-detection",
+    "risk-management",
+    "core-transaction-processing",
+    "regulatory-compliance-ops",
+    "digital-banking"
+  ],
+  "function_mix": [
+    { "family": "banking-and-lending", "weight": 0.30 },
+    { "family": "risk-and-compliance", "weight": 0.20 },
+    { "family": "software-engineering", "weight": 0.18 },
+    { "family": "wealth-and-investment-advisory", "weight": 0.15 },
+    { "family": "operations-and-service", "weight": 0.12 },
+    { "family": "corporate-functions", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Consumer Banking and Lending",
+      "weight": 0.40,
+      "capability_tags": ["consumer-lending", "retail-banking-branches", "mortgage-origination", "digital-banking"]
+    },
+    {
+      "name": "Commercial Banking",
+      "weight": 0.25,
+      "capability_tags": ["commercial-banking", "payment-processing"]
+    },
+    {
+      "name": "Corporate and Investment Banking",
+      "weight": 0.20,
+      "capability_tags": ["investment-banking", "capital-markets", "risk-management"]
+    },
+    {
+      "name": "Wealth and Investment Management",
+      "weight": 0.15,
+      "capability_tags": ["wealth-management", "fraud-detection"]
+    }
+  ],
+  "name_reality_gap": "none — Wells Fargo is understood as a large bank and the Financial Services label is accurate; though the technology function (~18% of staffing) is underrepresented in the Financial Services framing.",
+  "sources": [
+    { "url": "https://www.wellsfargo.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.wellsfargo.com/about/", "kind": "10k-item1", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was superficial; 10-K Item 1 content obtained via ExaSearch and provided detailed business description with balance sheet figures as of December 31 2025 and four named business segments. Very high confidence for quantified data.",
+  "extraction_confidence": 0.92
+}

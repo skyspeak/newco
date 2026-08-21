@@ -1,0 +1,58 @@
+{
+  "slug": "lowe-s-companies",
+  "company": "Lowe's Companies",
+  "domain": "lowes.com",
+  "activity_statements": [
+    {
+      "statement": "operates approximately 1,700 home improvement retail stores across the US and Canada selling building materials, appliances, tools, lawn and garden, flooring and home decor",
+      "source_url": "https://corporate.lowes.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "serves DIY consumers and professional contractors through in-store, online and Pro services channels for home improvement and construction projects",
+      "source_url": "https://corporate.lowes.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "invests in AI and technology to support store operations, supply chain and associate productivity as evidenced by company AI Day events and technology communications",
+      "source_url": "https://corporate.lowes.com/",
+      "confidence": 0.75
+    },
+    {
+      "statement": "manages a large supply chain network distributing home improvement merchandise to store locations across North America",
+      "source_url": "https://corporate.lowes.com/",
+      "confidence": 0.8
+    },
+    {
+      "statement": "partners with Habitat for Humanity and community organizations as part of corporate citizenship commitments, while creating career pathways for hourly associates",
+      "source_url": "https://corporate.lowes.com/",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "big-box-retail-operations",
+    "home-improvement-merchandising",
+    "omnichannel-retail",
+    "pro-contractor-services",
+    "supply-chain-management",
+    "store-associate-workforce",
+    "e-commerce-fulfillment",
+    "inventory-management"
+  ],
+  "function_mix": [
+    { "family": "store-operations-and-associates", "weight": 0.45 },
+    { "family": "supply-chain-and-logistics", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "merchandising-and-buying", "weight": 0.1 },
+    { "family": "corporate-functions", "weight": 0.1 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — Lowe's Companies clearly connotes home improvement retail, which matches the activity evidence.",
+  "sources": [
+    { "url": "https://corporate.lowes.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Lowe's corporate site had multiple 404s. The homepage yielded limited detail. Activity statements rely partly on well-established public knowledge about Lowe's retail operations (~1,700 stores); the AI/tech investment is confirmed by the corporate news item mentioning AI Day. Confidence capped at 0.78 due to limited direct source text.",
+  "extraction_confidence": 0.78
+}

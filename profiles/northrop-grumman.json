@@ -1,0 +1,84 @@
+{
+  "slug": "northrop-grumman",
+  "company": "Northrop Grumman",
+  "domain": "northropgrumman.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures advanced aircraft including the B-21 Raider (6th-generation stealth bomber) and autonomous aerial systems for the US Department of Defense and allied governments",
+      "source_url": "https://www.northropgrumman.com/what-we-do/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "designs and produces advanced conventional and hypersonic weapons and missile defense systems including warning/tracking, propulsion, ground systems, battle management, and interceptors",
+      "source_url": "https://www.northropgrumman.com/what-we-do/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "develops mission systems including advanced microelectronics, airborne sensors, electronic warfare systems, maritime systems, and navigation technology for defense applications",
+      "source_url": "https://www.northropgrumman.com/what-we-do/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "designs, manufactures, integrates, and sustains satellites, space launch vehicles, and space logistics systems for US government and intelligence community customers",
+      "source_url": "https://www.northropgrumman.com/what-we-do/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "employs approximately 100,000 people across 550+ facilities in all 50 US states and 25+ countries with the majority of revenue from the US DoD and intelligence community",
+      "source_url": "https://www.northropgrumman.com/who-we-are/",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "stealth-aircraft-development",
+    "missile-defense-systems",
+    "satellite-development",
+    "electronic-warfare",
+    "autonomous-defense-systems",
+    "advanced-weapons-manufacturing",
+    "space-systems-integration",
+    "defense-electronics",
+    "government-prime-contractor",
+    "classified-program-management",
+    "digital-engineering"
+  ],
+  "function_mix": [
+    { "family": "aerospace-and-defense-engineering", "weight": 0.50 },
+    { "family": "systems-integration-and-testing", "weight": 0.15 },
+    { "family": "manufacturing-and-production", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "program-management", "weight": 0.07 },
+    { "family": "corporate-and-support", "weight": 0.03 }
+  ],
+  "value_chain": ["research", "design", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Aeronautics Systems",
+      "weight": 0.30,
+      "capability_tags": ["stealth-aircraft-development", "autonomous-defense-systems", "digital-engineering"]
+    },
+    {
+      "name": "Defense Systems",
+      "weight": 0.25,
+      "capability_tags": ["missile-defense-systems", "advanced-weapons-manufacturing"]
+    },
+    {
+      "name": "Mission Systems",
+      "weight": 0.30,
+      "capability_tags": ["defense-electronics", "electronic-warfare", "autonomous-defense-systems"]
+    },
+    {
+      "name": "Space Systems",
+      "weight": 0.15,
+      "capability_tags": ["satellite-development", "space-systems-integration"]
+    }
+  ],
+  "name_reality_gap": "none — 'Northrop Grumman' accurately signals a major defense company. The index label 'Defense and Space Manufacturing' is accurate and appropriately specific.",
+  "sources": [
+    { "url": "https://www.northropgrumman.com/who-we-are/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.northropgrumman.com/what-we-do/", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Annual reports investor page timed out. Both company pages returned good content. Segment weights estimated from publicly reported Northrop Grumman FY2024 segment revenue breakdown.",
+  "extraction_confidence": 0.88
+}

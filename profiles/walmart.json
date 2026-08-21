@@ -1,0 +1,82 @@
+{
+  "slug": "walmart",
+  "company": "Walmart",
+  "domain": "walmart.com",
+  "activity_statements": [
+    {
+      "statement": "operates 10,900+ retail stores and eCommerce sites across 19 countries serving approximately 280 million customers and members each week",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.98
+    },
+    {
+      "statement": "runs a global supply chain that moves more than 100 billion items per year supporting an everyday-low-price retail model",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Sam's Club membership warehouse clubs offering curated grocery, fresh food and Member's Mark private-label products with Scan & Go, curbside pickup and home delivery",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Walmart International retail and eCommerce businesses in 18 countries outside the US",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "employs technology and data platforms to run intelligent retail operations, omnichannel fulfillment and supply chain optimization for a people-led, tech-powered model",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "invested $350 billion in US-sourced goods supporting 750,000+ US jobs as part of its domestic supply sourcing strategy",
+      "source_url": "https://corporate.walmart.com/about",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "big-box-retail-operations",
+    "global-supply-chain",
+    "omnichannel-retail",
+    "membership-warehouse-club",
+    "private-label-brands",
+    "e-commerce-fulfillment",
+    "last-mile-delivery",
+    "inventory-management",
+    "retail-media-advertising",
+    "store-associate-workforce",
+    "logistics-and-distribution"
+  ],
+  "function_mix": [
+    { "family": "store-associates-and-operations", "weight": 0.45 },
+    { "family": "supply-chain-and-logistics", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "merchandising-and-buying", "weight": 0.1 },
+    { "family": "data-and-analytics", "weight": 0.1 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "marketplace"],
+  "segments": [
+    {
+      "name": "Walmart US",
+      "weight": 0.65,
+      "capability_tags": ["big-box-retail-operations", "omnichannel-retail", "global-supply-chain"]
+    },
+    {
+      "name": "Sam's Club",
+      "weight": 0.13,
+      "capability_tags": ["membership-warehouse-club", "private-label-brands", "omnichannel-retail"]
+    },
+    {
+      "name": "Walmart International",
+      "weight": 0.22,
+      "capability_tags": ["big-box-retail-operations", "e-commerce-fulfillment"]
+    }
+  ],
+  "name_reality_gap": "Labeled Retail; activity evidence reveals Walmart is simultaneously one of the world's largest technology employers, a $100B+ annual logistics operator, and an emerging retail-media advertising platform — the retail label substantially undersells the tech and logistics reality.",
+  "sources": [
+    { "url": "https://corporate.walmart.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good single authoritative source with quantified metrics. Walmart's tech arm (Walmart Global Tech) and retail media network (Walmart Connect) are significant but not fully detailed in this source.",
+  "extraction_confidence": 0.9
+}

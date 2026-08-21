@@ -1,0 +1,55 @@
+{
+  "slug": "best-buy",
+  "company": "Best Buy",
+  "domain": "bestbuy.com",
+  "activity_statements": [
+    {
+      "statement": "operates 1,000+ consumer electronics retail stores across the United States and Canada serving customers in-store, online, and in-home",
+      "source_url": "https://corporate.bestbuy.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides in-home tech installation, repair, and support services through Geek Squad (85,000+ employees)",
+      "source_url": "https://corporate.bestbuy.com/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "sells consumer electronics, appliances, computers, mobile devices, and smart-home products to individual consumers and businesses",
+      "source_url": "https://corporate.bestbuy.com/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates a health technology segment offering remote patient monitoring and senior-focused tech solutions",
+      "source_url": "https://corporate.bestbuy.com/about/",
+      "confidence": 0.70
+    }
+  ],
+  "capability_tags": [
+    "consumer-electronics-retail",
+    "in-home-service-technicians",
+    "tech-repair-services",
+    "omnichannel-retail",
+    "product-financing",
+    "trade-in-and-refurbishment",
+    "b2b-technology-supply",
+    "health-tech-services",
+    "appliance-installation"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations", "weight": 0.45 },
+    { "family": "field-service-technicians", "weight": 0.20 },
+    { "family": "e-commerce-and-digital", "weight": 0.12 },
+    { "family": "supply-chain-and-logistics", "weight": 0.10 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "finance-and-operations", "weight": 0.05 }
+  ],
+  "value_chain": ["distribute", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Best Buy' name and 'Retail' label are honest but conceal that a substantial share of employees are field service technicians (Geek Squad) performing in-home tech installation, repair, and support work — making it as much a services business as a retailer.",
+  "sources": [
+    { "url": "https://corporate.bestbuy.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Main bestbuy.com about pages returned 404; only the bare corporate about page was available. Source was thin on specifics. Geek Squad and health segment details drawn from known public information. Extraction confidence moderate.",
+  "extraction_confidence": 0.70
+}

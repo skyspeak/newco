@@ -1,0 +1,61 @@
+{
+  "slug": "eli-lilly-and-company",
+  "company": "Eli Lilly and Company",
+  "domain": "lilly.com",
+  "activity_statements": [
+    {
+      "statement": "discovers, develops and manufactures medicines serving 55+ million patients annually across therapeutic areas including diabetes/obesity, oncology, immunology and neuroscience",
+      "source_url": "https://www.lilly.com/who-we-are",
+      "confidence": 0.95
+    },
+    {
+      "statement": "commercializes high-demand medicines including GLP-1 receptor agonists for diabetes and obesity (tirzepatide under Mounjaro and Zepbound brands) to patients and healthcare systems globally",
+      "source_url": "https://www.lilly.com/who-we-are",
+      "confidence": 0.85
+    },
+    {
+      "statement": "invests at record levels in US pharmaceutical manufacturing capacity to meet strong demand for its medicines including expansion of API and drug product facilities",
+      "source_url": "https://www.lilly.com/who-we-are",
+      "confidence": 0.85
+    },
+    {
+      "statement": "runs patient access programs and works with health organizations, providers, regulators and governments to improve medicine affordability for the 55M+ people who count on Lilly medicines",
+      "source_url": "https://www.lilly.com/who-we-are",
+      "confidence": 0.9
+    },
+    {
+      "statement": "maintains a 149-year history of pharmaceutical research with approximately 47,000 employees worldwide dedicated to medicine development and delivery",
+      "source_url": "https://www.lilly.com/who-we-are",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "pharmaceutical-research-and-development",
+    "drug-manufacturing-at-scale",
+    "clinical-trial-operations",
+    "regulatory-submissions",
+    "global-commercial-launch",
+    "patient-access-programs",
+    "diabetes-and-metabolic-medicine",
+    "oncology-pipeline",
+    "immunology-therapeutics",
+    "manufacturing-capacity-expansion"
+  ],
+  "function_mix": [
+    { "family": "research-and-drug-discovery", "weight": 0.2 },
+    { "family": "clinical-development", "weight": 0.2 },
+    { "family": "pharmaceutical-manufacturing", "weight": 0.25 },
+    { "family": "regulatory-and-medical-affairs", "weight": 0.1 },
+    { "family": "commercial-and-sales", "weight": 0.15 },
+    { "family": "patient-access-and-market-access", "weight": 0.1 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Labeled Pharmaceutical Manufacturing; reality is a research-led organization that is currently the world's most valuable pharmaceutical company driven by GLP-1/obesity medicines, with manufacturing capacity expansion as a primary strategic challenge — the label undersells the discovery-science and market-access dimensions.",
+  "sources": [
+    { "url": "https://www.lilly.com/who-we-are", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong about page. Product specifics (Mounjaro, Zepbound) drawn from public knowledge consistent with source context about diabetes/obesity focus. Manufacturing expansion investment referenced in source.",
+  "extraction_confidence": 0.88
+}

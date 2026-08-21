@@ -1,0 +1,55 @@
+{
+  "slug": "nyc-health-hospitals",
+  "company": "NYC Health + Hospitals",
+  "domain": "nychealthandhospitals.org",
+  "activity_statements": [
+    {
+      "statement": "operates the largest public health system in the United States, providing acute care, primary care, specialty care, behavioral health, and long-term care to New York City residents",
+      "source_url": "https://www.nychealthandhospitals.org/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "provides health care services to all NYC residents regardless of ability to pay or immigration status through a network of public hospitals, community health centers, and skilled nursing facilities",
+      "source_url": "https://www.nychealthandhospitals.org/about/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers short-term rehabilitation therapy and long-term skilled nursing care with physicians on-site 24/7 at facilities such as NYC Health + Hospitals/Coler",
+      "source_url": "https://www.nychealthandhospitals.org/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates as a New York Public Benefit Corporation under the governance of the City of New York, funded by a combination of Medicaid, Medicare, and city subsidies",
+      "source_url": "https://www.nychealthandhospitals.org/about/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "public-hospital-operations",
+    "primary-care-access",
+    "behavioral-health-services",
+    "long-term-skilled-nursing",
+    "rehabilitation-therapy",
+    "safety-net-healthcare",
+    "medicaid-and-medicare-operations",
+    "community-health-centers",
+    "24x7-emergency-and-inpatient-care"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-staff-physicians-nurses-aides", "weight": 0.60 },
+    { "family": "administrative-and-billing-operations", "weight": 0.15 },
+    { "family": "facilities-and-environmental-services", "weight": 0.12 },
+    { "family": "behavioral-health-professionals", "weight": 0.08 },
+    { "family": "technology-and-informatics", "weight": 0.05 }
+  ],
+  "value_chain": ["service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "none - the name and 'Hospitals & Health Care' index label accurately describe the organization. The less obvious reality is that as the US's largest public health system, it functions as a city-subsidized safety-net insurer and social services gateway as much as a clinical delivery system.",
+  "sources": [
+    { "url": "https://www.nychealthandhospitals.org/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "The about URL landed on the Coler (skilled nursing) facility page rather than the organization-level about page, providing some but incomplete organizational coverage. Profile supplemented with publicly known information about NYC H+H as the largest US public health system. Extraction confidence moderate due to limited source.",
+  "extraction_confidence": 0.70
+}

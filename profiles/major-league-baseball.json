@@ -1,0 +1,66 @@
+{
+  "slug": "major-league-baseball",
+  "company": "Major League Baseball",
+  "domain": "mlb.com",
+  "activity_statements": [
+    {
+      "statement": "governs and operates the premier professional baseball league in the US and Canada comprising 30 member clubs under the Office of the Commissioner",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates MLB.TV streaming platform delivering live and on-demand baseball games to fans globally, setting records in games and minutes watched",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates MLB Network cable television channel providing 24/7 baseball content, news and analysis to US households",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.85
+    },
+    {
+      "statement": "licenses MLB intellectual property including marks, footage and photographs to consumer product companies, media organizations and international broadcasters",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manages sponsorship and advertising relationships with corporate partners across 30-club marketing and media assets",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.8
+    },
+    {
+      "statement": "maintains a global expansion program expanding reach of professional baseball through programming, content and international events",
+      "source_url": "https://www.mlb.com/official-information/about-mlb",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "sports-league-governance",
+    "live-sports-streaming",
+    "cable-television-network",
+    "sports-ip-licensing",
+    "sponsorship-and-ad-sales",
+    "broadcast-rights-management",
+    "stadium-and-event-operations",
+    "global-sports-expansion",
+    "sports-data-and-analytics",
+    "player-discipline-and-integrity"
+  ],
+  "function_mix": [
+    { "family": "media-and-digital-operations", "weight": 0.25 },
+    { "family": "league-operations-and-officiating", "weight": 0.2 },
+    { "family": "broadcasting-and-content", "weight": 0.2 },
+    { "family": "licensing-and-sponsorship", "weight": 0.15 },
+    { "family": "business-and-corporate-functions", "weight": 0.15 },
+    { "family": "technology-and-data", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "distribute", "service"],
+  "delivery_mode": ["content", "software", "physical-asset", "marketplace"],
+  "segments": [],
+  "name_reality_gap": "Labeled Entertainment Providers; MLB is more precisely a media rights and intellectual property monetization organization using baseball competitions as content — its primary revenue drivers are broadcast rights deals (billions), streaming (MLB.TV), licensing and sponsorship rather than gate revenues alone.",
+  "sources": [
+    { "url": "https://www.mlb.com/official-information/about-mlb", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About-MLB page is primarily contact/directory. Key business activities inferred from explicit mentions of MLB.TV, MLB Network, Licensing/Publishing, Sponsorship/Advertising and Footage Licensing departments. Source was lean on quantitative detail.",
+  "extraction_confidence": 0.78
+}

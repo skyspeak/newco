@@ -1,0 +1,112 @@
+[
+  {
+    "company": "Confluence Health",
+    "domain": "confluencehealth.org",
+    "cluster": 7,
+    "matched_capabilities": ["primary-care-network", "physician-employment-at-scale", "hospital-operations", "clinical-care-delivery", "health-equity-programs"],
+    "activity_evidence": "Confluence Health is the major medical provider for North Central Washington, operating as an integrated healthcare delivery system with two hospitals, over 40 specialties, and more than 400 employed providers delivering comprehensive primary and specialty care across four counties.",
+    "why_off_index": "Regional nonprofit health system serving a rural four-county Washington footprint; no consumer employer brand outside the region and absent from all 2026 employer-brand indexes.",
+    "source_url": "https://confluencehealth.org/about/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Benefis Health System",
+    "domain": "benefis.org",
+    "cluster": 7,
+    "matched_capabilities": ["primary-care-network", "physician-employment-at-scale", "hospital-operations", "clinical-care-delivery", "health-equity-programs"],
+    "activity_evidence": "Benefis Health System is the largest health system in northcentral Montana, employing 400+ providers across 226 inpatient beds, numerous outpatient clinics, two rural critical access hospitals, long-term care units, and home health services across a 42,000 square mile service area.",
+    "why_off_index": "Largest health system in a sparsely populated rural Montana region; B2B-adjacent, nonprofit, and purely local employer with no national consumer brand.",
+    "source_url": "https://benefis.org/about-us/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Sage Health",
+    "domain": "sage.health",
+    "cluster": 7,
+    "matched_capabilities": ["primary-care-network", "value-based-care", "medicare-advantage", "clinical-care-delivery"],
+    "activity_evidence": "Sage Health operates neighborhood primary care and wellness centers exclusively for Medicare-eligible adults 55+, with each physician capped at 500 patients to enable high-touch primary care, and accepts Medicare and Medicare Advantage plans.",
+    "why_off_index": "Private senior-focused primary care operator with a small neighborhood-clinic footprint; no consumer employer brand and absent from the 2026 employer-brand indexes.",
+    "source_url": "https://sage.health/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Millennium Physician Group",
+    "domain": "millenniumphysician.com",
+    "cluster": 7,
+    "matched_capabilities": ["primary-care-network", "physician-employment-at-scale", "clinical-care-delivery", "value-based-care"],
+    "activity_evidence": "Millennium Physician Group employs 900+ healthcare providers across primary care offices, imaging centers, lab services, and wellness programs throughout Florida, Georgia, Texas, and North Carolina, making it one of the largest physician groups in Florida.",
+    "why_off_index": "Large private physician group operating entirely B2B/clinical without consumer employer brand; absent from all four 2026 employer-brand rankings.",
+    "source_url": "https://millenniumphysician.com/about",
+    "confidence": 0.91
+  },
+  {
+    "company": "Pioneer Physicians Network",
+    "domain": "pioneerphysicians.com",
+    "cluster": 7,
+    "matched_capabilities": ["primary-care-network", "physician-employment-at-scale", "value-based-care", "medicare-advantage"],
+    "activity_evidence": "Pioneer Physicians Network is a physician-owned, value-based primary care medical group with 65 physicians at 19 clinics across Northeast Ohio, operating under full-risk Medicare Advantage contracting through a partnership with agilon health.",
+    "why_off_index": "Regional physician-owned group with no national employer presence; serves a single metro Ohio market and does not appear on any of the 2026 employer-brand indexes.",
+    "source_url": "https://pioneerphysicians.com/",
+    "confidence": 0.89
+  },
+  {
+    "company": "veriMED IPA",
+    "domain": "verimedipa.com",
+    "cluster": 7,
+    "matched_capabilities": ["medicare-advantage", "primary-care-network", "value-based-care"],
+    "activity_evidence": "veriMED is an independent practice association and management services organization that credentials a network of independent primary care physicians to Medicare Advantage HMOs in Tampa Bay and Central Florida, providing global risk contracting, utilization management, and case management services.",
+    "why_off_index": "Small private IPA/MSO serving physician networks in Florida; no consumer presence, no employer brand, and absent from all 2026 best-places-to-work indexes.",
+    "source_url": "https://verimedipa.com/",
+    "confidence": 0.86
+  },
+  {
+    "company": "Privia Health",
+    "domain": "priviahealth.com",
+    "cluster": 7,
+    "matched_capabilities": ["value-based-care", "primary-care-network", "physician-employment-at-scale", "medicare-advantage"],
+    "activity_evidence": "Privia Health enables physician-led, multi-specialty medical groups of independent physicians to deliver high-value, outcomes-based care by providing practice management infrastructure, technology, and value-based contracting across multiple states.",
+    "why_off_index": "Public company (PRVA) that operates entirely as a B2B physician enablement platform; no consumer-facing employer brand and absent from all four 2026 employer indexes.",
+    "source_url": "https://priviahealth.com/who-we-support/physicians/privia-medical-group",
+    "confidence": 0.87
+  },
+  {
+    "company": "Tufts Medicine Integrated Network",
+    "domain": "tuftsmedicine.org",
+    "cluster": 7,
+    "matched_capabilities": ["value-based-care", "primary-care-network", "physician-employment-at-scale", "clinical-care-delivery", "medicare-advantage"],
+    "activity_evidence": "The Tufts Medicine Integrated Network is a population health enterprise and value-based care contracting entity comprising 2,300 primary care and specialist physicians and clinicians, working as Tufts Medicine employees or in private practice to deliver neighborhood-level risk management and outcomes in Massachusetts.",
+    "why_off_index": "Health system subsidiary nonprofit focused on value-based contracting; no independent employer brand, operates under health system umbrella, and absent from all 2026 indexes.",
+    "source_url": "https://tuftsmedicine.org/physicians/integrated-network",
+    "confidence": 0.87
+  },
+  {
+    "company": "GeBBS Healthcare Solutions",
+    "domain": "gebbs.com",
+    "cluster": 7,
+    "matched_capabilities": ["hospital-operations", "health-equity-programs", "clinical-care-delivery"],
+    "activity_evidence": "GeBBS Healthcare Solutions provides end-to-end revenue cycle management, risk adjustment coding, and HEDIS abstraction services to over 30 top US health plans and hospital systems, performing over 10 million chart reviews annually.",
+    "why_off_index": "Private equity-backed (EQT) B2B healthcare IT and RCM outsourcer; no consumer brand and not found on any of the four 2026 employer-brand lists.",
+    "source_url": "https://gebbs.com/",
+    "confidence": 0.83
+  },
+  {
+    "company": "SCIO Management Solutions",
+    "domain": "scioms.com",
+    "cluster": 7,
+    "matched_capabilities": ["hospital-operations", "value-based-care"],
+    "activity_evidence": "SCIO Management Solutions handles revenue cycle management for difficult-to-bill, complex provider organizations, including hospitals, physician practices, and oncology clinics, with 800+ employees delivering billing, auditing, and practice consulting services.",
+    "why_off_index": "Private healthcare RCM outsourcer based in Sarasota, FL; purely B2B with no consumer employer brand and absent from all 2026 employer indexes.",
+    "source_url": "https://scioms.com/",
+    "confidence": 0.82
+  },
+  {
+    "company": "PerformCare",
+    "domain": "performcare.org",
+    "cluster": 7,
+    "matched_capabilities": ["value-based-care", "clinical-care-delivery", "health-equity-programs", "medicare-advantage"],
+    "activity_evidence": "PerformCare is a national, full-service behavioral health managed care organization providing customized solutions for public sector, Medicaid, system of care, and commercial sectors, covering members, children and youth services, and managed behavioral health across its network.",
+    "why_off_index": "Behavioral health managed care organization operating as part of AmeriHealth Caritas; B2B payer-side operator with no consumer employer brand and absent from all 2026 indexes.",
+    "source_url": "https://performcare.org/",
+    "confidence": 0.85
+  }
+]

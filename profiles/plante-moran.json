@@ -1,0 +1,59 @@
+{
+  "slug": "plante-moran",
+  "company": "Plante Moran",
+  "domain": "plantemoran.com",
+  "activity_statements": [
+    {
+      "statement": "provides audit and assurance services to public and private entities across industries as one of the largest U.S. CPA firms",
+      "source_url": "https://www.plantemoran.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides tax compliance and planning services to businesses, individuals, and nonprofit organizations globally",
+      "source_url": "https://www.plantemoran.com/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides management consulting services helping clients with strategy, operations, technology, and financial advisory",
+      "source_url": "https://www.plantemoran.com/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides wealth management services to high-net-worth individuals, families, and institutions",
+      "source_url": "https://www.plantemoran.com/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "employs nearly 4,000 staff serving thousands of clients globally from offices across multiple states",
+      "source_url": "https://www.plantemoran.com/about-us",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "audit-and-assurance",
+    "tax-compliance-and-planning",
+    "management-consulting",
+    "wealth-management",
+    "financial-advisory",
+    "nonprofit-and-public-sector-advisory",
+    "regulatory-compliance-ops",
+    "mergers-and-acquisitions-advisory",
+    "transaction-advisory-services"
+  ],
+  "function_mix": [
+    { "family": "audit-and-accounting", "weight": 0.35 },
+    { "family": "tax-advisory", "weight": 0.3 },
+    { "family": "management-consulting", "weight": 0.2 },
+    { "family": "wealth-management", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["service", "assure", "advisory"],
+  "delivery_mode": ["advisory", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Plante Moran' name and 'Professional Services' industry label both accurately describe an accounting and consulting firm. However, the firm positions itself as 'a people firm disguised as an accounting firm,' with unusually deep client relationships that extend far beyond compliance work into strategic advisory and wealth management.",
+  "sources": [
+    { "url": "https://www.plantemoran.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was informative on services, headcount, and culture. Private partnership — no 10-K. Segment revenue weights not determinable; function mix is estimated from typical CPA firm structures.",
+  "extraction_confidence": 0.82
+}

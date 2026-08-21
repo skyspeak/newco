@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Activity Map — an organizational map built on what firms do</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b1220; --ink2:#33415c; --ink3:#64748b; --line:#dbe2ea; --line2:#eef2f6;
+  --bg:#ffffff; --panel:#f7f9fc; --blue:#1a4fd6; --blue-l:#e8eeff; --sig:#c0392b;
+  --sig-l:#fdecea; --ok:#0f766e; --ok-l:#e6f4f1; --amber:#b45309; --amber-l:#fdf3e3;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.wrap{max-width:1220px;margin:0 auto;padding:0 36px}
+a{color:var(--blue)}
+
+/* masthead */
+header.mast{border-bottom:2px solid var(--ink);background:#fff;position:relative}
+.mast .wrap{padding-top:34px;padding-bottom:22px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--blue);font-weight:600;display:flex;gap:14px;flex-wrap:wrap}
+.eyebrow span{color:var(--ink3)}
+h1{font-size:clamp(30px,4.6vw,52px);line-height:1.04;letter-spacing:-.025em;margin:14px 0 0;
+  font-weight:700;max-width:22ch}
+.dek{margin:16px 0 0;font-size:17px;color:var(--ink2);max-width:70ch}
+.dek b{color:var(--ink);font-weight:600}
+
+/* nav */
+nav.tabs{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:2px;overflow-x:auto;padding:0 36px;scrollbar-width:none}
+nav.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{border:0;background:none;padding:14px 15px;font:inherit;font-size:13px;font-weight:500;
+  color:var(--ink3);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--blue);border-bottom-color:var(--blue);font-weight:600}
+
+/* metric strip */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--panel)}
+.met{padding:16px 18px;border-right:1px solid var(--line)}
+.met:last-child{border-right:0}
+.met .v{font-family:'IBM Plex Mono',monospace;font-size:25px;font-weight:600;letter-spacing:-.02em}
+.met .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink3);
+  margin-top:3px;font-weight:500}
+.met.hl .v{color:var(--sig)}
+
+section.pane{display:none;padding:42px 0 76px}
+section.pane.on{display:block}
+h2{font-size:26px;letter-spacing:-.02em;margin:0 0 6px;font-weight:650}
+h3{font-size:15px;margin:34px 0 10px;font-weight:600;letter-spacing:-.01em}
+.lede{color:var(--ink2);max-width:78ch;margin:0 0 26px}
+.note{background:var(--panel);border-left:3px solid var(--blue);padding:13px 16px;
+  font-size:13.5px;color:var(--ink2);margin:20px 0;border-radius:0 3px 3px 0}
+.note.warn{border-left-color:var(--amber);background:var(--amber-l)}
+.note b{color:var(--ink)}
+
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--ink3);font-weight:600;padding:9px 11px;border-bottom:1.5px solid var(--ink);
+  white-space:nowrap;background:#fff;position:sticky;top:47px;z-index:5}
+td{padding:10px 11px;border-bottom:1px solid var(--line2);vertical-align:top}
+tr:hover td{background:#fbfcfe}
+td.num,th.num{text-align:right;font-family:'IBM Plex Mono',monospace}
+.scroll{max-height:640px;overflow:auto;border:1px solid var(--line);border-radius:4px}
+
+.pill{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  padding:2px 7px;border-radius:3px;background:var(--blue-l);color:var(--blue);
+  margin:2px 3px 2px 0;white-space:nowrap;font-weight:500}
+.pill.g{background:var(--ok-l);color:var(--ok)}
+.pill.r{background:var(--sig-l);color:var(--sig)}
+.pill.n{background:#f1f5f9;color:var(--ink2)}
+.pill.a{background:var(--amber-l);color:var(--amber)}
+
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(330px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.card{border:1px solid var(--line);border-radius:5px;padding:17px;background:#fff}
+.card h4{margin:0 0 3px;font-size:15px;font-weight:650;letter-spacing:-.01em}
+.card .sub{font-size:11px;color:var(--ink3);font-family:'IBM Plex Mono',monospace;
+  text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.card.click{cursor:pointer;transition:border-color .12s,box-shadow .12s}
+.card.click:hover{border-color:var(--blue);box-shadow:0 1px 8px rgba(26,79,214,.09)}
+
+.twin{border:1px solid var(--line);border-radius:5px;padding:0;overflow:hidden;background:#fff}
+.twin .row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;
+  padding:15px 17px;background:var(--panel);border-bottom:1px solid var(--line)}
+.twin .side{min-width:0}
+.twin .side .nm{font-weight:650;font-size:15px}
+.twin .side .lb{font-size:11px;color:var(--ink3);margin-top:2px}
+.twin .side.r{text-align:right}
+.twin .vs{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue);
+  border:1px solid var(--blue);border-radius:11px;padding:2px 9px;font-weight:600;white-space:nowrap}
+.twin .body{padding:13px 17px;font-size:13px;color:var(--ink2)}
+.twin .body .lk{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);
+  display:block;margin-bottom:7px}
+
+.bar{height:7px;background:var(--line2);border-radius:4px;overflow:hidden;min-width:70px}
+.bar i{display:block;height:100%;background:var(--blue)}
+.bar.r i{background:var(--sig)}
+
+.search{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:5px;
+  font:inherit;font-size:14px;margin-bottom:16px}
+.search:focus{outline:0;border-color:var(--blue)}
+
+.ladder{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:15px 17px;
+  border:1px solid var(--line);border-radius:5px;margin-bottom:12px;background:#fff}
+.ladder .node{font-weight:600;font-size:13.5px}
+.ladder .arrow{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3);
+  display:flex;flex-direction:column;align-items:center;line-height:1.2}
+.ladder .arrow b{color:var(--blue);font-weight:600}
+
+#detail{position:fixed;inset:0;background:rgba(11,18,32,.4);z-index:200;display:none;
+  align-items:flex-start;justify-content:center;padding:5vh 20px;overflow:auto}
+#detail.on{display:flex}
+#detail .box{background:#fff;border-radius:7px;max-width:760px;width:100%;padding:28px;
+  box-shadow:0 20px 60px rgba(11,18,32,.28)}
+#detail .x{float:right;border:0;background:none;font-size:24px;cursor:pointer;color:var(--ink3);
+  line-height:1;padding:0}
+.kv{display:grid;grid-template-columns:132px 1fr;gap:7px 14px;font-size:13px;margin:14px 0}
+.kv dt{color:var(--ink3);font-size:11px;text-transform:uppercase;letter-spacing:.07em;
+  font-weight:600;padding-top:2px}
+.kv dd{margin:0}
+ul.acts{margin:8px 0;padding-left:19px;font-size:13.5px;color:var(--ink2)}
+ul.acts li{margin-bottom:5px}
+footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--ink3);font-size:12.5px}
+.meth h3{margin-top:26px}
+.meth p{max-width:80ch;color:var(--ink2);font-size:14px}
+.meth code{font-family:'IBM Plex Mono',monospace;font-size:12.5px;background:var(--panel);
+  padding:1.5px 5px;border-radius:3px;color:var(--ink)}
+.stage{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:14px 0 22px;
+  font-family:'IBM Plex Mono',monospace;font-size:11.5px}
+.stage b{background:var(--ink);color:#fff;padding:5px 10px;border-radius:3px;font-weight:500}
+.stage i{color:var(--ink3);font-style:normal}
+@media(max-width:640px){
+  .wrap,nav.tabs .wrap{padding-left:20px;padding-right:20px}
+  .twin .row{grid-template-columns:1fr;text-align:left}
+  .twin .side.r{text-align:left}
+  .kv{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">The Activity Map <span>v1 · seeded from the 2026 hot-companies indexes</span></div>
+    <h1>An organizational map built on what firms&nbsp;do</h1>
+    <p class="dek">Inclusion here is decided by <b>extracted activity</b> — what work a firm performs, which
+    capabilities it operates, which job families it staffs — and never by a registry identifier.
+    Seeded from five 2026 "best companies to work for" indexes, then deliberately expanded past them.
+    Everything is firm-level: <b>no individuals, no contact data</b>.</p>
+  </div>
+  <div class="strip" id="strip"></div>
+</header>
+
+<nav class="tabs"><div class="wrap" id="tabs"></div></nav>
+
+<main class="wrap">
+  <section class="pane on" id="p-overview"></section>
+  <section class="pane" id="p-clusters"></section>
+  <section class="pane" id="p-twins"></section>
+  <section class="pane" id="p-hidden"></section>
+  <section class="pane" id="p-mismatch"></section>
+  <section class="pane" id="p-offindex"></section>
+  <section class="pane" id="p-ladders"></section>
+  <section class="pane" id="p-firms"></section>
+  <section class="pane" id="p-method"></section>
+</main>
+
+<div id="detail"><div class="box" id="detailBox"></div></div>
+
+<footer><div class="wrap">
+  Built from public firm-level sources (company about / product / careers pages, 10-K Item 1 and
+  segment reporting). Every record carries source URLs and an extraction confidence. Activity
+  clusters are emergent — named after the fact from over-represented capabilities, never assigned
+  from a code list.
+</div></footer>
+
+<script>
+const D = /*__DATA__*/;
+const S = D.stats;
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const byslug = {}; D.companies.forEach(c=>byslug[c.s]=c);
+const cname = id => (D.clusters.find(c=>c.id===id)||{}).name || ("Cluster "+id);
+const pills = (a,cls) => (a||[]).map(t=>`<span class="pill ${cls||''}">${esc(t)}</span>`).join("");
+const pct = v => Math.round((v||0)*100)+"%";
+
+/* ---------- metric strip ---------- */
+document.getElementById("strip").innerHTML = [
+  [S.n_total_firms, "firms mapped"],
+  [S.n_companies, "from hot lists"],
+  [S.n_off_index, "found off-index"],
+  [S.n_activity_statements, "activity statements"],
+  [S.n_canonical_tags, "capabilities"],
+  [S.n_distinct_index_labels, "industry labels"],
+  [pct(S.sector_mismatch_rate), "labels contradicted", 1],
+  [S.n_op_twins, "cross-domain twins"],
+].map(m=>`<div class="met${m[2]?' hl':''}"><div class="v">${esc(m[0])}</div><div class="k">${esc(m[1])}</div></div>`).join("");
+
+/* ---------- tabs ---------- */
+const TABS = [["overview","Overview"],["clusters","Activity clusters"],["twins","Cross-domain twins"],
+  ["hidden","Hidden employers"],["mismatch","Label mismatch"],["offindex","Off-index expansion"],
+  ["ladders","Adjacency ladders"],["firms","Firm lookup"],["method","Method & limits"]];
+document.getElementById("tabs").innerHTML = TABS.map((t,i)=>
+  `<button class="tab${i===0?' on':''}" data-t="${t[0]}">${t[1]}</button>`).join("");
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+  document.querySelectorAll(".pane").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on");
+  document.getElementById("p-"+b.dataset.t).classList.add("on");
+  window.scrollTo({top:0,behavior:"instant"});
+});
+
+/* ---------- overview ---------- */
+const topFam = (S.top_families||[]).slice(0,10);
+const maxFam = Math.max(...topFam.map(f=>f[1]),0.01);
+document.getElementById("p-overview").innerHTML = `
+<h2>What this map is, and why not DUNS</h2>
+<p class="lede">A registry identifier answers a procurement question: <em>is this a legal entity of
+type X?</em> It cannot answer the question people actually ask about a company — <em>what work
+happens here?</em> So this map never uses one. Each firm was read from its own public pages and
+filings, and reduced to activity statements, capabilities, staffed job families, value-chain
+position and delivery mode. Similarity and clustering run only on those.</p>
+
+<div class="note"><b>The test that matters.</b> ${S.n_sector_mismatch} of ${S.n_labeled_firms}
+labeled firms (${pct(S.sector_mismatch_rate)}) sit in a sector their own activity evidence
+contradicts. The industry labels attached to these firms by the indexes that ranked them collapse
+into ${D.clusters.length} activity clusters — and the single largest cluster mixes
+${Math.max(...D.clusters.map(c=>c.nlabels))} different industry labels doing recognisably the same work.</p></div>
+
+<h3>Four findings the label-based view cannot produce</h3>
+<div class="grid g2">
+  <div class="card"><h4>Same work, different industry</h4><div class="sub">${S.n_op_twins} pairs</div>
+    <p style="margin:0;font-size:13.5px;color:var(--ink2)">A grocer and a biotech both run validated
+    cold chains. A parcel carrier and a home-improvement retailer both run fulfilment networks. These
+    pairs share <em>work shape</em> while selling unrelated things — invisible to any classification
+    built on output.</p></div>
+  <div class="card"><h4>The hidden employer</h4><div class="sub">${S.software_staffing_firms_20pct} firms staff ≥20% software</div>
+    <p style="margin:0;font-size:13.5px;color:var(--ink2)">Firms whose name and label describe one
+    business while their staffing describes another. The retailer that is a logistics and ad-tech
+    operator; the bank whose largest job family is engineering.</p></div>
+  <div class="card"><h4>Off the hot list</h4><div class="sub">${S.n_off_index} firms added</div>
+    <p style="margin:0;font-size:13.5px;color:var(--ink2)">Firms verified to perform the same
+    activities as the ranked seed, appearing on none of the five 2026 indexes — mostly B2B
+    infrastructure, private, and regional operators with no consumer brand.</p></div>
+  <div class="card"><h4>Portable vs sector-bound work</h4><div class="sub">${S.n_portable_capabilities} portable capabilities</div>
+    <p style="margin:0;font-size:13.5px;color:var(--ink2)">Capabilities were measured for how widely
+    they span sectors. Portable ones (revenue management, fraud detection, cold chain) are the real
+    bridges between industries; sector-bound ones (drug development) are not.</p></div>
+</div>
+
+<h3>Staffed job families across all ${S.n_companies} seed firms</h3>
+<p class="lede" style="margin-bottom:14px">Mean share of each firm's staffing attention. Software
+engineering leads in a corpus that is mostly <em>not</em> technology companies — which is the
+hidden-employer effect in one chart.</p>
+<table><thead><tr><th>Job family</th><th class="num">Mean share</th><th style="width:42%"></th></tr></thead><tbody>
+${topFam.map(f=>`<tr><td class="mono">${esc(f[0])}</td><td class="num">${f[1].toFixed(3)}</td>
+<td><div class="bar"><i style="width:${(f[1]/maxFam*100).toFixed(1)}%"></i></div></td></tr>`).join("")}
+</tbody></table>
+
+<h3>Pipeline</h3>
+<div class="stage"><b>seed</b><i>→</i><b>fetch</b><i>→</i><b>extract</b><i>→</i><b>normalize</b><i>→</i>
+<b>scrub</b><i>→</i><b>similarity</b><i>→</i><b>cluster</b><i>→</i><b>wedges</b><i>→</i><b>expand</b><i>→</i><b>publish</b></div>
+<p class="lede">Every stage is checkpointed to disk and re-runnable. Mean extraction confidence
+${S.mean_extraction_confidence}. Privacy scrub violations: <b>${(S.n_scrub||0)}</b> — the gate rejects
+any record containing a person name, title tied to a person, email or phone before it can enter the map.</p>`;
+
+/* ---------- clusters ---------- */
+document.getElementById("p-clusters").innerHTML = `
+<h2>Activity clusters</h2>
+<p class="lede">Emergent, not assigned. Average-linkage agglomerative clustering on blended activity
+similarity; each cluster is then named from the capabilities most over-represented inside it. The
+<em>industry labels</em> column counts how many different labels the ranking indexes gave to firms
+that do the same work.</p>
+<div class="grid g2">${D.clusters.map(c=>`
+<div class="card"><h4>${esc(c.name)}</h4>
+  <div class="sub">cluster ${c.id} · ${c.size} firms · ${c.nlabels} industry labels · cohesion ${c.sim}</div>
+  <div style="margin-bottom:9px">${pills(c.sig.slice(0,6))}</div>
+  <div style="font-size:12px;color:var(--ink3);margin-bottom:7px">
+    <b style="color:var(--ink2)">staffs:</b> ${esc(c.fams.join(", "))}</div>
+  <div style="font-size:12px;color:var(--ink3);margin-bottom:9px">
+    <b style="color:var(--ink2)">chain:</b> ${esc(c.vc.join(" · "))} &nbsp;
+    <b style="color:var(--ink2)">mode:</b> ${esc(c.dm.join(" · "))}</div>
+  <div style="font-size:12px;color:var(--ink2);border-top:1px solid var(--line2);padding-top:9px">
+    ${c.members.map(s=>`<a href="#" onclick="showFirm('${s}');return false">${esc((byslug[s]||{}).n||s)}</a>`).join(" · ")}</div>
+</div>`).join("")}</div>
+
+<h3>Labels the indexes used for these firms</h3>
+<div class="scroll"><table><thead><tr><th>Cluster</th><th>Industry labels mixed inside it</th><th class="num">n</th></tr></thead><tbody>
+${D.clusters.map(c=>`<tr><td><b>${esc(c.name)}</b></td><td style="font-size:12.5px;color:var(--ink2)">${esc(c.labels.join(" · "))}</td><td class="num">${c.nlabels}</td></tr>`).join("")}
+</tbody></table></div>`;
+
+/* ---------- twins ---------- */
+document.getElementById("p-twins").innerHTML = `
+<h2>Cross-domain twins</h2>
+<p class="lede">Pairs that perform the same <em>kind</em> of work while selling unrelated things.
+Ranked by operational similarity (job families, value-chain position, delivery mode and portable
+capabilities only) minus subject-matter similarity — so pairs that are simply in the same business
+score low and drop out.</p>
+<div class="note"><b>Why this needed two passes.</b> A naive version of this test compared industry
+label wording and immediately "discovered" that Deloitte and EY are cross-industry twins — they are
+not, they are two accounting firms whose labels disagree. Pairs sharing any sector-bound capability
+are now excluded, and that failure became its own finding: the <a href="#" onclick="document.querySelector('[data-t=mismatch]').click();return false">label mismatch register</a>.</div>
+<div class="grid" style="gap:12px">${D.op_twins.map(t=>`
+<div class="twin"><div class="row">
+  <div class="side"><div class="nm">${esc(t.a_name)}</div><div class="lb">${esc(t.a_label)} · <span class="mono">${esc(t.a_sector)}</span></div></div>
+  <div class="vs">op ${t.op_similarity} / subj ${t.subject_similarity}</div>
+  <div class="side r"><div class="nm">${esc(t.b_name)}</div><div class="lb">${esc(t.b_label)} · <span class="mono">${esc(t.b_sector)}</span></div></div>
+</div><div class="body">
+  ${t.shared_portable_capabilities.length?`<span class="lk">shared portable capability</span>${pills(t.shared_portable_capabilities,'g')}`:''}
+  ${t.shared_families.length?`<span class="lk" style="margin-top:8px">shared job families</span>${pills(t.shared_families,'n')}`:''}
+  ${t.shared_value_chain.length?`<div style="margin-top:8px;font-size:12px;color:var(--ink3)">same chain position: <b>${esc(t.shared_value_chain.join(", "))}</b></div>`:''}
+</div></div>`).join("")}</div>`;
+
+/* ---------- hidden ---------- */
+document.getElementById("p-hidden").innerHTML = `
+<h2>Hidden employers</h2>
+<p class="lede">Firms whose name or industry label describes one business while their activity
+describes another. Scored, not asserted: <span class="mono">0.45 × foreign-capability share +
+0.35 × technical staffing under a non-tech label + 0.20 × cross-sector neighbours</span>. A
+foreign capability is one whose typical holder sits in a different sector.</p>
+<div class="note warn"><b>Calibration note.</b> Every extracted profile carried some prose about the
+gap between name and reality, so prose alone selected 147 of 147 firms and meant nothing. The score
+above replaced it. The prose is still shown, but it is evidence, not the selector.</div>
+<div class="scroll"><table><thead><tr><th>Firm</th><th class="num">Score</th><th class="num">Foreign cap.</th>
+<th class="num">Tech staffing</th><th>Filed as</th><th>What the activity says</th></tr></thead><tbody>
+${D.hidden.map(h=>`<tr>
+<td><a href="#" onclick="showFirm('${h.slug}');return false"><b>${esc(h.company)}</b></a></td>
+<td class="num">${h.hidden_score}</td>
+<td class="num">${pct(h.foreign_tag_share)}</td>
+<td class="num">${pct(h.tech_staffing_share)}</td>
+<td style="font-size:12px">${esc(h.index_label)}</td>
+<td style="font-size:12.5px;color:var(--ink2);max-width:420px">${esc(h.name_reality_gap)}</td>
+</tr>`).join("")}</tbody></table></div>`;
+
+/* ---------- mismatch ---------- */
+const flows = S.top_mismatch_flows||[];
+document.getElementById("p-mismatch").innerHTML = `
+<h2>Label mismatch register</h2>
+<p class="lede">Two readings of each firm, kept deliberately apart: the sector implied by the
+<em>index's own industry label</em>, and the sector implied by the firm's <em>extracted
+capabilities</em>. Neither is used to build the map. Their disagreement is a direct measurement of
+the incumbent labelling system's error rate on this corpus.</p>
+<div class="note"><b>${S.n_sector_mismatch} of ${S.n_labeled_firms}</b> labeled firms
+(${pct(S.sector_mismatch_rate)}) are filed under a sector their activity contradicts. This is the
+core argument against inclusion-by-identifier: the identifier and the label travel together, and
+neither tracks the work.</div>
+<h3>Where the labels drift</h3>
+<table style="max-width:620px"><thead><tr><th>Filed as</th><th>Activity says</th><th class="num">Firms</th></tr></thead><tbody>
+${flows.map(f=>`<tr><td class="mono" style="font-size:12px">${esc(f.from)}</td>
+<td class="mono" style="font-size:12px;color:var(--blue)">${esc(f.to)}</td><td class="num">${f.n}</td></tr>`).join("")}
+</tbody></table>
+<h3>Full register</h3>
+<div class="scroll"><table><thead><tr><th>Firm</th><th>Index label</th><th>Filed as</th><th>Activity says</th><th>Evidence</th></tr></thead><tbody>
+${D.mismatch.map(x=>`<tr>
+<td><a href="#" onclick="showFirm('${x.slug}');return false"><b>${esc(x.company)}</b></a></td>
+<td style="font-size:12px;color:var(--ink3)">${esc(x.index_label)}</td>
+<td><span class="pill r">${esc(x.sector_claimed)}</span></td>
+<td><span class="pill g">${esc(x.sector_actual)}</span></td>
+<td>${pills((x.evidence_tags||[]).slice(0,4),'n')}</td></tr>`).join("")}
+</tbody></table></div>`;
+
+/* ---------- off-index ---------- */
+document.getElementById("p-offindex").innerHTML = `
+<h2>Off-index expansion</h2>
+<p class="lede">The seed is a popularity artifact: five employer-brand rankings, biased toward large
+firms with a consumer identity. This is the corrective — ${S.n_off_index} firms verified from their
+own pages to perform the same activities, appearing on none of those lists.</p>
+<div class="note warn"><b>These counts are an existence proof, not an estimate.</b> Each cluster was
+searched to the same 10–14 candidate cap, so any "share of the market that is visible" figure would
+measure the search budget rather than the world. Reported as: off-index firms doing this work exist,
+can be named, and are reachable by activity search.</div>
+<table style="max-width:760px"><thead><tr><th>Activity cluster</th><th class="num">On hot lists</th>
+<th class="num">Off-index found</th></tr></thead><tbody>
+${D.coverage.map(c=>`<tr><td>${esc(cname(c.cluster))}</td><td class="num">${c.on_index}</td>
+<td class="num" style="color:var(--blue);font-weight:600">${c.off_index_found}</td></tr>`).join("")}
+</tbody></table>
+<h3>The register</h3>
+<input class="search" id="qx" placeholder="Filter off-index firms by name, capability or evidence…">
+<div class="scroll"><table><thead><tr><th>Firm</th><th>Cluster</th><th>Matched capabilities</th>
+<th>What it actually does</th><th>Why invisible to rankings</th></tr></thead><tbody id="xbody"></tbody></table></div>`;
+
+function renderX(q){
+  q=(q||"").toLowerCase();
+  const rows=D.expansion.filter(r=>!q||
+    (r.company+" "+(r.matched_capabilities||[]).join(" ")+" "+r.activity_evidence+" "+r.why_off_index).toLowerCase().includes(q));
+  document.getElementById("xbody").innerHTML = rows.map(r=>`<tr>
+    <td><b>${esc(r.company)}</b>${r.domain?`<div style="font-size:11px;color:var(--ink3)" class="mono">${esc(r.domain)}</div>`:''}</td>
+    <td style="font-size:11.5px;color:var(--ink3)">${esc(cname(r.cluster))}</td>
+    <td>${pills((r.matched_capabilities||[]).slice(0,3))}</td>
+    <td style="font-size:12.5px;color:var(--ink2);max-width:340px">${esc(r.activity_evidence)}</td>
+    <td style="font-size:12px;color:var(--ink3);max-width:230px">${esc(r.why_off_index)}</td></tr>`).join("")
+    || `<tr><td colspan="5" style="color:var(--ink3)">No match.</td></tr>`;
+}
+renderX(); document.getElementById("qx").oninput = e=>renderX(e.target.value);
+
+/* ---------- ladders ---------- */
+document.getElementById("p-ladders").innerHTML = `
+<h2>Adjacency ladders</h2>
+<p class="lede">Shortest paths through the activity graph between the most distant clusters. Each
+step is a real capability overlap, so a ladder is a chain of plausible movement through the economy
+by <em>what you'd be doing</em> rather than by job title or industry.</p>
+${D.ladders.map(l=>`<div class="ladder">${l.chain.map((nm,i)=>{
+  const st=l.steps[i-1];
+  return (i?`<span class="arrow">→<b>${st?st.similarity:''}</b>${st&&st.via&&st.via.length?`<i style="font-size:9px">${esc(st.via[0])}</i>`:''}</span>`:'')
+    +`<span class="node">${esc(nm)}</span>`;}).join("")}
+</div>`).join("")}
+<h3>Portable capabilities — the bridges</h3>
+<p class="lede">Measured by sector entropy: how evenly a capability is spread across sectors. High
+entropy means the capability travels, which is what makes a ladder step possible.</p>
+<table style="max-width:620px"><thead><tr><th>Capability</th><th class="num">Entropy</th><th class="num">Firms</th></tr></thead><tbody>
+${D.portable.map(p=>`<tr><td class="mono" style="font-size:12.5px">${esc(p.tag)}</td>
+<td class="num">${p.entropy}</td><td class="num">${p.n_firms}</td></tr>`).join("")}
+</tbody></table>
+<h3>Scarce capabilities</h3>
+<p class="lede">Activities held by only two or three firms in the mapped set — thin markets for that
+kind of work.</p>
+<div>${D.scarce.slice(0,22).map(c=>`<span class="pill a" title="${esc((c.firms||[]).join(', '))}">${esc(c.tag)} · ${c.n_firms}</span>`).join("")}</div>`;
+
+/* ---------- firm lookup ---------- */
+document.getElementById("p-firms").innerHTML = `
+<h2>Firm lookup</h2>
+<p class="lede">All ${S.n_companies} seed firms with their extracted activity profile. Search by name,
+capability, job family or industry label — this is the "who else does what this firm does" view.</p>
+<input class="search" id="qf" placeholder="Search ${S.n_companies} firms by name, capability, family or label…">
+<div class="scroll"><table><thead><tr><th>Firm</th><th>Activity cluster</th><th>Capabilities</th>
+<th class="num">Conf.</th><th class="num">Src</th></tr></thead><tbody id="fbody"></tbody></table></div>`;
+
+function renderF(q){
+  q=(q||"").toLowerCase();
+  const rows=D.companies.filter(c=>!q||
+    (c.n+" "+c.t.join(" ")+" "+c.f.map(x=>x[0]).join(" ")+" "+(c.lab||[]).join(" ")+" "+c.sec).toLowerCase().includes(q));
+  document.getElementById("fbody").innerHTML = rows.map(c=>`<tr>
+    <td><a href="#" onclick="showFirm('${c.s}');return false"><b>${esc(c.n)}</b></a>
+      ${c.mm?'<span class="pill r" title="filed under a sector its activity contradicts">mislabeled</span>':''}
+      <div style="font-size:11px;color:var(--ink3)">${esc((c.lab||[]).join(" · "))}</div></td>
+    <td style="font-size:12px;color:var(--ink3)">${esc(cname(c.c))}</td>
+    <td>${pills(c.t.slice(0,4))}</td>
+    <td class="num">${c.cf==null?'—':c.cf}</td><td class="num">${c.src}</td></tr>`).join("")
+    || `<tr><td colspan="5" style="color:var(--ink3)">No match.</td></tr>`;
+}
+renderF(); document.getElementById("qf").oninput = e=>renderF(e.target.value);
+
+/* ---------- firm detail ---------- */
+function showFirm(slug){
+  const c = byslug[slug]; if(!c) return;
+  document.getElementById("detailBox").innerHTML = `
+    <button class="x" onclick="document.getElementById('detail').classList.remove('on')">×</button>
+    <h2 style="margin-bottom:2px">${esc(c.n)}</h2>
+    <div class="sub mono" style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em">
+      ${esc(c.d||"")} · ${esc(cname(c.c))}</div>
+    <dl class="kv">
+      <dt>Index label</dt><dd>${esc((c.lab||[]).join(" · "))||"—"}</dd>
+      <dt>Seed indexes</dt><dd>${pills(c.idx,'n')||"—"}</dd>
+      <dt>Sector claimed</dt><dd>${esc(c.secc)} ${c.mm?'<span class="pill r">contradicted by activity</span>':''}</dd>
+      <dt>Activity says</dt><dd><span class="pill g">${esc(c.sec)}</span></dd>
+      <dt>Value chain</dt><dd>${esc((c.vc||[]).join(" · "))||"—"}</dd>
+      <dt>Delivery mode</dt><dd>${esc((c.dm||[]).join(" · "))||"—"}</dd>
+      <dt>Capabilities</dt><dd>${pills(c.t)}</dd>
+      <dt>Job families</dt><dd>${(c.f||[]).map(f=>`<span class="pill n">${esc(f[0])} ${f[1]}</span>`).join("")||"—"}</dd>
+      ${c.seg&&c.seg.length?`<dt>Segments</dt><dd>${c.seg.map(s=>`<span class="pill">${esc(s.name)}${s.weight?` ${s.weight}`:''}</span>`).join("")}</dd>`:''}
+    </dl>
+    <h3 style="margin-top:18px">What it does</h3>
+    <ul class="acts">${(c.st||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>
+    ${c.g?`<div class="note"><b>Name vs reality.</b> ${esc(c.g)}</div>`:''}
+    <h3>Nearest by activity</h3>
+    <div>${(c.nb||[]).map(nb=>`<a href="#" class="pill" onclick="showFirm('${nb.s}');return false">${esc(nb.n)} · ${nb.v}</a>`).join("")}</div>
+    <div style="margin-top:16px;font-size:11.5px;color:var(--ink3)" class="mono">
+      extraction confidence ${c.cf==null?'—':c.cf} · ${c.src} source(s) recorded</div>`;
+  document.getElementById("detail").classList.add("on");
+}
+document.getElementById("detail").onclick = e=>{
+  if(e.target.id==="detail") e.currentTarget.classList.remove("on"); };
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape") document.getElementById("detail").classList.remove("on"); });
+
+/* ---------- method ---------- */
+document.getElementById("p-method").innerHTML = `
+<div class="meth">
+<h2>Method &amp; limits</h2>
+<p class="lede">The map is only as good as its weakest stage, so this section states what was
+measured, what was assumed, and what should not be read into the numbers.</p>
+
+<h3>Inclusion rule</h3>
+<p>A firm is in the map if a public, firm-level source states an activity it performs, and that
+activity can be expressed as <code>verb + object + for whom</code>. There is no size threshold, no
+registry identifier, no revenue floor. The seed came from five 2026 employer-brand indexes; the
+expansion set came from activity search and was required to be verifiable from the firm's own pages.</p>
+
+<h3>Firm-level only</h3>
+<p>No person names, no titles tied to individuals, no emails, phone numbers, or individual review
+quotes — enforced as a scrub gate that rejects records before they enter the map, not as a
+guideline. Job <em>families</em> in aggregate are in scope; a family is a kind of work, never a
+person. Records also fail the gate with no source URL. Violations at build time:
+<b>${(S.n_scrub||0)}</b>.</p>
+
+<h3>How similarity is computed</h3>
+<p>Five views, blended: canonical capability tags (0.32), tag tokens (0.18), activity-statement
+tokens (0.22), staffed job families (0.18), and value-chain plus delivery mode (0.10). Tags alone
+were far too sparse — extraction produced 1,097 raw tags of which 928 appeared exactly once — so
+token-level views carry the recall while tags carry the precision. A second, deliberately narrower
+<em>operational</em> similarity (families, chain/mode, and portable capabilities only) is what the
+cross-domain twin test uses, because it strips out subject matter.</p>
+
+<h3>Clustering</h3>
+<p>Average-linkage agglomerative clustering, implemented directly. The corpus is over-clustered and
+runt clusters are then absorbed into their nearest neighbour, which avoids reporting two-firm
+"clusters" as findings. Cluster names are written after inspecting the capabilities most
+over-represented inside each group; they are labels for the reader, not inputs.</p>
+
+<h3>Known limitations — read these before using a number</h3>
+<p><b>The seed is a popularity artifact.</b> Employer-brand rankings favour large firms with
+consumer identities and low attrition. The off-index expansion corrects the direction but not the
+magnitude.</p>
+<p><b>Off-index counts are search-capped.</b> 10–14 candidates per cluster. They prove such firms
+exist and can be found; they do not estimate how many there are.</p>
+<p><b>Sector buckets are a test instrument, not ground truth.</b> Roughly a dozen coarse sectors,
+assigned two ways — from the index label, and by a scored vote over the firm's capabilities. Both
+are heuristics. The mismatch rate is a measure of disagreement between two imperfect readings, and
+some individual rows will be arguable even where the aggregate holds.</p>
+<p><b>Function mix is an estimate.</b> Job-family weights were read from careers-page composition
+and business descriptions, not from headcount data. Treat them as ordinal, not precise.</p>
+<p><b>Source quality varies.</b> Mean extraction confidence ${S.mean_extraction_confidence}. Several
+firms were bot-blocked or served JavaScript shells and their profiles rest on fewer sources; each
+record carries its own confidence and source count, visible in the firm detail view.</p>
+<p><b>Point-in-time.</b> Built ${esc(D.stats.generated||"2026")}. Activity drift is the natural next
+stage: re-run the extractor against archived pages and diff the capability set to see where a firm
+is heading before any index reports it.</p>
+
+<h3>Re-running</h3>
+<p>Stages are checkpointed to disk and independently re-runnable:
+<code>dedupe_seed.py → normalize.py → build_map.py → merge_expansion.py → gen_page.py</code>.
+Re-extraction is the only expensive stage; everything downstream of <code>profiles/</code> rebuilds
+in under a second.</p>
+</div>`;
+</script>
+</body>
+</html>

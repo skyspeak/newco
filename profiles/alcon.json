@@ -1,0 +1,76 @@
+{
+  "slug": "alcon",
+  "company": "Alcon",
+  "domain": "alcon.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures ophthalmic surgical devices and systems for cataract, retinal, and refractive surgery sold to ophthalmic surgeons globally",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and manufactures advanced technology intraocular lenses (ATIOLs) to treat cataracts and correct presbyopia and astigmatism",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "produces and sells contact lenses (daily disposable, reusable, color-enhancing) and lens care solutions to consumers in 140+ countries",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "manufactures ocular health consumer products including dry eye treatments (SYSTANE), contact lens care (OPTI-FREE, AOSEPT), and redness relievers",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates in 60 countries and serves patients in more than 140 countries as the world's largest eye care device company",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "invests substantially in R&D annually to develop next-generation ophthalmic surgical platforms and contact lens technologies",
+      "source_url": "https://www.alcon.com/about-alcon/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "medical-device-manufacturing",
+    "ophthalmic-surgical-equipment",
+    "contact-lens-manufacturing",
+    "intraocular-lens-design",
+    "eye-care-product-distribution",
+    "clinical-research-and-development",
+    "surgical-consumables-supply",
+    "global-regulatory-compliance",
+    "healthcare-provider-sales"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-production", "weight": 0.30 },
+    { "family": "research-and-development", "weight": 0.20 },
+    { "family": "sales-and-marketing", "weight": 0.20 },
+    { "family": "regulatory-and-quality-assurance", "weight": 0.12 },
+    { "family": "supply-chain-and-logistics", "weight": 0.10 },
+    { "family": "finance-and-operations", "weight": 0.08 }
+  ],
+  "value_chain": ["research", "design", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Surgical",
+      "weight": 0.55,
+      "capability_tags": ["ophthalmic-surgical-equipment", "intraocular-lens-design", "surgical-consumables-supply", "clinical-research-and-development"]
+    },
+    {
+      "name": "Vision Care",
+      "weight": 0.45,
+      "capability_tags": ["contact-lens-manufacturing", "eye-care-product-distribution", "healthcare-provider-sales"]
+    }
+  ],
+  "name_reality_gap": "The index label 'Medical Equipment Manufacturing' is accurate but incomplete. Alcon is also a major consumer products company through its Vision Care contact lens and eye drop brands sold directly to consumers — part pharma-retail, part surgical-device company.",
+  "sources": [
+    { "url": "https://www.alcon.com/about-alcon/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was comprehensive and well-structured. Clearly describes two-segment model. Segment revenue weights estimated from publicly known split (Surgical slightly larger than Vision Care).",
+  "extraction_confidence": 0.90
+}

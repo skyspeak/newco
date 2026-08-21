@@ -1,0 +1,57 @@
+{
+  "slug": "camden-property-trust",
+  "company": "Camden Property Trust",
+  "domain": "camdenliving.com",
+  "activity_statements": [
+    {
+      "statement": "develops, acquires, owns, and operates 167+ multifamily apartment communities comprising 56,000+ apartment homes across the US",
+      "source_url": "https://www.camdenliving.com/about-camden",
+      "confidence": 0.97
+    },
+    {
+      "statement": "manages day-to-day property operations and leasing for its apartment communities, including resident services and retail space management",
+      "source_url": "https://www.camdenliving.com/about-camden",
+      "confidence": 0.93
+    },
+    {
+      "statement": "develops new multifamily communities through in-house design, construction, and development teams across Sun Belt and coastal markets",
+      "source_url": "https://www.camdenliving.com/about-camden",
+      "confidence": 0.90
+    },
+    {
+      "statement": "acquires existing apartment communities in targeted markets including Houston, Atlanta, Austin, Charlotte, Dallas, Denver, Phoenix, Orlando, Raleigh, Tampa, and the Mid-Atlantic",
+      "source_url": "https://www.camdenliving.com/about-camden",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates as a publicly traded REIT (Real Estate Investment Trust) structured to own income-producing residential real estate",
+      "source_url": "https://www.camdenliving.com/about-camden",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "multifamily-property-management",
+    "real-estate-development",
+    "apartment-community-operations",
+    "real-estate-acquisition",
+    "reit-capital-structure",
+    "construction-management",
+    "residential-leasing"
+  ],
+  "function_mix": [
+    { "family": "property-management", "weight": 0.40 },
+    { "family": "real-estate-development-and-construction", "weight": 0.25 },
+    { "family": "leasing-and-sales", "weight": 0.15 },
+    { "family": "finance-and-investor-relations", "weight": 0.12 },
+    { "family": "facilities-and-maintenance", "weight": 0.08 }
+  ],
+  "value_chain": ["design", "manufacture", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — Camden Property Trust is accurately understood as a multifamily residential REIT. 'Real Estate' index label is correct.",
+  "sources": [
+    { "url": "https://www.camdenliving.com/about-camden", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided clear operational data on community count, apartment homes, geographies, and core activities. Financials not gathered from this source.",
+  "extraction_confidence": 0.88
+}

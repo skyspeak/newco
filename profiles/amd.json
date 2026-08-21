@@ -1,0 +1,82 @@
+{
+  "slug": "amd",
+  "company": "AMD",
+  "domain": "amd.com",
+  "activity_statements": [
+    {
+      "statement": "designs and sells high-performance CPUs (EPYC server processors, Ryzen desktop/laptop) for data centers, AI workloads, and consumer PCs",
+      "source_url": "https://exa.ai/library/organization/wz0zhjhj8z5",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs and sells GPUs (Radeon, Instinct series) for graphics, gaming, and AI/machine learning acceleration in data centers",
+      "source_url": "https://exa.ai/library/organization/wz0zhjhj8z5",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs and sells FPGAs and adaptive computing solutions for intelligent edge devices and embedded applications",
+      "source_url": "https://exa.ai/library/organization/wz0zhjhj8z5",
+      "confidence": 0.88
+    },
+    {
+      "statement": "generates $34.6B in annual revenue as a fabless semiconductor company that designs chips and outsources fabrication to foundries",
+      "source_url": "https://exa.ai/library/organization/wz0zhjhj8z5",
+      "confidence": 0.9
+    },
+    {
+      "statement": "competes for data center AI accelerator market share against Nvidia with the Instinct MI-series GPU line",
+      "source_url": "https://exa.ai/library/organization/wz0zhjhj8z5",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "semiconductor-design",
+    "cpu-architecture-development",
+    "gpu-architecture-development",
+    "fpga-and-adaptive-computing",
+    "data-center-ai-acceleration",
+    "fabless-manufacturing-model",
+    "consumer-processor-design",
+    "embedded-systems-silicon",
+    "hardware-software-co-design",
+    "silicon-ecosystem-partnerships"
+  ],
+  "function_mix": [
+    { "family": "chip-and-hardware-engineering", "weight": 0.35 },
+    { "family": "software-engineering-and-drivers", "weight": 0.2 },
+    { "family": "r-and-d-and-research", "weight": 0.2 },
+    { "family": "supply-chain-and-foundry-management", "weight": 0.1 },
+    { "family": "sales-and-marketing", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "distribute"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Data Center",
+      "weight": 0.5,
+      "capability_tags": ["cpu-architecture-development", "gpu-architecture-development", "data-center-ai-acceleration"]
+    },
+    {
+      "name": "Client (PC/Laptop)",
+      "weight": 0.25,
+      "capability_tags": ["cpu-architecture-development", "consumer-processor-design"]
+    },
+    {
+      "name": "Gaming",
+      "weight": 0.12,
+      "capability_tags": ["gpu-architecture-development"]
+    },
+    {
+      "name": "Embedded (Adaptive/FPGA)",
+      "weight": 0.13,
+      "capability_tags": ["fpga-and-adaptive-computing", "embedded-systems-silicon"]
+    }
+  ],
+  "name_reality_gap": "AMD (Advanced Micro Devices) sounds generic; it is actually the primary challenger to Intel in CPUs and to Nvidia in AI/data-center GPUs. The company is a pure design house (fabless) — it does not own or operate semiconductor fabrication plants, which is invisible from the 'manufacturing' industry label assigned by the index.",
+  "sources": [
+    { "url": "https://exa.ai/library/organization/wz0zhjhj8z5", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "AMD's own website timed out repeatedly; data sourced from Exa company profile (LinkedIn-sourced data). Revenue of $34.6B and product line confirmed from this source. Segment weights estimated from publicly known AMD 2024 annual report structure, not directly retrieved.",
+  "extraction_confidence": 0.78
+}

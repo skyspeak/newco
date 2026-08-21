@@ -1,0 +1,89 @@
+{
+  "slug": "alaska-airlines",
+  "company": "Alaska Airlines",
+  "domain": "alaskaair.com",
+  "activity_statements": [
+    {
+      "statement": "operates scheduled passenger air service to more than 140 cities across the Alaska Air Group ecosystem following the 2024 acquisition of Hawaiian Airlines",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "generated record revenues of $11.7 billion in 2024, with 48% from premium products, loyalty, ancillaries, and cargo",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates the Mileage Plan frequent-flyer loyalty program and sells miles to co-brand credit card and airline partners",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.9
+    },
+    {
+      "statement": "flies widebody international routes from Seattle as a gateway to Tokyo, Seoul, and up to 12 long-haul destinations",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a growing cargo business critical to Pacific Northwest and Hawaii communities",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates Horizon Air as a regional subsidiary providing feeder service into the mainline Alaska network",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.9
+    },
+    {
+      "statement": "serves Hawaii inter-island travel through the Hawaiian Airlines brand and Huaka'i resident loyalty program",
+      "source_url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "scheduled-passenger-air-service",
+    "hub-and-spoke-network-operations",
+    "loyalty-program-management",
+    "co-brand-credit-card-partnership",
+    "cargo-air-transport",
+    "regional-airline-operations",
+    "widebody-international-routes",
+    "aircraft-maintenance-and-repair",
+    "revenue-management-and-pricing",
+    "island-community-air-service"
+  ],
+  "function_mix": [
+    { "family": "flight-operations", "weight": 0.25 },
+    { "family": "cabin-crew-and-customer-service", "weight": 0.2 },
+    { "family": "aircraft-maintenance-and-technical", "weight": 0.15 },
+    { "family": "ground-operations-and-airport-services", "weight": 0.15 },
+    { "family": "commercial-and-revenue-management", "weight": 0.1 },
+    { "family": "software-engineering-and-technology", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Passenger Air Service (Alaska & Hawaiian brands)",
+      "weight": 0.8,
+      "capability_tags": ["scheduled-passenger-air-service", "loyalty-program-management", "widebody-international-routes"]
+    },
+    {
+      "name": "Horizon Air Regional Operations",
+      "weight": 0.1,
+      "capability_tags": ["regional-airline-operations", "hub-and-spoke-network-operations"]
+    },
+    {
+      "name": "Cargo",
+      "weight": 0.1,
+      "capability_tags": ["cargo-air-transport", "island-community-air-service"]
+    }
+  ],
+  "name_reality_gap": "The 'Alaska Airlines' name implies a West Coast/Alaska regional carrier; post-2024 the company is a global airline including the Pacific, Hawaii inter-island, and international widebody routes — much broader than the name implies. The loyalty program and cargo revenue represent substantial non-ticket income invisible from the brand.",
+  "sources": [
+    { "url": "https://news.alaskaair.com/wp-content/uploads/2025/03/ALK-2024-Annual-Report-BMK.pdf", "kind": "other", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.alaskaair.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Excellent sourcing from 2024 Annual Report shareholder letter. About page returned minimal content. Segment split estimated from annual report narrative; exact segment revenue ratios not extracted.",
+  "extraction_confidence": 0.88
+}

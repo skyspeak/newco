@@ -1,0 +1,112 @@
+[
+  {
+    "company": "Frazier & Deeter",
+    "domain": "frazierdeeter.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting", "transaction-advisory"],
+    "activity_evidence": "Frazier & Deeter delivers audit and assurance, tax, and advisory & consulting services — including transaction advisory and IT advisory — across its multi-office US and UK footprint as a Top 50 accounting firm.",
+    "why_off_index": "Regional private accounting partnership with no consumer brand; employer rankings focus on Big Four and tech firms, not mid-tier CPA firms.",
+    "source_url": "https://frazierdeeter.com/services/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Doeren Mayhew",
+    "domain": "doeren.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting"],
+    "activity_evidence": "Doeren Mayhew provides advisory, assurance, tax, and outsourcing services to businesses, including the nation's largest credit union auditing practice, from offices in Michigan, Houston, and other markets.",
+    "why_off_index": "Private Midwest-anchored CPA firm serving credit unions and commercial clients; no consumer presence and absent from employer-brand indexes.",
+    "source_url": "https://doeren.com/services/",
+    "confidence": 0.90
+  },
+  {
+    "company": "PBMares",
+    "domain": "pbmares.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting", "transaction-advisory"],
+    "activity_evidence": "PBMares delivers advisory, audit and assurance, and tax services from 13 offices across Virginia, North Carolina, and Maryland to clients in 50 states and 12 countries, rated a Top 100 US accounting firm.",
+    "why_off_index": "Mid-Atlantic regional accounting partnership with 375 professionals; fully B2B, private, and invisible to consumer employer-brand rankings.",
+    "source_url": "https://pbmares.com/about/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Cherry Bekaert",
+    "domain": "cbh.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting", "transaction-advisory", "systems-integration"],
+    "activity_evidence": "Cherry Bekaert provides Assurance, Tax, Transaction Advisory, Digital Advisory, and Risk & Cybersecurity services to middle-market companies, government contractors, and private equity-backed businesses.",
+    "why_off_index": "Southeast-headquartered private CPA and advisory firm with no consumer footprint; serves B2B clients and is absent from the 2026 employer-brand indexes.",
+    "source_url": "https://cbh.com/services/",
+    "confidence": 0.92
+  },
+  {
+    "company": "RKL LLP",
+    "domain": "rklcpa.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting"],
+    "activity_evidence": "RKL LLP delivers assurance, tax, business advisory, virtual management (finance and HR), private wealth, and technology capabilities covering risk management and performance improvement for business clients.",
+    "why_off_index": "Pennsylvania-based private accounting partnership; B2B-only client base means it accumulates no consumer employer-brand recognition.",
+    "source_url": "https://rklcpa.com/services/",
+    "confidence": 0.88
+  },
+  {
+    "company": "ITC Federal",
+    "domain": "itcfederal.com",
+    "cluster": 6,
+    "matched_capabilities": ["cloud-migration", "systems-integration", "management-consulting"],
+    "activity_evidence": "ITC Federal has partnered with government agencies since 2006 to deliver advanced network operations, security, and IT services, growing from a one-person shop to a mid-sized federal systems integrator delivering services across the US and abroad at scale.",
+    "why_off_index": "Mid-size federal IT contractor with B2B-only government clients; not found on any of the four 2026 employer-brand indexes.",
+    "source_url": "https://itcfederal.com/about-us",
+    "confidence": 0.89
+  },
+  {
+    "company": "Presidio Federal",
+    "domain": "presidiofederal.com",
+    "cluster": 6,
+    "matched_capabilities": ["cloud-migration", "systems-integration"],
+    "activity_evidence": "Presidio Federal helps government agencies adopt end-to-end cloud solutions, increase connectivity, and modernize infrastructure across all 50 states, operating as a wholly-owned subsidiary focused exclusively on the federal government IT market.",
+    "why_off_index": "Pure government-facing IT subsidiary of Presidio; B2B federal contractor with no consumer brand and absent from employer-brand indexes.",
+    "source_url": "https://presidiofederal.com/about",
+    "confidence": 0.87
+  },
+  {
+    "company": "Guidehouse",
+    "domain": "guidehouse.com",
+    "cluster": 6,
+    "matched_capabilities": ["management-consulting", "cloud-migration", "systems-integration", "supply-chain-advisory", "sustainability-consulting", "transaction-advisory"],
+    "activity_evidence": "Guidehouse is a global AI-led professional services firm delivering advisory, technology, and managed services to commercial and government sectors, driving efficiency in healthcare, financial services, energy, infrastructure, and national security markets with approximately 18,000 professionals.",
+    "why_off_index": "Private equity-owned B2B consultancy (Bain Capital); operates entirely in institutional and government markets without consumer visibility and does not appear on any of the 2026 employer indexes.",
+    "source_url": "https://guidehouse.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "ICF International",
+    "domain": "icf.com",
+    "cluster": 6,
+    "matched_capabilities": ["management-consulting", "sustainability-consulting", "cloud-migration", "systems-integration"],
+    "activity_evidence": "ICF combines consulting expertise with technology to help hundreds of governments and companies plan, design, and implement transformative projects across climate, energy, health IT modernization, and digital transformation, with about 6,100 professionals in 76 countries.",
+    "why_off_index": "Publicly traded (ICFI) but entirely B2B and government-focused; no consumer brand or products and absent from all four 2026 employer-brand lists.",
+    "source_url": "https://co.linkedin.com/company/icf-international",
+    "confidence": 0.85
+  },
+  {
+    "company": "Forvis Mazars (US)",
+    "domain": "forvismazars.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting", "transaction-advisory"],
+    "activity_evidence": "Forvis Mazars LLP provides audit & assurance, tax, advisory, and consulting services in all 50 states and internationally as part of a global professional services network operating in over 100 countries.",
+    "why_off_index": "Formed from the 2023 merger of FORVIS and Mazars US; private partnership with no consumer brand, operating exclusively in B2B professional services and absent from the 2026 employer indexes.",
+    "source_url": "https://forvismazars.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "RSM US",
+    "domain": "rsmus.com",
+    "cluster": 6,
+    "matched_capabilities": ["audit-and-assurance", "tax-advisory", "management-consulting", "transaction-advisory", "cloud-migration", "systems-integration"],
+    "activity_evidence": "RSM US delivers audit and assurance, management consulting, M&A and transaction advisory, managed IT cloud and infrastructure, business applications, and risk consulting to middle-market businesses as the US member firm of RSM International.",
+    "why_off_index": "Large private accounting and consulting partnership serving middle-market B2B clients exclusively; no consumer presence and absent from all four 2026 employer-brand lists despite being a top-10 US accounting firm by revenue.",
+    "source_url": "https://rsmus.com/what-we-do/services.html",
+    "confidence": 0.91
+  }
+]

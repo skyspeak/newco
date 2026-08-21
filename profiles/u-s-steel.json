@@ -1,0 +1,82 @@
+{
+  "slug": "u-s-steel",
+  "company": "U.S. Steel",
+  "domain": "ussteel.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures flat-rolled steel products (hot-rolled, cold-rolled, coated) using both integrated blast furnace/BOF steelmaking and electric arc furnace (EAF) mini mill technology",
+      "source_url": "https://www.ussteel.com/about-us/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "produces VerdeX steel with up to 90% recycled steel content, achieving up to 75% lower carbon footprint versus traditional steelmaking methods, via Big River Steel EAF operations in Arkansas",
+      "source_url": "https://www.ussteel.com/about-us/overview",
+      "confidence": 0.95
+    },
+    {
+      "statement": "supplies steel to customers in automotive, construction, appliance, energy, electrical, industrial, mining, and packaging markets",
+      "source_url": "https://www.ussteel.com/about-us",
+      "confidence": 0.92
+    },
+    {
+      "statement": "operates a Research and Technology Center developing next-generation steel products including advanced high-strength steels (AHSS) for automotive lightweighting",
+      "source_url": "https://www.ussteel.com/about-us/overview",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates US Steel Kosice (Slovakia) as its European integrated steelmaking facility alongside US operations in Indiana, Minnesota, Pennsylvania, and Arkansas",
+      "source_url": "https://www.ussteel.com/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "has operated as a steel manufacturer for 120+ years, supplying structural steel for bridges, buildings, and critical infrastructure",
+      "source_url": "https://www.ussteel.com/about-us/overview",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "integrated-steelmaking",
+    "electric-arc-furnace-steelmaking",
+    "flat-rolled-steel-production",
+    "automotive-steel-supply",
+    "low-carbon-steel",
+    "advanced-high-strength-steel",
+    "steel-research-and-development",
+    "construction-steel-supply",
+    "european-steel-operations"
+  ],
+  "function_mix": [
+    { "family": "steelmaking-and-metallurgical-operations", "weight": 0.40 },
+    { "family": "engineering-and-process-technology", "weight": 0.18 },
+    { "family": "supply-chain-and-logistics", "weight": 0.15 },
+    { "family": "sales-and-customer-solutions", "weight": 0.12 },
+    { "family": "quality-and-safety", "weight": 0.10 },
+    { "family": "research-and-development", "weight": 0.05 }
+  ],
+  "value_chain": ["manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "North American Flat-Rolled (including Big River Steel)",
+      "weight": 0.75,
+      "capability_tags": ["integrated-steelmaking", "electric-arc-furnace-steelmaking", "flat-rolled-steel-production", "low-carbon-steel", "automotive-steel-supply"]
+    },
+    {
+      "name": "Mini Mill (Big River Steel EAF)",
+      "weight": 0.15,
+      "capability_tags": ["electric-arc-furnace-steelmaking", "low-carbon-steel", "advanced-high-strength-steel"]
+    },
+    {
+      "name": "Europe (US Steel Kosice)",
+      "weight": 0.10,
+      "capability_tags": ["integrated-steelmaking", "flat-rolled-steel-production", "european-steel-operations"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Manufacturing' is generic; U.S. Steel is specifically a steel manufacturer undergoing a technology transition from blast-furnace integrated steelmaking toward EAF mini-mill production — making it an active participant in steel decarbonization, not a static heavy industry company the name implies.",
+  "sources": [
+    { "url": "https://www.ussteel.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.ussteel.com/about-us/overview", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good content from about-us/overview. Segment weights are directional approximations. Big River Steel is now integrated into U.S. Steel rather than a separately reported segment in all filings.",
+  "extraction_confidence": 0.87
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "ups",
+  "company": "UPS",
+  "domain": "ups.com",
+  "activity_statements": [
+    {
+      "statement": "delivers an average of 22.4 million packages per day (5.7 billion packages in 2024) through an integrated air and ground network serving 200+ countries and territories",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides contract logistics, warehousing, and distribution solutions through the Supply Chain Solutions segment for healthcare, retail, and industrial customers",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers airfreight, ocean freight, and customs brokerage for international shippers",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates RFID-enabled Smart Package Smart Facility technology to optimize network efficiency and provide end-to-end shipment visibility",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides specialized healthcare logistics services including temperature-controlled shipping and clinical trial supply chain management",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.85
+    },
+    {
+      "statement": "generated $91.1 billion in total revenue in 2024 through package delivery and logistics operations",
+      "source_url": "https://investors.ups.com/overview/default.aspx",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "last-mile-delivery",
+    "air-express-network",
+    "ground-package-delivery",
+    "international-freight",
+    "customs-brokerage",
+    "contract-logistics",
+    "cold-chain-logistics",
+    "supply-chain-solutions",
+    "package-sortation",
+    "rfid-track-and-trace"
+  ],
+  "function_mix": [
+    { "family": "package-handlers-and-sorters", "weight": 0.28 },
+    { "family": "drivers-and-couriers", "weight": 0.28 },
+    { "family": "pilots-and-aviation-crew", "weight": 0.06 },
+    { "family": "logistics-and-supply-chain", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "facility-and-maintenance-operations", "weight": 0.10 },
+    { "family": "customer-service", "weight": 0.06 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "U.S. Domestic Package",
+      "weight": 0.62,
+      "capability_tags": ["last-mile-delivery", "ground-package-delivery", "package-sortation"]
+    },
+    {
+      "name": "International Package",
+      "weight": 0.22,
+      "capability_tags": ["air-express-network", "international-freight", "customs-brokerage"]
+    },
+    {
+      "name": "Supply Chain Solutions",
+      "weight": 0.16,
+      "capability_tags": ["contract-logistics", "cold-chain-logistics", "supply-chain-solutions"]
+    }
+  ],
+  "name_reality_gap": "UPS is classified as 'Freight & Package Transportation' which is largely accurate; however the firm is also a major contract logistics operator (warehousing, distribution) and a healthcare cold-chain specialist — activities that go well beyond the brown-truck package-delivery brand image.",
+  "sources": [
+    { "url": "https://investors.ups.com/overview/default.aspx", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "UPS main website (ups.com) timed out. 10-K accessed via ExaSearch with detailed business description and segment data. Revenue segment weights are estimates based on typical UPS reporting; $91.1B total 2024 revenue confirmed in 10-K.",
+  "extraction_confidence": 0.88
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "american-electric-power",
+  "company": "American Electric Power",
+  "domain": "aep.com",
+  "activity_statements": [
+    {
+      "statement": "transmits electricity through 40,000 miles of high-voltage transmission lines, the largest transmission network in the nation",
+      "source_url": "https://www.aep.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "generates approximately 32,000 megawatts of electricity from a diverse mix of generation sources (coal, gas, renewables) for residential and commercial customers",
+      "source_url": "https://www.aep.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "distributes and sells electricity to 5.6 million customers across 11 states through multiple regulated utility subsidiaries",
+      "source_url": "https://www.aep.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and operates clean and renewable energy infrastructure as part of its energy transition strategy",
+      "source_url": "https://www.aep.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "supports economic development through smart infrastructure investments that attract industrial and commercial customers to its service territories",
+      "source_url": "https://www.aep.com/about",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "electricity-transmission",
+    "electricity-generation",
+    "electricity-distribution",
+    "regulated-utility-operations",
+    "renewable-energy",
+    "grid-infrastructure",
+    "rate-case-regulatory-compliance",
+    "energy-transition"
+  ],
+  "function_mix": [
+    { "family": "electrical-engineering-and-grid-operations", "weight": 0.30 },
+    { "family": "field-service-linemen", "weight": 0.25 },
+    { "family": "power-plant-operations", "weight": 0.20 },
+    { "family": "software-and-it", "weight": 0.10 },
+    { "family": "regulatory-and-legal", "weight": 0.08 },
+    { "family": "customer-service", "weight": 0.07 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [],
+  "name_reality_gap": "none — the name accurately signals an electric power company, and the index label 'Utilities' is correct.",
+  "sources": [
+    { "url": "https://www.aep.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided concrete facts (40,000 miles transmission, 32,000 MW capacity, 5.6 million customers, 11 states). AEP is a holding company with multiple regulated subsidiary utilities. Detailed segment breakdown not available from about page alone.",
+  "extraction_confidence": 0.85
+}

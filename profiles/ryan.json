@@ -1,0 +1,60 @@
+{
+  "slug": "ryan",
+  "company": "Ryan",
+  "domain": "ryan.com",
+  "activity_statements": [
+    {
+      "statement": "provides integrated federal, state, local and international tax services on a multijurisdictional basis to 74,000+ clients in 80+ countries including many Global 5000 companies",
+      "source_url": "https://ryan.com/about-ryan",
+      "confidence": 0.95
+    },
+    {
+      "statement": "identifies and recovers tax overpayments for clients across property tax, sales tax, income tax, employment tax, fuels and excise tax and international tax",
+      "source_url": "https://ryan.com/services",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides strategic tax advisory and consulting services to help corporate clients improve overall tax performance, efficiency and compliance",
+      "source_url": "https://ryan.com/services",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers tax advocacy and lobbying services leveraging expertise in tax administration and policy to secure legislative relief for clients",
+      "source_url": "https://ryan.com/services",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers tax technology and software solutions to help clients transform and automate their tax functions",
+      "source_url": "https://ryan.com/services",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "tax-recovery-and-refunds",
+    "property-tax-management",
+    "sales-and-use-tax",
+    "income-tax-advisory",
+    "tax-technology-software",
+    "tax-compliance-management",
+    "tax-advocacy-and-lobbying",
+    "international-tax",
+    "credits-and-incentives",
+    "unclaimed-property"
+  ],
+  "function_mix": [
+    { "family": "tax-professionals-and-advisors", "weight": 0.65 },
+    { "family": "technology-and-software", "weight": 0.15 },
+    { "family": "advocacy-and-government-relations", "weight": 0.1 },
+    { "family": "operations-and-client-service", "weight": 0.1 }
+  ],
+  "value_chain": ["service", "advisory"],
+  "delivery_mode": ["advisory", "software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Labeled Consulting Finance & Insurance; Ryan is a tax-only specialist firm — its entire business is tax services, tax recovery and tax technology, with no insurance or general finance practice; the label implies broader finance scope that does not match.",
+  "sources": [
+    { "url": "https://ryan.com/about-ryan", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://ryan.com/services", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Two clear sources. 7,100 professionals and 74,000+ clients in 80+ countries are directly quoted. Practice area list is comprehensive and directly sourced from the services navigation. Private company so revenue not disclosed.",
+  "extraction_confidence": 0.9
+}

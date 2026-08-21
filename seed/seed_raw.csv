@@ -1,0 +1,198 @@
+company,domain,source_index,rank_or_rating,hq_location,index_industry_label,source_url
+JPMorganChase,jpmorganchase.com,linkedin_top_companies_2026,1,New York,Financial Services,https://www.linkedin.com/hubs/top-companies/
+Google,google.com,linkedin_top_companies_2026,2,Mountain View CA,Software Development,https://www.linkedin.com/hubs/top-companies/
+Microsoft,microsoft.com,linkedin_top_companies_2026,3,Redmond WA,Software Development,https://www.linkedin.com/hubs/top-companies/
+Amazon,amazon.com,linkedin_top_companies_2026,4,,Software Development,https://www.linkedin.com/hubs/top-companies/
+Wells Fargo,wellsfargo.com,linkedin_top_companies_2026,5,San Francisco CA,Financial Services,https://www.linkedin.com/hubs/top-companies/
+Northrop Grumman,northropgrumman.com,linkedin_top_companies_2026,6,Falls Church VA,Defense and Space Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Walmart,walmart.com,linkedin_top_companies_2026,7,Bentonville AR,Retail,https://www.linkedin.com/hubs/top-companies/
+Capital One,capitalone.com,linkedin_top_companies_2026,8,McLean VA,Financial Services,https://www.linkedin.com/hubs/top-companies/
+AT&T,att.com,linkedin_top_companies_2026,9,Dallas TX,Telecommunications,https://www.linkedin.com/hubs/top-companies/
+Bank of America,bankofamerica.com,linkedin_top_companies_2026,10,Charlotte NC,Banking,https://www.linkedin.com/hubs/top-companies/
+CVS Health,cvshealth.com,linkedin_top_companies_2026,11,Woonsocket RI,Hospitals and Health Care,https://www.linkedin.com/hubs/top-companies/
+PwC,pwc.com,linkedin_top_companies_2026,12,,IT Services and IT Consulting,https://www.linkedin.com/hubs/top-companies/
+UnitedHealth Group,unitedhealthgroup.com,linkedin_top_companies_2026,13,Eden Prairie MN,Hospitals and Health Care,https://www.linkedin.com/hubs/top-companies/
+Infosys,infosys.com,linkedin_top_companies_2026,14,Bangalore,IT Services and IT Consulting,https://www.linkedin.com/hubs/top-companies/
+Citi,citi.com,linkedin_top_companies_2026,15,New York NY,Financial Services,https://www.linkedin.com/hubs/top-companies/
+Morgan Stanley,morganstanley.com,linkedin_top_companies_2026,16,New York NY,Financial Services,https://www.linkedin.com/hubs/top-companies/
+EY,ey.com,linkedin_top_companies_2026,17,London,IT Services and IT Consulting,https://www.linkedin.com/hubs/top-companies/
+PepsiCo,pepsico.com,linkedin_top_companies_2026,18,Purchase NY,Food and Beverage Services,https://www.linkedin.com/hubs/top-companies/
+Comcast,comcast.com,linkedin_top_companies_2026,19,Philadelphia PA,Telecommunications,https://www.linkedin.com/hubs/top-companies/
+Apple,apple.com,linkedin_top_companies_2026,20,Cupertino CA,Computers and Electronics Manufacturing,https://www.linkedin.com/hubs/top-companies/
+State Street,statestreet.com,linkedin_top_companies_2026,21,Boston MA,Financial Services,https://www.linkedin.com/hubs/top-companies/
+Fidelity Investments,fidelity.com,linkedin_top_companies_2026,22,Boston MA,Financial Services,https://www.linkedin.com/hubs/top-companies/
+FedEx,fedex.com,linkedin_top_companies_2026,23,Memphis TN,Freight and Package Transportation,https://www.linkedin.com/hubs/top-companies/
+Eli Lilly and Company,lilly.com,linkedin_top_companies_2026,24,Indianapolis IN,Pharmaceutical Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Procter & Gamble,pg.com,linkedin_top_companies_2026,25,Cincinnati OH,Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Siemens,siemens.com,linkedin_top_companies_2026,26,Munich,Automation Machinery Manufacturing,https://www.linkedin.com/hubs/top-companies/
+"Caterpillar Inc.",caterpillar.com,linkedin_top_companies_2026,27,Irving TX,Machinery Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Kaiser Permanente,kaiserpermanente.org,linkedin_top_companies_2026,28,Oakland CA,Hospitals and Health Care,https://www.linkedin.com/hubs/top-companies/
+Lockheed Martin,lockheedmartin.com,linkedin_top_companies_2026,29,Bethesda MD,Defense and Space Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Roche,roche.com,linkedin_top_companies_2026,30,Switzerland,Biotechnology Research,https://www.linkedin.com/hubs/top-companies/
+The Walt Disney Company,thewaltdisneycompany.com,linkedin_top_companies_2026,31,Burbank CA,Entertainment Providers,https://www.linkedin.com/hubs/top-companies/
+Adobe,adobe.com,linkedin_top_companies_2026,32,San Jose CA,Software Development,https://www.linkedin.com/hubs/top-companies/
+General Motors,gm.com,linkedin_top_companies_2026,33,Detroit MI,Motor Vehicle Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Ford Motor Company,ford.com,linkedin_top_companies_2026,34,Dearborn MI,Motor Vehicle Manufacturing,https://www.linkedin.com/hubs/top-companies/
+IBM,ibm.com,linkedin_top_companies_2026,35,Armonk NY,IT Services and IT Consulting,https://www.linkedin.com/hubs/top-companies/
+Accenture,accenture.com,linkedin_top_companies_2026,36,Dublin,Business Consulting and Services,https://www.linkedin.com/hubs/top-companies/
+Boeing,boeing.com,linkedin_top_companies_2026,37,Arlington VA,Aviation and Aerospace Component Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Shell,shell.com,linkedin_top_companies_2026,38,London,Oil and Gas,https://www.linkedin.com/hubs/top-companies/
+American Express,americanexpress.com,linkedin_top_companies_2026,39,New York NY,Financial Services,https://www.linkedin.com/hubs/top-companies/
+State Farm,statefarm.com,linkedin_top_companies_2026,40,Bloomington IL,Insurance,https://www.linkedin.com/hubs/top-companies/
+Abbott,abbott.com,linkedin_top_companies_2026,41,Abbott Park IL,Hospitals and Health Care,https://www.linkedin.com/hubs/top-companies/
+PNC,pnc.com,linkedin_top_companies_2026,42,Pittsburgh PA,Financial Services,https://www.linkedin.com/hubs/top-companies/
+AkzoNobel,akzonobel.com,linkedin_top_companies_2026,43,Amsterdam,Chemical Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Delta Air Lines,delta.com,linkedin_top_companies_2026,44,Atlanta GA,Airlines and Aviation,https://www.linkedin.com/hubs/top-companies/
+NVIDIA,nvidia.com,linkedin_top_companies_2026,45,Santa Clara CA,Computer Hardware Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Stellantis,stellantis.com,linkedin_top_companies_2026,46,Amsterdam,Motor Vehicle Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Synchrony,synchrony.com,linkedin_top_companies_2026,47,Stamford CT,Financial Services,https://www.linkedin.com/hubs/top-companies/
+RTX,rtx.com,linkedin_top_companies_2026,48,Arlington VA,Aviation and Aerospace Component Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Lear Corporation,lear.com,linkedin_top_companies_2026,49,Southfield MI,Motor Vehicle Manufacturing,https://www.linkedin.com/hubs/top-companies/
+Deutsche Telekom,telekom.com,linkedin_top_companies_2026,50,Bonn,Telecommunications,https://www.linkedin.com/hubs/top-companies/
+Crew Carwash,crewcarwash.com,glassdoor_bptw_2026,1,,Consumer Services,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+In-N-Out Burger,in-n-out.com,glassdoor_bptw_2026,2,,Restaurants & Food Service,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+NVIDIA,nvidia.com,glassdoor_bptw_2026,3,Santa Clara CA,Information Technology,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Ryan,ryan.com,glassdoor_bptw_2026,4,,Consulting Finance & Insurance,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Keller Williams,kw.com,glassdoor_bptw_2026,5,,Real Estate,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Mars,mars.com,glassdoor_bptw_2026,6,,Manufacturing & Energy,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+ServiceNow,servicenow.com,glassdoor_bptw_2026,7,,Technology & AI,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+"Bain & Company",bain.com,glassdoor_bptw_2026,8,,Consulting Finance & Insurance,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Houston Methodist,houstonmethodist.org,glassdoor_bptw_2026,9,Houston TX,Healthcare,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+EPAM Systems,epam.com,glassdoor_bptw_2026,10,,Technology & AI,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Google,google.com,glassdoor_bptw_2026,11,Mountain View CA,Information Technology,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+H-E-B,heb.com,glassdoor_bptw_2026,13,San Antonio TX,Retail & Wholesale,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+RDSolutions,rdsolutions.com,glassdoor_bptw_2026,19,,Management & Consulting,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Methodist Health System,methodisthealthsystem.org,glassdoor_bptw_2026,25,Dallas TX,Healthcare,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Fidelity Investments,fidelity.com,glassdoor_bptw_2026,29,Boston MA,Financial Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Lockheed Martin,lockheedmartin.com,glassdoor_bptw_2026,36,Bethesda MD,Aerospace & Defense,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Alaska Airlines,alaskaair.com,glassdoor_bptw_2026,38,,Airlines & Aviation,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+Stake Center Locating,stakecenters.com,glassdoor_bptw_2026,40,,Energy Mining & Utilities,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Booz Allen Hamilton,boozallen.com,glassdoor_bptw_2026,48,,Information Technology,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Burns & McDonnell,burnsmcd.com,glassdoor_bptw_2026,56,,Construction Repair & Maintenance Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Chick-fil-A,chick-fil-a.com,glassdoor_bptw_2026,67,,Restaurants & Food Service,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+LongHorn Steakhouse,longhornsteakhouse.com,glassdoor_bptw_2026,70,,Restaurants & Food Service,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Dutch Bros.,dutchbros.com,glassdoor_bptw_2026,75,,Restaurants & Food Service,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Apple,apple.com,glassdoor_bptw_2026,77,Cupertino CA,Information Technology,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Power Home Remodeling,powerhrg.com,glassdoor_bptw_2026,79,,Construction Repair & Maintenance Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Bath & Body Works,bathandbodyworks.com,glassdoor_bptw_2026,80,Columbus OH,Retail & Wholesale,https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners
+lululemon,lululemon.com,glassdoor_bptw_2026,81,,Retail & Wholesale,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Costco Wholesale,costco.com,glassdoor_bptw_2026,82,Issaquah WA,Retail & Wholesale,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Morgan Stanley,morganstanley.com,glassdoor_bptw_2026,93,New York NY,Financial Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+JPMorganChase,jpmorganchase.com,glassdoor_bptw_2026,94,New York NY,Financial Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Bank of America,bankofamerica.com,glassdoor_bptw_2026,96,Charlotte NC,Financial Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+KBR,kbr.com,glassdoor_bptw_2026,52,,Aerospace & Defense,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+HDR,hdrinc.com,glassdoor_bptw_2026,21,,Construction Repair & Maintenance Services,https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026
+Siemens,siemens.com,glassdoor_bptw_2026,,Spartanburg SC,Manufacturing & Energy,https://www.glassdoor.com/Award/Best-Places-to-Work-United-States-LST_KQ0,19_IL.20,33_IM811.htm
+Synchrony,synchrony.com,growth_list_2026,1,Stamford CT,Financial Services & Insurance,https://greatplacetowork.com/best-companies-to-work-for/
+Hilton,hilton.com,growth_list_2026,2,McLean VA,Hospitality,https://greatplacetowork.com/best-companies-to-work-for/
+Cisco,cisco.com,growth_list_2026,3,San Jose CA,Information Technology,https://greatplacetowork.com/best-companies-to-work-for/
+American Express,americanexpress.com,growth_list_2026,4,New York NY,Financial Services & Insurance,https://greatplacetowork.com/best-companies-to-work-for/
+"Wegmans Food Markets, Inc.",wegmans.com,growth_list_2026,5,Rochester NY,Retail,https://greatplacetowork.com/best-companies-to-work-for/
+NVIDIA,nvidia.com,growth_list_2026,6,Santa Clara CA,Information Technology,https://greatplacetowork.com/best-companies-to-work-for/
+Marriott International,marriott.com,growth_list_2026,7,Bethesda MD,Hospitality,https://greatplacetowork.com/best-companies-to-work-for/
+Accenture,accenture.com,growth_list_2026,8,,Professional Services,https://greatplacetowork.com/best-companies-to-work-for/
+Delta Air Lines,delta.com,growth_list_2026,9,Atlanta GA,Transportation,https://greatplacetowork.com/best-companies-to-work-for/
+World Wide Technology,wwt.com,growth_list_2026,10,St. Louis MO,Information Technology,https://greatplacetowork.com/best-companies-to-work-for/
+Cadence Design Systems,cadence.com,growth_list_2026,11,San Jose CA,Information Technology,https://fortune.com/ranking/best-companies/2026/
+Pinnacle Financial Partners,pnfp.com,growth_list_2026,12,Nashville TN,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Camden Property Trust,camdenliving.com,growth_list_2026,13,Houston TX,Real Estate,https://fortune.com/ranking/best-companies/2026/
+David Weekley Homes,davidweekleyhomes.com,growth_list_2026,14,Houston TX,Construction,https://fortune.com/ranking/best-companies/2026/
+Plante Moran,plantemoran.com,growth_list_2026,15,Southfield MI,Professional Services,https://fortune.com/ranking/best-companies/2026/
+Baird,rwbaird.com,growth_list_2026,16,Milwaukee WI,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Kimley-Horn,kimley-horn.com,growth_list_2026,17,Raleigh NC,Construction & Engineering,https://fortune.com/ranking/best-companies/2026/
+Credit Acceptance,creditacceptance.com,growth_list_2026,18,Southfield MI,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Progressive,progressive.com,growth_list_2026,19,Mayfield Village OH,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Power Home Remodeling,powerhrg.com,growth_list_2026,20,Chester PA,Construction,https://fortune.com/ranking/best-companies/2026/
+"Jones Financial (Edward Jones)",edwardjones.com,growth_list_2026,21,St. Louis MO,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Brightview Senior Living,brightviewseniorliving.com,growth_list_2026,22,Baltimore MD,Hospitality,https://fortune.com/ranking/best-companies/2026/
+Rocket Companies,rocketcompanies.com,growth_list_2026,23,Detroit MI,Financial Services & Insurance,https://fortune.com/ranking/best-companies/2026/
+Deloitte,deloitte.com,growth_list_2026,24,,Professional Services,https://fortune.com/ranking/best-companies/2026/
+Cheesecake Factory,thecheesecakefactory.com,growth_list_2026,25,Calabasas CA,Restaurants & Food Service,https://fortune.com/ranking/best-companies/2026/
+Trader Joe's,traderjoes.com,newsweek_greatest_workplaces_2026,5,Monrovia CA,Retail,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+U.S. Steel,ussteel.com,newsweek_greatest_workplaces_2026,5,Pittsburgh PA,Manufacturing,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+Hyatt,hyatt.com,newsweek_greatest_workplaces_2026,5,Chicago IL,Hospitality,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+Grainger,grainger.com,newsweek_greatest_workplaces_2026,5,Lake Forest IL,Manufacturing,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+Epic Games,epicgames.com,newsweek_greatest_workplaces_2026,5,Cary NC,Software Development,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+Chick-fil-A,chick-fil-a.com,newsweek_greatest_workplaces_2026,5,College Park GA,Restaurants & Food Service,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+Major League Baseball,mlb.com,newsweek_greatest_workplaces_2026,5,New York NY,Entertainment Providers,https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html
+AbbVie,abbvie.com,newsweek_greatest_workplaces_2026,,California,Pharmaceutical Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+acac Fitness & Wellness Center,acacfitness.com,newsweek_greatest_workplaces_2026,,Virginia,Recreational Facilities,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Accenture,accenture.com,newsweek_greatest_workplaces_2026,,Virginia,Business Consulting & Services,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Acuity Insurance,acuity.com,newsweek_greatest_workplaces_2026,,Wisconsin,Insurance,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Adobe,adobe.com,newsweek_greatest_workplaces_2026,,California,Software Development,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+ADP,adp.com,newsweek_greatest_workplaces_2026,,New Jersey,Human Resources Services,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+AdventHealth,adventhealth.com,newsweek_greatest_workplaces_2026,,Florida,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+AECOM,aecom.com,newsweek_greatest_workplaces_2026,,Texas,Civil Engineering,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Air Products,airproducts.com,newsweek_greatest_workplaces_2026,,Pennsylvania,Chemical Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Albemarle,albemarle.com,newsweek_greatest_workplaces_2026,,North Carolina,Chemical Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Alcon,alcon.com,newsweek_greatest_workplaces_2026,,Texas,Medical Equipment Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+American Electric Power,aep.com,newsweek_greatest_workplaces_2026,,Ohio,Utilities,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+American Express,americanexpress.com,newsweek_greatest_workplaces_2026,,New York,Financial Services,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Ameriprise,ameriprise.com,newsweek_greatest_workplaces_2026,,Minnesota,Financial Services,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Amgen,amgen.com,newsweek_greatest_workplaces_2026,,California,Biotechnology Research,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Amica Insurance,amica.com,newsweek_greatest_workplaces_2026,,Rhode Island,Insurance,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Apple,apple.com,newsweek_greatest_workplaces_2026,,California,Computers & Electronics Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+AECOM,aecom.com,newsweek_entry_level_2026,5,Texas,Civil Engineering,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Alaska Airlines,alaskaair.com,newsweek_entry_level_2026,5,Washington,Airlines & Aviation,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Amazon,amazon.com,newsweek_entry_level_2026,5,Washington,Software Development,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+AMC,amctheatres.com,newsweek_entry_level_2026,5,Kansas,Entertainment Providers,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+AMD,amd.com,newsweek_entry_level_2026,5,California,Semiconductor Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+American Red Cross,redcross.org,newsweek_entry_level_2026,5,Washington D.C.,Nonprofit Organizations,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Apple,apple.com,newsweek_entry_level_2026,5,California,Computers & Electronics Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Bath & Body Works,bathandbodyworks.com,newsweek_entry_level_2026,5,Ohio,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Best Buy,bestbuy.com,newsweek_entry_level_2026,5,Minnesota,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Chevron,chevron.com,newsweek_entry_level_2026,5,Texas,Oil & Gas,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+CHRISTUS Health,christushealth.org,newsweek_entry_level_2026,5,Texas,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Cinemark,cinemark.com,newsweek_entry_level_2026,5,Texas,Entertainment Providers,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Costco,costco.com,newsweek_entry_level_2026,5,Washington,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+CVS Health,cvshealth.com,newsweek_entry_level_2026,5,Rhode Island,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Deloitte,deloitte.com,newsweek_entry_level_2026,5,New York,Business Consulting & Services,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Delta Air Lines,delta.com,newsweek_entry_level_2026,5,Georgia,Airlines & Aviation,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Dick's Sporting Goods,dickssportinggoods.com,newsweek_entry_level_2026,5,Pennsylvania,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+FedEx,fedex.com,newsweek_entry_level_2026,5,Tennessee,Freight & Package Transportation,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Five Below,fivebelow.com,newsweek_entry_level_2026,5,Pennsylvania,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Gap,gap.com,newsweek_entry_level_2026,5,California,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+H-E-B,heb.com,newsweek_entry_level_2026,5,Texas,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+HealthPartners,healthpartners.com,newsweek_entry_level_2026,5,Minnesota,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Honda,honda.com,newsweek_entry_level_2026,5,California,Motor Vehicle Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Intel,intel.com,newsweek_entry_level_2026,5,California,Semiconductor Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+John Deere,deere.com,newsweek_entry_level_2026,5,Illinois,Machinery Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Johnson & Johnson,jnj.com,newsweek_entry_level_2026,5,New Jersey,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+JPMorganChase,jpmorganchase.com,newsweek_entry_level_2026,5,New York,Financial Services,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Lockheed Martin,lockheedmartin.com,newsweek_entry_level_2026,5,Maryland,Defense & Space Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Lowe's Companies,lowes.com,newsweek_entry_level_2026,5,North Carolina,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Mass General Brigham,massgeneralbrigham.org,newsweek_entry_level_2026,5,Massachusetts,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Maximus,maximus.com,newsweek_entry_level_2026,5,Virginia,Government Administration,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Mayo Clinic,mayoclinic.org,newsweek_entry_level_2026,5,Minnesota,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Medline,medline.com,newsweek_entry_level_2026,5,Illinois,Medical Equipment Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Meta,meta.com,newsweek_entry_level_2026,5,California,Software Development,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Microsoft,microsoft.com,newsweek_entry_level_2026,5,Washington,Software Development,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Nike,nike.com,newsweek_entry_level_2026,5,Oregon,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+NYC Health + Hospitals,nychealthandhospitals.org,newsweek_entry_level_2026,5,New York,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+PepsiCo,pepsico.com,newsweek_entry_level_2026,5,New York,Food & Beverage Services,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Publix,publix.com,newsweek_entry_level_2026,5,Florida,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Samsung Electronics,samsung.com,newsweek_entry_level_2026,5,Texas,Computers & Electronics Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Sony,sony.com,newsweek_entry_level_2026,5,New York,Entertainment Providers,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Starbucks,starbucks.com,newsweek_entry_level_2026,5,Seattle WA,Restaurants & Food Service,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Target,target.com,newsweek_entry_level_2026,5,Minneapolis MN,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Toyota,toyota.com,newsweek_entry_level_2026,5,Texas,Motor Vehicle Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+UPS,ups.com,newsweek_entry_level_2026,5,Atlanta GA,Freight & Package Transportation,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Walmart,walmart.com,newsweek_entry_level_2026,5,Arkansas,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Foot Locker,footlocker.com,newsweek_entry_level_2026,5,New York,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Starbucks,starbucks.com,newsweek_greatest_workplaces_2026,,Washington,Restaurants & Food Service,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+John Deere,deere.com,newsweek_greatest_workplaces_2026,,Illinois,Machinery Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Johnson & Johnson,jnj.com,newsweek_greatest_workplaces_2026,,New Jersey,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Mayo Clinic,mayoclinic.org,newsweek_greatest_workplaces_2026,,Minnesota,Hospitals & Health Care,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Nike,nike.com,newsweek_greatest_workplaces_2026,,Oregon,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Publix,publix.com,newsweek_greatest_workplaces_2026,,Florida,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Target,target.com,newsweek_greatest_workplaces_2026,,Minnesota,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+UPS,ups.com,newsweek_greatest_workplaces_2026,,Georgia,Freight & Package Transportation,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Toyota,toyota.com,newsweek_greatest_workplaces_2026,,Texas,Motor Vehicle Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Best Buy,bestbuy.com,newsweek_greatest_workplaces_2026,,Minnesota,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Chevron,chevron.com,newsweek_greatest_workplaces_2026,,Texas,Oil & Gas,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Intel,intel.com,newsweek_greatest_workplaces_2026,,California,Semiconductor Manufacturing,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Lowe's Companies,lowes.com,newsweek_greatest_workplaces_2026,,North Carolina,Retail,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+FedEx,fedex.com,newsweek_greatest_workplaces_2026,,Tennessee,Freight & Package Transportation,https://rankings.newsweek.com/americas-greatest-workplaces-2026
+Amgen,amgen.com,newsweek_entry_level_2026,5,California,Biotechnology Research,https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees
+Merck,merck.com,glassdoor_bptw_2026,,New Jersey,Healthcare Biotech & Pharmaceuticals,https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm
+Intuitive Surgical,intuitive.com,glassdoor_bptw_2026,,Sunnyvale CA,Healthcare Biotech & Pharmaceuticals,https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm

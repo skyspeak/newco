@@ -1,0 +1,83 @@
+{
+  "slug": "houston-methodist",
+  "company": "Houston Methodist",
+  "domain": "houstonmethodist.org",
+  "activity_statements": [
+    {
+      "statement": "operates eight acute-care hospitals in Greater Houston including the flagship academic medical center in the Texas Medical Center plus seven community hospitals in Baytown, Clear Lake, Cypress, Sugar Land, The Woodlands, West Houston and Willowbrook",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "employs 5,000+ expert physicians and 1,800+ clinicians across 265+ practice locations through Houston Methodist Physician Organization serving primary and specialty care",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "conducts 800+ active clinical trials at the Houston Methodist Academic Institute translating research into treatments for cardiovascular disease, cancer, infectious disease, neurosciences and diabetes",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates one of the largest employed primary care groups in the Houston area with 40+ locations and 250+ practitioners serving patients across Greater Houston",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers specialty and sub-specialty care attracting patients from across the country and internationally, ranked 13 consecutive years as Best Hospital in Texas by US News",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates six Centers of Excellence plus emergency care centers, imaging centers, breast care centers, comprehensive care centers, surgery centers and outpatient facilities across the Houston area",
+      "source_url": "https://www.houstonmethodist.org/about/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "academic-medical-research",
+    "clinical-trial-operations",
+    "physician-employment-at-scale",
+    "specialty-care-referral",
+    "hospital-operations",
+    "primary-care-network",
+    "cardiovascular-care",
+    "oncology-care",
+    "neuroscience-care",
+    "outpatient-and-ambulatory-services"
+  ],
+  "function_mix": [
+    { "family": "physicians-and-advanced-practice", "weight": 0.30 },
+    { "family": "nursing", "weight": 0.25 },
+    { "family": "allied-health-and-clinical-support", "weight": 0.20 },
+    { "family": "research-and-clinical-trials", "weight": 0.10 },
+    { "family": "hospital-operations-and-administration", "weight": 0.10 },
+    { "family": "corporate-and-technology", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "service", "operate"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Hospital System (Acute Care)",
+      "weight": 0.55,
+      "capability_tags": ["hospital-operations", "clinical-care-delivery", "specialty-care-referral"]
+    },
+    {
+      "name": "Physician Organization",
+      "weight": 0.30,
+      "capability_tags": ["physician-employment-at-scale", "primary-care-network", "outpatient-and-ambulatory-services"]
+    },
+    {
+      "name": "Academic Institute (Research)",
+      "weight": 0.15,
+      "capability_tags": ["academic-medical-research", "clinical-trial-operations"]
+    }
+  ],
+  "name_reality_gap": "none — Houston Methodist clearly connotes hospital and healthcare; the evidence confirms that is exactly what it does, with the academic research and physician-organization dimensions adding depth beyond a simple hospital label.",
+  "sources": [
+    { "url": "https://www.houstonmethodist.org/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Exceptionally detailed about page with specific numbers for physicians, locations, clinical trials and hospital count. Very high extraction confidence.",
+  "extraction_confidence": 0.95
+}

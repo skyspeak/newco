@@ -1,0 +1,65 @@
+{
+  "slug": "ey",
+  "company": "EY",
+  "domain": "ey.com",
+  "activity_statements": [
+    {
+      "statement": "provides audit and assurance services to public and private companies, building trust in financial reporting for capital markets globally",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers strategy consulting through EY-Parthenon, advising C-suite executives on growth, transactions, and transformation across industries",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.92
+    },
+    {
+      "statement": "advises multinational corporations on tax compliance, planning, and cross-border structuring across 150 countries",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.92
+    },
+    {
+      "statement": "supports mergers, acquisitions, divestitures, and corporate restructurings through transaction advisory services",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.88
+    },
+    {
+      "statement": "advises clients on climate change, sustainability, supply chain operations, and ESG reporting and strategy",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.88
+    },
+    {
+      "statement": "employs approximately 400,000 people across 150 countries and built an enterprise-scale agentic AI operating system for internal use",
+      "source_url": "https://www.ey.com/en_us/about-us",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "audit-and-assurance",
+    "tax-advisory",
+    "management-consulting",
+    "transaction-advisory",
+    "strategy-consulting",
+    "sustainability-consulting",
+    "regulatory-compliance-ops",
+    "supply-chain-advisory",
+    "digital-transformation-advisory",
+    "ai-strategy-consulting"
+  ],
+  "function_mix": [
+    { "family": "audit-and-assurance", "weight": 0.35 },
+    { "family": "tax-advisory", "weight": 0.25 },
+    { "family": "consulting", "weight": 0.25 },
+    { "family": "technology-and-ai", "weight": 0.10 },
+    { "family": "finance-and-operations", "weight": 0.05 }
+  ],
+  "value_chain": ["service", "assure"],
+  "delivery_mode": ["human-service"],
+  "segments": [],
+  "name_reality_gap": "The index label 'IT Services and IT Consulting' significantly misrepresents EY. The firm's core business is audit/assurance (financial reporting verification for capital markets) and tax advisory — not IT services. Technology consulting is one line among several, and assurance/audit is the dominant one.",
+  "sources": [
+    { "url": "https://www.ey.com/en_us/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was relatively high level. EY service lines (Assurance, Tax, Consulting, Strategy & Transactions) are well-established public knowledge; page confirmed these. No 10-K (private partnership). Function mix based on known service line distribution among Big Four firms.",
+  "extraction_confidence": 0.82
+}

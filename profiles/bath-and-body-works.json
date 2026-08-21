@@ -1,0 +1,53 @@
+{
+  "slug": "bath-and-body-works",
+  "company": "Bath & Body Works",
+  "domain": "bathandbodyworks.com",
+  "activity_statements": [
+    {
+      "statement": "operates 1,900+ owned retail stores in the US and Canada selling personal care products, body care, home fragrance (candles), hand soaps, and sanitizers directly to consumers",
+      "source_url": "https://careers.bathandbodyworks.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "licenses and operates 500+ international retail stores through franchise partners outside the US and Canada",
+      "source_url": "https://careers.bathandbodyworks.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates distribution centers that fulfill both store replenishment and direct e-commerce orders for approximately 60,000 associates company-wide",
+      "source_url": "https://careers.bathandbodyworks.com/",
+      "confidence": 0.82
+    },
+    {
+      "statement": "develops and launches seasonal fragrance-led product collections in candles, body lotion, shower gel, and home care sold under proprietary brand names",
+      "source_url": "https://careers.bathandbodyworks.com/",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "specialty-retail-stores",
+    "consumer-fragrance-products",
+    "product-formulation",
+    "seasonal-merchandise-planning",
+    "omnichannel-retail",
+    "franchise-licensing",
+    "distribution-fulfillment",
+    "loyalty-program"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations", "weight": 0.55 },
+    { "family": "distribution-and-logistics", "weight": 0.15 },
+    { "family": "product-development-and-design", "weight": 0.10 },
+    { "family": "merchandising-and-buying", "weight": 0.10 },
+    { "family": "corporate-and-support", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The name accurately describes the product category (bath and body personal care). Index label 'Retail' is correct but understates the company's significant fragrance and candle product development capability — it is both a retailer and a consumer goods product company with proprietary formulations.",
+  "sources": [
+    { "url": "https://careers.bathandbodyworks.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Main bathandbodyworks.com website is completely blocked by PerimeterX bot protection — about page, product pages, and all content pages returned access-denied. Investor relations page timed out. The careers page was the only accessible source. Profile relies primarily on careers page facts (store count, associate count, job areas) supplemented by widely known public information about the brand. Extraction confidence is accordingly low.",
+  "extraction_confidence": 0.6
+}

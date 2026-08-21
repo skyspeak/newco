@@ -1,0 +1,98 @@
+{
+  "slug": "comcast",
+  "company": "Comcast",
+  "domain": "comcast.com",
+  "activity_statements": [
+    {
+      "statement": "operates residential broadband, wireless, video, and voice services in the United States under the Xfinity brand to millions of households",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA&type=10-K",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Sky-branded broadband and entertainment TV in the United Kingdom and Italy",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA&type=10-K",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates NBCUniversal, which owns and produces content for the NBC broadcast network, cable channels (MSNBC, CNBC, Bravo, USA), and the Peacock streaming platform",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA&type=10-K",
+      "confidence": 0.88
+    },
+    {
+      "statement": "produces and distributes theatrical films through Universal Pictures",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA&type=10-K",
+      "confidence": 0.88
+    },
+    {
+      "statement": "owns and operates Universal theme parks globally, including Universal Studios Hollywood, Universal Orlando, and Epic Universe (opening 2025)",
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA&type=10-K",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides Comcast Business connectivity, cybersecurity, networking, and unified communications services to businesses of all sizes",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "broadband-internet-service",
+    "cable-tv-and-video-distribution",
+    "wireless-mobile-service",
+    "streaming-platform-operations",
+    "broadcast-and-cable-network-production",
+    "film-studio-and-distribution",
+    "theme-park-operations",
+    "enterprise-connectivity-services",
+    "content-licensing-and-syndication",
+    "advertising-sales"
+  ],
+  "function_mix": [
+    { "family": "network-engineering-and-operations", "weight": 0.2 },
+    { "family": "software-engineering-and-technology", "weight": 0.15 },
+    { "family": "customer-service-and-field-technicians", "weight": 0.2 },
+    { "family": "content-production-and-media", "weight": 0.15 },
+    { "family": "sales-and-marketing", "weight": 0.1 },
+    { "family": "theme-park-operations-and-hospitality", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service", "distribute", "content"],
+  "delivery_mode": ["physical-asset", "software", "content", "human-service"],
+  "segments": [
+    {
+      "name": "Residential Connectivity & Platforms (Xfinity)",
+      "weight": 0.4,
+      "capability_tags": ["broadband-internet-service", "cable-tv-and-video-distribution", "wireless-mobile-service"]
+    },
+    {
+      "name": "Business Services Connectivity (Comcast Business)",
+      "weight": 0.1,
+      "capability_tags": ["enterprise-connectivity-services"]
+    },
+    {
+      "name": "NBCUniversal Media",
+      "weight": 0.25,
+      "capability_tags": ["broadcast-and-cable-network-production", "streaming-platform-operations", "advertising-sales", "content-licensing-and-syndication"]
+    },
+    {
+      "name": "Universal Pictures (Film)",
+      "weight": 0.07,
+      "capability_tags": ["film-studio-and-distribution"]
+    },
+    {
+      "name": "Universal Theme Parks",
+      "weight": 0.1,
+      "capability_tags": ["theme-park-operations"]
+    },
+    {
+      "name": "Sky (International)",
+      "weight": 0.08,
+      "capability_tags": ["broadband-internet-service", "cable-tv-and-video-distribution"]
+    }
+  ],
+  "name_reality_gap": "Comcast is widely perceived as a cable/internet company; activity evidence shows it is equally a media conglomerate (NBC network, cable channels, Peacock streaming) and a theme park operator (Universal Studios), plus an international broadband operator (Sky). The 'Telecommunications' industry label from the index dramatically understates the content and entertainment dimensions.",
+  "sources": [
+    { "url": "https://exa.ai/library/organization/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Comcast's own corporate website timed out repeatedly. Segment structure and business descriptions extracted from Comcast 10-K text found in Exa search results file. Segment revenue weights are estimates based on publicly known Comcast financial structure, not directly read from a retrieved filing.",
+  "extraction_confidence": 0.8
+}

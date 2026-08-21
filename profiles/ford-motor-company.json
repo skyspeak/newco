@@ -1,0 +1,87 @@
+{
+  "slug": "ford-motor-company",
+  "company": "Ford Motor Company",
+  "domain": "ford.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures passenger vehicles, trucks, and SUVs including the F-150 (America's best-selling truck), Mustang, Explorer, and Bronco for retail and fleet customers",
+      "source_url": "https://corporate.ford.com/about.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "produces and sells battery electric vehicles (BEVs) including the F-150 Lightning and Mustang Mach-E through the Ford Model e segment",
+      "source_url": "https://www.ford.com/electric/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "sells commercial and fleet vehicles (Transit vans, F-Series Super Duty trucks) to business customers through the Ford Pro segment",
+      "source_url": "https://corporate.ford.com/about.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides vehicle financing and leasing to consumers and dealers through Ford Credit",
+      "source_url": "https://corporate.ford.com/about.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "offers BlueCruise hands-free driver-assist technology and connected vehicle software services via subscription to vehicle owners",
+      "source_url": "https://www.ford.com/electric/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "distributes vehicles through a network of independently owned Ford and Lincoln dealerships across the US and globally",
+      "source_url": "https://corporate.ford.com/about.html",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "vehicle-design-and-engineering",
+    "vehicle-assembly-manufacturing",
+    "electric-vehicle-development",
+    "fleet-and-commercial-vehicles",
+    "dealer-network-distribution",
+    "connected-vehicle-software",
+    "vehicle-financing",
+    "driver-assist-technology"
+  ],
+  "function_mix": [
+    { "family": "automotive-engineers", "weight": 0.20 },
+    { "family": "manufacturing-and-assembly-workers", "weight": 0.30 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "supply-chain-and-procurement", "weight": 0.12 },
+    { "family": "finance-and-ford-credit", "weight": 0.10 },
+    { "family": "sales-and-marketing", "weight": 0.08 },
+    { "family": "quality-and-safety", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "Ford Blue (ICE Vehicles)",
+      "weight": 0.50,
+      "capability_tags": ["vehicle-design-and-engineering", "vehicle-assembly-manufacturing", "dealer-network-distribution"]
+    },
+    {
+      "name": "Ford Model e (Electric Vehicles)",
+      "weight": 0.15,
+      "capability_tags": ["electric-vehicle-development", "connected-vehicle-software", "driver-assist-technology"]
+    },
+    {
+      "name": "Ford Pro (Commercial Vehicles)",
+      "weight": 0.25,
+      "capability_tags": ["fleet-and-commercial-vehicles", "vehicle-assembly-manufacturing"]
+    },
+    {
+      "name": "Ford Credit",
+      "weight": 0.10,
+      "capability_tags": ["vehicle-financing"]
+    }
+  ],
+  "name_reality_gap": "Ford is labeled 'Motor Vehicle Manufacturing' which is accurate at a broad level; the less obvious reality is that Ford is aggressively building a software business (BlueCruise, connected services), that Ford Pro (commercial fleet) is now the company's most profitable segment, and that Ford Credit generates substantial revenue as a financial services entity.",
+  "sources": [
+    { "url": "https://corporate.ford.com/about.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.ford.com/electric/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Ford corporate about page had marketing-heavy content but confirmed key product lines. Ford investor relations page timed out. Segment structure (Ford Blue, Model e, Ford Pro, Ford Credit) is from widely reported public sources; the corporate page confirmed the three-segment operating structure in general terms.",
+  "extraction_confidence": 0.82
+}

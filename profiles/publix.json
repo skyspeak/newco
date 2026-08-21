@@ -1,0 +1,61 @@
+{
+  "slug": "publix",
+  "company": "Publix",
+  "domain": "publix.com",
+  "activity_statements": [
+    {
+      "statement": "operates the largest employee-owned grocery chain in the US with stores in Florida, Georgia, Alabama, South Carolina, North Carolina, Tennessee, Virginia and Kentucky",
+      "source_url": "https://www.publix.com/about-publix",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates in-store pharmacies providing prescription dispensing, vaccine administration, specialty medications, compound medications and pet medications to customers",
+      "source_url": "https://www.publix.com/pharmacy/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "prepares custom deli selections, made-to-order subs, bakery items and themed cakes in each store location for in-store pickup and delivery via Instacart",
+      "source_url": "https://www.publix.com/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers online grocery ordering with in-store pickup and third-party delivery integration for consumers in its operating markets",
+      "source_url": "https://www.publix.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides employer pharmacy solutions to corporate clients focusing on health and cost efficiency of employee populations",
+      "source_url": "https://www.publix.com/pharmacy/",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "grocery-retail-operations",
+    "pharmacy-dispensing",
+    "employee-ownership-model",
+    "fresh-prepared-foods",
+    "in-store-bakery-deli",
+    "omnichannel-retail",
+    "specialty-pharmacy",
+    "vaccine-administration",
+    "employer-pharmacy-solutions"
+  ],
+  "function_mix": [
+    { "family": "store-associates-and-operations", "weight": 0.50 },
+    { "family": "pharmacy-staff", "weight": 0.20 },
+    { "family": "supply-chain-and-distribution", "weight": 0.15 },
+    { "family": "corporate-and-technology", "weight": 0.1 },
+    { "family": "bakery-and-deli-production", "weight": 0.05 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Labeled simply as Retail; Publix is actually a vertically integrated grocery and pharmacy operator with a distinctive employee-ownership structure — roughly 20% of staffing is pharmacy-focused, which a pure retail label misses.",
+  "sources": [
+    { "url": "https://www.publix.com/about-publix", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.publix.com/pharmacy/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.publix.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About-publix page returned mostly a privacy policy; company details drawn from pharmacy page and homepage which were concrete. Store count and geographic footprint confirmed from multiple sources.",
+  "extraction_confidence": 0.82
+}

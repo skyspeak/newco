@@ -1,0 +1,58 @@
+{
+  "slug": "chick-fil-a",
+  "company": "Chick-fil-A",
+  "domain": "chick-fil-a.com",
+  "activity_statements": [
+    {
+      "statement": "operates quick-service chicken sandwich restaurants via an Owner-Operator franchise model, closed on Sundays per founding policy",
+      "source_url": "https://www.chick-fil-a.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "hand-breads chicken for its signature sandwiches and sources fresh produce for salads and fruit cups at each location",
+      "source_url": "https://www.chick-fil-a.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "selects and supports Owner-Operators of each restaurant location with a focus on community impact and local involvement",
+      "source_url": "https://www.chick-fil-a.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides Remarkable Futures Scholarships to support Team Members pursuing higher education",
+      "source_url": "https://www.chick-fil-a.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "serves food primarily through drive-thru and in-restaurant counter service at over 3,000 locations in the U.S.",
+      "source_url": "https://www.chick-fil-a.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "quick-service-restaurant-operations",
+    "franchise-operator-model",
+    "drive-thru-service",
+    "food-preparation-and-quality-control",
+    "customer-hospitality-training",
+    "supply-chain-and-fresh-sourcing",
+    "community-engagement-programs",
+    "employee-scholarship-program"
+  ],
+  "function_mix": [
+    { "family": "restaurant-crew-and-kitchen-operations", "weight": 0.55 },
+    { "family": "franchise-and-operator-management", "weight": 0.15 },
+    { "family": "supply-chain-and-sourcing", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.1 },
+    { "family": "marketing-and-brand", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — Chick-fil-A is straightforwardly a chicken quick-service restaurant chain. The franchise model where corporate carefully selects each Owner-Operator is distinctive but not hidden.",
+  "sources": [
+    { "url": "https://www.chick-fil-a.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was informative on business model and culture. Location count (~3,000+) from widely reported industry knowledge; exact figure not extracted from source. No 10-K available (private company).",
+  "extraction_confidence": 0.82
+}

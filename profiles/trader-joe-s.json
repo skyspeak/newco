@@ -1,0 +1,57 @@
+{
+  "slug": "trader-joe-s",
+  "company": "Trader Joe's",
+  "domain": "traderjoes.com",
+  "activity_statements": [
+    {
+      "statement": "operates a national chain of smaller-format neighborhood grocery stores selling predominantly own-label Trader Joe's products at everyday low prices",
+      "source_url": "https://www.traderjoes.com/home/about-us",
+      "confidence": 0.98
+    },
+    {
+      "statement": "sources products directly from suppliers globally (no intermediary) through buyers who travel the world seeking distinctive value items, then hard-bargains and buys in volume",
+      "source_url": "https://www.traderjoes.com/home/about-us",
+      "confidence": 0.97
+    },
+    {
+      "statement": "maintains an EDLP (every-day low price) model with no sales, no coupons, no loyalty cards, and no slotting fees charged to suppliers",
+      "source_url": "https://www.traderjoes.com/home/about-us",
+      "confidence": 0.98
+    },
+    {
+      "statement": "runs each product through a rigorous internal tasting panel before placing it on shelves, acting as its own merchant and buyer for the entire assortment",
+      "source_url": "https://www.traderjoes.com/home/about-us",
+      "confidence": 0.96
+    },
+    {
+      "statement": "staffs stores with full-time Crew Members who hand-craft signage and create a community-oriented in-store experience with no self-checkout or e-commerce",
+      "source_url": "https://www.traderjoes.com/home/about-us",
+      "confidence": 0.92
+    }
+  ],
+  "capability_tags": [
+    "grocery-retail-operations",
+    "private-label-product-development",
+    "direct-supplier-sourcing",
+    "product-curation-and-buying",
+    "everyday-low-price-retail",
+    "store-brand-food-marketing",
+    "small-format-grocery",
+    "customer-experience-operations"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations-crew", "weight": 0.65 },
+    { "family": "merchandising-and-buying", "weight": 0.15 },
+    { "family": "supply-chain-and-distribution", "weight": 0.12 },
+    { "family": "management-and-operations", "weight": 0.08 }
+  ],
+  "value_chain": ["distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Retail' index label is accurate but misses that Trader Joe's is also acting as product developer and brand owner for the majority of its SKUs — much of the work resembles CPG brand management and global sourcing rather than conventional grocery retail.",
+  "sources": [
+    { "url": "https://www.traderjoes.com/home/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was very informative and in the firm's own distinctive voice, providing clear detail on the sourcing model, pricing philosophy, and store experience. Private company; no 10-K. Excellent primary source.",
+  "extraction_confidence": 0.92
+}

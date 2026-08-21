@@ -1,0 +1,53 @@
+{
+  "slug": "jones-financial-edward-jones",
+  "company": "Jones Financial (Edward Jones)",
+  "domain": "edwardjones.com",
+  "activity_statements": [
+    {
+      "statement": "matches individual investors with local financial advisors who provide personalized investment advice and ongoing portfolio management",
+      "source_url": "https://www.edwardjones.com/us-en/investment-services",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers individual investors access to stocks, bonds, mutual funds, annuities, and retirement accounts (IRAs, 401k rollovers) through a network of 7,000+ branch offices in the US and Canada",
+      "source_url": "https://www.edwardjones.com/us-en/investment-services",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides retirement planning services and long-term financial planning to individual investors, with a focus on buy-and-hold investment strategies",
+      "source_url": "https://www.edwardjones.com/us-en/why-edward-jones/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "deploys financial advisors as solo practitioners in community-based branch offices (one advisor per office model) throughout the US and Canada",
+      "source_url": "https://www.edwardjones.com/us-en/investment-services",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "retail-wealth-management",
+    "financial-advisory-services",
+    "retirement-planning",
+    "investment-product-distribution",
+    "individual-investor-focus",
+    "branch-office-network",
+    "portfolio-management"
+  ],
+  "function_mix": [
+    { "family": "financial-advisors", "weight": 0.50 },
+    { "family": "operations-and-back-office", "weight": 0.20 },
+    { "family": "software-and-technology", "weight": 0.12 },
+    { "family": "compliance-and-risk", "weight": 0.10 },
+    { "family": "marketing-and-client-development", "weight": 0.08 }
+  ],
+  "value_chain": ["service"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "The parent entity name 'Jones Financial' obscures that the operating brand is Edward Jones — a retail brokerage focused exclusively on individual (not institutional) investors, operating an unusually distributed model of single-advisor community offices rather than the branch banking or online trading model of most competitors.",
+  "sources": [
+    { "url": "https://www.edwardjones.com/us-en/investment-services", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.edwardjones.com/us-en/why-edward-jones/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Edward Jones web pages were limited in content detail. The 'what-we-do' and specific investment product pages returned 404 errors. Profile built from investment services landing page and about page. Edward Jones is a private partnership (Jones Financial Companies) with limited public financial disclosure.",
+  "extraction_confidence": 0.75
+}

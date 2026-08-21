@@ -1,0 +1,61 @@
+{
+  "slug": "acac-fitness-and-wellness-center",
+  "company": "acac Fitness & Wellness Center",
+  "domain": "acacfitness.com",
+  "activity_statements": [
+    {
+      "statement": "operates multi-amenity fitness and wellness clubs across Virginia, Pennsylvania, and South Carolina offering cardio, strength training, and 120+ group fitness classes per week",
+      "source_url": "https://acac.com/membership/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "provides indoor and outdoor aquatics facilities, waterparks, and swimming programs including competitive summer swim teams for members",
+      "source_url": "https://acac.com/membership/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "staffs personal trainers, group fitness instructors, tennis professionals, and childcare workers across 13+ club locations",
+      "source_url": "https://acac.com/membership/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates a licensed year-round preschool and summer camp programs for children at Adventure Central campus in Charlottesville, VA",
+      "source_url": "https://acac.com/location/adventure-central/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "offers tiered membership plans (Fitness Only, Full Facility, All-Inclusive) plus discounts for students, seniors, and corporate partners including Renew Active for Medicare members",
+      "source_url": "https://acac.com/membership/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "fitness-club-operations",
+    "group-fitness-programming",
+    "aquatics-facilities",
+    "personal-training-services",
+    "youth-programs-and-childcare",
+    "tennis-club-operations",
+    "spa-and-recovery-amenities",
+    "membership-management",
+    "corporate-wellness-programs"
+  ],
+  "function_mix": [
+    { "family": "fitness-instruction-and-personal-training", "weight": 0.35 },
+    { "family": "facility-operations-and-maintenance", "weight": 0.25 },
+    { "family": "childcare-and-youth-programming", "weight": 0.15 },
+    { "family": "member-services-and-sales", "weight": 0.15 },
+    { "family": "management-and-administration", "weight": 0.10 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The name and 'Recreational Facilities' label accurately describe the core activity. Less obvious: the childcare, licensed preschool, and summer camp operations at some campuses make acac also a youth education and daycare provider.",
+  "sources": [
+    { "url": "https://acac.com/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://acac.com/membership/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://acac.com/location/adventure-central/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "acacfitness.com domain timed out repeatedly; profile built from acac.com (same company, alternate domain found via Exa search). Good detail on membership offerings and facility types. Revenue ~$10M and ~357 employees from Exa entity data.",
+  "extraction_confidence": 0.80
+}

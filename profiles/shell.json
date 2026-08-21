@@ -1,0 +1,90 @@
+{
+  "slug": "shell",
+  "company": "Shell",
+  "domain": "shell.com",
+  "activity_statements": [
+    {
+      "statement": "explores for and produces oil and natural gas from upstream assets globally including offshore platforms and onshore fields",
+      "source_url": "https://www.shell.com/about-us.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "refines crude oil into fuels, lubricants, and petrochemical feedstocks at refineries and chemical plants worldwide",
+      "source_url": "https://www.shell.com/about-us.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates a global LNG (liquefied natural gas) trading, supply, and shipping business",
+      "source_url": "https://www.shell.com/about-us.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells fuel, lubricants, and convenience products through a global network of retail service stations",
+      "source_url": "https://www.shell.com/about-us.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "employs 85,000 people across 70+ countries working on platforms, pipelines, offices, research labs, and retail sites",
+      "source_url": "https://www.shell.com/about-us.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and sells biofuels, renewable electricity, and hydrogen as part of an energy transition strategy targeting net-zero emissions by 2050",
+      "source_url": "https://www.shell.com/energy-and-innovation/the-energy-future.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "reduced Scope 1 and 2 operational emissions by 36% vs 2016 by end of 2025, eliminated routine flaring from upstream operations in January 2025",
+      "source_url": "https://www.shell.com/energy-and-innovation/the-energy-future.html",
+      "confidence": 0.97
+    }
+  ],
+  "capability_tags": [
+    "upstream-oil-and-gas",
+    "oil-refining",
+    "lng-trading-and-supply",
+    "fuel-retail-network",
+    "petrochemicals-manufacturing",
+    "energy-trading",
+    "lubricants-production",
+    "carbon-capture-and-storage",
+    "biofuels-production",
+    "renewable-energy-sales",
+    "pipeline-and-infrastructure-operations"
+  ],
+  "function_mix": [
+    { "family": "petroleum-engineering-and-geoscience", "weight": 0.20 },
+    { "family": "refining-and-chemical-operations", "weight": 0.20 },
+    { "family": "energy-trading-and-commercial", "weight": 0.15 },
+    { "family": "engineering-and-project-management", "weight": 0.15 },
+    { "family": "retail-and-customer-operations", "weight": 0.12 },
+    { "family": "environmental-and-sustainability", "weight": 0.08 },
+    { "family": "technology-and-digital", "weight": 0.10 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "Integrated Gas and Upstream",
+      "weight": 0.40,
+      "capability_tags": ["upstream-oil-and-gas", "lng-trading-and-supply", "pipeline-and-infrastructure-operations"]
+    },
+    {
+      "name": "Downstream (Refining, Chemicals, Retail)",
+      "weight": 0.45,
+      "capability_tags": ["oil-refining", "petrochemicals-manufacturing", "fuel-retail-network", "lubricants-production"]
+    },
+    {
+      "name": "Renewables and Energy Solutions",
+      "weight": 0.15,
+      "capability_tags": ["biofuels-production", "renewable-energy-sales", "carbon-capture-and-storage"]
+    }
+  ],
+  "name_reality_gap": "none - Shell and 'Oil and Gas' accurately describes the dominant business. The growing renewables and energy transition segment is real but still small relative to hydrocarbon operations.",
+  "sources": [
+    { "url": "https://www.shell.com/about-us.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.shell.com/energy-and-innovation/the-energy-future.html", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Shell about page gave high-level firm description. Climate/energy future page provided specific emissions metrics and transition strategy details. Shell's business segments (Integrated Gas, Upstream, Chemicals and Products, Renewable) are publicly known; segment weights are approximate.",
+  "extraction_confidence": 0.85
+}

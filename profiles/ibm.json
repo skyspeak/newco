@@ -1,0 +1,89 @@
+{
+  "slug": "ibm",
+  "company": "IBM",
+  "domain": "ibm.com",
+  "activity_statements": [
+    {
+      "statement": "operates a hybrid cloud software platform built on Red Hat OpenShift enabling enterprises to run workloads across on-premises and multi-cloud environments",
+      "source_url": "https://www.ibm.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides the watsonx AI portfolio (watsonx.ai model studio, watsonx.data lakehouse, watsonx.governance) enabling enterprises to train, tune, deploy, and govern AI models",
+      "source_url": "https://www.ibm.com/products",
+      "confidence": 0.93
+    },
+    {
+      "statement": "delivers enterprise consulting services including AI transformation strategy, ERP implementation, finance transformation, cyber/risk advisory, and managed IT services to large organizations globally",
+      "source_url": "https://www.ibm.com/about",
+      "confidence": 0.92
+    },
+    {
+      "statement": "manufactures and sells IBM Z mainframes, IBM Power Systems, and IBM Storage arrays for mission-critical enterprise computing workloads",
+      "source_url": "https://www.ibm.com/about",
+      "confidence": 0.90
+    },
+    {
+      "statement": "employs 300,000+ people across 170+ countries and operates 80+ years of research including quantum computing development programs",
+      "source_url": "https://www.ibm.com/about",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates IBM Maximo as an AI-powered asset management platform for utilities, manufacturers, and industrial operators to manage equipment maintenance",
+      "source_url": "https://www.ibm.com/products",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides QRadar SIEM and IBM Security suite for enterprise cybersecurity threat detection and incident response",
+      "source_url": "https://www.ibm.com/products",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "hybrid-cloud-platform",
+    "enterprise-ai-platform",
+    "it-consulting-and-services",
+    "mainframe-computing",
+    "cybersecurity-platform",
+    "asset-management-software",
+    "data-governance",
+    "developer-tools",
+    "quantum-computing-research",
+    "erp-implementation",
+    "managed-services"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.30 },
+    { "family": "consulting-and-advisory", "weight": 0.30 },
+    { "family": "sales-and-enterprise-accounts", "weight": 0.20 },
+    { "family": "research-and-ai", "weight": 0.10 },
+    { "family": "hardware-engineering", "weight": 0.05 },
+    { "family": "corporate-and-support", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "operate", "service", "advisory"],
+  "delivery_mode": ["software", "human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Software (hybrid cloud, AI)",
+      "weight": 0.40,
+      "capability_tags": ["hybrid-cloud-platform", "enterprise-ai-platform", "data-governance", "cybersecurity-platform"]
+    },
+    {
+      "name": "Consulting",
+      "weight": 0.35,
+      "capability_tags": ["it-consulting-and-services", "erp-implementation", "managed-services"]
+    },
+    {
+      "name": "Infrastructure (mainframe, servers, storage)",
+      "weight": 0.25,
+      "capability_tags": ["mainframe-computing", "hardware-engineering"]
+    }
+  ],
+  "name_reality_gap": "Labeled as 'IT Services and IT Consulting' but IBM is also a major enterprise software company (watsonx, Red Hat, Maximo), a hardware manufacturer (IBM Z mainframes), and a research institution (quantum computing). The consulting label is accurate for a large part of the business but misses the software and infrastructure segments.",
+  "sources": [
+    { "url": "https://www.ibm.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.ibm.com/products", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Annual report newsroom link returned 404. About and products pages were information-rich. Segment weight estimates based on publicly reported IBM FY2024 revenue breakdown (Software ~40%, Consulting ~35%, Infrastructure ~25%).",
+  "extraction_confidence": 0.88
+}

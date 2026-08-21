@@ -1,0 +1,67 @@
+{
+  "slug": "servicenow",
+  "company": "ServiceNow",
+  "domain": "servicenow.com",
+  "activity_statements": [
+    {
+      "statement": "provides a cloud-based AI platform (Now Platform / ServiceNow AI Platform) enabling enterprises to automate workflows, manage IT services, and connect business processes across departments",
+      "source_url": "https://www.servicenow.com/company.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers IT Service Management (ITSM) and IT Operations Management (ITOM/AIOps) software enabling enterprises to manage incident, problem, change, and event workflows",
+      "source_url": "https://www.servicenow.com/products.html",
+      "confidence": 0.93
+    },
+    {
+      "statement": "provides Customer Relationship Management (CRM) and Customer Service Management (CSM) modules for AI-enhanced customer experience automation",
+      "source_url": "https://www.servicenow.com/products.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "offers HR Service Delivery, Finance & Supply Chain, and Security Operations software modules on a single unified platform for enterprise customers",
+      "source_url": "https://www.servicenow.com/products.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "sells ServiceNow Otto as an agentic AI automation product that executes end-to-end tasks from user requests across enterprise systems",
+      "source_url": "https://www.servicenow.com/products.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "licenses SaaS subscriptions to enterprises of all industries delivering the platform as AI platform for business transformation with sector-specific solutions for banking, healthcare, manufacturing, government, and telecom",
+      "source_url": "https://www.servicenow.com/products.html",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "itsm-platform",
+    "enterprise-workflow-automation",
+    "agentic-ai-platform",
+    "saas-enterprise-software",
+    "ai-operations-management",
+    "crm-and-customer-service-platform",
+    "hr-service-delivery",
+    "security-operations",
+    "low-code-app-development",
+    "data-integration-platform"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.40 },
+    { "family": "sales-and-enterprise-accounts", "weight": 0.25 },
+    { "family": "research-and-ai", "weight": 0.15 },
+    { "family": "customer-success-and-support", "weight": 0.12 },
+    { "family": "corporate-and-support", "weight": 0.08 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["software"],
+  "segments": [],
+  "name_reality_gap": "The name 'ServiceNow' suggests a service desk/IT ticketing tool, which was accurate when founded. The activity reality is a broad enterprise workflow and AI automation platform serving HR, finance, security, CRM, and low-code development in addition to IT — competitors now include Salesforce, SAP, and Microsoft, not just IT helpdesk tools.",
+  "sources": [
+    { "url": "https://www.servicenow.com/company.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.servicenow.com/products.html", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://investor.servicenow.com/overview/default.aspx", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "All three pages returned good content. Investor overview page was minimal but confirmed positioning. No 10-K accessed but product pages give comprehensive coverage of the full product catalog.",
+  "extraction_confidence": 0.90
+}

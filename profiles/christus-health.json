@@ -1,0 +1,46 @@
+{
+  "slug": "christus-health",
+  "company": "CHRISTUS Health",
+  "domain": "christushealth.org",
+  "activity_statements": [
+    {
+      "statement": "operates a network of hospitals, clinics, and health ministries across Texas, Louisiana, New Mexico, Arkansas, and internationally in Mexico, Chile, and Colombia",
+      "source_url": "https://www.christushealth.org/about",
+      "confidence": 0.8
+    },
+    {
+      "statement": "provides acute inpatient hospital care, emergency services, and specialty medicine to patients through its faith-based hospital network",
+      "source_url": "https://www.christushealth.org/about",
+      "confidence": 0.8
+    },
+    {
+      "statement": "conducts clinical research and community health outreach as part of its Catholic health ministry mission",
+      "source_url": "https://www.christushealth.org/about",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "hospital-operations",
+    "faith-based-health-system",
+    "emergency-services",
+    "nonprofit-health-system",
+    "international-health-operations",
+    "community-health-outreach"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-professionals", "weight": 0.55 },
+    { "family": "healthcare-administration", "weight": 0.2 },
+    { "family": "facility-operations", "weight": 0.15 },
+    { "family": "research-and-education", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "none — name signals Catholic faith-based health system, which is accurate.",
+  "sources": [
+    { "url": "https://www.christushealth.org/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page returned minimal content — sparse navigation page only. Activity statements rely on general public knowledge of CHRISTUS Health as a major Catholic health system (top 10 by size in U.S.). Confidence lowered accordingly. Clinical research and community mission referenced on page. Several sub-pages 404'd.",
+  "extraction_confidence": 0.6
+}

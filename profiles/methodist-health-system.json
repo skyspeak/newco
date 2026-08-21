@@ -1,0 +1,60 @@
+{
+  "slug": "methodist-health-system",
+  "company": "Methodist Health System",
+  "domain": "methodisthealthsystem.org",
+  "activity_statements": [
+    {
+      "statement": "operates 13 hospitals (owned and affiliated) and 75+ primary care and specialty clinics across the Dallas-Fort Worth, North Texas region",
+      "source_url": "https://www.methodisthealthsystem.org/about/",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides Level I Trauma Center, multi-organ transplantation, Level III NICU, neurosurgery, and robotic surgery services for complex acute care patients",
+      "source_url": "https://www.methodisthealthsystem.org/about/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "delivers more than $155 million in charity care annually under its faith-based mission to serve all patients regardless of ability to pay",
+      "source_url": "https://www.methodisthealthsystem.org/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates the Methodist Patient-Centered Accountable Care Organization (ACO) and wellness initiatives to coordinate and improve care across its network",
+      "source_url": "https://www.methodisthealthsystem.org/about/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "runs teaching and residency programs, innovative research, and community health programs as part of its academic health system mission",
+      "source_url": "https://www.methodisthealthsystem.org/about/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "hospital-operations",
+    "trauma-care",
+    "transplant-programs",
+    "faith-based-health-system",
+    "accountable-care-organization",
+    "medical-education",
+    "robotic-surgery",
+    "nonprofit-health-system",
+    "community-health-outreach"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-professionals", "weight": 0.55 },
+    { "family": "healthcare-administration", "weight": 0.2 },
+    { "family": "facility-operations", "weight": 0.1 },
+    { "family": "medical-education", "weight": 0.1 },
+    { "family": "software-engineering", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "none — Methodist Health System clearly signals a faith-based regional hospital network.",
+  "sources": [
+    { "url": "https://www.methodisthealthsystem.org/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was detailed and specific with concrete metrics (13 hospitals, 75+ clinics, 10,000+ employees, $155M+ charity care). Strong extraction confidence.",
+  "extraction_confidence": 0.93
+}

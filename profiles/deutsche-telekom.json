@@ -1,0 +1,93 @@
+{
+  "slug": "deutsche-telekom",
+  "company": "Deutsche Telekom",
+  "domain": "telekom.com",
+  "activity_statements": [
+    {
+      "statement": "operates T-Mobile US as its largest segment, providing postpaid and prepaid mobile services to 129.5 million US customers (104.1M postpaid) with FY2024 service revenues of $66.1B",
+      "source_url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068",
+      "confidence": 0.97
+    },
+    {
+      "statement": "provides fixed-line broadband, fiber/FTTH, mobile, and IPTV (4.6M TV subscribers) services to consumers and businesses in Germany under the Telekom brand",
+      "source_url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates mobile and fixed-line telecom services across multiple European countries, generating €12.3B in revenue in FY2024",
+      "source_url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068",
+      "confidence": 0.92
+    },
+    {
+      "statement": "delivers enterprise IT and digital transformation services through T-Systems, including AI-enabled supply chain solutions, with €4.0B revenue and €4.0B order entry in FY2024",
+      "source_url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068",
+      "confidence": 0.92
+    },
+    {
+      "statement": "generates €115.8B total group revenue (FY2024), with 79% from international operations, operating in 50+ countries",
+      "source_url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068",
+      "confidence": 0.95
+    },
+    {
+      "statement": "is expanding its fiber network infrastructure in Germany and acquiring European fiber network operators (e.g., Fiberhost and Inea from Macquarie) to build FTTH coverage",
+      "source_url": "https://www.telekom.com/en/company/about-telekom",
+      "confidence": 0.88
+    },
+    {
+      "statement": "is building a 5G campus network for automated port operations, providing private 5G network deployment services for industrial customers",
+      "source_url": "https://www.telekom.com/en/company/about-telekom",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "mobile-network-operations",
+    "fiber-broadband-infrastructure",
+    "fixed-line-telecom",
+    "iptv-platform",
+    "enterprise-it-services",
+    "digital-transformation-consulting",
+    "5g-campus-networks",
+    "cloud-and-managed-services",
+    "international-telecom-operations"
+  ],
+  "function_mix": [
+    { "family": "network-engineering", "weight": 0.28 },
+    { "family": "software-engineering", "weight": 0.22 },
+    { "family": "sales-and-customer-operations", "weight": 0.18 },
+    { "family": "it-and-digital-services", "weight": 0.15 },
+    { "family": "finance-and-corporate", "weight": 0.10 },
+    { "family": "field-service-technicians", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "T-Mobile US (United States)",
+      "weight": 0.65,
+      "capability_tags": ["mobile-network-operations", "5g-campus-networks"]
+    },
+    {
+      "name": "Germany",
+      "weight": 0.22,
+      "capability_tags": ["fiber-broadband-infrastructure", "fixed-line-telecom", "iptv-platform", "mobile-network-operations"]
+    },
+    {
+      "name": "Europe",
+      "weight": 0.11,
+      "capability_tags": ["mobile-network-operations", "fixed-line-telecom"]
+    },
+    {
+      "name": "T-Systems (Systems Solutions)",
+      "weight": 0.03,
+      "capability_tags": ["enterprise-it-services", "digital-transformation-consulting", "cloud-and-managed-services"]
+    }
+  ],
+  "name_reality_gap": "Listed as a German 'Telecommunications' company; nearly two-thirds of its revenue comes from T-Mobile US, making it de facto one of the largest US wireless carriers — Deutsche Telekom is primarily an American mobile business that also owns German and European telecom assets.",
+  "sources": [
+    { "url": "https://www.telekom.com/en/company/about-telekom", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.telekom.com/en/media/media-information/archive/financial-report-2024-1088068", "kind": "segment-reporting", "retrieved_at": "2026-08-19" },
+    { "url": "https://report.telekom.com/annual-report-2024", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong segment data available from 2024 annual report press release. T-Mobile US segment weight calculated from USD revenue converted to share of group EUR total. T-Systems weight reflects its €4.0B vs €115.8B group revenue.",
+  "extraction_confidence": 0.92
+}

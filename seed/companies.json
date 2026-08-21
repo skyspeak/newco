@@ -1,0 +1,3213 @@
+[
+  {
+    "slug": "apple",
+    "company": "Apple",
+    "domain": "apple.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "20",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "77",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Computers and Electronics Manufacturing",
+      "Information Technology",
+      "Computers & Electronics Manufacturing"
+    ],
+    "hq_location": "Cupertino CA",
+    "name_variants": [
+      "Apple"
+    ],
+    "index_count": 4
+  },
+  {
+    "slug": "accenture",
+    "company": "Accenture",
+    "domain": "accenture.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "36",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "8",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Business Consulting and Services",
+      "Professional Services",
+      "Business Consulting & Services"
+    ],
+    "hq_location": "Dublin",
+    "name_variants": [
+      "Accenture"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "american-express",
+    "company": "American Express",
+    "domain": "americanexpress.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "39",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "4",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services",
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "New York NY",
+    "name_variants": [
+      "American Express"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "delta-air-lines",
+    "company": "Delta Air Lines",
+    "domain": "delta.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "44",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "9",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Airlines and Aviation",
+      "Transportation",
+      "Airlines & Aviation"
+    ],
+    "hq_location": "Atlanta GA",
+    "name_variants": [
+      "Delta Air Lines"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "fedex",
+    "company": "FedEx",
+    "domain": "fedex.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "23",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Freight and Package Transportation",
+      "Freight & Package Transportation"
+    ],
+    "hq_location": "Memphis TN",
+    "name_variants": [
+      "FedEx"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "jpmorganchase",
+    "company": "JPMorganChase",
+    "domain": "jpmorganchase.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "1",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "94",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "New York",
+    "name_variants": [
+      "JPMorganChase"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "lockheed-martin",
+    "company": "Lockheed Martin",
+    "domain": "lockheedmartin.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "29",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "36",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Defense and Space Manufacturing",
+      "Aerospace & Defense",
+      "Defense & Space Manufacturing"
+    ],
+    "hq_location": "Bethesda MD",
+    "name_variants": [
+      "Lockheed Martin"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "nvidia",
+    "company": "NVIDIA",
+    "domain": "nvidia.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "45",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "3",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "6",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Computer Hardware Manufacturing",
+      "Information Technology"
+    ],
+    "hq_location": "Santa Clara CA",
+    "name_variants": [
+      "NVIDIA"
+    ],
+    "index_count": 3
+  },
+  {
+    "slug": "adobe",
+    "company": "Adobe",
+    "domain": "adobe.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "32",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development"
+    ],
+    "hq_location": "San Jose CA",
+    "name_variants": [
+      "Adobe"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "aecom",
+    "company": "AECOM",
+    "domain": "aecom.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Civil Engineering"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "AECOM"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "alaska-airlines",
+    "company": "Alaska Airlines",
+    "domain": "alaskaair.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "38",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Airlines & Aviation"
+    ],
+    "hq_location": "Washington",
+    "name_variants": [
+      "Alaska Airlines"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "amazon",
+    "company": "Amazon",
+    "domain": "amazon.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "4",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development"
+    ],
+    "hq_location": "Washington",
+    "name_variants": [
+      "Amazon"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "amgen",
+    "company": "Amgen",
+    "domain": "amgen.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Biotechnology Research"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "Amgen"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "bank-of-america",
+    "company": "Bank of America",
+    "domain": "bankofamerica.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "10",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "96",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Banking",
+      "Financial Services"
+    ],
+    "hq_location": "Charlotte NC",
+    "name_variants": [
+      "Bank of America"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "bath-and-body-works",
+    "company": "Bath & Body Works",
+    "domain": "bathandbodyworks.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "80",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail & Wholesale",
+      "Retail"
+    ],
+    "hq_location": "Columbus OH",
+    "name_variants": [
+      "Bath & Body Works"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "best-buy",
+    "company": "Best Buy",
+    "domain": "bestbuy.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Minnesota",
+    "name_variants": [
+      "Best Buy"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "chevron",
+    "company": "Chevron",
+    "domain": "chevron.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Oil & Gas"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "Chevron"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "chick-fil-a",
+    "company": "Chick-fil-A",
+    "domain": "chick-fil-a.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "67",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "College Park GA",
+    "name_variants": [
+      "Chick-fil-A"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "cvs-health",
+    "company": "CVS Health",
+    "domain": "cvshealth.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "11",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals and Health Care",
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Woonsocket RI",
+    "name_variants": [
+      "CVS Health"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "deloitte",
+    "company": "Deloitte",
+    "domain": "deloitte.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "24",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Professional Services",
+      "Business Consulting & Services"
+    ],
+    "hq_location": "New York",
+    "name_variants": [
+      "Deloitte"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "fidelity-investments",
+    "company": "Fidelity Investments",
+    "domain": "fidelity.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "22",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "29",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "Boston MA",
+    "name_variants": [
+      "Fidelity Investments"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "google-alphabet",
+    "company": "Google (Alphabet)",
+    "domain": "google.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "2",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "11",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development",
+      "Information Technology"
+    ],
+    "hq_location": "Mountain View CA",
+    "name_variants": [
+      "Google"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "h-e-b",
+    "company": "H-E-B",
+    "domain": "heb.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "13",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail & Wholesale",
+      "Retail"
+    ],
+    "hq_location": "San Antonio TX",
+    "name_variants": [
+      "H-E-B"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "intel",
+    "company": "Intel",
+    "domain": "intel.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Semiconductor Manufacturing"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "Intel"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "john-deere",
+    "company": "John Deere",
+    "domain": "deere.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Machinery Manufacturing"
+    ],
+    "hq_location": "Illinois",
+    "name_variants": [
+      "John Deere"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "johnson-and-johnson",
+    "company": "Johnson & Johnson",
+    "domain": "jnj.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "New Jersey",
+    "name_variants": [
+      "Johnson & Johnson"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "lowe-s-companies",
+    "company": "Lowe's Companies",
+    "domain": "lowes.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "North Carolina",
+    "name_variants": [
+      "Lowe's Companies"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "mayo-clinic",
+    "company": "Mayo Clinic",
+    "domain": "mayoclinic.org",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Minnesota",
+    "name_variants": [
+      "Mayo Clinic"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "microsoft",
+    "company": "Microsoft",
+    "domain": "microsoft.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "3",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development"
+    ],
+    "hq_location": "Redmond WA",
+    "name_variants": [
+      "Microsoft"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "morgan-stanley",
+    "company": "Morgan Stanley",
+    "domain": "morganstanley.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "16",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "93",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "New York NY",
+    "name_variants": [
+      "Morgan Stanley"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "nike",
+    "company": "Nike",
+    "domain": "nike.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Oregon",
+    "name_variants": [
+      "Nike"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "pepsico",
+    "company": "PepsiCo",
+    "domain": "pepsico.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "18",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Food and Beverage Services",
+      "Food & Beverage Services"
+    ],
+    "hq_location": "Purchase NY",
+    "name_variants": [
+      "PepsiCo"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "power-home-remodeling",
+    "company": "Power Home Remodeling",
+    "domain": "powerhrg.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "79",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "20",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Construction Repair & Maintenance Services",
+      "Construction"
+    ],
+    "hq_location": "Chester PA",
+    "name_variants": [
+      "Power Home Remodeling"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "publix",
+    "company": "Publix",
+    "domain": "publix.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Florida",
+    "name_variants": [
+      "Publix"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "siemens",
+    "company": "Siemens",
+    "domain": "siemens.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "26",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "",
+        "source_url": "https://www.glassdoor.com/Award/Best-Places-to-Work-United-States-LST_KQ0"
+      }
+    ],
+    "index_industry_labels": [
+      "Automation Machinery Manufacturing",
+      "Manufacturing & Energy"
+    ],
+    "hq_location": "Munich",
+    "name_variants": [
+      "Siemens"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "starbucks",
+    "company": "Starbucks",
+    "domain": "starbucks.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "Seattle WA",
+    "name_variants": [
+      "Starbucks"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "synchrony",
+    "company": "Synchrony",
+    "domain": "synchrony.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "47",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "1",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services",
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Stamford CT",
+    "name_variants": [
+      "Synchrony"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "target",
+    "company": "Target",
+    "domain": "target.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Minneapolis MN",
+    "name_variants": [
+      "Target"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "toyota",
+    "company": "Toyota",
+    "domain": "toyota.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "Toyota"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "ups",
+    "company": "UPS",
+    "domain": "ups.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      },
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Freight & Package Transportation"
+    ],
+    "hq_location": "Atlanta GA",
+    "name_variants": [
+      "UPS"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "walmart",
+    "company": "Walmart",
+    "domain": "walmart.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "7",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      },
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Bentonville AR",
+    "name_variants": [
+      "Walmart"
+    ],
+    "index_count": 2
+  },
+  {
+    "slug": "abbott",
+    "company": "Abbott",
+    "domain": "abbott.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "41",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals and Health Care"
+    ],
+    "hq_location": "Abbott Park IL",
+    "name_variants": [
+      "Abbott"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "abbvie",
+    "company": "AbbVie",
+    "domain": "abbvie.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Pharmaceutical Manufacturing"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "AbbVie"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "acac-fitness-and-wellness-center",
+    "company": "acac Fitness & Wellness Center",
+    "domain": "acacfitness.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Recreational Facilities"
+    ],
+    "hq_location": "Virginia",
+    "name_variants": [
+      "acac Fitness & Wellness Center"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "acuity-insurance",
+    "company": "Acuity Insurance",
+    "domain": "acuity.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Insurance"
+    ],
+    "hq_location": "Wisconsin",
+    "name_variants": [
+      "Acuity Insurance"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "adp",
+    "company": "ADP",
+    "domain": "adp.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Human Resources Services"
+    ],
+    "hq_location": "New Jersey",
+    "name_variants": [
+      "ADP"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "adventhealth",
+    "company": "AdventHealth",
+    "domain": "adventhealth.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Florida",
+    "name_variants": [
+      "AdventHealth"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "air-products",
+    "company": "Air Products",
+    "domain": "airproducts.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Chemical Manufacturing"
+    ],
+    "hq_location": "Pennsylvania",
+    "name_variants": [
+      "Air Products"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "akzonobel",
+    "company": "AkzoNobel",
+    "domain": "akzonobel.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "43",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Chemical Manufacturing"
+    ],
+    "hq_location": "Amsterdam",
+    "name_variants": [
+      "AkzoNobel"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "albemarle",
+    "company": "Albemarle",
+    "domain": "albemarle.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Chemical Manufacturing"
+    ],
+    "hq_location": "North Carolina",
+    "name_variants": [
+      "Albemarle"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "alcon",
+    "company": "Alcon",
+    "domain": "alcon.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Medical Equipment Manufacturing"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "Alcon"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "amc",
+    "company": "AMC",
+    "domain": "amctheatres.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Entertainment Providers"
+    ],
+    "hq_location": "Kansas",
+    "name_variants": [
+      "AMC"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "amd",
+    "company": "AMD",
+    "domain": "amd.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Semiconductor Manufacturing"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "AMD"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "american-electric-power",
+    "company": "American Electric Power",
+    "domain": "aep.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Utilities"
+    ],
+    "hq_location": "Ohio",
+    "name_variants": [
+      "American Electric Power"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "american-red-cross",
+    "company": "American Red Cross",
+    "domain": "redcross.org",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Nonprofit Organizations"
+    ],
+    "hq_location": "Washington D.C.",
+    "name_variants": [
+      "American Red Cross"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "ameriprise",
+    "company": "Ameriprise",
+    "domain": "ameriprise.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "Minnesota",
+    "name_variants": [
+      "Ameriprise"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "amica-insurance",
+    "company": "Amica Insurance",
+    "domain": "amica.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Insurance"
+    ],
+    "hq_location": "Rhode Island",
+    "name_variants": [
+      "Amica Insurance"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "at-and-t",
+    "company": "AT&T",
+    "domain": "att.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "9",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Telecommunications"
+    ],
+    "hq_location": "Dallas TX",
+    "name_variants": [
+      "AT&T"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "bain-and-company",
+    "company": "Bain & Company",
+    "domain": "bain.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "8",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Consulting Finance & Insurance"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Bain & Company"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "baird",
+    "company": "Baird",
+    "domain": "rwbaird.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "16",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Milwaukee WI",
+    "name_variants": [
+      "Baird"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "boeing",
+    "company": "Boeing",
+    "domain": "boeing.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "37",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Aviation and Aerospace Component Manufacturing"
+    ],
+    "hq_location": "Arlington VA",
+    "name_variants": [
+      "Boeing"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "booz-allen-hamilton",
+    "company": "Booz Allen Hamilton",
+    "domain": "boozallen.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "48",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Information Technology"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Booz Allen Hamilton"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "brightview-senior-living",
+    "company": "Brightview Senior Living",
+    "domain": "brightviewseniorliving.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "22",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitality"
+    ],
+    "hq_location": "Baltimore MD",
+    "name_variants": [
+      "Brightview Senior Living"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "burns-and-mcdonnell",
+    "company": "Burns & McDonnell",
+    "domain": "burnsmcd.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "56",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Construction Repair & Maintenance Services"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Burns & McDonnell"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "cadence-design-systems",
+    "company": "Cadence Design Systems",
+    "domain": "cadence.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "11",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Information Technology"
+    ],
+    "hq_location": "San Jose CA",
+    "name_variants": [
+      "Cadence Design Systems"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "camden-property-trust",
+    "company": "Camden Property Trust",
+    "domain": "camdenliving.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "13",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Real Estate"
+    ],
+    "hq_location": "Houston TX",
+    "name_variants": [
+      "Camden Property Trust"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "capital-one",
+    "company": "Capital One",
+    "domain": "capitalone.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "8",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "McLean VA",
+    "name_variants": [
+      "Capital One"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "caterpillar-inc",
+    "company": "Caterpillar Inc",
+    "domain": "caterpillar.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "27",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Machinery Manufacturing"
+    ],
+    "hq_location": "Irving TX",
+    "name_variants": [
+      "Caterpillar Inc."
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "cheesecake-factory",
+    "company": "Cheesecake Factory",
+    "domain": "thecheesecakefactory.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "25",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "Calabasas CA",
+    "name_variants": [
+      "Cheesecake Factory"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "christus-health",
+    "company": "CHRISTUS Health",
+    "domain": "christushealth.org",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "CHRISTUS Health"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "cinemark",
+    "company": "Cinemark",
+    "domain": "cinemark.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Entertainment Providers"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "Cinemark"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "cisco",
+    "company": "Cisco",
+    "domain": "cisco.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "3",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Information Technology"
+    ],
+    "hq_location": "San Jose CA",
+    "name_variants": [
+      "Cisco"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "citi",
+    "company": "Citi",
+    "domain": "citi.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "15",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "New York NY",
+    "name_variants": [
+      "Citi"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "comcast",
+    "company": "Comcast",
+    "domain": "comcast.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "19",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Telecommunications"
+    ],
+    "hq_location": "Philadelphia PA",
+    "name_variants": [
+      "Comcast"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "costco",
+    "company": "Costco",
+    "domain": "costco.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Washington",
+    "name_variants": [
+      "Costco"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "costco-wholesale",
+    "company": "Costco Wholesale",
+    "domain": "costco.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "82",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail & Wholesale"
+    ],
+    "hq_location": "Issaquah WA",
+    "name_variants": [
+      "Costco Wholesale"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "credit-acceptance",
+    "company": "Credit Acceptance",
+    "domain": "creditacceptance.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "18",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Southfield MI",
+    "name_variants": [
+      "Credit Acceptance"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "crew-carwash",
+    "company": "Crew Carwash",
+    "domain": "crewcarwash.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "1",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Consumer Services"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Crew Carwash"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "david-weekley-homes",
+    "company": "David Weekley Homes",
+    "domain": "davidweekleyhomes.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "14",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Construction"
+    ],
+    "hq_location": "Houston TX",
+    "name_variants": [
+      "David Weekley Homes"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "deutsche-telekom",
+    "company": "Deutsche Telekom",
+    "domain": "telekom.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "50",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Telecommunications"
+    ],
+    "hq_location": "Bonn",
+    "name_variants": [
+      "Deutsche Telekom"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "dick-s-sporting-goods",
+    "company": "Dick's Sporting Goods",
+    "domain": "dickssportinggoods.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Pennsylvania",
+    "name_variants": [
+      "Dick's Sporting Goods"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "dutch-bros",
+    "company": "Dutch Bros",
+    "domain": "dutchbros.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "75",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Dutch Bros."
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "eli-lilly-and-company",
+    "company": "Eli Lilly and Company",
+    "domain": "lilly.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "24",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Pharmaceutical Manufacturing"
+    ],
+    "hq_location": "Indianapolis IN",
+    "name_variants": [
+      "Eli Lilly and Company"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "epam-systems",
+    "company": "EPAM Systems",
+    "domain": "epam.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "10",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Technology & AI"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "EPAM Systems"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "epic-games",
+    "company": "Epic Games",
+    "domain": "epicgames.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development"
+    ],
+    "hq_location": "Cary NC",
+    "name_variants": [
+      "Epic Games"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "ey",
+    "company": "EY",
+    "domain": "ey.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "17",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "IT Services and IT Consulting"
+    ],
+    "hq_location": "London",
+    "name_variants": [
+      "EY"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "five-below",
+    "company": "Five Below",
+    "domain": "fivebelow.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Pennsylvania",
+    "name_variants": [
+      "Five Below"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "foot-locker",
+    "company": "Foot Locker",
+    "domain": "footlocker.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "New York",
+    "name_variants": [
+      "Foot Locker"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "ford-motor-company",
+    "company": "Ford Motor Company",
+    "domain": "ford.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "34",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "Dearborn MI",
+    "name_variants": [
+      "Ford Motor Company"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "gap",
+    "company": "Gap",
+    "domain": "gap.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "Gap"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "general-motors",
+    "company": "General Motors",
+    "domain": "gm.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "33",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "Detroit MI",
+    "name_variants": [
+      "General Motors"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "grainger",
+    "company": "Grainger",
+    "domain": "grainger.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Manufacturing"
+    ],
+    "hq_location": "Lake Forest IL",
+    "name_variants": [
+      "Grainger"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "hdr",
+    "company": "HDR",
+    "domain": "hdrinc.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "21",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Construction Repair & Maintenance Services"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "HDR"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "healthpartners",
+    "company": "HealthPartners",
+    "domain": "healthpartners.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Minnesota",
+    "name_variants": [
+      "HealthPartners"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "hilton",
+    "company": "Hilton",
+    "domain": "hilton.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "2",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitality"
+    ],
+    "hq_location": "McLean VA",
+    "name_variants": [
+      "Hilton"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "honda",
+    "company": "Honda",
+    "domain": "honda.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "Honda"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "houston-methodist",
+    "company": "Houston Methodist",
+    "domain": "houstonmethodist.org",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "9",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Healthcare"
+    ],
+    "hq_location": "Houston TX",
+    "name_variants": [
+      "Houston Methodist"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "hyatt",
+    "company": "Hyatt",
+    "domain": "hyatt.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitality"
+    ],
+    "hq_location": "Chicago IL",
+    "name_variants": [
+      "Hyatt"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "ibm",
+    "company": "IBM",
+    "domain": "ibm.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "35",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "IT Services and IT Consulting"
+    ],
+    "hq_location": "Armonk NY",
+    "name_variants": [
+      "IBM"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "in-n-out-burger",
+    "company": "In-N-Out Burger",
+    "domain": "in-n-out.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "2",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "In-N-Out Burger"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "infosys",
+    "company": "Infosys",
+    "domain": "infosys.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "14",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "IT Services and IT Consulting"
+    ],
+    "hq_location": "Bangalore",
+    "name_variants": [
+      "Infosys"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "intuitive-surgical",
+    "company": "Intuitive Surgical",
+    "domain": "intuitive.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "",
+        "source_url": "https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0"
+      }
+    ],
+    "index_industry_labels": [
+      "Healthcare Biotech & Pharmaceuticals"
+    ],
+    "hq_location": "Sunnyvale CA",
+    "name_variants": [
+      "Intuitive Surgical"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "jones-financial-edward-jones",
+    "company": "Jones Financial (Edward Jones)",
+    "domain": "edwardjones.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "21",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "St. Louis MO",
+    "name_variants": [
+      "Jones Financial (Edward Jones)"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "kaiser-permanente",
+    "company": "Kaiser Permanente",
+    "domain": "kaiserpermanente.org",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "28",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals and Health Care"
+    ],
+    "hq_location": "Oakland CA",
+    "name_variants": [
+      "Kaiser Permanente"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "kbr",
+    "company": "KBR",
+    "domain": "kbr.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "52",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Aerospace & Defense"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "KBR"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "keller-williams",
+    "company": "Keller Williams",
+    "domain": "kw.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Real Estate"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Keller Williams"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "kimley-horn",
+    "company": "Kimley-Horn",
+    "domain": "kimley-horn.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "17",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Construction & Engineering"
+    ],
+    "hq_location": "Raleigh NC",
+    "name_variants": [
+      "Kimley-Horn"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "lear-corporation",
+    "company": "Lear Corporation",
+    "domain": "lear.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "49",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "Southfield MI",
+    "name_variants": [
+      "Lear Corporation"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "longhorn-steakhouse",
+    "company": "LongHorn Steakhouse",
+    "domain": "longhornsteakhouse.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "70",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Restaurants & Food Service"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "LongHorn Steakhouse"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "lululemon",
+    "company": "lululemon",
+    "domain": "lululemon.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "81",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail & Wholesale"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "lululemon"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "major-league-baseball",
+    "company": "Major League Baseball",
+    "domain": "mlb.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Entertainment Providers"
+    ],
+    "hq_location": "New York NY",
+    "name_variants": [
+      "Major League Baseball"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "marriott-international",
+    "company": "Marriott International",
+    "domain": "marriott.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "7",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitality"
+    ],
+    "hq_location": "Bethesda MD",
+    "name_variants": [
+      "Marriott International"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "mars",
+    "company": "Mars",
+    "domain": "mars.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "6",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Manufacturing & Energy"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Mars"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "mass-general-brigham",
+    "company": "Mass General Brigham",
+    "domain": "massgeneralbrigham.org",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "Massachusetts",
+    "name_variants": [
+      "Mass General Brigham"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "maximus",
+    "company": "Maximus",
+    "domain": "maximus.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Government Administration"
+    ],
+    "hq_location": "Virginia",
+    "name_variants": [
+      "Maximus"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "medline",
+    "company": "Medline",
+    "domain": "medline.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Medical Equipment Manufacturing"
+    ],
+    "hq_location": "Illinois",
+    "name_variants": [
+      "Medline"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "merck",
+    "company": "Merck",
+    "domain": "merck.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "",
+        "source_url": "https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0"
+      }
+    ],
+    "index_industry_labels": [
+      "Healthcare Biotech & Pharmaceuticals"
+    ],
+    "hq_location": "New Jersey",
+    "name_variants": [
+      "Merck"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "meta",
+    "company": "Meta",
+    "domain": "meta.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Software Development"
+    ],
+    "hq_location": "California",
+    "name_variants": [
+      "Meta"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "methodist-health-system",
+    "company": "Methodist Health System",
+    "domain": "methodisthealthsystem.org",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "25",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Healthcare"
+    ],
+    "hq_location": "Dallas TX",
+    "name_variants": [
+      "Methodist Health System"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "northrop-grumman",
+    "company": "Northrop Grumman",
+    "domain": "northropgrumman.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "6",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Defense and Space Manufacturing"
+    ],
+    "hq_location": "Falls Church VA",
+    "name_variants": [
+      "Northrop Grumman"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "nyc-health-hospitals",
+    "company": "NYC Health + Hospitals",
+    "domain": "nychealthandhospitals.org",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals & Health Care"
+    ],
+    "hq_location": "New York",
+    "name_variants": [
+      "NYC Health + Hospitals"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "pinnacle-financial-partners",
+    "company": "Pinnacle Financial Partners",
+    "domain": "pnfp.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "12",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Nashville TN",
+    "name_variants": [
+      "Pinnacle Financial Partners"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "plante-moran",
+    "company": "Plante Moran",
+    "domain": "plantemoran.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "15",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Professional Services"
+    ],
+    "hq_location": "Southfield MI",
+    "name_variants": [
+      "Plante Moran"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "pnc",
+    "company": "PNC",
+    "domain": "pnc.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "42",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "Pittsburgh PA",
+    "name_variants": [
+      "PNC"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "procter-and-gamble",
+    "company": "Procter & Gamble",
+    "domain": "pg.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "25",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Manufacturing"
+    ],
+    "hq_location": "Cincinnati OH",
+    "name_variants": [
+      "Procter & Gamble"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "progressive",
+    "company": "Progressive",
+    "domain": "progressive.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "19",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Mayfield Village OH",
+    "name_variants": [
+      "Progressive"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "pwc",
+    "company": "PwC",
+    "domain": "pwc.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "12",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "IT Services and IT Consulting"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "PwC"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "rdsolutions",
+    "company": "RDSolutions",
+    "domain": "rdsolutions.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "19",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Management & Consulting"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "RDSolutions"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "roche",
+    "company": "Roche",
+    "domain": "roche.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "30",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Biotechnology Research"
+    ],
+    "hq_location": "Switzerland",
+    "name_variants": [
+      "Roche"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "rocket-companies",
+    "company": "Rocket Companies",
+    "domain": "rocketcompanies.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "23",
+        "source_url": "https://fortune.com/ranking/best-companies/2026/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services & Insurance"
+    ],
+    "hq_location": "Detroit MI",
+    "name_variants": [
+      "Rocket Companies"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "rtx",
+    "company": "RTX",
+    "domain": "rtx.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "48",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Aviation and Aerospace Component Manufacturing"
+    ],
+    "hq_location": "Arlington VA",
+    "name_variants": [
+      "RTX"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "ryan",
+    "company": "Ryan",
+    "domain": "ryan.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "4",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Consulting Finance & Insurance"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Ryan"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "samsung-electronics",
+    "company": "Samsung Electronics",
+    "domain": "samsung.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Computers & Electronics Manufacturing"
+    ],
+    "hq_location": "Texas",
+    "name_variants": [
+      "Samsung Electronics"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "servicenow",
+    "company": "ServiceNow",
+    "domain": "servicenow.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "7",
+        "source_url": "https://www.businesswire.com/news/home/20260121719048/en/Glassdoor-Reveals-Best-Places-to-Work-2026-Winners"
+      }
+    ],
+    "index_industry_labels": [
+      "Technology & AI"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "ServiceNow"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "shell",
+    "company": "Shell",
+    "domain": "shell.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "38",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Oil and Gas"
+    ],
+    "hq_location": "London",
+    "name_variants": [
+      "Shell"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "sony",
+    "company": "Sony",
+    "domain": "sony.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_entry_level_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://rankings.newsweek.com/americas-greatest-workplaces-for-entry-level-2026/20000-employees"
+      }
+    ],
+    "index_industry_labels": [
+      "Entertainment Providers"
+    ],
+    "hq_location": "New York",
+    "name_variants": [
+      "Sony"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "stake-center-locating",
+    "company": "Stake Center Locating",
+    "domain": "stakecenters.com",
+    "seed_indexes": [
+      {
+        "index": "glassdoor_bptw_2026",
+        "rank_or_rating": "40",
+        "source_url": "https://stacker.com/stories/business-economy/top-rated-companies-hiring-now-according-glassdoors-best-places-work-2026"
+      }
+    ],
+    "index_industry_labels": [
+      "Energy Mining & Utilities"
+    ],
+    "hq_location": "",
+    "name_variants": [
+      "Stake Center Locating"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "state-farm",
+    "company": "State Farm",
+    "domain": "statefarm.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "40",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Insurance"
+    ],
+    "hq_location": "Bloomington IL",
+    "name_variants": [
+      "State Farm"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "state-street",
+    "company": "State Street",
+    "domain": "statestreet.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "21",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "Boston MA",
+    "name_variants": [
+      "State Street"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "stellantis",
+    "company": "Stellantis",
+    "domain": "stellantis.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "46",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Motor Vehicle Manufacturing"
+    ],
+    "hq_location": "Amsterdam",
+    "name_variants": [
+      "Stellantis"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "the-walt-disney-company",
+    "company": "The Walt Disney Company",
+    "domain": "thewaltdisneycompany.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "31",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Entertainment Providers"
+    ],
+    "hq_location": "Burbank CA",
+    "name_variants": [
+      "The Walt Disney Company"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "trader-joe-s",
+    "company": "Trader Joe's",
+    "domain": "traderjoes.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Monrovia CA",
+    "name_variants": [
+      "Trader Joe's"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "u-s-steel",
+    "company": "U.S. Steel",
+    "domain": "ussteel.com",
+    "seed_indexes": [
+      {
+        "index": "newsweek_greatest_workplaces_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.globenewswire.com/news-release/2026/06/10/3309953/0/en/Newsweek-Names-America-s-Greatest-Workplaces-2026-Trader-Joe-s-U-S-Steel-Hyatt-and-Grainger-Among-5-Star-Winners.html"
+      }
+    ],
+    "index_industry_labels": [
+      "Manufacturing"
+    ],
+    "hq_location": "Pittsburgh PA",
+    "name_variants": [
+      "U.S. Steel"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "unitedhealth-group",
+    "company": "UnitedHealth Group",
+    "domain": "unitedhealthgroup.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "13",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Hospitals and Health Care"
+    ],
+    "hq_location": "Eden Prairie MN",
+    "name_variants": [
+      "UnitedHealth Group"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "wegmans-food-markets-inc",
+    "company": "Wegmans Food Markets, Inc",
+    "domain": "wegmans.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Retail"
+    ],
+    "hq_location": "Rochester NY",
+    "name_variants": [
+      "Wegmans Food Markets, Inc."
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "wells-fargo",
+    "company": "Wells Fargo",
+    "domain": "wellsfargo.com",
+    "seed_indexes": [
+      {
+        "index": "linkedin_top_companies_2026",
+        "rank_or_rating": "5",
+        "source_url": "https://www.linkedin.com/hubs/top-companies/"
+      }
+    ],
+    "index_industry_labels": [
+      "Financial Services"
+    ],
+    "hq_location": "San Francisco CA",
+    "name_variants": [
+      "Wells Fargo"
+    ],
+    "index_count": 1
+  },
+  {
+    "slug": "world-wide-technology",
+    "company": "World Wide Technology",
+    "domain": "wwt.com",
+    "seed_indexes": [
+      {
+        "index": "growth_list_2026",
+        "rank_or_rating": "10",
+        "source_url": "https://greatplacetowork.com/best-companies-to-work-for/"
+      }
+    ],
+    "index_industry_labels": [
+      "Information Technology"
+    ],
+    "hq_location": "St. Louis MO",
+    "name_variants": [
+      "World Wide Technology"
+    ],
+    "index_count": 1
+  }
+]

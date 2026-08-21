@@ -1,0 +1,87 @@
+{
+  "slug": "the-walt-disney-company",
+  "company": "The Walt Disney Company",
+  "domain": "thewaltdisneycompany.com",
+  "activity_statements": [
+    {
+      "statement": "produces and distributes film and television content through Disney, Pixar, Marvel Studios, and Lucasfilm brands for theatrical release and streaming",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Disney+ and Hulu streaming services distributing entertainment content directly to global consumers through subscription",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates ESPN as a multiplatform sports entertainment brand including seven US TV networks, ESPN+ direct-to-consumer app, and 43 linear networks in 130+ countries",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Walt Disney World, Disneyland, Disneyland Paris, Tokyo Disney, Hong Kong Disneyland, and Shanghai Disney Resort theme parks and resorts globally",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates Disney Cruise Line offering cruise vacation experiences themed around Disney characters and franchises",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "licenses Disney, Pixar, Marvel, and Star Wars intellectual property to manufacturers for consumer products including toys, apparel, books, and games",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "operates ABC broadcast network and cable channels including Disney Channel, FX, National Geographic as linear TV distribution channels",
+      "source_url": "https://www.thewaltdisneycompany.com/about/",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "film-and-tv-production",
+    "streaming-platform-operation",
+    "sports-media-rights",
+    "theme-park-operations",
+    "cruise-line-operations",
+    "ip-licensing",
+    "consumer-products-licensing",
+    "broadcast-tv-network",
+    "content-distribution",
+    "character-franchise-management"
+  ],
+  "function_mix": [
+    { "family": "creative-and-content-production", "weight": 0.20 },
+    { "family": "theme-park-and-hospitality-operations", "weight": 0.25 },
+    { "family": "technology-and-streaming-engineering", "weight": 0.15 },
+    { "family": "sports-media-operations", "weight": 0.15 },
+    { "family": "sales-and-advertising", "weight": 0.12 },
+    { "family": "corporate-and-support", "weight": 0.13 }
+  ],
+  "value_chain": ["design", "manufacture", "operate", "distribute"],
+  "delivery_mode": ["content", "physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "Disney Entertainment (film, TV, streaming)",
+      "weight": 0.40,
+      "capability_tags": ["film-and-tv-production", "streaming-platform-operation", "broadcast-tv-network", "content-distribution", "ip-licensing"]
+    },
+    {
+      "name": "ESPN (sports media)",
+      "weight": 0.20,
+      "capability_tags": ["sports-media-rights", "streaming-platform-operation", "broadcast-tv-network"]
+    },
+    {
+      "name": "Disney Experiences (parks, cruises, consumer products)",
+      "weight": 0.40,
+      "capability_tags": ["theme-park-operations", "cruise-line-operations", "consumer-products-licensing", "character-franchise-management"]
+    }
+  ],
+  "name_reality_gap": "The index label 'Entertainment Providers' is broadly accurate but significantly undersells the scale and operational complexity. Disney is simultaneously one of the world's largest theme park operators, a cruise line, a broadcaster (ABC, ESPN), a streaming service (Disney+, Hulu), a film studio, and an IP licensor. Experiences (parks + cruises) generates roughly as much revenue as entertainment media.",
+  "sources": [
+    { "url": "https://www.thewaltdisneycompany.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Our-businesses page returned 404; investor annual reports returned 500 error. The about page was comprehensive for segment structure and mission. Segment revenue weights estimated from Disney's FY2024 publicly reported segment results.",
+  "extraction_confidence": 0.88
+}

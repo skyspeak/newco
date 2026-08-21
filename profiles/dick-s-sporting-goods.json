@@ -1,0 +1,76 @@
+{
+  "slug": "dick-s-sporting-goods",
+  "company": "Dick's Sporting Goods",
+  "domain": "dickssportinggoods.com",
+  "activity_statements": [
+    {
+      "statement": "operates Dick's Sporting Goods stores as a leading omni-channel sporting goods retailer selling athletic equipment, apparel, and footwear",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates specialty retail banners including Golf Galaxy, Public Lands, and Going Going Gone! alongside the core DICK'S stores",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates experiential retail concepts Dick's House of Sport and Golf Galaxy Performance Center for high-engagement customer experiences",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "owns and operates GameChanger, a youth sports mobile platform providing live streaming, scheduling, communications, and scorekeeping for youth leagues",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "owns and operates the Foot Locker business including Foot Locker, Kids Foot Locker, Champs Sports, WSS, and atmos across North America, Europe, Asia, and Australia",
+      "source_url": "https://exa.ai/library/organization/",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "omni-channel-retail-operations",
+    "specialty-sporting-goods-retail",
+    "experiential-retail-formats",
+    "youth-sports-technology-platform",
+    "athletic-footwear-retail",
+    "e-commerce-and-digital-retail",
+    "private-label-brand-development",
+    "store-network-management",
+    "sports-community-engagement"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations-and-associates", "weight": 0.45 },
+    { "family": "e-commerce-and-technology", "weight": 0.15 },
+    { "family": "supply-chain-and-merchandising", "weight": 0.15 },
+    { "family": "software-engineering-gamechanger", "weight": 0.1 },
+    { "family": "marketing-and-brand", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["distribute", "operate", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "Dick's Sporting Goods Core Retail",
+      "weight": 0.6,
+      "capability_tags": ["omni-channel-retail-operations", "specialty-sporting-goods-retail", "experiential-retail-formats"]
+    },
+    {
+      "name": "Foot Locker Business",
+      "weight": 0.3,
+      "capability_tags": ["athletic-footwear-retail", "store-network-management"]
+    },
+    {
+      "name": "GameChanger Technology Platform",
+      "weight": 0.1,
+      "capability_tags": ["youth-sports-technology-platform", "sports-community-engagement"]
+    }
+  ],
+  "name_reality_gap": "Dick's Sporting Goods appears to be a traditional specialty retailer, but it also owns the Foot Locker sneaker retail business globally and runs GameChanger, a youth sports tech platform — making it a multi-brand retail conglomerate with a technology arm that has nothing to do with its core sporting goods identity.",
+  "sources": [
+    { "url": "https://exa.ai/library/organization/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Dick's own website returned only a JS/Akamai shell with no content. Company history page was found via Exa search, which clearly stated the Foot Locker business ownership. The Foot Locker ownership relationship requires verification — Foot Locker trades independently on NYSE as FL ticker; the Exa source may reflect an earlier state or a specific subsidiary arrangement. Extraction confidence is moderated accordingly.",
+  "extraction_confidence": 0.72
+}

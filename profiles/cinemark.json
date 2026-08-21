@@ -1,0 +1,52 @@
+{
+  "slug": "cinemark",
+  "company": "Cinemark",
+  "domain": "cinemark.com",
+  "activity_statements": [
+    {
+      "statement": "operates 500+ movie theatres with nearly 6,000 screens in the US and Latin America serving approximately 20,000 employees",
+      "source_url": "https://careers.cinemark.com/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "generates revenue from ticket sales, food and beverage concession sales, and in-theatre advertising across its theatre network",
+      "source_url": "https://careers.cinemark.com/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates premium large-format XD (Extreme Digital Cinema) screens offering enhanced audio/visual experiences at premium ticket prices",
+      "source_url": "https://careers.cinemark.com/",
+      "confidence": 0.80
+    },
+    {
+      "statement": "operates the Cinemark Movie Club loyalty subscription program enabling recurring revenue from dedicated moviegoers",
+      "source_url": "https://careers.cinemark.com/",
+      "confidence": 0.78
+    }
+  ],
+  "capability_tags": [
+    "movie-theatre-operations",
+    "film-exhibition",
+    "food-beverage-concessions",
+    "in-venue-advertising",
+    "loyalty-program",
+    "premium-large-format",
+    "real-estate-lease-management"
+  ],
+  "function_mix": [
+    { "family": "theatre-operations-and-service", "weight": 0.65 },
+    { "family": "food-and-beverage", "weight": 0.15 },
+    { "family": "technology-and-it", "weight": 0.10 },
+    { "family": "corporate-and-support", "weight": 0.10 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service", "content"],
+  "segments": [],
+  "name_reality_gap": "none — the name is a transparent signal of cinema/movie-theatre operations. The index label 'Entertainment Providers' is broadly accurate.",
+  "sources": [
+    { "url": "https://careers.cinemark.com/", "kind": "careers-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.cinemark.com/about-cinemark", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "IR page returned 404. About page returned almost no usable content (just email signup). Careers page was the primary usable source. Activity statements are limited; IR 10-K would substantially improve this profile. Extraction confidence low due to sparse sources.",
+  "extraction_confidence": 0.68
+}

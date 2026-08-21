@@ -1,0 +1,88 @@
+{
+  "slug": "fidelity-investments",
+  "company": "Fidelity Investments",
+  "domain": "fidelity.com",
+  "activity_statements": [
+    {
+      "statement": "manages mutual funds and index funds (including zero-expense-ratio funds) for individual retail investors",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "administers 401(k) and workplace retirement savings plans for employers and their employees",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates 215 Investor Centers and a retail brokerage platform for individual investors to buy stocks, ETFs, and mutual funds",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "runs FundsNetwork, an open-architecture platform providing access to Fidelity and third-party mutual funds for individuals and financial institutions",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers Fidelity Go robo-advisory service providing algorithm-driven portfolio management for retail investors",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides Fidelity Personalized Portfolios with tax-managed, customized investment strategies for individuals",
+      "source_url": "https://www.fidelity.com/about-fidelity/our-company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "develops proprietary financial technology and digital platforms serving individuals, wealth management firms, and institutional clients globally",
+      "source_url": "https://www.fidelity.com/about-fidelity/careers",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "mutual-fund-management",
+    "retirement-plan-administration",
+    "retail-brokerage",
+    "robo-advisory",
+    "wealth-management",
+    "fund-platform-marketplace",
+    "tax-managed-investing",
+    "digital-investing-platform",
+    "institutional-asset-management",
+    "fintech-product-development"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.3 },
+    { "family": "investment-management", "weight": 0.2 },
+    { "family": "financial-advisory", "weight": 0.2 },
+    { "family": "data-and-analytics", "weight": 0.15 },
+    { "family": "operations-and-back-office", "weight": 0.1 },
+    { "family": "risk-and-compliance", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service", "marketplace"],
+  "segments": [
+    {
+      "name": "Personal Investing",
+      "weight": 0.4,
+      "capability_tags": ["retail-brokerage", "mutual-fund-management", "robo-advisory", "digital-investing-platform"]
+    },
+    {
+      "name": "Workplace Services",
+      "weight": 0.3,
+      "capability_tags": ["retirement-plan-administration", "fund-platform-marketplace"]
+    },
+    {
+      "name": "Institutional / Wealth Management",
+      "weight": 0.3,
+      "capability_tags": ["institutional-asset-management", "wealth-management", "fund-platform-marketplace"]
+    }
+  ],
+  "name_reality_gap": "Reads as a conservative mutual fund company; reality is a major fintech employer (80,000+ associates) that pioneers investment technology including robo-advisors, zero-fee index products, digital asset access, and AI tools — as much a technology platform as an investment manager.",
+  "sources": [
+    { "url": "https://www.fidelity.com/about-fidelity/our-company", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.fidelity.com/about-fidelity/careers", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Private company with no 10-K. Strong about page. Careers page confirmed heavy software/technology staffing. Segment weight estimates are approximate — no official segment reporting available.",
+  "extraction_confidence": 0.87
+}

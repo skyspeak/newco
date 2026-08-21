@@ -1,0 +1,60 @@
+{
+  "slug": "cadence-design-systems",
+  "company": "Cadence Design Systems",
+  "domain": "cadence.com",
+  "activity_statements": [
+    {
+      "statement": "develops electronic design automation (EDA) software and IP used by semiconductor companies to design and verify integrated circuits from chips to full electromechanical systems",
+      "source_url": "https://www.cadence.com/en_US/home/company.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "provides AI-driven design tools and digital twin technology for engineering silicon to systems, serving hyperscale computing, mobile, automotive, aerospace, and life sciences markets",
+      "source_url": "https://www.cadence.com/en_US/home/company.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "generates $5.29 billion in annual revenue (2025) employing 13,000+ people across 70+ worldwide offices",
+      "source_url": "https://www.cadence.com/en_US/home/company.html",
+      "confidence": 0.97
+    },
+    {
+      "statement": "offers molecular simulation software for life sciences customers developing drugs and biologics",
+      "source_url": "https://www.cadence.com/en_US/home/company.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides system design and analysis tools including PCB design, signal integrity, and electromagnetic simulation for electronics engineers",
+      "source_url": "https://www.cadence.com/en_US/home/company.html",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "eda-software",
+    "semiconductor-design-tools",
+    "chip-verification",
+    "digital-twin-technology",
+    "ai-assisted-design",
+    "system-design-and-simulation",
+    "pcb-design-tools",
+    "molecular-simulation",
+    "ip-licensing",
+    "cloud-eda-services"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.45 },
+    { "family": "research-and-development", "weight": 0.20 },
+    { "family": "sales-and-field-applications", "weight": 0.15 },
+    { "family": "product-management", "weight": 0.10 },
+    { "family": "finance-and-operations", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "operate"],
+  "delivery_mode": ["software"],
+  "segments": [],
+  "name_reality_gap": "The index label 'Information Technology' is technically correct but misleading. Cadence does not operate IT infrastructure or provide IT services; it makes the specialized engineering design software without which semiconductor chips and complex electronic systems cannot be designed — closer to industrial simulation software than general IT.",
+  "sources": [
+    { "url": "https://www.cadence.com/en_US/home/company.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Company about page was well-structured and provided key facts: revenue, employee count, market focus, product lines. No 10-K retrieved but about page stated 2025 revenue directly.",
+  "extraction_confidence": 0.88
+}

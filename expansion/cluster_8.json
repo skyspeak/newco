@@ -1,0 +1,142 @@
+[
+  {
+    "company": "SEH",
+    "domain": "sehinc.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure", "transportation-design", "urban-planning", "infrastructure-engineering", "program-management"],
+    "activity_evidence": "SEH designs and manages water pipeline and wastewater projects (e.g., Cheyenne Board of Public Utilities Laramie River Pipeline) while delivering corridor safety upgrades, transit planning, and brownfield redevelopment for municipalities across the country.",
+    "why_off_index": "100% employee-owned regional engineering firm with no consumer brand; B2B contracts exclusively with municipalities and utilities; never appears in consumer-facing employer rankings.",
+    "source_url": "https://sehinc.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Ruekert & Mielke",
+    "domain": "ruekertmielke.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure", "construction-management", "infrastructure-engineering", "program-management"],
+    "activity_evidence": "Ruekert & Mielke provides planning, design, and construction management for municipal water and wastewater expansion projects, including one of Wisconsin's largest water expansion projects for Racine Water & Wastewater Utility.",
+    "why_off_index": "100% employee-owned civil engineering firm serving municipalities in Wisconsin and surrounding states; purely B2B with no consumer presence; operates without employer-brand investment.",
+    "source_url": "https://ruekertmielke.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "David Evans and Associates",
+    "domain": "deainc.com",
+    "cluster": 8,
+    "matched_capabilities": ["transportation-design", "infrastructure-engineering", "urban-planning"],
+    "activity_evidence": "DEA delivers highway interchange final design (Arapahoe/Parker Interchange), hydroelectric redevelopment, and multi-disciplinary transportation and environmental planning services for public agencies and private clients.",
+    "why_off_index": "Private engineering and planning firm headquartered in Portland, OR; purely B2B contract work for public agencies; no consumer brand and does not compete for employer rankings.",
+    "source_url": "https://deainc.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "SCJ Alliance",
+    "domain": "scjalliance.com",
+    "cluster": 8,
+    "matched_capabilities": ["transportation-design", "urban-planning", "infrastructure-engineering"],
+    "activity_evidence": "SCJ Alliance prepares design reports for roadway corridor improvements, converts arterials into urban boulevards with curb, gutter, and pedestrian amenities, and coordinates utility undergrounding for tribal and municipal clients.",
+    "why_off_index": "100% employee-owned Washington-state consulting firm; entirely B2B work for transit agencies, municipalities, and tribes; invisible to consumer employer-brand rankings.",
+    "source_url": "https://scjalliance.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "ms consultants",
+    "domain": "msconsultants.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure", "transportation-design", "urban-planning", "infrastructure-engineering"],
+    "activity_evidence": "ms consultants delivers water and sewer system expansions for the fastest-growing Indiana communities alongside roadway transformation projects that accommodate pedestrians, vehicles, and transit riders.",
+    "why_off_index": "Private multi-state engineering, architecture, and planning firm ranked in ENR Top 500; all work is B2B with public agencies; no consumer presence to drive employer-brand attention.",
+    "source_url": "https://msconsultants.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "DRB Group",
+    "domain": "drbgroup.com",
+    "cluster": 8,
+    "matched_capabilities": ["residential-development", "property-management"],
+    "activity_evidence": "DRB Group executes land entitlement, residential construction, and property management across 14 states and 35 markets, operating build-to-rent and fee-build programs as parent company to multiple regional builder brands.",
+    "why_off_index": "Private residential developer without a single consumer-facing brand identity; operates entirely through subsidiary builder brands; never entered employer rankings.",
+    "source_url": "https://drbgroup.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Westrum Development Company",
+    "domain": "westrum.com",
+    "cluster": 8,
+    "matched_capabilities": ["residential-development", "property-management"],
+    "activity_evidence": "Westrum Development handles land acquisition, approvals, construction, and property management for apartment communities across the mid-Atlantic region, delivering 8,000+ homes through four distinct residential brands.",
+    "why_off_index": "Private mid-Atlantic residential developer with 40 years of operations; no national consumer brand recognition; operates under multiple property-specific brand names that mask the parent company.",
+    "source_url": "https://westrum.com/",
+    "confidence": 0.87
+  },
+  {
+    "company": "Capital Program Management",
+    "domain": "capitalpm.com",
+    "cluster": 8,
+    "matched_capabilities": ["program-management", "construction-management"],
+    "activity_evidence": "Capital Program Management provides comprehensive program and construction management services to help clients navigate complex capital outlay programs from initial planning through execution.",
+    "why_off_index": "Small private owner's-representative firm based in Sacramento/Bay Area; serves public agencies and institutions; no consumer brand, too niche and regional for employer-brand indexes.",
+    "source_url": "https://capitalpm.com/",
+    "confidence": 0.82
+  },
+  {
+    "company": "PeopleService",
+    "domain": "peopleservice.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure"],
+    "activity_evidence": "PeopleService operates and maintains municipal water and wastewater treatment plants under contract for communities across Illinois, Iowa, Kansas, Minnesota, Nebraska, and Missouri, providing licensed operators and regulatory compliance management.",
+    "why_off_index": "Regional Midwest contract utility operator with no consumer brand; serves small municipalities that are invisible to employer-ranking organizations; purely B2B utility operations.",
+    "source_url": "https://peopleservice.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Infrastructure Alternatives",
+    "domain": "iaiwater.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure", "infrastructure-engineering"],
+    "activity_evidence": "Infrastructure Alternatives (IAI) delivers integrated contract operations, maintenance, and management services for water and wastewater treatment facilities in Michigan and surrounding states.",
+    "why_off_index": "Small private Michigan-based water utility contractor founded in 2000; no consumer presence and no employer-brand investment; serves municipalities and utilities under multi-year contracts.",
+    "source_url": "https://iaiwater.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Midwest Contract Operations",
+    "domain": "mco-us.com",
+    "cluster": 8,
+    "matched_capabilities": ["water-infrastructure"],
+    "activity_evidence": "Midwest Contract Operations (MCO) has since 1987 provided full-service operations, wastewater flow monitoring, GIS mapping, and preventive maintenance programs for municipal water and wastewater utilities in Wisconsin, Illinois, and Indiana.",
+    "why_off_index": "Private Midwest utility contract operator serving small municipalities since 1987; operates entirely out of public view with no employer brand and no name recognition outside the water sector.",
+    "source_url": "https://mco-us.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Transportation Management & Design",
+    "domain": "tmdinc.net",
+    "cluster": 8,
+    "matched_capabilities": ["transportation-design", "urban-planning", "program-management"],
+    "activity_evidence": "TMD provides transit system reimagining, corridor planning, scheduling optimization, paratransit analysis, and zero-emission bus planning for public and private transit agencies across the country.",
+    "why_off_index": "SBE/WBE/MBE-certified transit consulting boutique based in Carlsbad, CA; all work is B2B for public transit agencies; too small and specialized to attract employer-ranking attention.",
+    "source_url": "https://tmdinc.net/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Modern Mobility Partners",
+    "domain": "modernmobilitypartners.com",
+    "cluster": 8,
+    "matched_capabilities": ["transportation-design", "urban-planning"],
+    "activity_evidence": "Modern Mobility Partners conducts travel demand modeling, smart mobility planning, and data analytics and visualization projects for transit agencies and municipalities in Georgia and nationally.",
+    "why_off_index": "Small Atlanta-based transportation planning firm (30+ staff) founded 2018; purely B2B for public agencies; no consumer brand; too specialized and regional for employer-ranking visibility.",
+    "source_url": "https://modernmobilitypartners.com/",
+    "confidence": 0.86
+  },
+  {
+    "company": "Silverman Construction Program Management",
+    "domain": "silvermancpm.com",
+    "cluster": 8,
+    "matched_capabilities": ["program-management", "construction-management"],
+    "activity_evidence": "Silverman CPM serves as owner's advocate managing all aspects of construction programs, providing exclusive representation including collaboration, communication, and conflict-of-interest-free oversight for institutional clients.",
+    "why_off_index": "Small private owner's-representative firm in Atlanta; 29 years of operation serving institutional construction clients; purely B2B with no employer brand and no consumer visibility.",
+    "source_url": "https://silvermancpm.com/",
+    "confidence": 0.83
+  }
+]

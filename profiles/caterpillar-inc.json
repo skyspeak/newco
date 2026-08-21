@@ -1,0 +1,81 @@
+{
+  "slug": "caterpillar-inc",
+  "company": "Caterpillar Inc",
+  "domain": "caterpillar.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures construction equipment (excavators, bulldozers, motor graders, loaders) for contractors and infrastructure builders worldwide",
+      "source_url": "https://www.caterpillar.com/en/company.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "produces mining equipment (large mining trucks, drills, electric rope shovels) for surface and underground mining operations globally",
+      "source_url": "https://www.caterpillar.com/en/company.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives for industrial customers",
+      "source_url": "https://www.caterpillar.com/en/company.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "distributes and services products through one of the world's largest independent dealer networks",
+      "source_url": "https://www.caterpillar.com/en/company.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides equipment financing and leasing to customers through Cat Financial",
+      "source_url": "https://www.caterpillar.com/en/company.html",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "construction-equipment-manufacturing",
+    "mining-equipment-manufacturing",
+    "heavy-diesel-engine-manufacturing",
+    "industrial-turbines",
+    "diesel-electric-locomotives",
+    "dealer-network-distribution",
+    "equipment-financing",
+    "aftermarket-parts-and-service",
+    "digital-equipment-telematics"
+  ],
+  "function_mix": [
+    { "family": "mechanical-and-industrial-engineers", "weight": 0.25 },
+    { "family": "manufacturing-and-assembly", "weight": 0.30 },
+    { "family": "supply-chain-and-procurement", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "field-service-technicians", "weight": 0.12 },
+    { "family": "finance-and-accounting", "weight": 0.08 }
+  ],
+  "value_chain": ["design", "manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset", "advisory"],
+  "segments": [
+    {
+      "name": "Construction Industries",
+      "weight": 0.40,
+      "capability_tags": ["construction-equipment-manufacturing", "dealer-network-distribution"]
+    },
+    {
+      "name": "Resource Industries",
+      "weight": 0.25,
+      "capability_tags": ["mining-equipment-manufacturing"]
+    },
+    {
+      "name": "Energy & Transportation (Power and Energy)",
+      "weight": 0.30,
+      "capability_tags": ["heavy-diesel-engine-manufacturing", "industrial-turbines", "diesel-electric-locomotives"]
+    },
+    {
+      "name": "Financial Products (Cat Financial)",
+      "weight": 0.05,
+      "capability_tags": ["equipment-financing"]
+    }
+  ],
+  "name_reality_gap": "Caterpillar is commonly perceived as a construction equipment maker; activity evidence shows it is equally a major power and energy company (building engines, turbines, and locomotives for oil and gas, power generation, and rail industries), plus a significant financial services operator through Cat Financial.",
+  "sources": [
+    { "url": "https://www.caterpillar.com/en/company.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Caterpillar company page provided clear segment structure. Segment weight estimates based on known Caterpillar reporting patterns (Energy & Transportation is historically ~30% of revenue). Cat Financial segment sometimes reported separately.",
+  "extraction_confidence": 0.85
+}

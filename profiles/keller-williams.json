@@ -1,0 +1,58 @@
+{
+  "slug": "keller-williams",
+  "company": "Keller Williams",
+  "domain": "kw.com",
+  "activity_statements": [
+    {
+      "statement": "operates the world's largest real estate franchise network with approximately 136,511 agents holding approximately 20.4% US market share by transaction sides and volume",
+      "source_url": "https://exa.ai/library",
+      "confidence": 0.85
+    },
+    {
+      "statement": "recruits, trains, and supports independent real estate agents through large-territory market centers designed for 150+ agents that share fixed costs",
+      "source_url": "https://www.kw.com/about",
+      "confidence": 0.82
+    },
+    {
+      "statement": "operates a profit-sharing program distributing a portion of market center operating profit to agents based on their recruiting activity across seven levels",
+      "source_url": "https://exa.ai/library",
+      "confidence": 0.80
+    },
+    {
+      "statement": "facilitates residential real estate transactions (buying, selling, and renting) through its agent network using proprietary KW technology tools and the KW app",
+      "source_url": "https://www.kw.com/about",
+      "confidence": 0.83
+    },
+    {
+      "statement": "provides Keller Home Loans mortgage services to help buyers secure financing and make competitive offers in the residential market",
+      "source_url": "https://www.kw.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "real-estate-franchise-network",
+    "agent-recruitment-training",
+    "residential-property-transactions",
+    "proptech-agent-tools",
+    "mortgage-origination",
+    "real-estate-data-analytics",
+    "franchise-licensing"
+  ],
+  "function_mix": [
+    { "family": "real-estate-agents-and-sales", "weight": 0.60 },
+    { "family": "agent-coaching-and-training", "weight": 0.15 },
+    { "family": "technology-and-platform", "weight": 0.12 },
+    { "family": "mortgage-and-financial-services", "weight": 0.08 },
+    { "family": "corporate-and-support", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["human-service", "software", "marketplace"],
+  "segments": [],
+  "name_reality_gap": "The name 'Keller Williams' sounds like a boutique brokerage; in reality it is the world's largest real estate franchise by agent count. The corporate entity primarily operates a training and technology franchise system — agents are independent contractors, not employees. Revenue comes from franchise fees, not commissions on individual transactions.",
+  "sources": [
+    { "url": "https://www.kw.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.kw.com/kw/our-history", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "kw.com about page returned limited content (primarily a property search interface). Our-history page returned same limited content. Careers page timed out. Agent count and market share figures sourced from ExaAnswer research synthesis citing public sources. Profile relies partly on third-party data.",
+  "extraction_confidence": 0.74
+}

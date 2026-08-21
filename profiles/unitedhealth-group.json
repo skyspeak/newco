@@ -1,0 +1,99 @@
+{
+  "slug": "unitedhealth-group",
+  "company": "UnitedHealth Group",
+  "domain": "unitedhealthgroup.com",
+  "activity_statements": [
+    {
+      "statement": "provides employer-sponsored and individual health insurance plans through UnitedHealthcare Employer & Individual division",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "administers Medicare Advantage, Medicare Part D, and Medicare Supplement plans for nearly 13.8 million Medicare beneficiaries through UnitedHealthcare Medicare & Retirement",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides Medicaid and government-sponsored health benefits to 7.5 million economically disadvantaged members through UnitedHealthcare Community & State",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers value-based patient care through Optum Health, a patient-centered care organization serving communities nationwide",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides healthcare data analytics, software-enabled administrative services, and clinical decision support to payers, providers, governments, and life sciences companies through Optum Insight",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Optum Rx pharmacy benefit management, helping patients access prescription medications at lower costs",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "employs nearly 400,000 team members including 142,000 clinical professionals, 50,000 customer-facing staff, and 38,000 technology professionals",
+      "source_url": "https://www.unitedhealthgroup.com/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "serves and coordinates care for approximately 148-151 million people globally through its combined insurance and health services operations",
+      "source_url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "health-insurance-underwriting",
+    "medicare-advantage-operations",
+    "medicaid-managed-care",
+    "pharmacy-benefit-management",
+    "clinical-care-delivery",
+    "healthcare-data-analytics",
+    "value-based-care-contracting",
+    "employer-health-benefits-administration",
+    "healthcare-software-and-technology",
+    "clinical-professionals-staffing"
+  ],
+  "function_mix": [
+    { "family": "clinical-professionals", "weight": 0.36 },
+    { "family": "customer-service-and-member-facing", "weight": 0.13 },
+    { "family": "technology-and-software-engineering", "weight": 0.1 },
+    { "family": "insurance-underwriting-and-actuarial", "weight": 0.12 },
+    { "family": "claims-processing-and-administration", "weight": 0.12 },
+    { "family": "pharmacy-operations", "weight": 0.1 },
+    { "family": "corporate-and-compliance", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["human-service", "software", "advisory"],
+  "segments": [
+    {
+      "name": "UnitedHealthcare (Health Insurance/Benefits)",
+      "weight": 0.55,
+      "capability_tags": ["health-insurance-underwriting", "medicare-advantage-operations", "medicaid-managed-care", "employer-health-benefits-administration"]
+    },
+    {
+      "name": "Optum Health (Care Delivery)",
+      "weight": 0.15,
+      "capability_tags": ["clinical-care-delivery", "value-based-care-contracting", "clinical-professionals-staffing"]
+    },
+    {
+      "name": "Optum Insight (Data & Technology)",
+      "weight": 0.15,
+      "capability_tags": ["healthcare-data-analytics", "healthcare-software-and-technology"]
+    },
+    {
+      "name": "Optum Rx (Pharmacy Benefit Management)",
+      "weight": 0.15,
+      "capability_tags": ["pharmacy-benefit-management"]
+    }
+  ],
+  "name_reality_gap": "UnitedHealth Group is labeled 'Hospitals and Health Care' by the index, but it does not primarily operate hospitals. It is the largest health insurance company in the U.S., combined with Optum — a health services, analytics, and pharmacy benefit management company that employs 142,000 clinical professionals. The Optum segment makes it as much a technology and health services operator as an insurer.",
+  "sources": [
+    { "url": "https://www.unitedhealthgroup.com/who-we-are.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.unitedhealthgroup.com/uhg/businesses.html", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Both pages were informative; the businesses page was especially clear on segment structure. Segment revenue weights estimated from widely known UHG financial reports (Optum ~55% of revenue) but not directly from a retrieved 10-K. Member counts and employee counts directly from sources.",
+  "extraction_confidence": 0.9
+}

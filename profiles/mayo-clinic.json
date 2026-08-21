@@ -1,0 +1,65 @@
+{
+  "slug": "mayo-clinic",
+  "company": "Mayo Clinic",
+  "domain": "mayoclinic.org",
+  "activity_statements": [
+    {
+      "statement": "provides integrated specialty medical care to 1.3 million patients from 130+ countries annually across campuses in Minnesota, Arizona, and Florida",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates as the largest integrated not-for-profit medical group practice in the world, using collaborative team-based diagnostic and treatment approaches",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.95
+    },
+    {
+      "statement": "conducts clinical research and translational medicine including clinical trials and community-engaged research to produce earlier diagnoses and new treatments",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.9
+    },
+    {
+      "statement": "trains future physicians and health professionals through accredited medical education programs on its campuses",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Mayo Clinic Platform to develop and deploy digital health technologies that change how care is delivered at scale",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.85
+    },
+    {
+      "statement": "delivers more specialties ranked in the national top 3 than any other U.S. hospital, including complex multi-organ and rare-disease care",
+      "source_url": "https://www.mayoclinic.org/about-mayo-clinic",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "multi-specialty-care",
+    "medical-research",
+    "clinical-trials",
+    "physician-training",
+    "digital-health-platform",
+    "complex-case-diagnosis",
+    "nonprofit-health-system",
+    "health-equity-programs",
+    "team-based-medicine"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-professionals", "weight": 0.5 },
+    { "family": "medical-research", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.1 },
+    { "family": "medical-education", "weight": 0.1 },
+    { "family": "operations-and-support", "weight": 0.1 }
+  ],
+  "value_chain": ["research", "service", "operate"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "Name suggests a regional clinic; reality is the world's largest integrated medical group practice receiving complex referral cases from 130+ countries and operating a major digital health platform (Mayo Clinic Platform) alongside its clinical and research missions.",
+  "sources": [
+    { "url": "https://www.mayoclinic.org/about-mayo-clinic", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong about page with clear activity data. Nonprofit entity — no 10-K. Platform initiative noted explicitly on about page.",
+  "extraction_confidence": 0.9
+}

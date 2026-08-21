@@ -1,0 +1,62 @@
+{
+  "slug": "amgen",
+  "company": "Amgen",
+  "domain": "amgen.com",
+  "activity_statements": [
+    {
+      "statement": "discovers and develops biologic medicines using human genetic data, AI and generative biology for patients with cancer, heart disease, obesity, rare diseases and inflammatory conditions",
+      "source_url": "https://www.amgen.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manufactures biologic medicines through complex cell-based living-cell production processes at scale, maintaining a reputation for supply reliability across 100+ countries",
+      "source_url": "https://www.amgen.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers medicines commercially to patients in approximately 100 countries across four therapeutic areas: general medicine, rare diseases, inflammation and oncology",
+      "source_url": "https://www.amgen.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "advances a broad pipeline of small molecules and biologics including treatments targeting obesity-related conditions (e.g. AMG 133) and multiple oncology programs",
+      "source_url": "https://www.amgen.com/about",
+      "confidence": 0.8
+    },
+    {
+      "statement": "operates global supply chain for biologic medicines including cold-chain logistics and manufacturing quality systems required for cell-based therapeutics",
+      "source_url": "https://www.amgen.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "biologic-drug-discovery",
+    "cell-based-manufacturing",
+    "clinical-trial-operations",
+    "cold-chain-logistics",
+    "regulatory-submissions",
+    "global-commercial-launch",
+    "genomics-and-human-genetics",
+    "oncology-pipeline",
+    "rare-disease-therapeutics",
+    "supply-chain-reliability",
+    "ai-drug-discovery"
+  ],
+  "function_mix": [
+    { "family": "research-and-drug-discovery", "weight": 0.25 },
+    { "family": "clinical-development", "weight": 0.2 },
+    { "family": "manufacturing-and-process-sciences", "weight": 0.2 },
+    { "family": "regulatory-affairs", "weight": 0.1 },
+    { "family": "commercial-and-sales", "weight": 0.15 },
+    { "family": "supply-chain-and-logistics", "weight": 0.1 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Labeled Biotechnology Research; reality is a fully vertically integrated operation spanning discovery, cell-based manufacturing at industrial scale, global cold-chain distribution and commercial sales across 100 countries.",
+  "sources": [
+    { "url": "https://www.amgen.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong about-page. Pipeline specifics and product list not separately fetched but core four therapeutic areas clearly stated. Manufacturing complexity and supply chain reliability are emphasized hallmarks per source.",
+  "extraction_confidence": 0.88
+}

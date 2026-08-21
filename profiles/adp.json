@@ -1,0 +1,61 @@
+{
+  "slug": "adp",
+  "company": "ADP",
+  "domain": "adp.com",
+  "activity_statements": [
+    {
+      "statement": "provides cloud-based payroll processing and human capital management software to businesses globally",
+      "source_url": "https://www.adp.com/about-adp.aspx",
+      "confidence": 0.95
+    },
+    {
+      "statement": "administers HR, talent management, time-and-attendance tracking, tax filing, and benefits enrollment for employer clients",
+      "source_url": "https://www.adp.com/about-adp.aspx",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides business process outsourcing for payroll and HR functions, allowing employers to offload administrative operations",
+      "source_url": "https://www.adp.com/about-adp.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers compliance expertise and analytics to help employers manage regulatory requirements across jurisdictions",
+      "source_url": "https://www.adp.com/about-adp.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "maintains a proprietary workforce data asset from over 75 years of payroll records, enabling benchmarking and economic analytics",
+      "source_url": "https://www.adp.com/about-adp.aspx",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "payroll-processing",
+    "human-capital-management-software",
+    "hr-administration-outsourcing",
+    "benefits-administration",
+    "tax-compliance-and-filing",
+    "workforce-analytics",
+    "talent-management-platform",
+    "time-and-attendance-tracking",
+    "regulatory-compliance-ops",
+    "employer-of-record-services"
+  ],
+  "function_mix": [
+    { "family": "software-engineering-and-technology", "weight": 0.3 },
+    { "family": "payroll-and-hr-operations", "weight": 0.25 },
+    { "family": "client-service-and-implementation", "weight": 0.2 },
+    { "family": "compliance-and-legal", "weight": 0.1 },
+    { "family": "data-science-and-analytics", "weight": 0.1 },
+    { "family": "sales-and-marketing", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "ADP (Automatic Data Processing) sounds like a generic computing company but is a dominant payroll and HR software/outsourcing firm. The company handles compliance, tax filing, and regulatory work at scale that most people associate with accountants or government agencies — not a tech firm.",
+  "sources": [
+    { "url": "https://www.adp.com/about-adp.aspx", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was substantive. No 10-K retrieved directly; segment breakdown (e.g., Employer Services vs. PEO Services) from widely known structure, but not directly verified from retrieved source.",
+  "extraction_confidence": 0.85
+}

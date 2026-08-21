@@ -1,0 +1,77 @@
+{
+  "slug": "boeing",
+  "company": "Boeing",
+  "domain": "boeing.com",
+  "activity_statements": [
+    {
+      "statement": "designs and manufactures commercial jetliners (737 MAX, 777X, 787 Dreamliner, freighters) for airline customers worldwide, with 14,000+ Boeing aircraft in the global fleet",
+      "source_url": "https://www.boeing.com/company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops and produces military aircraft, rotorcraft, unmanned systems, weapons, and space/satellite technology for government and defense customers in 150+ countries",
+      "source_url": "https://www.boeing.com/company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides aftermarket maintenance, repair, overhaul, spare parts, digital analytics, and training through Boeing Global Services for commercial and defense customers regardless of original aircraft manufacturer",
+      "source_url": "https://www.boeing.com/company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "serves more than 90% of the global air freight market with its freighter aircraft line",
+      "source_url": "https://www.boeing.com/company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "employs 182,000+ people across the US and 65+ countries in engineering, manufacturing, and program management roles",
+      "source_url": "https://www.boeing.com/company",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "commercial-aircraft-manufacturing",
+    "defense-aircraft-manufacturing",
+    "military-systems-integration",
+    "aftermarket-mro-services",
+    "aerospace-engineering",
+    "weapon-systems",
+    "space-and-satellite",
+    "digital-aviation-analytics",
+    "supply-chain-management",
+    "flight-training"
+  ],
+  "function_mix": [
+    { "family": "aerospace-engineers", "weight": 0.30 },
+    { "family": "manufacturing-and-assembly-technicians", "weight": 0.30 },
+    { "family": "program-and-project-management", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.12 },
+    { "family": "quality-and-safety", "weight": 0.10 },
+    { "family": "finance-and-contracts", "weight": 0.06 }
+  ],
+  "value_chain": ["design", "manufacture", "service"],
+  "delivery_mode": ["physical-asset", "software", "human-service"],
+  "segments": [
+    {
+      "name": "Commercial Airplanes",
+      "weight": 0.45,
+      "capability_tags": ["commercial-aircraft-manufacturing", "aerospace-engineering"]
+    },
+    {
+      "name": "Defense, Space & Security",
+      "weight": 0.35,
+      "capability_tags": ["defense-aircraft-manufacturing", "military-systems-integration", "weapon-systems", "space-and-satellite"]
+    },
+    {
+      "name": "Boeing Global Services",
+      "weight": 0.20,
+      "capability_tags": ["aftermarket-mro-services", "digital-aviation-analytics", "flight-training", "supply-chain-management"]
+    }
+  ],
+  "name_reality_gap": "The index label 'Aviation and Aerospace Component Manufacturing' understates Boeing's role as a prime defense contractor with billions in military programs — Boeing is simultaneously an OEM jetliner builder AND one of the world's largest defense companies, with a growing global services business that operates regardless of original aircraft manufacturer.",
+  "sources": [
+    { "url": "https://www.boeing.com/company", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Boeing company page provided clear segment structure and activity detail. Segment revenue weights are approximate based on known reporting patterns.",
+  "extraction_confidence": 0.88
+}

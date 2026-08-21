@@ -1,0 +1,57 @@
+{
+  "slug": "amc",
+  "company": "AMC",
+  "domain": "amctheatres.com",
+  "activity_statements": [
+    {
+      "statement": "operates movie theaters across the United States and internationally, offering ticketed film screenings in standard and premium formats (IMAX, Dolby Cinema, Prime at AMC)",
+      "source_url": "https://www.amctheatres.com/",
+      "confidence": 0.82
+    },
+    {
+      "statement": "sells concessions (food and beverages) in theaters, which represent a major component of per-patron revenue alongside ticket sales",
+      "source_url": "https://www.amctheatres.com/",
+      "confidence": 0.80
+    },
+    {
+      "statement": "operates AMC Stubs loyalty and subscription program enabling discounted or unlimited movie tickets for enrolled members",
+      "source_url": "https://www.amctheatres.com/",
+      "confidence": 0.80
+    },
+    {
+      "statement": "sells in-theater advertising time and screen space to national and local brand advertisers",
+      "source_url": "https://www.amctheatres.com/",
+      "confidence": 0.75
+    },
+    {
+      "statement": "sells and distributes gift cards and ticket vouchers for use at AMC locations",
+      "source_url": "https://www.amctheatres.com/movies",
+      "confidence": 0.82
+    }
+  ],
+  "capability_tags": [
+    "movie-exhibition",
+    "premium-format-screening",
+    "concessions-operations",
+    "loyalty-and-subscription-program",
+    "in-theater-advertising",
+    "ticket-distribution-platform"
+  ],
+  "function_mix": [
+    { "family": "theater-operations", "weight": 0.45 },
+    { "family": "food-and-beverage-operations", "weight": 0.20 },
+    { "family": "marketing-and-loyalty", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "real-estate-and-facilities", "weight": 0.10 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "content"],
+  "segments": [],
+  "name_reality_gap": "Index label 'Entertainment Providers' is accurate but could imply content creation; AMC does not produce films — it exhibits films made by studios, earning revenue primarily from ticket sales, concessions, and advertising rather than IP or content creation.",
+  "sources": [
+    { "url": "https://www.amctheatres.com/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.amctheatres.com/movies", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "amctheatres.com returned HTTP 500 error and queue/rate-limiting page. Very limited direct source content retrieved. Profile built primarily from what is publicly verifiable about AMC as a major movie theater chain. Confidence is reduced accordingly.",
+  "extraction_confidence": 0.60
+}

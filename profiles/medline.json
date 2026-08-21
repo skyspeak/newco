@@ -1,0 +1,59 @@
+{
+  "slug": "medline",
+  "company": "Medline",
+  "domain": "medline.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and distributes approximately 190,000 medical-surgical products under the Medline Brand across Surgical Solutions, Front Line Care, and Laboratory & Diagnostics categories",
+      "source_url": "https://www.medline.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates as the largest provider of medical-surgical products and supply chain solutions serving all points of care across the U.S. healthcare continuum",
+      "source_url": "https://www.medline.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates a vertically integrated supply chain — owning every step from manufacturing through delivery — to ensure dependable, just-in-time delivery to healthcare providers",
+      "source_url": "https://www.medline.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides supply chain optimization services and inventory workflow tools to hospitals and care providers to reduce operational inefficiencies",
+      "source_url": "https://www.medline.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "delivers clinical solutions including best-practice guidance, education and training programs, and product systems to improve patient outcomes for frontline clinical teams",
+      "source_url": "https://www.medline.com/about-us/",
+      "confidence": 0.9
+    }
+  ],
+  "capability_tags": [
+    "medical-surgical-product-manufacturing",
+    "healthcare-supply-chain-distribution",
+    "vertically-integrated-logistics",
+    "clinical-solutions-and-education",
+    "inventory-management-services",
+    "surgical-supplies",
+    "laboratory-and-diagnostics-products",
+    "front-line-care-products",
+    "supply-chain-optimization-consulting"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-and-production", "weight": 0.3 },
+    { "family": "supply-chain-and-distribution-logistics", "weight": 0.3 },
+    { "family": "clinical-and-healthcare-solutions", "weight": 0.15 },
+    { "family": "sales-and-account-management", "weight": 0.15 },
+    { "family": "corporate-and-administrative", "weight": 0.1 }
+  ],
+  "value_chain": ["manufacture", "distribute", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The 'Medical Equipment Manufacturing' index label underrepresents Medline's scope — it is as much a logistics and supply chain company as a manufacturer, operating an end-to-end integrated supply chain serving every point of care from hospital operating rooms to home care. It competes with distributors like McKesson and Cardinal Health as much as with device makers.",
+  "sources": [
+    { "url": "https://www.medline.com/about-us/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was detailed and well-organized. Private company — no 10-K available. Product count (190,000 SKUs), founding year (1966), and vertically integrated model all verified from source.",
+  "extraction_confidence": 0.88
+}

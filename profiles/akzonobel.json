@@ -1,0 +1,70 @@
+{
+  "slug": "akzonobel",
+  "company": "AkzoNobel",
+  "domain": "akzonobel.com",
+  "activity_statements": [
+    {
+      "statement": "manufactures and sells decorative paints for residential and commercial buildings under the Dulux brand in 150+ countries",
+      "source_url": "https://www.akzonobel.com/en/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "produces and sells high-performance marine and protective coatings (International brand) for ships, offshore platforms, and industrial infrastructure",
+      "source_url": "https://www.akzonobel.com/en/about-us",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures powder and liquid coatings for automotive OEM and refinishing applications under the Sikkens and Interpon brands",
+      "source_url": "https://www.akzonobel.com/en/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates paint and coatings manufacturing plants globally with a supply chain serving professional applicators and retail consumers",
+      "source_url": "https://www.akzonobel.com/en/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "conducts R&D in coatings chemistry to develop more sustainable, lower-VOC formulations for consumer and industrial markets",
+      "source_url": "https://www.akzonobel.com/en/about-us",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "paints-manufacturing",
+    "protective-coatings",
+    "marine-coatings",
+    "industrial-coatings",
+    "powder-coatings",
+    "decorative-paints",
+    "chemical-formulation-rd",
+    "global-distribution",
+    "sustainability-in-manufacturing"
+  ],
+  "function_mix": [
+    { "family": "advanced-manufacturing", "weight": 0.35 },
+    { "family": "research-and-development", "weight": 0.2 },
+    { "family": "sales-and-marketing", "weight": 0.2 },
+    { "family": "supply-chain", "weight": 0.15 },
+    { "family": "regulatory-and-quality", "weight": 0.1 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Decorative Paints",
+      "weight": 0.5,
+      "capability_tags": ["decorative-paints", "paints-manufacturing"]
+    },
+    {
+      "name": "Performance Coatings",
+      "weight": 0.5,
+      "capability_tags": ["marine-coatings", "protective-coatings", "industrial-coatings", "powder-coatings"]
+    }
+  ],
+  "name_reality_gap": "none — AkzoNobel is straightforwardly a global paints and coatings manufacturer; the name and index label (Chemical Manufacturing) are consistent with reality.",
+  "sources": [
+    { "url": "https://www.akzonobel.com/en/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page confirmed core identity and scale (32,000 employees, 150+ countries). Brand names (Dulux, International, Sikkens, Interpon) and segment structure are from well-documented public sources. Segment revenue split is approximate.",
+  "extraction_confidence": 0.88
+}

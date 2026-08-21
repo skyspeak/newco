@@ -1,0 +1,70 @@
+{
+  "slug": "lear-corporation",
+  "company": "Lear Corporation",
+  "domain": "lear.com",
+  "activity_statements": [
+    {
+      "statement": "designs, manufactures, and supplies complete vehicle seating systems (seat assemblies, covers, foam) to major global automotive manufacturers as the largest US-based automotive supplier",
+      "source_url": "https://www.lear.com/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "designs and manufactures electrical distribution systems, wiring harnesses, and connection systems for vehicles (E-Systems segment)",
+      "source_url": "https://www.lear.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "develops battery management systems and power electronics for electric and hybrid vehicle platforms in its E-Systems segment",
+      "source_url": "https://www.lear.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "supplies seating and electrical systems to the world's leading automotive OEMs, winning 2026 Ford Supplier of the Year (Sustainability) and 2025 GM Supplier of the Year (both Seating and E-Systems)",
+      "source_url": "https://www.lear.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "operates global manufacturing facilities across multiple continents in a just-in-time supply model for automotive production lines",
+      "source_url": "https://www.lear.com/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "vehicle-seating-systems",
+    "electrical-distribution-systems",
+    "battery-management-systems",
+    "automotive-tier-1-supply",
+    "just-in-time-manufacturing",
+    "ev-powertrain-components",
+    "wiring-harness-manufacturing",
+    "automotive-oem-partnerships"
+  ],
+  "function_mix": [
+    { "family": "manufacturing-engineering", "weight": 0.35 },
+    { "family": "product-design-and-development", "weight": 0.22 },
+    { "family": "supply-chain-and-operations", "weight": 0.18 },
+    { "family": "quality-engineering", "weight": 0.12 },
+    { "family": "software-engineering", "weight": 0.08 },
+    { "family": "sales-and-oem-account-management", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Seating",
+      "weight": 0.60,
+      "capability_tags": ["vehicle-seating-systems", "automotive-tier-1-supply", "just-in-time-manufacturing"]
+    },
+    {
+      "name": "E-Systems",
+      "weight": 0.40,
+      "capability_tags": ["electrical-distribution-systems", "battery-management-systems", "ev-powertrain-components", "wiring-harness-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "Index label 'Motor Vehicle Manufacturing' implies Lear makes vehicles; it is a tier-1 automotive supplier making components (seats and electrical/electronic systems) — never complete vehicles. The E-Systems segment makes it a significant participant in EV electrification infrastructure, invisible from the index label.",
+  "sources": [
+    { "url": "https://www.lear.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "lear.com/about-lear/ returned 404; homepage provided clear segment and product information. Seating/E-Systems revenue split based on publicly known Lear segment structure (approx 60/40); not extracted from source directly.",
+  "extraction_confidence": 0.85
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "morgan-stanley",
+  "company": "Morgan Stanley",
+  "domain": "morganstanley.com",
+  "activity_statements": [
+    {
+      "statement": "advises corporations, organizations, and governments on mergers, acquisitions, restructurings, IPOs, debt offerings, and derivatives as a global investment bank",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.97
+    },
+    {
+      "statement": "manages wealth for individuals, families, businesses and institutions through financial advice, investment products, and digital tools",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.97
+    },
+    {
+      "statement": "executes sales and trading in cash equities, fixed income, currencies, and commodities for institutional clients including hedge funds globally",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages assets for governments, institutions, corporations, and individuals across public and private market asset classes",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides workplace financial solutions combining equity compensation management, personalized advice, and technology for employer clients and their employees",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.90
+    },
+    {
+      "statement": "employs 600+ research analysts, strategists, and economists producing alpha-generating market analysis for institutional investors",
+      "source_url": "https://www.morganstanley.com/what-we-do",
+      "confidence": 0.93
+    }
+  ],
+  "capability_tags": [
+    "investment-banking",
+    "mergers-and-acquisitions-advisory",
+    "wealth-management",
+    "asset-management",
+    "sales-and-trading",
+    "equity-research",
+    "capital-markets",
+    "equity-compensation-administration",
+    "institutional-client-services",
+    "private-market-investing",
+    "esg-and-sustainable-finance"
+  ],
+  "function_mix": [
+    { "family": "investment-banking-and-capital-markets", "weight": 0.25 },
+    { "family": "wealth-management-advisory", "weight": 0.25 },
+    { "family": "sales-and-trading", "weight": 0.20 },
+    { "family": "asset-management", "weight": 0.15 },
+    { "family": "research-and-analytics", "weight": 0.08 },
+    { "family": "technology-and-operations", "weight": 0.07 }
+  ],
+  "value_chain": ["service", "operate", "assure"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [
+    {
+      "name": "Wealth Management",
+      "weight": 0.45,
+      "capability_tags": ["wealth-management", "equity-compensation-administration", "asset-management"]
+    },
+    {
+      "name": "Institutional Securities",
+      "weight": 0.40,
+      "capability_tags": ["investment-banking", "mergers-and-acquisitions-advisory", "sales-and-trading", "capital-markets", "equity-research"]
+    },
+    {
+      "name": "Investment Management",
+      "weight": 0.15,
+      "capability_tags": ["asset-management", "private-market-investing", "esg-and-sustainable-finance"]
+    }
+  ],
+  "name_reality_gap": "none - Morgan Stanley accurately signals global investment banking and financial services. The index label 'Financial Services' is accurate though it obscures the dominance of wealth management in revenue mix.",
+  "sources": [
+    { "url": "https://www.morganstanley.com/what-we-do", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://morganstanley.com/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "What-we-do page provided strong coverage of business lines. About page was light on activity detail. No 10-K retrieved. Segment weights estimated from generally known revenue split (wealth management now Morgan Stanley's largest segment).",
+  "extraction_confidence": 0.85
+}

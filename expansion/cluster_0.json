@@ -1,0 +1,169 @@
+[
+  {
+    "company": "C&S Wholesale Grocers",
+    "domain": "cswg.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "store-network-management",
+      "inventory-management",
+      "private-label-product-development",
+      "fulfillment-network"
+    ],
+    "activity_evidence": "C&S operates more than 60 distribution centers nationwide delivering supply chain solutions, quality products, and private-label brands to over 200 corporate-run grocery stores and independent retailers across the U.S.",
+    "why_off_index": "Wholesale grocery distributor and B2B infrastructure firm with no consumer-facing employer brand; operates behind the scenes supplying independent grocers and its own store banners (Family Fare, Piggly Wiggly, Martin's)",
+    "source_url": "https://cswg.com/",
+    "confidence": 0.95
+  },
+  {
+    "company": "Hy-Vee, Inc.",
+    "domain": "hy-vee.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "store-network-management",
+      "inventory-management",
+      "store-associate-workforce",
+      "private-label-product-development"
+    ],
+    "activity_evidence": "Hy-Vee operates more than 563 grocery and related retail units across nine Midwestern states, managing a 75,000-person associate workforce and private-label product programs sold under the Hy-Vee brand.",
+    "why_off_index": "Employee-owned regional Midwest grocer with no national employer-brand presence on best-places lists; competes regionally without the glamour of coastal or consumer-facing tech companies",
+    "source_url": "https://hy-vee.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Save A Lot",
+    "domain": "savealot.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "store-network-management",
+      "inventory-management",
+      "private-label-product-development",
+      "store-associate-workforce"
+    ],
+    "activity_evidence": "Save A Lot operates approximately 700 value-focused grocery stores in 30 states, offering exclusive own-brand private-label products alongside national brands, with small-footprint stores optimized for fast inventory turnover.",
+    "why_off_index": "Discount grocery chain serving value-oriented shoppers; private ownership, unglamorous discount-grocery positioning, and no consumer-brand employer cachet keep it off best-places-to-work lists",
+    "source_url": "https://savealot.com/about-us",
+    "confidence": 0.90
+  },
+  {
+    "company": "Rouses Markets",
+    "domain": "rouses.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "store-network-management",
+      "store-associate-workforce",
+      "private-label-product-development",
+      "inventory-management"
+    ],
+    "activity_evidence": "Rouses operates 70+ family-owned supermarkets across South Louisiana, the Mississippi Gulf Coast, and Lower Alabama, developing private-label products under the Rouses brand and sourcing from local farmers and fishermen.",
+    "why_off_index": "Privately held, regional Southeast grocer with no national employer-brand presence; B2B wholesale relationships and local-first operations make it invisible to employer-ranking indexes",
+    "source_url": "https://rouses.com/about",
+    "confidence": 0.87
+  },
+  {
+    "company": "Schnuck Markets",
+    "domain": "schnucks.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "store-network-management",
+      "store-associate-workforce",
+      "inventory-management",
+      "private-label-product-development"
+    ],
+    "activity_evidence": "Schnucks operates more than 100 family-owned supermarkets across Missouri, Illinois, and Indiana, managing a large store-associate workforce and running a Springboard supplier program to develop private-label products from local entrepreneurs.",
+    "why_off_index": "Private, family-owned St. Louis regional grocery chain; no national employer-brand visibility and entirely absent from national best-places-to-work rankings despite operating at significant scale",
+    "source_url": "https://schnucks.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "RLS Logistics",
+    "domain": "rlslogistics.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "cold-chain-logistics",
+      "fulfillment-network",
+      "inventory-management",
+      "package-sortation"
+    ],
+    "activity_evidence": "RLS Logistics provides nationwide temperature-controlled 3PL services including LTL and truckload refrigerated transportation, cold storage warehousing across NJ, PA, and UT facilities, and cross-docking for frozen and refrigerated food manufacturers.",
+    "why_off_index": "Family-owned, third-generation cold chain 3PL operating entirely B2B behind food brands; no consumer brand, regional headquarters, and purely industrial operations keep it off employer-ranking lists",
+    "source_url": "https://rlslogistics.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Americold Logistics",
+    "domain": "americold.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "cold-chain-logistics",
+      "fulfillment-network",
+      "inventory-management",
+      "store-network-management"
+    ],
+    "activity_evidence": "Americold owns and operates more than 230 temperature-controlled warehouses totaling approximately 1.4 billion refrigerated cubic feet, connecting food producers, processors, distributors, and grocery retailers through an integrated cold chain network.",
+    "why_off_index": "B2B cold storage REIT and logistics operator that consumers never interact with directly; industrial warehouse operations with no glamorous employer brand, entirely invisible to best-places-to-work rankings",
+    "source_url": "https://americold.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Verst Group Logistics",
+    "domain": "verstgroup.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "fulfillment-network",
+      "package-sortation",
+      "inventory-management"
+    ],
+    "activity_evidence": "Verst Logistics provides dedicated omnichannel fulfillment warehousing, transportation management, and shrink sleeve labeling services to top global brands, operating nationwide fulfillment warehouses from its Walton, Kentucky headquarters.",
+    "why_off_index": "Private contract logistics operator serving top brands behind the scenes; $315M revenue business with no consumer-facing identity and no employer-brand presence on best-places lists",
+    "source_url": "https://verstgroup.com/",
+    "confidence": 0.82
+  },
+  {
+    "company": "eGourmet Solutions",
+    "domain": "egourmet.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "cold-chain-logistics",
+      "fulfillment-network",
+      "inventory-management",
+      "package-sortation"
+    ],
+    "activity_evidence": "eGourmet Solutions operates a national cold chain 3PL network using its proprietary FROST intelligence platform to provide frozen and perishable DTC and B2B fulfillment, with guaranteed 99% on-time delivery and 80% of the US reached in one day.",
+    "why_off_index": "Private specialist cold chain 3PL serving emerging food brands; B2B-only operation with no consumer visibility, small enough to be invisible to employer-brand surveys yet running genuine fulfillment infrastructure",
+    "source_url": "https://egourmet.com/",
+    "confidence": 0.83
+  },
+  {
+    "company": "Imperial PFS",
+    "domain": "ipfs.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "inventory-management",
+      "fulfillment-network"
+    ],
+    "activity_evidence": "IPFS processes over 850,000 insurance premium financing loans annually totaling $17 billion, operating a One Platform that unifies payment processing, eSignature, and AMS/CRM integrations for insurance agencies across North America — functioning as a payment-processing fulfillment network for the insurance industry.",
+    "why_off_index": "Privately held B2B financial infrastructure provider for insurance agencies with no consumer-brand identity; 48 years of operations entirely in the background of insurance workflows",
+    "source_url": "https://ipfs.com/",
+    "confidence": 0.72
+  },
+  {
+    "company": "ColdTrack",
+    "domain": "coldtrack.com",
+    "cluster": 0,
+    "matched_capabilities": [
+      "cold-chain-logistics",
+      "fulfillment-network",
+      "package-sortation",
+      "inventory-management"
+    ],
+    "activity_evidence": "ColdTrack operates a tech-enabled third-party perishable fulfillment platform with bespoke pick-and-pack, proprietary route optimization software, and enterprise shipping across national and regional carriers, enabling ground delivery to 99% of the US in 48 hours or less.",
+    "why_off_index": "Private, niche perishable fulfillment 3PL serving food and beverage brands B2B; no consumer presence, small team, and entirely behind-the-scenes operations ensure absence from employer-brand rankings",
+    "source_url": "https://coldtrack.com/",
+    "confidence": 0.84
+  }
+]

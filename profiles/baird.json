@@ -1,0 +1,81 @@
+{
+  "slug": "baird",
+  "company": "Baird",
+  "domain": "rwbaird.com",
+  "activity_statements": [
+    {
+      "statement": "provides private wealth management and financial planning services to individuals, families, and small businesses across the United States",
+      "source_url": "https://www.rwbaird.com/about-baird/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides investment banking and equity/fixed income capital markets services to corporations and institutional investors globally",
+      "source_url": "https://www.rwbaird.com/about-baird/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manages trust and asset management accounts for institutions, foundations, schools, and public entities",
+      "source_url": "https://www.rwbaird.com/about-baird/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates private equity investment activities as one of its core business lines",
+      "source_url": "https://www.rwbaird.com/about-baird/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates as an employee-owned, privately held firm providing long-term financial advisory relationships with offices on three continents",
+      "source_url": "https://www.rwbaird.com/about-baird/",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "private-wealth-management",
+    "investment-banking",
+    "equity-capital-markets",
+    "fixed-income-capital-markets",
+    "asset-management",
+    "trust-and-fiduciary-services",
+    "private-equity-investing",
+    "institutional-advisory",
+    "financial-planning",
+    "mergers-and-acquisitions-advisory"
+  ],
+  "function_mix": [
+    { "family": "financial-advisory-and-wealth-management", "weight": 0.35 },
+    { "family": "investment-banking-and-capital-markets", "weight": 0.3 },
+    { "family": "asset-management-and-portfolio-management", "weight": 0.2 },
+    { "family": "risk-and-compliance", "weight": 0.1 },
+    { "family": "corporate-and-administrative", "weight": 0.05 }
+  ],
+  "value_chain": ["service", "assure"],
+  "delivery_mode": ["advisory", "human-service"],
+  "segments": [
+    {
+      "name": "Private Wealth Management",
+      "weight": 0.4,
+      "capability_tags": ["private-wealth-management", "financial-planning", "trust-and-fiduciary-services"]
+    },
+    {
+      "name": "Investment Banking & Capital Markets",
+      "weight": 0.35,
+      "capability_tags": ["investment-banking", "equity-capital-markets", "fixed-income-capital-markets", "mergers-and-acquisitions-advisory"]
+    },
+    {
+      "name": "Asset Management",
+      "weight": 0.15,
+      "capability_tags": ["asset-management", "institutional-advisory"]
+    },
+    {
+      "name": "Private Equity",
+      "weight": 0.1,
+      "capability_tags": ["private-equity-investing"]
+    }
+  ],
+  "name_reality_gap": "The 'Baird' name reveals nothing about the business; the domain rwbaird.com (for Robert W. Baird) hints at a professional services firm but not at the specific financial services scope. The index label 'Financial Services & Insurance' is accurate but does not capture the investment banking and private equity breadth.",
+  "sources": [
+    { "url": "https://www.rwbaird.com/about-baird/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page clearly listed all six business lines. Segment revenue weights estimated; no financial disclosures available (private company).",
+  "extraction_confidence": 0.85
+}

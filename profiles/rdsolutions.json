@@ -1,0 +1,55 @@
+{
+  "slug": "rdsolutions",
+  "company": "RDSolutions",
+  "domain": "rdsolutions.com",
+  "activity_statements": [
+    {
+      "statement": "operates a national field force of thousands of merchandising reps who conduct in-store visits to resolve out-of-stocks, fix display compliance, and correct shelf execution issues for CPG brands",
+      "source_url": "https://rdsolutions.com/services",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides a real-time retail market intelligence platform with store-level data on pricing, assortment, and product availability across multiple retail banners",
+      "source_url": "https://rdsolutions.com/services",
+      "confidence": 0.95
+    },
+    {
+      "statement": "delivers structured retail data (pricing, product attribution, distribution) normalized from billions of data points weekly for CPG manufacturers and retailers",
+      "source_url": "https://rdsolutions.com/services",
+      "confidence": 0.92
+    },
+    {
+      "statement": "serves CPG manufacturers, retailers, and consulting firms seeking competitive pricing intelligence and shelf execution improvement for 35+ years",
+      "source_url": "https://rdsolutions.com/services",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "retail-intelligence-platform",
+    "field-service-merchandising",
+    "store-level-data-analytics",
+    "competitive-pricing-intelligence",
+    "shelf-execution-management",
+    "cpg-sales-support",
+    "out-of-stock-resolution",
+    "product-attribute-data",
+    "retail-audit-services"
+  ],
+  "function_mix": [
+    { "family": "field-merchandising-reps", "weight": 0.45 },
+    { "family": "data-engineering-and-analytics", "weight": 0.25 },
+    { "family": "software-engineering", "weight": 0.15 },
+    { "family": "sales-and-client-success", "weight": 0.10 },
+    { "family": "management-and-operations", "weight": 0.05 }
+  ],
+  "value_chain": ["service", "operate"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The index label 'Management & Consulting' is misleading. RDSolutions is primarily a field execution and retail data company — it deploys thousands of in-store merchandising reps and operates a data platform. The consulting component is incidental; the core business is physical shelf management and retail intelligence at scale.",
+  "sources": [
+    { "url": "https://rdsolutions.com/services", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://rdsolutions.com/what-we-do", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Services and what-we-do pages returned good content on business model. Scale data (thousands of field reps, billions of data points) noted from page without specific numbers. Private company; no 10-K.",
+  "extraction_confidence": 0.85
+}

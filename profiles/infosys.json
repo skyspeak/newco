@@ -1,0 +1,71 @@
+{
+  "slug": "infosys",
+  "company": "Infosys",
+  "domain": "infosys.com",
+  "activity_statements": [
+    {
+      "statement": "delivers next-generation digital transformation services to enterprise clients in 59 countries, including AI-first core IT modernization, cloud migration, and agile digital enablement at scale",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manages the systems and workings of global enterprises through managed IT services, infrastructure services, and outsourced business processes across 40+ years of client relationships",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides business process outsourcing (BPO) through Infosys BPM, covering finance and accounting, procurement, customer service, HR, and document management",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "develops and delivers SaaS platforms through EdgeVerve Systems (banking/financial services) and Infosys McCamish (insurance BPO platform)",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.83
+    },
+    {
+      "statement": "accelerates client IT transformation through transfer of digital skills, expertise, and ideas via its Infosys Knowledge Institute and innovation ecosystem",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates $20.3B in annual revenue with 328,000+ employees, ranked in the top 3 IT services brands globally for the fifth consecutive year (Brand Finance 2026)",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "maintains a global alliance network with major technology companies to reduce implementation risk and accelerate time-to-market for enterprise clients",
+      "source_url": "https://www.infosys.com/about.html",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "digital-transformation-consulting",
+    "managed-it-services",
+    "cloud-migration",
+    "ai-and-ml-implementation",
+    "business-process-outsourcing",
+    "enterprise-software-implementation",
+    "cybersecurity-services",
+    "data-and-analytics-services",
+    "fintech-saas-platform",
+    "insurance-bpo-platform"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.35 },
+    { "family": "it-consulting-and-architecture", "weight": 0.22 },
+    { "family": "business-process-operations", "weight": 0.18 },
+    { "family": "data-and-analytics", "weight": 0.12 },
+    { "family": "sales-and-client-management", "weight": 0.08 },
+    { "family": "training-and-knowledge-transfer", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "advisory"],
+  "delivery_mode": ["software", "human-service", "advisory"],
+  "segments": [],
+  "name_reality_gap": "Index label 'IT Services and IT Consulting' is accurate; the hidden reality is that Infosys is simultaneously a talent-at-scale body shop (largest job function), a managed-services operator for global enterprise infrastructure, and a SaaS product company (EdgeVerve, McCamish) — three structurally different businesses under one label.",
+  "sources": [
+    { "url": "https://www.infosys.com/about.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided strong operational content. BPO subsidiaries (McCamish, EdgeVerve) are public knowledge from Infosys's disclosures but not detailed on the about page itself.",
+  "extraction_confidence": 0.87
+}

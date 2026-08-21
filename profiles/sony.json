@@ -1,0 +1,110 @@
+{
+  "slug": "sony",
+  "company": "Sony",
+  "domain": "sony.com",
+  "activity_statements": [
+    {
+      "statement": "operates PlayStation gaming platform and network, including PS5 hardware, first-party game titles, and PlayStation Network subscription services for 129 million monthly active accounts",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates Sony Music Entertainment (recorded music labels) and Sony Music Publishing (catalog rights), with streaming revenues growing 5% (recorded) and 13% (publishing) in FY2024",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "produces and distributes films and TV content through Sony Pictures, including franchises based on Spider-Man, Jumanji, and Venom IPs, and licenses IP to location-based entertainment",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "streams anime content globally through Crunchyroll (15M+ paid subscribers) as a direct-to-consumer anime platform",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.93
+    },
+    {
+      "statement": "manufactures and sells consumer electronics including cameras (Alpha mirrorless), audio products (headphones, speakers), and televisions through the Entertainment, Technology & Services segment",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.90
+    },
+    {
+      "statement": "manufactures CMOS image sensors for smartphones and other devices through Sony Semiconductor Solutions, supplying the global mobile imaging ecosystem",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.92
+    },
+    {
+      "statement": "is forming a joint venture with TSMC for advanced semiconductor manufacturing through Sony Semiconductor Solutions",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/",
+      "confidence": 0.90
+    },
+    {
+      "statement": "generates over 60% of consolidated sales from its three entertainment businesses (Game & Network Services, Music, Pictures) as of FY2024",
+      "source_url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "gaming-platform-operations",
+    "music-label-and-publishing",
+    "film-and-tv-production",
+    "anime-streaming-platform",
+    "consumer-electronics-manufacturing",
+    "cmos-image-sensor-manufacturing",
+    "semiconductor-fabrication",
+    "ip-portfolio-management",
+    "direct-to-consumer-content",
+    "content-ip-licensing"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.25 },
+    { "family": "content-creation-and-production", "weight": 0.20 },
+    { "family": "hardware-and-electronics-engineering", "weight": 0.18 },
+    { "family": "semiconductor-engineering", "weight": 0.12 },
+    { "family": "music-and-artist-management", "weight": 0.10 },
+    { "family": "marketing-and-brand", "weight": 0.08 },
+    { "family": "supply-chain-and-manufacturing", "weight": 0.07 }
+  ],
+  "value_chain": ["design", "manufacture", "operate", "content"],
+  "delivery_mode": ["software", "content", "physical-asset", "marketplace"],
+  "segments": [
+    {
+      "name": "Game & Network Services (G&NS)",
+      "weight": 0.28,
+      "capability_tags": ["gaming-platform-operations", "direct-to-consumer-content", "software-engineering"]
+    },
+    {
+      "name": "Music",
+      "weight": 0.18,
+      "capability_tags": ["music-label-and-publishing", "ip-portfolio-management", "direct-to-consumer-content"]
+    },
+    {
+      "name": "Pictures",
+      "weight": 0.14,
+      "capability_tags": ["film-and-tv-production", "anime-streaming-platform", "content-ip-licensing", "ip-portfolio-management"]
+    },
+    {
+      "name": "Entertainment, Technology & Services (ET&S)",
+      "weight": 0.22,
+      "capability_tags": ["consumer-electronics-manufacturing", "cmos-image-sensor-manufacturing"]
+    },
+    {
+      "name": "Imaging & Sensing Solutions (I&SS)",
+      "weight": 0.14,
+      "capability_tags": ["cmos-image-sensor-manufacturing", "semiconductor-fabrication"]
+    },
+    {
+      "name": "Financial Services (partially spun off Oct 2025)",
+      "weight": 0.04,
+      "capability_tags": []
+    }
+  ],
+  "name_reality_gap": "Index label 'Entertainment Providers' captures the direction but misses that Sony is equally a semiconductor company (world-leading CMOS image sensor supplier to smartphones), a consumer electronics manufacturer, and a financial services business — the label invites the assumption of a pure media/content company.",
+  "sources": [
+    { "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf", "kind": "segment-reporting", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.sony.com/en/SonyInfo/IR/", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "sony.com/CorporateInfo was sparse; strong data obtained from Sony Corporate Report 2025 PDF via Exa search and Sony IR page. Segment revenue weights are approximate based on report context; exact FY2024 segment revenue percentages not extracted from the PDF. Financial Services partial spin-off scheduled Oct 2025.",
+  "extraction_confidence": 0.90
+}

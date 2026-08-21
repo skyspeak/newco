@@ -1,0 +1,90 @@
+{
+  "slug": "jpmorganchase",
+  "company": "JPMorganChase",
+  "domain": "jpmorganchase.com",
+  "activity_statements": [
+    {
+      "statement": "operates retail banking services for 80 million consumers, families and small businesses through the Chase brand including checking/savings accounts, credit cards and home lending",
+      "source_url": "https://careers.jpmorgan.com/us/en/our-businesses",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides commercial and investment banking services including capital raising, strategic advice, risk management, liquidity extension and payment solutions for corporate, institutional and government clients worldwide",
+      "source_url": "https://www.jpmorganchase.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "offers asset and wealth management solutions covering the full spectrum of asset classes for individual investors, financial advisors and institutional clients globally",
+      "source_url": "https://www.jpmorganchase.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "employs 60,000+ technologists building software and data platforms that power consumer banking, trading infrastructure and enterprise operations",
+      "source_url": "https://careers.jpmorgan.com/us/en/our-businesses",
+      "confidence": 0.9
+    },
+    {
+      "statement": "safeguards and administers assets in markets around the world through custody, securities services and payment infrastructure",
+      "source_url": "https://www.jpmorganchase.com/about",
+      "confidence": 0.85
+    },
+    {
+      "statement": "manages risk and extends liquidity to global capital markets participants including sovereign wealth funds, pension funds, hedge funds and corporations",
+      "source_url": "https://www.jpmorganchase.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "consumer-lending",
+    "retail-banking-branches",
+    "investment-banking",
+    "capital-markets",
+    "wealth-management",
+    "asset-custody",
+    "payment-processing",
+    "fraud-detection",
+    "risk-management",
+    "core-transaction-processing",
+    "software-engineering-at-scale",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.25 },
+    { "family": "banking-and-finance", "weight": 0.25 },
+    { "family": "risk-and-compliance", "weight": 0.15 },
+    { "family": "operations-and-service", "weight": 0.15 },
+    { "family": "wealth-and-investment-advisory", "weight": 0.1 },
+    { "family": "data-and-analytics", "weight": 0.1 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Consumer & Community Banking",
+      "weight": 0.45,
+      "capability_tags": ["consumer-lending", "retail-banking-branches", "payment-processing", "fraud-detection"]
+    },
+    {
+      "name": "Commercial & Investment Banking",
+      "weight": 0.35,
+      "capability_tags": ["investment-banking", "capital-markets", "asset-custody", "risk-management"]
+    },
+    {
+      "name": "Asset & Wealth Management",
+      "weight": 0.15,
+      "capability_tags": ["wealth-management", "asset-management"]
+    },
+    {
+      "name": "Technology",
+      "weight": 0.05,
+      "capability_tags": ["software-engineering-at-scale", "core-transaction-processing"]
+    }
+  ],
+  "name_reality_gap": "Name suggests a classic bank; activity evidence shows one of the world's largest software-engineering employers (60,000+ technologists) and a vertically integrated financial infrastructure firm spanning consumer banking, capital markets, and global asset custody.",
+  "sources": [
+    { "url": "https://www.jpmorganchase.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://careers.jpmorgan.com/us/en/our-businesses", "kind": "careers-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Strong public sources available. Technology segment size (60K+ technologists out of 317K+ employees ~19%) is notable and underrepresented in Financial Services label.",
+  "extraction_confidence": 0.9
+}

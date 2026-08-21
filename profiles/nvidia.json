@@ -1,0 +1,89 @@
+{
+  "slug": "nvidia",
+  "company": "NVIDIA",
+  "domain": "nvidia.com",
+  "activity_statements": [
+    {
+      "statement": "designs and sells GPU chips and accelerated computing systems for AI training and inference in data centers for cloud providers, enterprises, and governments",
+      "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and licenses the CUDA software platform and AI developer SDKs enabling researchers and engineers to build AI applications on NVIDIA hardware",
+      "source_url": "https://www.nvidia.com/en-us/solutions/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "builds and sells RTX graphics processing units for consumer gaming and professional visualization markets with AI-powered ray tracing and DLSS rendering",
+      "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates the Omniverse industrial digitalization platform enabling digital twin creation and simulation for manufacturing, automotive, and engineering firms",
+      "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides NVIDIA DRIVE platform (chips, software, simulation) for autonomous vehicle perception and decision-making to automotive OEMs",
+      "source_url": "https://www.nvidia.com/en-us/solutions/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "offers AI-powered computing infrastructure (DGX systems, HGX server boards) for healthcare institutions running medical imaging, genomics, and clinical AI workloads",
+      "source_url": "https://www.nvidia.com/en-us/industries/",
+      "confidence": 0.82
+    },
+    {
+      "statement": "builds networking hardware (InfiniBand, Ethernet switches via Mellanox acquisition) for high-bandwidth AI cluster interconnects in data centers",
+      "source_url": "https://www.nvidia.com/en-us/solutions/",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "semiconductor-design",
+    "gpu-computing",
+    "ai-training-infrastructure",
+    "ai-inference-platform",
+    "developer-sdk-ecosystem",
+    "digital-twin-platform",
+    "autonomous-vehicle-compute",
+    "data-center-networking",
+    "gaming-graphics",
+    "accelerated-computing",
+    "scientific-simulation"
+  ],
+  "function_mix": [
+    { "family": "semiconductor-engineering", "weight": 0.35 },
+    { "family": "software-engineering", "weight": 0.30 },
+    { "family": "research-and-ai", "weight": 0.15 },
+    { "family": "sales-and-partnerships", "weight": 0.10 },
+    { "family": "supply-chain-manufacturing", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "manufacture"],
+  "delivery_mode": ["software", "physical-asset"],
+  "segments": [
+    {
+      "name": "Data Center",
+      "weight": 0.85,
+      "capability_tags": ["ai-training-infrastructure", "ai-inference-platform", "data-center-networking", "accelerated-computing"]
+    },
+    {
+      "name": "Gaming",
+      "weight": 0.10,
+      "capability_tags": ["gaming-graphics", "gpu-computing"]
+    },
+    {
+      "name": "Professional Visualization & Automotive & OEM",
+      "weight": 0.05,
+      "capability_tags": ["digital-twin-platform", "autonomous-vehicle-compute", "scientific-simulation"]
+    }
+  ],
+  "name_reality_gap": "Index labels it as 'Computer Hardware Manufacturing' but NVIDIA is now primarily an AI infrastructure and software platform company — the majority of its extraordinary revenue growth comes from AI data center workloads, not traditional PC graphics cards. The hardware is the substrate; the ecosystem of CUDA software and developer tools is the moat.",
+  "sources": [
+    { "url": "https://www.nvidia.com/en-us/about-nvidia/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.nvidia.com/en-us/industries/", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.nvidia.com/en-us/solutions/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Investor annual report page timed out. Product and about pages gave solid coverage. Segment revenue weighting estimated based on public knowledge of NVIDIA's FY2025 results where Data Center exceeded 85% of revenue.",
+  "extraction_confidence": 0.88
+}

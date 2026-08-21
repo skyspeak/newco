@@ -1,0 +1,65 @@
+{
+  "slug": "acuity-insurance",
+  "company": "Acuity Insurance",
+  "domain": "acuity.com",
+  "activity_statements": [
+    {
+      "statement": "underwrites personal and commercial lines property and casualty insurance for policyholders across the US through a network of 30,000+ independent agents",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates as a mutual insurance company (policyholder-owned), holding $9.2B+ in total assets with A+ ratings from both AM Best and Standard & Poor's",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "assigns dedicated claims specialists to policyholders for end-to-end claims handling, accessible by phone, online, or mobile app",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "distributes products exclusively through independent insurance agents (not captive agents), providing multi-carrier choice and expert advice to policyholders",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a mobile app (4.8-star iOS, 4.7-star Android) enabling digital ID cards, claims reporting, roadside assistance, and bill payment for policyholders",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides deep industry-specific commercial insurance expertise for business segments it serves, leveraging 100+ years of underwriting experience",
+      "source_url": "https://acuity.com/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "property-and-casualty-underwriting",
+    "claims-adjudication",
+    "independent-agent-distribution",
+    "mutual-company-governance",
+    "commercial-lines-insurance",
+    "personal-lines-insurance",
+    "digital-claims-management",
+    "actuarial-modeling",
+    "policyholder-servicing"
+  ],
+  "function_mix": [
+    { "family": "underwriting", "weight": 0.28 },
+    { "family": "claims-handling", "weight": 0.25 },
+    { "family": "actuarial-and-risk", "weight": 0.15 },
+    { "family": "agent-relationship-management", "weight": 0.15 },
+    { "family": "software-engineering", "weight": 0.10 },
+    { "family": "finance-and-investments", "weight": 0.07 }
+  ],
+  "value_chain": ["assure", "service"],
+  "delivery_mode": ["human-service", "software"],
+  "segments": [],
+  "name_reality_gap": "none — Acuity Insurance's name accurately describes the company; the mutual structure and independent-agent-only distribution are the less-obvious facts.",
+  "sources": [
+    { "url": "https://acuity.com/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "acuity.com/about-acuity and acuity.com/insurance timed out; homepage provided solid content including claims model, agent distribution, mutual structure, and financial ratings. Limited segment detail available.",
+  "extraction_confidence": 0.85
+}

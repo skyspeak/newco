@@ -1,0 +1,67 @@
+{
+  "slug": "abbvie",
+  "company": "AbbVie",
+  "domain": "abbvie.com",
+  "activity_statements": [
+    {
+      "statement": "discovers, develops, and commercializes biologic and small molecule medicines for 75+ conditions across immunology, oncology, neuroscience, aesthetics, eye care, and virology",
+      "source_url": "https://www.abbvie.com/who-we-are.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "treats approximately 60 million people per year with its pharmaceutical products sold in 175+ countries",
+      "source_url": "https://www.abbvie.com/who-we-are.html",
+      "confidence": 0.93
+    },
+    {
+      "statement": "invests $10.8 billion annually in R&D with 14,000+ scientists across 9 R&D centers running 375+ clinical trials in 50+ countries",
+      "source_url": "https://www.abbvie.com/our-science.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "manufactures and distributes biologics and specialty medicines (including Skyrizi, Rinvoq, Humira, Venclexta, Vraylar, Botox, Juvederm) globally through its commercial operations",
+      "source_url": "https://www.abbvie.com/who-we-are.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "conducts pharmaceutical regulatory submissions and manages post-market safety surveillance for approximately 90+ compounds, devices, and indications in development",
+      "source_url": "https://www.abbvie.com/our-science.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "employs approximately 57,000 people in 70+ countries spanning discovery research, clinical development, manufacturing, and commercial functions",
+      "source_url": "https://www.abbvie.com/who-we-are.html",
+      "confidence": 0.92
+    }
+  ],
+  "capability_tags": [
+    "drug-discovery-research",
+    "clinical-trials-management",
+    "biologic-manufacturing",
+    "pharmaceutical-regulatory",
+    "specialty-pharma-commercialization",
+    "immunology-therapeutics",
+    "oncology-therapeutics",
+    "neuroscience-therapeutics",
+    "medical-aesthetics",
+    "global-pharma-distribution"
+  ],
+  "function_mix": [
+    { "family": "research-and-development", "weight": 0.25 },
+    { "family": "clinical-and-regulatory", "weight": 0.20 },
+    { "family": "pharmaceutical-manufacturing", "weight": 0.20 },
+    { "family": "commercial-and-sales", "weight": 0.20 },
+    { "family": "medical-affairs", "weight": 0.10 },
+    { "family": "corporate-and-support", "weight": 0.05 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute", "assure"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "The name 'AbbVie' is opaque by design (derived from the Abbott parent), but the index label 'Pharmaceutical Manufacturing' slightly undersells the company's deep science and R&D identity. AbbVie's primary competitive position is in biologics discovery (especially immunology and oncology) and the commercial capability to market specialty medicines at global scale, not commodity manufacturing.",
+  "sources": [
+    { "url": "https://www.abbvie.com/who-we-are.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.abbvie.com/our-science.html", "kind": "what-we-do", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Careers teams page returned 404; our-medicines.html returned 500 error. Both core pages (who-we-are, our-science) were accessible and information-rich. AbbVie is a public company (NYSE: ABBV) but 10-K was not accessed; profile built from about and R&D pages.",
+  "extraction_confidence": 0.88
+}

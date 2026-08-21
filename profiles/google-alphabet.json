@@ -1,0 +1,105 @@
+{
+  "slug": "google-alphabet",
+  "company": "Google (Alphabet)",
+  "domain": "google.com",
+  "activity_statements": [
+    {
+      "statement": "operates the world's dominant web search engine and serves trillions of search queries annually, monetized through text and display advertising",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "sells digital advertising inventory across Search, YouTube, and Google Display Network to advertisers reaching global audiences",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and operates Gemini large language models and AI products including Gemini Live, Gemini Notebook, and Google Labs AI experiments for consumers and developers",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides Google Cloud Platform (GCP) cloud infrastructure, databases, and AI services to enterprise customers, competing with AWS and Azure",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "distributes Android operating system to smartphone OEMs worldwide and operates Google Play app marketplace charging 15-30% commission on app transactions",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "designs and sells Google Pixel smartphones, Pixel Watch, and Pixel Buds hardware directly to consumers",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates YouTube as a video streaming platform monetized through advertising and YouTube Premium subscriptions, plus YouTube TV (MVPD service)",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Google Workspace (Gmail, Docs, Drive, Meet, Calendar) as a SaaS productivity suite sold to businesses and government organizations",
+      "source_url": "https://about.google/products/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Waymo autonomous vehicle subsidiary providing robotaxi ride-hailing service in select US cities",
+      "source_url": "https://abc.xyz/investor/",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "search-engine-operation",
+    "ad-inventory-marketplace",
+    "large-language-model-development",
+    "cloud-infrastructure-services",
+    "mobile-os-platform",
+    "app-marketplace",
+    "video-streaming-platform",
+    "saas-productivity-suite",
+    "consumer-hardware-design",
+    "autonomous-vehicle-technology",
+    "developer-ecosystem",
+    "data-center-operations"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.40 },
+    { "family": "research-and-ai", "weight": 0.20 },
+    { "family": "sales-and-marketing", "weight": 0.15 },
+    { "family": "data-center-and-infrastructure", "weight": 0.10 },
+    { "family": "hardware-engineering", "weight": 0.08 },
+    { "family": "finance-and-legal", "weight": 0.07 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["software", "marketplace", "physical-asset"],
+  "segments": [
+    {
+      "name": "Google Services (Search, YouTube, Android, Workspace, Maps, Play)",
+      "weight": 0.75,
+      "capability_tags": ["search-engine-operation", "ad-inventory-marketplace", "video-streaming-platform", "app-marketplace", "mobile-os-platform"]
+    },
+    {
+      "name": "Google Cloud",
+      "weight": 0.15,
+      "capability_tags": ["cloud-infrastructure-services", "saas-productivity-suite", "data-center-operations"]
+    },
+    {
+      "name": "Other Bets (Waymo, Verily, Wing, etc.)",
+      "weight": 0.05,
+      "capability_tags": ["autonomous-vehicle-technology"]
+    },
+    {
+      "name": "Hardware (Pixel devices)",
+      "weight": 0.05,
+      "capability_tags": ["consumer-hardware-design", "large-language-model-development"]
+    }
+  ],
+  "name_reality_gap": "Labeled as 'Software Development' but the dominant activity is operating an advertising marketplace — ~77% of revenue derives from selling attention (search ads, YouTube ads, display ads). Google is primarily an advertising business that uses software to aggregate audience.",
+  "sources": [
+    { "url": "https://about.google/products/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://abc.xyz/investor/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Careers teams page returned a JS shell with no content. Investor page had minimal text. Product page was the primary useful source. Segment weighting based on widely reported Alphabet revenue breakdown.",
+  "extraction_confidence": 0.88
+}

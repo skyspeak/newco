@@ -1,0 +1,87 @@
+{
+  "slug": "citi",
+  "company": "Citi",
+  "domain": "citi.com",
+  "activity_statements": [
+    {
+      "statement": "provides consumer banking services including checking and savings accounts, mortgages, personal loans, investing, and credit cards (Citi Strata, AAdvantage co-brand) to US retail customers",
+      "source_url": "https://www.citi.com/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides integrated cash management and trade services through Treasury and Trade Solutions (TTS) to 65,000+ multinational corporate, financial institution, and public sector clients in 120+ countries",
+      "source_url": "http://www.citibank.com/egypt/homepage/Treasury-and-Trade_Solutions.htm",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates investment banking and capital markets services for institutional clients globally, including underwriting, M&A advisory, and securities trading",
+      "source_url": "https://www.citigroup.com/global",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates in 90+ countries making it one of the most globally distributed banking institutions, serving clients across the complete commerce path",
+      "source_url": "https://www.citigroup.com/global",
+      "confidence": 0.88
+    },
+    {
+      "statement": "issues co-branded credit cards with American Airlines (AAdvantage), Costco, and other partners for consumer and commercial cardholders",
+      "source_url": "https://www.citi.com/",
+      "confidence": 0.88
+    },
+    {
+      "statement": "provides working capital solutions including receivables, liquidity management, and channel services to corporate treasury departments",
+      "source_url": "https://treasury-management.com/companies/citi",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides trade finance, export finance, and supply chain finance to importers, exporters, and multinational companies worldwide",
+      "source_url": "https://treasury-management.com/companies/citi",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "consumer-banking",
+    "consumer-lending",
+    "investment-banking",
+    "treasury-and-cash-management",
+    "trade-finance",
+    "co-brand-partnerships",
+    "global-payments-network",
+    "institutional-client-services",
+    "capital-markets",
+    "cross-border-banking",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.22 },
+    { "family": "risk-and-compliance", "weight": 0.20 },
+    { "family": "institutional-banking-and-markets", "weight": 0.18 },
+    { "family": "consumer-banking-operations", "weight": 0.15 },
+    { "family": "finance-and-treasury", "weight": 0.12 },
+    { "family": "data-and-analytics", "weight": 0.08 },
+    { "family": "operations-and-servicing", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [
+    {
+      "name": "Institutional Clients Group (Banking, Markets, TTS)",
+      "weight": 0.60,
+      "capability_tags": ["investment-banking", "treasury-and-cash-management", "trade-finance", "capital-markets", "institutional-client-services"]
+    },
+    {
+      "name": "Personal Banking and Wealth Management",
+      "weight": 0.40,
+      "capability_tags": ["consumer-banking", "consumer-lending", "co-brand-partnerships"]
+    }
+  ],
+  "name_reality_gap": "Known as a consumer bank in the US, but the majority of Citi's business by revenue is institutional: it is one of the largest global transaction banks and investment banks, with Treasury and Trade Solutions alone serving 65,000+ institutional clients in 120+ countries.",
+  "sources": [
+    { "url": "https://www.citi.com/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "http://www.citibank.com/egypt/homepage/Treasury-and-Trade_Solutions.htm", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://treasury-management.com/companies/citi", "kind": "other", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.citigroup.com/global", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "citi.com/about and online.citi.com timed out; homepage and institutional TTS pages provided usable content. Segment revenue weights are directional estimates based on publicly known Citi business mix.",
+  "extraction_confidence": 0.80
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "wegmans-food-markets-inc",
+  "company": "Wegmans Food Markets, Inc",
+  "domain": "wegmans.com",
+  "activity_statements": [
+    {
+      "statement": "operates a chain of large-format regional supermarkets primarily in the northeastern US, with a focus on high-quality food, freshly prepared meals, and an elevated shopping experience",
+      "source_url": "https://www.wegmans.com/about-us/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "sources food from nearby East Coast farms and suppliers to offer sustainably-sourced, regionally-produced products alongside national brands",
+      "source_url": "https://www.wegmans.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "manufactures and sells private-label Wegmans Brand products with clean-ingredient standards, having removed artificial colors, flavors, preservatives since 1991",
+      "source_url": "https://www.wegmans.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates in-store pharmacy departments ranked highest in customer satisfaction among supermarket pharmacies by J.D. Power",
+      "source_url": "https://www.wegmans.com/about-us/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "is one of the largest privately held companies in the US, remaining family-owned and operating primarily in New York, Pennsylvania, New Jersey, Virginia, Maryland, Massachusetts, and North Carolina",
+      "source_url": "https://www.wegmans.com/about-us/",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "grocery-retail-operations",
+    "private-label-brand",
+    "fresh-food-and-prepared-meals",
+    "regional-food-sourcing",
+    "in-store-pharmacy",
+    "supermarket-operations",
+    "food-quality-standards"
+  ],
+  "function_mix": [
+    { "family": "grocery-store-associates", "weight": 0.45 },
+    { "family": "food-preparation-and-bakery", "weight": 0.15 },
+    { "family": "pharmacists-and-pharmacy-technicians", "weight": 0.08 },
+    { "family": "logistics-and-distribution", "weight": 0.12 },
+    { "family": "buying-and-merchandising", "weight": 0.10 },
+    { "family": "software-and-it", "weight": 0.07 },
+    { "family": "finance-and-operations", "weight": 0.03 }
+  ],
+  "value_chain": ["distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Wegmans is listed as 'Retail' which is accurate. Its less-obvious reality is that Wegmans is a significant private-label food manufacturer (Wegmans Brand) with stringent clean-ingredient standards, and its in-store food preparation teams (bakeries, prepared foods, butcher counters) make it as much a food-service operator as a grocery retailer.",
+  "sources": [
+    { "url": "https://www.wegmans.com/about-us/", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Wegmans about page was well-populated with concrete facts about sourcing, clean ingredients, pharmacy ranking, and accolades. Private company with no public financial disclosure; headcount and store count not confirmed from sources.",
+  "extraction_confidence": 0.82
+}

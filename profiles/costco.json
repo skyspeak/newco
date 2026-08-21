@@ -1,0 +1,64 @@
+{
+  "slug": "costco",
+  "company": "Costco",
+  "domain": "costco.com",
+  "activity_statements": [
+    {
+      "statement": "operates 890 membership warehouse clubs globally offering a curated selection of nationally-branded and private-label products at low prices",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "generates significant membership fee revenue by charging annual fees for warehouse access, creating a loyal consumer base",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "buys merchandise directly from suppliers and routes through cross-docking depot network to warehouses, eliminating middlemen to achieve low prices",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates e-commerce sites in the US, Canada, Mexico, UK, Korea, Taiwan, Japan, and Australia alongside physical warehouse locations",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates gasoline stations at many warehouse locations as an additional member benefit",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "sells the Kirkland Signature private-label brand across food, beverage, household products, apparel, and other categories",
+      "source_url": "https://www.costco.com/about-costco.html",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "membership-warehouse-retail",
+    "bulk-merchandising",
+    "private-label-brand",
+    "cross-docking-logistics",
+    "e-commerce-retail",
+    "fuel-retail",
+    "direct-supplier-procurement",
+    "global-retail-operations"
+  ],
+  "function_mix": [
+    { "family": "warehouse-retail-operations", "weight": 0.40 },
+    { "family": "supply-chain-and-buying", "weight": 0.20 },
+    { "family": "logistics-and-distribution", "weight": 0.15 },
+    { "family": "software-and-it", "weight": 0.10 },
+    { "family": "pharmacy-and-optical-services", "weight": 0.05 },
+    { "family": "finance-and-membership", "weight": 0.10 }
+  ],
+  "value_chain": ["distribute", "operate"],
+  "delivery_mode": ["physical-asset", "marketplace"],
+  "segments": [],
+  "name_reality_gap": "Costco's 'Retail' index label is accurate but obscures that a substantial and distinctive part of Costco's revenue model comes from membership fees rather than merchandise margin — it is as much a subscription club as a retailer, and its private-label brand (Kirkland Signature) rivals national brands in scale.",
+  "sources": [
+    { "url": "https://www.costco.com/about-costco.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Costco's main about pages served Akamai CDN shell with no content. 10-K accessed via ExaSearch providing concrete details about warehouse count (890), operating model, and geographic spread.",
+  "extraction_confidence": 0.87
+}

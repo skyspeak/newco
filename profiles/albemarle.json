@@ -1,0 +1,74 @@
+{
+  "slug": "albemarle",
+  "company": "Albemarle",
+  "domain": "albemarle.com",
+  "activity_statements": [
+    {
+      "statement": "mines, processes, and sells lithium compounds (lithium carbonate, lithium hydroxide) from operations in Chile, Australia, and the US to battery manufacturers for electric vehicles and energy storage",
+      "source_url": "https://www.albemarle.com/businesses",
+      "confidence": 0.92
+    },
+    {
+      "statement": "produces and sells bromine-based specialty chemicals for flame retardants, clear brine fluids (used in oil well completion), and fine chemistry applications",
+      "source_url": "https://www.albemarle.com/businesses",
+      "confidence": 0.88
+    },
+    {
+      "statement": "manufactures and sells fluid catalytic cracking (FCC) and hydroprocessing catalyst solutions to petroleum refineries through its Ketjen segment",
+      "source_url": "https://www.albemarle.com/businesses",
+      "confidence": 0.85
+    },
+    {
+      "statement": "supplies critical mineral ingredients to manufacturers, utilities, component providers, and material compounders serving the mobility, connectivity, energy, and health sectors globally",
+      "source_url": "https://www.albemarle.com/businesses",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates approximately 8,000 employees serving customers in approximately 70 countries from geographically diversified production facilities",
+      "source_url": "https://investors.albemarle.com/overview/default.aspx",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "lithium-mining-processing",
+    "battery-materials-supply",
+    "bromine-chemistry",
+    "oil-refining-catalysts",
+    "critical-minerals-supply-chain",
+    "specialty-chemicals-manufacturing",
+    "flame-retardant-production"
+  ],
+  "function_mix": [
+    { "family": "mining-and-extraction", "weight": 0.25 },
+    { "family": "chemical-processing-and-manufacturing", "weight": 0.35 },
+    { "family": "research-and-applications-engineering", "weight": 0.15 },
+    { "family": "sales-and-commercial", "weight": 0.15 },
+    { "family": "environmental-health-safety", "weight": 0.10 }
+  ],
+  "value_chain": ["research", "manufacture", "distribute"],
+  "delivery_mode": ["physical-asset"],
+  "segments": [
+    {
+      "name": "Energy Storage (Lithium)",
+      "weight": 0.55,
+      "capability_tags": ["lithium-mining-processing", "battery-materials-supply", "critical-minerals-supply-chain"]
+    },
+    {
+      "name": "Specialties (Bromine)",
+      "weight": 0.25,
+      "capability_tags": ["bromine-chemistry", "flame-retardant-production", "specialty-chemicals-manufacturing"]
+    },
+    {
+      "name": "Ketjen (Refining Catalysts)",
+      "weight": 0.20,
+      "capability_tags": ["oil-refining-catalysts", "specialty-chemicals-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "Labeled as 'Chemical Manufacturing' which is technically accurate but obscures that Albemarle is the world's largest lithium producer and is now primarily a critical minerals company for the energy transition. Most observers think of chemical companies as making plastics or industrial solvents, not supplying battery-grade lithium to Tesla, LG Energy Solution, and similar EV battery makers.",
+  "sources": [
+    { "url": "https://www.albemarle.com/businesses", "kind": "what-we-do", "retrieved_at": "2026-08-19" },
+    { "url": "https://investors.albemarle.com/overview/default.aspx", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page returned 404; energy-storage and refining-solutions sub-pages returned 404. Built from the businesses overview page and investor relations overview. Segment weight estimates based on public knowledge of Albemarle's revenue mix (lithium segment dominates since EV demand surge).",
+  "extraction_confidence": 0.80
+}

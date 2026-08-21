@@ -1,0 +1,84 @@
+{
+  "slug": "costco-wholesale",
+  "company": "Costco Wholesale",
+  "domain": "costco.com",
+  "activity_statements": [
+    {
+      "statement": "operates an international chain of membership-only warehouse clubs providing nationally-branded and Kirkland Signature private-label merchandise at substantially lower prices than conventional retail",
+      "source_url": "https://investor.costco.com/company-profile/default.aspx",
+      "confidence": 0.98
+    },
+    {
+      "statement": "charges annual membership fees (Executive, Business, Gold Star at $65 in the US) generating a high-margin recurring revenue stream that funds low-margin merchandise sales",
+      "source_url": "https://investor.costco.com/company-profile/default.aspx",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates self-service gasoline stations at warehouse locations across the US, Canada, Australia, Japan, UK, Spain, Mexico, Taiwan and Iceland",
+      "source_url": "https://investor.costco.com/company-profile/default.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates Costco Wholesale Industries manufacturing businesses including food packaging, optical laboratories, meat processing and jewelry distribution to supply members at lower cost",
+      "source_url": "https://investor.costco.com/company-profile/default.aspx",
+      "confidence": 0.9
+    },
+    {
+      "statement": "runs Costco.com e-commerce platform serving members online alongside physical warehouse locations worldwide",
+      "source_url": "https://investor.costco.com/overview/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "achieves profitability through volume purchasing, efficient distribution and no-frills self-service warehouse formats enabling low gross margins offset by membership fee income",
+      "source_url": "https://investor.costco.com/overview/",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "membership-warehouse-club",
+    "private-label-brands",
+    "high-volume-purchasing",
+    "omnichannel-retail",
+    "membership-fee-model",
+    "fuel-retail-operations",
+    "optical-and-pharmacy-services",
+    "food-manufacturing",
+    "meat-processing",
+    "global-retail-operations",
+    "inventory-management"
+  ],
+  "function_mix": [
+    { "family": "warehouse-and-store-operations", "weight": 0.45 },
+    { "family": "supply-chain-and-buying", "weight": 0.2 },
+    { "family": "manufacturing-and-processing", "weight": 0.1 },
+    { "family": "membership-and-customer-services", "weight": 0.1 },
+    { "family": "e-commerce-and-technology", "weight": 0.1 },
+    { "family": "corporate-functions", "weight": 0.05 }
+  ],
+  "value_chain": ["distribute", "operate", "manufacture"],
+  "delivery_mode": ["physical-asset", "marketplace", "software"],
+  "segments": [
+    {
+      "name": "Warehouse Retail",
+      "weight": 0.85,
+      "capability_tags": ["membership-warehouse-club", "private-label-brands", "high-volume-purchasing"]
+    },
+    {
+      "name": "Costco Wholesale Industries",
+      "weight": 0.10,
+      "capability_tags": ["food-manufacturing", "meat-processing", "optical-and-pharmacy-services"]
+    },
+    {
+      "name": "E-commerce",
+      "weight": 0.05,
+      "capability_tags": ["omnichannel-retail"]
+    }
+  ],
+  "name_reality_gap": "Labeled Retail & Wholesale; what the evidence shows is a membership-fee business model where profit is primarily driven by annual fees rather than merchandise margins, plus manufacturing subsidiaries in food processing and optical labs that a retail label hides entirely.",
+  "sources": [
+    { "url": "https://investor.costco.com/company-profile/default.aspx", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://investor.costco.com/overview/", "kind": "segment-reporting", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Main costco.com pages returned JS shells; investor relations pages were highly informative with detailed business model description. Manufacturing subsidiaries (food, optical, meat, jewelry) are concrete and verifiable.",
+  "extraction_confidence": 0.92
+}

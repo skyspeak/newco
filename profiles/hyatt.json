@@ -1,0 +1,54 @@
+{
+  "slug": "hyatt",
+  "company": "Hyatt",
+  "domain": "hyatt.com",
+  "activity_statements": [
+    {
+      "statement": "manages, franchises, and in some cases owns hotels across 70+ countries under 30+ brands spanning luxury (Park Hyatt, Andaz), full-service (Hyatt Regency, Grand Hyatt), and select-service (Hyatt Place, Hyatt House) tiers",
+      "source_url": "https://www.hyatt.com",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates the World of Hyatt loyalty program enabling guests to earn and redeem points across its global hotel portfolio",
+      "source_url": "https://www.hyatt.com",
+      "confidence": 0.85
+    },
+    {
+      "statement": "earns fees from hotel management contracts and franchise agreements under an asset-light operating model",
+      "source_url": "https://www.hyatt.com",
+      "confidence": 0.8
+    },
+    {
+      "statement": "provides meeting, conference, and events infrastructure at large-format hotels for corporate and association groups",
+      "source_url": "https://www.hyatt.com",
+      "confidence": 0.8
+    }
+  ],
+  "capability_tags": [
+    "hotel-operations",
+    "franchise-management",
+    "hotel-management-contracts",
+    "loyalty-program",
+    "meetings-and-events",
+    "luxury-hospitality",
+    "select-service-hotels",
+    "asset-light-hospitality"
+  ],
+  "function_mix": [
+    { "family": "hospitality-operations", "weight": 0.45 },
+    { "family": "food-and-beverage", "weight": 0.2 },
+    { "family": "software-engineering", "weight": 0.1 },
+    { "family": "real-estate-development", "weight": 0.1 },
+    { "family": "sales-and-marketing", "weight": 0.1 },
+    { "family": "finance-and-accounting", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "none — Hyatt is straightforwardly a hotel company.",
+  "sources": [
+    { "url": "https://www.hyatt.com", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Hyatt.com and all subpages timed out during crawl (multiple 504 errors). Profile built from general public knowledge of Hyatt as a hotel company. Confidence lowered significantly. Brand list and business model are well-established public facts.",
+  "extraction_confidence": 0.62
+}

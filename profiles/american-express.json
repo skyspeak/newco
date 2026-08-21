@@ -1,0 +1,100 @@
+{
+  "slug": "american-express",
+  "company": "American Express",
+  "domain": "americanexpress.com",
+  "activity_statements": [
+    {
+      "statement": "issues credit and charge cards to consumers, small businesses, mid-sized companies, and large corporations in the US and internationally",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "acquires merchants and processes card transactions at approximately 108 million merchant locations worldwide, earning discount-rate revenue",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates a global card payment network through which it licenses the American Express brand and extends network reach to third-party banks in approximately 120 countries",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides fraud prevention, point-of-sale marketing, and data analytics services to merchants participating in its network",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.9
+    },
+    {
+      "statement": "designs and operates customer loyalty programs and co-branded cards for partners including airline and hotel brands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.9
+    },
+    {
+      "statement": "offers travel and lifestyle services, corporate card expense management, and B2B payment products to business customers",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates Resy dining reservation platform and Business Blueprint digital cash-flow management hub for small businesses",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf",
+      "confidence": 0.85
+    },
+    {
+      "statement": "generates revenue through a spend-centric model, earning primarily discount revenue on card spending ($1,551B worldwide billed business in 2024) and secondarily net interest income on lending",
+      "source_url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-Announces-Record-FY-2024-Revenue-Up-9-or-10-on-an-FX-Adjusted-Basis/default.aspx",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "consumer-lending",
+    "payment-network-operations",
+    "merchant-acquiring",
+    "fraud-detection",
+    "loyalty-program-management",
+    "corporate-card-expense-management",
+    "co-brand-partnerships",
+    "b2b-payments",
+    "travel-and-lifestyle-services",
+    "digital-banking-platform",
+    "regulatory-compliance-ops"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.22 },
+    { "family": "risk-and-compliance", "weight": 0.18 },
+    { "family": "data-and-analytics", "weight": 0.15 },
+    { "family": "sales-and-relationship-management", "weight": 0.15 },
+    { "family": "finance-and-treasury", "weight": 0.12 },
+    { "family": "marketing", "weight": 0.10 },
+    { "family": "operations-and-servicing", "weight": 0.08 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "marketplace", "human-service"],
+  "segments": [
+    {
+      "name": "U.S. Consumer Services",
+      "weight": 0.35,
+      "capability_tags": ["consumer-lending", "loyalty-program-management", "co-brand-partnerships"]
+    },
+    {
+      "name": "Commercial Services",
+      "weight": 0.28,
+      "capability_tags": ["corporate-card-expense-management", "b2b-payments", "travel-and-lifestyle-services"]
+    },
+    {
+      "name": "International Card Services",
+      "weight": 0.18,
+      "capability_tags": ["consumer-lending", "payment-network-operations"]
+    },
+    {
+      "name": "Global Merchant and Network Services",
+      "weight": 0.19,
+      "capability_tags": ["merchant-acquiring", "fraud-detection", "payment-network-operations"]
+    }
+  ],
+  "name_reality_gap": "Reads as a credit card company; in reality it operates a vertically integrated payments ecosystem — simultaneously the card issuer, the merchant acquirer, and the global network — distinguishing it structurally from Visa/Mastercard (networks only) or pure-play banks (issuers only).",
+  "sources": [
+    { "url": "https://www.sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf", "kind": "10k-item1", "retrieved_at": "2026-08-19" },
+    { "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-Announces-Record-FY-2024-Revenue-Up-9-or-10-on-an-FX-Adjusted-Basis/default.aspx", "kind": "newsroom", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Direct website (americanexpress.com) timed out; profile built from SEC 2024 Annual Report and investor relations press release. Segment revenue weights are approximate directional estimates, not exact reported figures.",
+  "extraction_confidence": 0.88
+}

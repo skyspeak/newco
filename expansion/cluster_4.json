@@ -1,0 +1,122 @@
+[
+  {
+    "company": "McNeill Hotel Company",
+    "domain": "mcneillhotels.com",
+    "cluster": 4,
+    "matched_capabilities": ["hotel-management-contracts", "select-service-hotels", "revenue-management-and-pricing", "guest-services", "franchise-licensing"],
+    "activity_evidence": "Manages select-service hotels under third-party management agreements as approved franchisees for Marriott, Hilton, and Hyatt, providing revenue management, hotel accounting, and guest services.",
+    "why_off_index": "Private regional hotel management operator; B2B contract manager for hotel owners; no consumer brand of its own; below employer-ranking visibility threshold.",
+    "source_url": "https://mcneillhotels.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Aperture Hotels",
+    "domain": "aperturehotels.com",
+    "cluster": 4,
+    "matched_capabilities": ["hotel-management-contracts", "select-service-hotels", "revenue-management-and-pricing", "guest-services"],
+    "activity_evidence": "Operates premium select-service, extended-stay, and lifestyle hotels under third-party management contracts, delivering risk-adjusted returns through a Balanced Scorecard approach and advanced analytics.",
+    "why_off_index": "Small private hotel management firm with no consumer brand; purely B2B asset management for hotel owners; invisible to employer-ranking indexes.",
+    "source_url": "https://aperturehotels.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "Janko Hospitality",
+    "domain": "jankohospitality.com",
+    "cluster": 4,
+    "matched_capabilities": ["hotel-management-contracts", "select-service-hotels", "revenue-management-and-pricing", "guest-services", "franchise-licensing"],
+    "activity_evidence": "Operates upscale full-service, boutique lifestyle, extended-stay, and select-service hotels in the Midwest under Marriott, Hilton, Hyatt, and IHG brands through third-party management contracts.",
+    "why_off_index": "Private regional midwestern hotel operator; no consumer-facing employer brand; too small for national best-places-to-work rankings.",
+    "source_url": "https://jankohospitality.com/",
+    "confidence": 0.88
+  },
+  {
+    "company": "IDeaS Revenue Solutions",
+    "domain": "ideas.com",
+    "cluster": 4,
+    "matched_capabilities": ["revenue-management-and-pricing"],
+    "activity_evidence": "Delivers AI-powered hospitality revenue management software combining forecasting, pricing automation, and overbooking optimization for hotels from single properties to global portfolios.",
+    "why_off_index": "Pure B2B SaaS vendor with no consumer presence; wholly invisible to employer-brand rankings aimed at consumer-facing employers.",
+    "source_url": "https://ideas.com/",
+    "confidence": 0.95
+  },
+  {
+    "company": "FLYR",
+    "domain": "flyr.com",
+    "cluster": 4,
+    "matched_capabilities": ["revenue-management-and-pricing", "scheduled-passenger-air-service"],
+    "activity_evidence": "Provides AI-powered total revenue management software with forecasting, pricing, and commercial optimization tools purpose-built for airlines, cargo, and hospitality operators.",
+    "why_off_index": "B2B SaaS firm serving airlines and travel operators; no consumer brand; small enough to be invisible to employer-ranking indexes.",
+    "source_url": "https://flyr.com/",
+    "confidence": 0.90
+  },
+  {
+    "company": "Republic Airways",
+    "domain": "rjet.com",
+    "cluster": 4,
+    "matched_capabilities": ["scheduled-passenger-air-service", "hub-and-spoke-network-operations", "guest-services"],
+    "activity_evidence": "Operates fixed-fee scheduled regional flights as American Eagle, Delta Connection, and United Express using 240+ Embraer 170/175s across 1,000 daily flights to hubs including BOS, ORD, EWR, LGA, PHL, and DCA.",
+    "why_off_index": "Contract regional carrier flying under mainline brands; passengers never see the Republic name; absent from consumer employer-brand lists.",
+    "source_url": "https://rjet.com/",
+    "confidence": 0.94
+  },
+  {
+    "company": "Endeavor Air",
+    "domain": "endeavorair.com",
+    "cluster": 4,
+    "matched_capabilities": ["scheduled-passenger-air-service", "hub-and-spoke-network-operations", "guest-services"],
+    "activity_evidence": "Operates 145 regional jets on 750 daily flights to 122 destinations as Delta Connection with hub operations in Atlanta, Cincinnati, Detroit, Minneapolis, New York, and Raleigh-Durham.",
+    "why_off_index": "Wholly-owned Delta subsidiary flying entirely under the Delta Connection brand; consumers do not recognize Endeavor as a separate airline; excluded from consumer employer rankings.",
+    "source_url": "https://endeavorair.com/",
+    "confidence": 0.95
+  },
+  {
+    "company": "SkyWest Airlines",
+    "domain": "skywest.com",
+    "cluster": 4,
+    "matched_capabilities": ["scheduled-passenger-air-service", "hub-and-spoke-network-operations", "guest-services"],
+    "activity_evidence": "Flies thousands of daily regional flights under United, Delta, American, and Alaska brands across 500+ aircraft, connecting hundreds of North American communities through partner hub-and-spoke networks.",
+    "why_off_index": "Regional contract carrier operating entirely under major airline brands; no consumer employer brand of its own; consistently absent from best-places-to-work lists.",
+    "source_url": "https://skywest.com/",
+    "confidence": 0.93
+  },
+  {
+    "company": "Flynn Group",
+    "domain": "flynn.com",
+    "cluster": 4,
+    "matched_capabilities": ["quick-service-restaurant-operations", "franchise-licensing", "guest-services", "revenue-management-and-pricing"],
+    "activity_evidence": "Owns and operates 2,600+ restaurants and fitness clubs under Applebee's, Taco Bell, Arby's, Panera, Pizza Hut, and Wendy's brands across 44 states, generating $4.5 billion in annual sales as the world's largest franchisee.",
+    "why_off_index": "Private franchisee operator whose name never appears on restaurant signage; B2B in structure relative to the brands it runs; below employer-ranking radar despite 75,000 employees.",
+    "source_url": "https://flynn.com/",
+    "confidence": 0.94
+  },
+  {
+    "company": "KBP Brands",
+    "domain": "kbpbrands.com",
+    "cluster": 4,
+    "matched_capabilities": ["quick-service-restaurant-operations", "franchise-licensing", "guest-services"],
+    "activity_evidence": "Owns and operates 1,000+ KFC, Taco Bell, Arby's, and Sonic quick-service restaurants across 32 states through franchise license agreements with Yum! Brands and Inspire Brands.",
+    "why_off_index": "Private multi-unit QSR franchisee; operates entirely under national brand signage with no public-facing employer brand; absent from employer-ranking indexes.",
+    "source_url": "https://kbpbrands.com/",
+    "confidence": 0.92
+  },
+  {
+    "company": "WKS Restaurant Group",
+    "domain": "wksusa.com",
+    "cluster": 4,
+    "matched_capabilities": ["quick-service-restaurant-operations", "franchise-licensing", "guest-services"],
+    "activity_evidence": "Operates 381 quick-service and fast-casual restaurants across 19 states as a licensed franchisee of El Pollo Loco, Denny's, Wendy's, Krispy Kreme, and Blaze Pizza.",
+    "why_off_index": "Family-owned private franchisee group; brand name invisible to customers and employer-ranking indexes; operates entirely under national brand licenses.",
+    "source_url": "https://wksusa.com/",
+    "confidence": 0.89
+  },
+  {
+    "company": "HAZA Foods",
+    "domain": "hazagroup.com",
+    "cluster": 4,
+    "matched_capabilities": ["quick-service-restaurant-operations", "franchise-licensing", "guest-services", "revenue-management-and-pricing"],
+    "activity_evidence": "Operates 400+ Wendy's restaurants in Texas, Louisiana, Minnesota, New York, and Ohio as the world's largest Wendy's franchisee, plus 140+ Taco Bell locations through HAZA Bell.",
+    "why_off_index": "Private multi-brand QSR franchisee; no consumer-facing corporate identity; entirely invisible to employer-ranking lists focused on branded employers.",
+    "source_url": "https://hazagroup.com/",
+    "confidence": 0.91
+  }
+]

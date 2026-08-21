@@ -1,0 +1,76 @@
+{
+  "slug": "general-motors",
+  "company": "General Motors",
+  "domain": "gm.com",
+  "activity_statements": [
+    {
+      "statement": "designs, engineers, and manufactures passenger cars, trucks, SUVs, and vans under the Chevrolet, GMC, Cadillac, and Buick brands for the U.S. and global markets",
+      "source_url": "https://www.gm.com/company/about-us",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops battery materials, electric vehicle powertrains, and software-defined vehicle technology for its EV portfolio including the Cadillac Lyriq and multiple Ultium-platform vehicles",
+      "source_url": "https://www.gm.com/company/about-us",
+      "confidence": 0.93
+    },
+    {
+      "statement": "operates OnStar connected vehicle services (telematics, emergency response, navigation) for its vehicle fleet customers",
+      "source_url": "https://www.gm.com/company/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "provides auto financing and leasing through GM Financial to retail consumers and commercial fleet customers",
+      "source_url": "https://www.gm.com/company/about-us",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates 150+ manufacturing and assembly facilities employing 90,000+ people across the Americas and internationally",
+      "source_url": "https://www.gm.com/company/about-us",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "vehicle-manufacturing",
+    "electric-vehicle-development",
+    "automotive-software",
+    "connected-vehicle-services",
+    "auto-financing",
+    "powertrain-engineering",
+    "battery-systems",
+    "supply-chain-management",
+    "fleet-services"
+  ],
+  "function_mix": [
+    { "family": "advanced-manufacturing", "weight": 0.35 },
+    { "family": "software-engineering", "weight": 0.2 },
+    { "family": "mechanical-engineering", "weight": 0.2 },
+    { "family": "electrical-engineering", "weight": 0.1 },
+    { "family": "supply-chain", "weight": 0.1 },
+    { "family": "data-and-analytics", "weight": 0.05 }
+  ],
+  "value_chain": ["design", "manufacture", "operate"],
+  "delivery_mode": ["physical-asset", "software"],
+  "segments": [
+    {
+      "name": "GMNA (North America vehicles)",
+      "weight": 0.7,
+      "capability_tags": ["vehicle-manufacturing", "electric-vehicle-development", "automotive-software"]
+    },
+    {
+      "name": "GM Financial",
+      "weight": 0.15,
+      "capability_tags": ["auto-financing", "fleet-services"]
+    },
+    {
+      "name": "International Operations",
+      "weight": 0.15,
+      "capability_tags": ["vehicle-manufacturing"]
+    }
+  ],
+  "name_reality_gap": "none — General Motors correctly signals a major motor vehicle manufacturer, though the growing software-defined vehicle and EV technology investment means it increasingly operates as a technology developer alongside its manufacturing role.",
+  "sources": [
+    { "url": "https://www.gm.com/company/about-us", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Good about page with concrete employee/facility data. Software-defined vehicle technology and EV investment explicitly named on the page. GM Financial and OnStar are well-documented public subsidiaries.",
+  "extraction_confidence": 0.9
+}

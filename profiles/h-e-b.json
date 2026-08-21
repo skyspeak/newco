@@ -1,0 +1,83 @@
+{
+  "slug": "h-e-b",
+  "company": "H-E-B",
+  "domain": "heb.com",
+  "activity_statements": [
+    {
+      "statement": "operates 455+ grocery supermarket stores across Texas and Mexico under H-E-B, Central Market, Joe V's Smart Shop, and Mexican banner formats",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "manufactures and distributes store-brand food products from a 2-million-square-foot manufacturing and warehouse campus in San Antonio, TX",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.93
+    },
+    {
+      "statement": "invests $700M to expand manufacturing and supply chain operations including a new bakery, refrigerated warehouse, and transportation facilities",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "employs 175,000+ Partners across Texas and Mexico serving millions of customers in 300+ communities",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "generates more than $50 billion in annual sales making it one of the largest private companies in the US",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates pharmacy, fuel stations, curbside pickup, and home delivery services integrated with its grocery store network",
+      "source_url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/",
+      "confidence": 0.75
+    }
+  ],
+  "capability_tags": [
+    "grocery-retail-operations",
+    "private-label-food-manufacturing",
+    "cold-chain-logistics",
+    "regional-distribution-network",
+    "pharmacy-operations",
+    "store-brand-product-development",
+    "food-production-and-baking",
+    "omnichannel-grocery",
+    "fuel-retail",
+    "warehouse-and-fulfillment"
+  ],
+  "function_mix": [
+    { "family": "retail-store-operations", "weight": 0.50 },
+    { "family": "manufacturing-and-production", "weight": 0.15 },
+    { "family": "supply-chain-and-logistics", "weight": 0.15 },
+    { "family": "pharmacy-services", "weight": 0.07 },
+    { "family": "software-engineering-and-data", "weight": 0.05 },
+    { "family": "finance-and-operations", "weight": 0.08 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [
+    {
+      "name": "H-E-B Stores (Texas flagship)",
+      "weight": 0.70,
+      "capability_tags": ["grocery-retail-operations", "pharmacy-operations", "omnichannel-grocery"]
+    },
+    {
+      "name": "Manufacturing and Supply Chain",
+      "weight": 0.15,
+      "capability_tags": ["private-label-food-manufacturing", "cold-chain-logistics", "food-production-and-baking"]
+    },
+    {
+      "name": "Mexico and Discount Formats",
+      "weight": 0.15,
+      "capability_tags": ["grocery-retail-operations", "regional-distribution-network"]
+    }
+  ],
+  "name_reality_gap": "The 'Retail' index label understates H-E-B's role as a large-scale manufacturer. The firm operates its own bakery, manufacturing plant, and a 2-million-sq-ft warehouse; it is as much a food production and logistics company as a grocer.",
+  "sources": [
+    { "url": "https://newsroom.heb.com/h-e-b-announces-plans-to-invest-700-million-to-expand-its-supply-chain-operations/", "kind": "newsroom", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.grocerydive.com/news/heb-supply-chain-facility-san-antonio-grocery-supermarkets/820854/", "kind": "other", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "heb.com returned 401 errors; profile built from H-E-B newsroom press release about supply chain expansion and trade press coverage. Direct company about page not available. Good factual detail on manufacturing/supply chain from press release.",
+  "extraction_confidence": 0.82
+}

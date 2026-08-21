@@ -1,0 +1,67 @@
+{
+  "slug": "cisco",
+  "company": "Cisco",
+  "domain": "cisco.com",
+  "activity_statements": [
+    {
+      "statement": "designs and sells networking hardware and software (switches, routers, SD-WAN) that form the backbone of enterprise and service provider networks worldwide",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides cybersecurity products and services (firewalls, zero trust, SASE, Secure Access) integrated with its networking platform for enterprise clients",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "operates the Webex collaboration platform providing video conferencing, messaging, and team collaboration tools for enterprises",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "provides cloud management and observability software helping enterprises monitor, manage, and secure hybrid and multi-cloud environments",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.88
+    },
+    {
+      "statement": "delivers AI-ready network infrastructure enabling enterprises to build scalable, secure platforms for AI-era workloads",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.85
+    },
+    {
+      "statement": "offers globally recognized networking certifications (CCNA, CCNP, CCIE) and training programs for IT professionals through Cisco U.",
+      "source_url": "https://www.cisco.com/c/en/us/about.html",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "enterprise-networking",
+    "network-security",
+    "cloud-management",
+    "collaboration-platform",
+    "software-defined-networking",
+    "zero-trust-security",
+    "observability-and-monitoring",
+    "hardware-manufacturing",
+    "professional-certification",
+    "ai-infrastructure",
+    "managed-network-services"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.35 },
+    { "family": "hardware-engineering", "weight": 0.15 },
+    { "family": "sales-and-channel-management", "weight": 0.20 },
+    { "family": "cybersecurity-operations", "weight": 0.10 },
+    { "family": "research-and-development", "weight": 0.12 },
+    { "family": "customer-success-and-services", "weight": 0.08 }
+  ],
+  "value_chain": ["design", "manufacture", "operate"],
+  "delivery_mode": ["software", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "none - Cisco accurately signals networking and IT infrastructure. The 'Information Technology' index label is broadly accurate, though Cisco's growing emphasis on security and software subscriptions is not obvious from the brand.",
+  "sources": [
+    { "url": "https://www.cisco.com/c/en/us/about.html", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page provided a clear view of Cisco's platform approach. Segment details (Secure Agile Networks, Internet for the Future, Collaboration, End-to-End Security, etc.) not detailed in page content retrieved. Function mix based on known business composition.",
+  "extraction_confidence": 0.85
+}

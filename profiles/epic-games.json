@@ -1,0 +1,76 @@
+{
+  "slug": "epic-games",
+  "company": "Epic Games",
+  "domain": "epicgames.com",
+  "activity_statements": [
+    {
+      "statement": "develops and operates Fortnite as a live-service game platform with 800 million+ accounts spanning Battle Royale, LEGO Fortnite, Rocket Racing, Fortnite Festival, and creator-made experiences",
+      "source_url": "https://www.epicgames.com/site/en-US/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "develops and licenses Unreal Engine (version 5 and above) as a real-time 3D creation platform used in gaming, film/TV production, broadcast/live events, architecture, automotive simulation, and VR/XR",
+      "source_url": "https://www.unrealengine.com/en-US/",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates Epic Games Store as a PC digital game distribution marketplace charging 12% commission to developers/publishers (vs Steam's 30%), with weekly free game promotions to drive user acquisition",
+      "source_url": "https://store.epicgames.com/en-US/",
+      "confidence": 0.92
+    },
+    {
+      "statement": "provides Epic Online Services (EOS) as a cross-platform developer toolkit for matchmaking, social features, anti-cheat, and in-game commerce to third-party game studios",
+      "source_url": "https://www.epicgames.com/site/en-US/about",
+      "confidence": 0.88
+    },
+    {
+      "statement": "operates Rocket League and Fall Guys as live-service games with 6 billion+ friend connections across its portfolio",
+      "source_url": "https://www.epicgames.com/site/en-US/about",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "live-service-game-operations",
+    "game-engine-development",
+    "digital-game-marketplace",
+    "in-game-economy-management",
+    "developer-platform-tools",
+    "real-time-3d-rendering",
+    "creator-content-platform",
+    "cross-platform-services"
+  ],
+  "function_mix": [
+    { "family": "game-development-and-live-ops", "weight": 0.35 },
+    { "family": "engine-and-platform-engineering", "weight": 0.30 },
+    { "family": "marketplace-and-store-operations", "weight": 0.10 },
+    { "family": "art-and-creative", "weight": 0.12 },
+    { "family": "corporate-and-support", "weight": 0.13 }
+  ],
+  "value_chain": ["design", "operate", "service"],
+  "delivery_mode": ["software", "marketplace", "content"],
+  "segments": [
+    {
+      "name": "Games (Fortnite, Rocket League, Fall Guys)",
+      "weight": 0.50,
+      "capability_tags": ["live-service-game-operations", "in-game-economy-management", "creator-content-platform"]
+    },
+    {
+      "name": "Unreal Engine Platform",
+      "weight": 0.30,
+      "capability_tags": ["game-engine-development", "real-time-3d-rendering", "developer-platform-tools"]
+    },
+    {
+      "name": "Epic Games Store & Online Services",
+      "weight": 0.20,
+      "capability_tags": ["digital-game-marketplace", "cross-platform-services"]
+    }
+  ],
+  "name_reality_gap": "The index label 'Software Development' misses Epic's two distinct dominant positions: (1) it is a live-service entertainment operator at massive scale (Fortnite), and (2) it is the developer of Unreal Engine, which powers film productions, architecture visualization, and live broadcast events as much as games. Many employees are artists, game designers, and live-ops specialists, not traditional software engineers.",
+  "sources": [
+    { "url": "https://www.epicgames.com/site/en-US/about", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.unrealengine.com/en-US/", "kind": "product-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://store.epicgames.com/en-US/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Private company; no 10-K available. Three public pages all returned good content. Segment weight estimates are illustrative since Epic does not disclose segment revenue.",
+  "extraction_confidence": 0.85
+}

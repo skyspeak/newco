@@ -1,0 +1,47 @@
+{
+  "slug": "power-home-remodeling",
+  "company": "Power Home Remodeling",
+  "domain": "powerhrg.com",
+  "activity_statements": [
+    {
+      "statement": "operates as the nation's largest exterior home remodeling company, selling and installing roofing, windows, siding, and doors directly to residential homeowners",
+      "source_url": "https://powerhrg.com/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "uses a direct-to-consumer in-home sales model across 26 regional offices nationwide",
+      "source_url": "https://powerhrg.com/about",
+      "confidence": 0.9
+    },
+    {
+      "statement": "installs exterior remodeling products for residential customers across the US with in-house installation crews",
+      "source_url": "https://powerhrg.com/about",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "direct-to-consumer-sales",
+    "residential-exterior-installation",
+    "field-service-technicians",
+    "in-home-consultation",
+    "roofing-installation",
+    "window-and-door-installation",
+    "siding-installation"
+  ],
+  "function_mix": [
+    { "family": "in-home-sales-representatives", "weight": 0.35 },
+    { "family": "field-installation-technicians", "weight": 0.35 },
+    { "family": "operations-and-logistics", "weight": 0.15 },
+    { "family": "customer-service", "weight": 0.10 },
+    { "family": "marketing", "weight": 0.05 }
+  ],
+  "value_chain": ["service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [],
+  "name_reality_gap": "The name accurately describes the business: exterior home remodeling. The 'Construction' index label is close but slightly misleading — Power does not build new structures; it retrofits existing homes with exterior products sold and installed through a direct-sales force.",
+  "sources": [
+    { "url": "https://powerhrg.com/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was largely marketing language with FAQs that did not expand. Core activity facts (largest exterior remodeler, 26 regional offices, roofing/windows/siding/doors) were extractable. Detailed revenue or staffing data not publicly available as a private company.",
+  "extraction_confidence": 0.75
+}

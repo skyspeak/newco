@@ -1,0 +1,61 @@
+{
+  "slug": "air-products",
+  "company": "Air Products",
+  "domain": "airproducts.com",
+  "activity_statements": [
+    {
+      "statement": "produces and delivers essential industrial gases including hydrogen, nitrogen, oxygen, argon and helium to 30+ industries across 50 countries via 750+ production facilities and 1,800 miles of pipeline",
+      "source_url": "https://www.airproducts.com/company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "develops, engineers, builds, owns and operates large-scale hydrogen projects as the leading global hydrogen supplier",
+      "source_url": "https://www.airproducts.com/company",
+      "confidence": 0.95
+    },
+    {
+      "statement": "sells industrial gas equipment including turbomachinery, membrane systems and cryogenic containers to customers globally through equipment businesses",
+      "source_url": "https://www.airproducts.com/company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "provides applications expertise and on-site gas production to refining, chemicals, metals, electronics, manufacturing, medical and food industries",
+      "source_url": "https://www.airproducts.com/company",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates large-scale facilities under long-term customer contracts enabling gases used in semiconductor fabrication, food freezing, MRI imaging and aerospace applications",
+      "source_url": "https://www.airproducts.com/company",
+      "confidence": 0.85
+    }
+  ],
+  "capability_tags": [
+    "industrial-gas-production",
+    "hydrogen-supply-and-projects",
+    "cryogenic-engineering",
+    "on-site-gas-production",
+    "large-scale-plant-operations",
+    "pipeline-gas-distribution",
+    "gas-equipment-manufacturing",
+    "electronics-gases",
+    "energy-transition-infrastructure",
+    "process-engineering"
+  ],
+  "function_mix": [
+    { "family": "plant-operations-and-engineering", "weight": 0.35 },
+    { "family": "process-and-chemical-engineering", "weight": 0.2 },
+    { "family": "sales-and-applications-engineering", "weight": 0.15 },
+    { "family": "project-development-and-construction", "weight": 0.15 },
+    { "family": "supply-chain-and-logistics", "weight": 0.1 },
+    { "family": "corporate-functions", "weight": 0.05 }
+  ],
+  "value_chain": ["manufacture", "distribute", "operate"],
+  "delivery_mode": ["physical-asset", "human-service"],
+  "segments": [],
+  "name_reality_gap": "Labeled Chemical Manufacturing; Air Products is primarily an industrial gases and energy infrastructure company — it does not make chemicals for sale but rather supplies the gases that enable chemical manufacturing, electronics, medical imaging, and is now a major clean-hydrogen infrastructure developer.",
+  "sources": [
+    { "url": "https://www.airproducts.com/company", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Single strong source. FY25 revenue $12B confirmed. Hydrogen strategy and energy transition positioning well-documented. Equipment businesses clearly described as separate revenue line.",
+  "extraction_confidence": 0.9
+}

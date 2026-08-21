@@ -1,0 +1,84 @@
+{
+  "slug": "adobe",
+  "company": "Adobe",
+  "domain": "adobe.com",
+  "activity_statements": [
+    {
+      "statement": "sells subscription software for creative professionals including photography, video editing, graphic design, and illustration (Creative Cloud: Photoshop, Illustrator, Premiere Pro, etc.)",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.98
+    },
+    {
+      "statement": "operates the world's leading PDF platform for viewing, editing, signing, and collaborating on documents (Document Cloud / Acrobat)",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.98
+    },
+    {
+      "statement": "provides enterprise customer experience management software for designing and delivering personalized digital experiences at scale (Experience Cloud)",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "trains and licenses generative AI models for image, video, and audio creation to individuals and enterprise customers (Adobe Firefly, 29 billion+ images generated)",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.95
+    },
+    {
+      "statement": "hosts a 700-million-asset stock imagery and creative content marketplace for commercial licensing (Adobe Stock)",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.90
+    },
+    {
+      "statement": "operates Behance, a 50-million-member creative professional portfolio and community platform",
+      "source_url": "https://adobe.com/about-adobe.html",
+      "confidence": 0.90
+    }
+  ],
+  "capability_tags": [
+    "subscription-saas",
+    "creative-production-tools",
+    "document-management",
+    "digital-experience-platform",
+    "generative-ai",
+    "content-marketplace",
+    "e-signature",
+    "marketing-analytics",
+    "video-production-tools",
+    "cloud-storage-and-sync",
+    "education-software"
+  ],
+  "function_mix": [
+    { "family": "software-engineering", "weight": 0.40 },
+    { "family": "product-management", "weight": 0.12 },
+    { "family": "data-and-ai", "weight": 0.15 },
+    { "family": "sales-and-marketing", "weight": 0.15 },
+    { "family": "design", "weight": 0.08 },
+    { "family": "finance-and-operations", "weight": 0.10 }
+  ],
+  "value_chain": ["design", "operate"],
+  "delivery_mode": ["software", "marketplace", "content"],
+  "segments": [
+    {
+      "name": "Creative Cloud",
+      "weight": 0.55,
+      "capability_tags": ["creative-production-tools", "subscription-saas", "generative-ai", "video-production-tools"]
+    },
+    {
+      "name": "Document Cloud",
+      "weight": 0.20,
+      "capability_tags": ["document-management", "e-signature", "subscription-saas"]
+    },
+    {
+      "name": "Experience Cloud",
+      "weight": 0.25,
+      "capability_tags": ["digital-experience-platform", "marketing-analytics", "subscription-saas"]
+    }
+  ],
+  "name_reality_gap": "none - Adobe is accurately identified as a software company, though the Experience Cloud enterprise-marketing segment is often overlooked in favor of the creative tools brand image.",
+  "sources": [
+    { "url": "https://adobe.com/about-adobe.html", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.adobe.com/products/catalog.html", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Well-documented public company. About page and product catalog provided clear segment structure. No 10-K retrieved; segment weights estimated from generally known revenue splits.",
+  "extraction_confidence": 0.88
+}

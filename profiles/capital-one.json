@@ -1,0 +1,89 @@
+{
+  "slug": "capital-one",
+  "company": "Capital One",
+  "domain": "capitalone.com",
+  "activity_statements": [
+    {
+      "statement": "issues and services consumer credit cards across 26 distinct products including travel rewards (Venture), cash back (Quicksilver), and student cards to over 100 million customers",
+      "source_url": "https://www.capitalone.com/credit-cards/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "acquired Discover Financial in 2024-2025, adding the Discover card network to its consumer credit portfolio",
+      "source_url": "https://www.capitalone.com/about/",
+      "confidence": 0.9
+    },
+    {
+      "statement": "operates a fully cloud-based technology infrastructure after closing its last on-premises data center in 2021",
+      "source_url": "https://www.capitalone.com/tech/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "builds proprietary AI and machine learning systems for fraud detection, risk management, and customer experience across its banking products",
+      "source_url": "https://www.capitalone.com/tech/",
+      "confidence": 0.95
+    },
+    {
+      "statement": "provides consumer auto loans and deposit accounts in addition to credit card services",
+      "source_url": "https://www.capitalone.com/about/",
+      "confidence": 0.85
+    },
+    {
+      "statement": "operates a commercial banking segment serving mid-market and large corporate clients",
+      "source_url": "https://www.capitalone.com/about/",
+      "confidence": 0.8
+    },
+    {
+      "statement": "contributes to 100+ open-source projects and runs internal engineering programs developing AI tools including agentic car-buying assistance",
+      "source_url": "https://www.capitalone.com/tech/",
+      "confidence": 0.88
+    }
+  ],
+  "capability_tags": [
+    "consumer-lending",
+    "credit-card-issuance",
+    "fraud-detection",
+    "ai-and-machine-learning-at-scale",
+    "cloud-native-banking-platform",
+    "auto-lending",
+    "commercial-banking",
+    "consumer-deposit-services",
+    "card-network-operations",
+    "data-and-analytics-platform"
+  ],
+  "function_mix": [
+    { "family": "software-engineering-and-technology", "weight": 0.3 },
+    { "family": "risk-and-compliance", "weight": 0.2 },
+    { "family": "customer-service-and-operations", "weight": 0.2 },
+    { "family": "data-science-and-ai", "weight": 0.15 },
+    { "family": "commercial-banking-and-underwriting", "weight": 0.1 },
+    { "family": "marketing-and-product", "weight": 0.05 }
+  ],
+  "value_chain": ["operate", "service", "assure"],
+  "delivery_mode": ["software", "human-service"],
+  "segments": [
+    {
+      "name": "Credit Card",
+      "weight": 0.6,
+      "capability_tags": ["consumer-lending", "credit-card-issuance", "fraud-detection", "card-network-operations"]
+    },
+    {
+      "name": "Consumer Banking",
+      "weight": 0.2,
+      "capability_tags": ["auto-lending", "consumer-deposit-services"]
+    },
+    {
+      "name": "Commercial Banking",
+      "weight": 0.2,
+      "capability_tags": ["commercial-banking"]
+    }
+  ],
+  "name_reality_gap": "Capital One markets itself as a bank but activity evidence shows it is primarily a technology company that runs one of the most sophisticated AI and cloud engineering organizations in financial services — it closed its last data center in 2021 and builds its own proprietary AI infrastructure. It is closer in operational profile to a tech firm that happens to hold a bank charter than to a traditional bank.",
+  "sources": [
+    { "url": "https://www.capitalone.com/about/", "kind": "about-page", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.capitalone.com/tech/", "kind": "engineering-blog", "retrieved_at": "2026-08-19" },
+    { "url": "https://www.capitalone.com/credit-cards/", "kind": "product-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "Tech page was excellent for function mix evidence. Segment revenue weights are publicly documented but not directly extracted from a retrieved 10-K filing.",
+  "extraction_confidence": 0.88
+}

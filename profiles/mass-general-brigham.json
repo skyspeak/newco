@@ -1,0 +1,76 @@
+{
+  "slug": "mass-general-brigham",
+  "company": "Mass General Brigham",
+  "domain": "massgeneralbrigham.org",
+  "activity_statements": [
+    {
+      "statement": "delivers comprehensive clinical care from routine to complex cases across an integrated network of academic medical centers, community hospitals, and health centers throughout New England",
+      "source_url": "https://www.massgeneralbrigham.org/en/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "conducts $2.7 billion in annual biomedical research activities with thousands of researchers and clinical trials advancing treatments and therapies",
+      "source_url": "https://www.massgeneralbrigham.org/en/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "trains 2,000+ physician residents and fellows annually across 100+ accredited programs in partnership with Harvard Medical School",
+      "source_url": "https://www.massgeneralbrigham.org/en/about",
+      "confidence": 0.97
+    },
+    {
+      "statement": "operates 5 licensed and 15 affiliated community health centers investing $225M+ annually in community health benefits",
+      "source_url": "https://www.massgeneralbrigham.org/en/about",
+      "confidence": 0.95
+    },
+    {
+      "statement": "includes Massachusetts General Hospital, Brigham and Women's Hospital, McLean Hospital, and other member and affiliate institutions across New England",
+      "source_url": "https://www.massgeneralbrigham.org/en/about",
+      "confidence": 0.95
+    }
+  ],
+  "capability_tags": [
+    "clinical-care-delivery",
+    "academic-medical-center-operations",
+    "biomedical-research",
+    "physician-training-programs",
+    "community-health-centers",
+    "specialty-and-subspecialty-care",
+    "surgical-services",
+    "behavioral-health-services",
+    "health-equity-programs",
+    "clinical-trials-management"
+  ],
+  "function_mix": [
+    { "family": "clinical-care-staff-physicians-nurses-aides", "weight": 0.55 },
+    { "family": "research-scientists-and-investigators", "weight": 0.15 },
+    { "family": "administrative-and-operations", "weight": 0.12 },
+    { "family": "education-and-training", "weight": 0.08 },
+    { "family": "technology-and-informatics", "weight": 0.10 }
+  ],
+  "value_chain": ["research", "service"],
+  "delivery_mode": ["human-service", "physical-asset"],
+  "segments": [
+    {
+      "name": "Clinical Care",
+      "weight": 0.60,
+      "capability_tags": ["clinical-care-delivery", "surgical-services", "specialty-and-subspecialty-care", "behavioral-health-services"]
+    },
+    {
+      "name": "Research",
+      "weight": 0.25,
+      "capability_tags": ["biomedical-research", "clinical-trials-management"]
+    },
+    {
+      "name": "Education and Community",
+      "weight": 0.15,
+      "capability_tags": ["physician-training-programs", "community-health-centers", "health-equity-programs"]
+    }
+  ],
+  "name_reality_gap": "none - Mass General Brigham accurately signals an academic health system. The 'Hospitals & Health Care' index label is accurate though it underrepresents the scale of the research enterprise ($2.7B annually) and physician training pipeline.",
+  "sources": [
+    { "url": "https://www.massgeneralbrigham.org/en/about", "kind": "about-page", "retrieved_at": "2026-08-19" }
+  ],
+  "extraction_notes": "About page was comprehensive with specific figures on research spend, training programs, community investment, and historical firsts. Strong source.",
+  "extraction_confidence": 0.92
+}
