@@ -42,6 +42,8 @@ h1{font-size:clamp(26px,3.6vw,42px);line-height:1.05;letter-spacing:-.025em;marg
 @media(max-width:900px){.strip,.grid{grid-template-columns:1fr 1fr} .strip{grid-template-columns:1fr 1fr}}
 .card{border:1px solid var(--line);border-radius:6px;background:#fff;padding:16px}
 .card h3{margin:0 0 4px;font-size:18px;letter-spacing:-.02em}
+.assume .card{padding:14px;font-size:13px;color:var(--ink2)}
+.assume .card b{display:block;color:var(--ink);margin-bottom:4px}
 .card .sub{font-size:11px;color:var(--ink3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
 .card p{margin:0 0 10px;color:var(--ink2);font-size:13.5px}
 .flow{display:grid;grid-template-columns:minmax(120px,1fr) 18px minmax(160px,1.4fr);gap:8px;align-items:center;
@@ -65,16 +67,22 @@ footer{border-top:1px solid var(--line);padding:22px 0 48px;color:var(--ink3);fo
 <body>
 <header class="mast"><div class="wrap">
   <div class="eyebrow">Proof of concept · Newco Bridge</div>
-  <h1>The desk already exists.</h1>
-  <p class="dek">YC sold a category. The map found a named line inside an old ticker. Left shore is 2025–26. Right shore is desks (Parent · line) plus off-index firms that already staff that work.</p>
+  <h1>Two shared tags, or it is not a desk.</h1>
+  <p class="dek">A cable needs two canonical capabilities in common. One overlapping word (claims, fulfillment, silicon) is a coincidence. Left shore is 2025–26. Right shore is lines inside old tickers, plus off-index firms, that actually share the work.</p>
 </div></header>
 <div class="strip" id="strip"></div>
 <div class="wrap">
   <div class="stage" id="stage"></div>
-  <p class="hint" id="caption">Click a diamond. Thickness is overlap on the map’s capability tags.</p>
+  <p class="hint" id="caption">Click a diamond. Thickness is overlap on tags. Cables with one shared tag were dropped.</p>
   <div class="grid">
     <div class="card" id="detail"><div class="empty">Click a 2025–26 firm on the left shore.</div></div>
     <div class="card" id="density"></div>
+  </div>
+  <div class="assume" style="margin:16px 0 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px">
+    <div class="card"><b>Two tags minimum.</b> Jaccard on a two-tag segment with one overlap looks huge. That is how Origami was glued to Walmart International. It is not a desk.</div>
+    <div class="card"><b>Lines first, ticker second.</b> Split parents do not pass leftover tags to segments. If no line shares two tags, the smeared ticker is the fallback (Condor / Chevron).</div>
+    <div class="card"><b>Cohort, not a census.</b> YC W26 with a public firm-level page. Not Delaware filings. Inactive and redirected listings were left off. No founder names.</div>
+    <div class="card"><b>YC strings are labels.</b> They are never edges. “Digital health” does not place a firm in care delivery unless the capabilities do.</div>
   </div>
 </div>
 <footer><div class="wrap">

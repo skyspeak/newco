@@ -2,7 +2,7 @@
 
 An organizational map of US employers built on **what firms actually do**, not the industry label a ranking slapped on them.
 
-The distinctive finding: a 2026 incorporation is often a **named desk already inside a hot-list ticker**. YC called ClaimGlide digital health. The map puts it on Progressive · Commercial Lines. Martini is not “generative video”; it sits on Disney · Entertainment. Conglomerates smear that desk into one ticker. Unbundle splits the ticker. The newco bridge places the new firm on the line.
+The distinctive finding is narrower than “startups map to industries.” After splitting conglomerates into lines of work, a 2026 firm is placed on an incumbent **only if they share two canonical capability tags**. One overlapping word (claims, fulfillment, silicon) is treated as a coincidence. Under that rule, some newcos attach to a named desk inside a ticker (Martini → Disney · Entertainment). Others attach to an unsplit firm that still holds the leftover tags (Copperlane → Rocket). Some attach to neither.
 
 Best-places-to-work indexes describe Amazon as "Software Development" and Hilton as hospitality. Activity evidence shows a fulfillment network plus a cloud utility in one case, and a room-night machine in the other. The rest of the map is the same work, found off those lists, clustered by capability rather than NAICS.
 

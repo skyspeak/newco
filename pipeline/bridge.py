@@ -3,8 +3,8 @@
 
 The seed is yesterday's hot-list employers. The newco file is a 2025–26
 incorporation cohort (YC W26 and peers), tagged in the *same* capability
-vocabulary. A cable exists when two firms share at least one canonical tag.
-YC industry strings are a label, not an edge.
+vocabulary. A cable exists when two firms share at least two canonical tags.
+One overlapping word is not a desk. YC industry strings are a label, not an edge.
 
 Writes:
   out/map.json          (newcos + stats, in place)
@@ -23,6 +23,7 @@ from gen_page import cluster_name
 
 KNN = 5
 CABLES = 3  # cables drawn per newco on the shore diagram
+MIN_SHARED = 2  # one shared tag is a vocabulary coincidence, not a desk
 
 
 def canon_list(tags):
@@ -110,7 +111,7 @@ def neighbors_for(tags, cluster, pool, k=KNN):
     scored = []
     for inc in pool:
         s, shared = bridge_score(tags, inc["tags"], inc.get("cluster") == cluster)
-        if s <= 0:
+        if s <= 0 or len(shared) < MIN_SHARED:
             continue
         scored.append({
             "slug": inc["slug"],
@@ -280,6 +281,7 @@ def main():
         "dropped": dropped,
         "knn": KNN,
         "score": "0.55 Jaccard + 0.45 newco-tag coverage; +0.06 same cluster",
+        "min_shared": MIN_SHARED,
         "cohort": "YC W26 / founded 2024–2026, firm-level sources only",
         "incumbent_unit": "line-of-work node" if used_lines else "ticker",
         "n_line_nodes": len(line_nodes),

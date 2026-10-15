@@ -173,12 +173,12 @@
   "expansion_search_cap_note": "Off-index firms are assigned to current activity clusters by capability overlap. Counts are an existence proof, not a population estimate.",
   "expansion_reassigned": 43,
   "n_newcos": 19,
-  "n_bridge_cables": 55,
+  "n_bridge_cables": 37,
   "n_yc_label_drift": 18,
   "n_line_nodes": 299,
   "n_segment_nodes": 232,
   "n_split_parents": 80,
-  "n_desk_hits": 10
+  "n_desk_hits": 5
  },
  "clusters": [
   {
@@ -20932,45 +20932,48 @@
      ]
     },
     {
-     "slug": "walmart::walmart-international",
-     "name": "Walmart \u00b7 Walmart International",
-     "kind": "line",
-     "parent": "walmart",
-     "cluster": 0,
-     "sim": 0.347,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "fedex::federal-express-air-ground-express",
-     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
-     "kind": "line",
-     "parent": "fedex",
-     "cluster": 0,
-     "sim": 0.302,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "amazon::international-retail",
-     "name": "Amazon \u00b7 International Retail",
-     "kind": "line",
-     "parent": "amazon",
-     "cluster": 2,
-     "sim": 0.287,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
      "slug": "off-9",
      "name": "Imperial PFS",
      "kind": "off",
      "parent": "off-9",
      "cluster": 0,
      "sim": 0.727,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-126",
+     "name": "Lineage",
+     "kind": "off",
+     "parent": "off-126",
+     "cluster": 0,
+     "sim": 0.635,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-7",
+     "name": "Verst Group Logistics",
+     "kind": "off",
+     "parent": "off-7",
+     "cluster": 0,
+     "sim": 0.635,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-6",
+     "name": "Americold Logistics",
+     "kind": "off",
+     "parent": "off-6",
+     "cluster": 0,
+     "sim": 0.58,
      "shared": [
       "fulfillment-network",
       "inventory-management"
@@ -21010,45 +21013,48 @@
      ]
     },
     {
-     "slug": "walmart::walmart-international",
-     "name": "Walmart \u00b7 Walmart International",
-     "kind": "line",
-     "parent": "walmart",
-     "cluster": 0,
-     "sim": 0.347,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "fedex::federal-express-air-ground-express",
-     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
-     "kind": "line",
-     "parent": "fedex",
-     "cluster": 0,
-     "sim": 0.302,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "amazon::international-retail",
-     "name": "Amazon \u00b7 International Retail",
-     "kind": "line",
-     "parent": "amazon",
-     "cluster": 2,
-     "sim": 0.287,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
      "slug": "off-9",
      "name": "Imperial PFS",
      "kind": "off",
      "parent": "off-9",
      "cluster": 0,
      "sim": 0.727,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-126",
+     "name": "Lineage",
+     "kind": "off",
+     "parent": "off-126",
+     "cluster": 0,
+     "sim": 0.635,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-7",
+     "name": "Verst Group Logistics",
+     "kind": "off",
+     "parent": "off-7",
+     "cluster": 0,
+     "sim": 0.635,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "off-6",
+     "name": "Americold Logistics",
+     "kind": "off",
+     "parent": "off-6",
+     "cluster": 0,
+     "sim": 0.58,
      "shared": [
       "fulfillment-network",
       "inventory-management"
@@ -21075,58 +21081,15 @@
    "confidence": 0.86,
    "neighbors": [
     {
-     "slug": "walmart::walmart-international",
-     "name": "Walmart \u00b7 Walmart International",
-     "kind": "line",
-     "parent": "walmart",
-     "cluster": 0,
-     "sim": 0.468,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "amazon::international-retail",
-     "name": "Amazon \u00b7 International Retail",
-     "kind": "line",
+     "slug": "amazon",
+     "name": "Amazon",
+     "kind": "seed",
      "parent": "amazon",
      "cluster": 2,
-     "sim": 0.408,
+     "sim": 0.542,
      "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "fedex::federal-express-air-ground-express",
-     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
-     "kind": "line",
-     "parent": "fedex",
-     "cluster": 0,
-     "sim": 0.395,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "lowe-s-companies",
-     "name": "Lowe's Companies",
-     "kind": "seed",
-     "parent": "lowe-s-companies",
-     "cluster": 0,
-     "sim": 0.346,
-     "shared": [
-      "fulfillment-network"
-     ]
-    },
-    {
-     "slug": "off-9",
-     "name": "Imperial PFS",
-     "kind": "off",
-     "parent": "off-9",
-     "cluster": 0,
-     "sim": 0.468,
-     "shared": [
-      "fulfillment-network"
+      "fulfillment-network",
+      "robotics-fulfillment"
      ]
     }
    ]
@@ -21190,21 +21153,23 @@
      ]
     },
     {
-     "slug": "progressive::commercial-lines",
-     "name": "Progressive \u00b7 Commercial Lines",
-     "kind": "line",
-     "parent": "progressive",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "claims-adjudication"
-     ]
-    },
-    {
      "slug": "off-17",
      "name": "GPW and Associates",
      "kind": "off",
      "parent": "off-17",
+     "cluster": 1,
+     "sim": 1.06,
+     "shared": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "off-15",
+     "name": "Grinnell Mutual",
+     "kind": "off",
+     "parent": "off-15",
      "cluster": 1,
      "sim": 1.06,
      "shared": [
@@ -21270,21 +21235,22 @@
      ]
     },
     {
-     "slug": "progressive::commercial-lines",
-     "name": "Progressive \u00b7 Commercial Lines",
-     "kind": "line",
-     "parent": "progressive",
-     "cluster": 1,
-     "sim": 0.468,
-     "shared": [
-      "claims-adjudication"
-     ]
-    },
-    {
      "slug": "off-14",
      "name": "CBCS",
      "kind": "off",
      "parent": "off-14",
+     "cluster": 1,
+     "sim": 0.877,
+     "shared": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "off-17",
+     "name": "GPW and Associates",
+     "kind": "off",
+     "parent": "off-17",
      "cluster": 1,
      "sim": 0.877,
      "shared": [
@@ -21326,39 +21292,6 @@
      ]
     },
     {
-     "slug": "bank-of-america::global-banking",
-     "name": "Bank of America \u00b7 Global Banking",
-     "kind": "line",
-     "parent": "bank-of-america",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "capital-markets"
-     ]
-    },
-    {
-     "slug": "jpmorganchase::technology",
-     "name": "JPMorganChase \u00b7 Technology",
-     "kind": "line",
-     "parent": "jpmorganchase",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "core-transaction-processing"
-     ]
-    },
-    {
-     "slug": "state-street::markets",
-     "name": "State Street \u00b7 Markets",
-     "kind": "line",
-     "parent": "state-street",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "core-transaction-processing"
-     ]
-    },
-    {
      "slug": "off-12",
      "name": "Finastra",
      "kind": "off",
@@ -21367,6 +21300,30 @@
      "sim": 0.923,
      "shared": [
       "capital-markets",
+      "core-transaction-processing",
+      "payment-processing"
+     ]
+    },
+    {
+     "slug": "off-11",
+     "name": "Jack Henry",
+     "kind": "off",
+     "parent": "off-11",
+     "cluster": 1,
+     "sim": 0.58,
+     "shared": [
+      "core-transaction-processing",
+      "payment-processing"
+     ]
+    },
+    {
+     "slug": "off-19",
+     "name": "Mbanq",
+     "kind": "off",
+     "parent": "off-19",
+     "cluster": 1,
+     "sim": 0.58,
+     "shared": [
       "core-transaction-processing",
       "payment-processing"
      ]
@@ -21404,50 +21361,6 @@
       "digital-mortgage-origination",
       "loan-servicing"
      ]
-    },
-    {
-     "slug": "american-express::international-card-services",
-     "name": "American Express \u00b7 International Card Services",
-     "kind": "line",
-     "parent": "american-express",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "consumer-lending"
-     ]
-    },
-    {
-     "slug": "american-express::u-s-consumer-services",
-     "name": "American Express \u00b7 U.S. Consumer Services",
-     "kind": "line",
-     "parent": "american-express",
-     "cluster": 1,
-     "sim": 0.32,
-     "shared": [
-      "consumer-lending"
-     ]
-    },
-    {
-     "slug": "citi::personal-banking-and-wealth-management",
-     "name": "Citi \u00b7 Personal Banking and Wealth Management",
-     "kind": "line",
-     "parent": "citi",
-     "cluster": 1,
-     "sim": 0.32,
-     "shared": [
-      "consumer-lending"
-     ]
-    },
-    {
-     "slug": "bank-of-america::consumer-banking",
-     "name": "Bank of America \u00b7 Consumer Banking",
-     "kind": "line",
-     "parent": "bank-of-america",
-     "cluster": 1,
-     "sim": 0.302,
-     "shared": [
-      "consumer-lending"
-     ]
     }
    ]
   },
@@ -21471,57 +21384,14 @@
    "confidence": 0.91,
    "neighbors": [
     {
-     "slug": "sony::imaging-sensing-solutions-i-ss",
-     "name": "Sony \u00b7 Imaging & Sensing Solutions (I&SS)",
-     "kind": "line",
-     "parent": "sony",
-     "cluster": 2,
-     "sim": 0.347,
-     "shared": [
-      "semiconductor-fabrication"
-     ]
-    },
-    {
-     "slug": "amazon::aws-cloud-ai-services",
-     "name": "Amazon \u00b7 AWS (Cloud & AI Services)",
-     "kind": "line",
-     "parent": "amazon",
-     "cluster": 2,
-     "sim": 0.32,
-     "shared": [
-      "custom-silicon-design"
-     ]
-    },
-    {
-     "slug": "intel::intel-foundry",
-     "name": "Intel \u00b7 Intel Foundry",
-     "kind": "line",
+     "slug": "intel",
+     "name": "Intel",
+     "kind": "seed",
      "parent": "intel",
      "cluster": 2,
-     "sim": 0.32,
+     "sim": 0.46,
      "shared": [
-      "semiconductor-fabrication"
-     ]
-    },
-    {
-     "slug": "apple::products-hardware",
-     "name": "Apple \u00b7 Products (Hardware)",
-     "kind": "line",
-     "parent": "apple",
-     "cluster": 2,
-     "sim": 0.302,
-     "shared": [
-      "semiconductor-design"
-     ]
-    },
-    {
-     "slug": "off-22",
-     "name": "GlobalFoundries",
-     "kind": "off",
-     "parent": "off-22",
-     "cluster": 2,
-     "sim": 0.393,
-     "shared": [
+      "semiconductor-design",
       "semiconductor-fabrication"
      ]
     }
@@ -21547,57 +21417,14 @@
    "confidence": 0.9,
    "neighbors": [
     {
-     "slug": "honda::automobile-business",
-     "name": "Honda \u00b7 Automobile Business",
-     "kind": "line",
-     "parent": "honda",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "electric-vehicle-development"
-     ]
-    },
-    {
-     "slug": "ford-motor-company::ford-blue-ice-vehicles",
-     "name": "Ford Motor Company \u00b7 Ford Blue (ICE Vehicles)",
-     "kind": "line",
+     "slug": "ford-motor-company",
+     "name": "Ford Motor Company",
+     "kind": "seed",
      "parent": "ford-motor-company",
      "cluster": 5,
-     "sim": 0.32,
+     "sim": 0.482,
      "shared": [
-      "vehicle-design-and-engineering"
-     ]
-    },
-    {
-     "slug": "ford-motor-company::ford-model-e-electric-vehicles",
-     "name": "Ford Motor Company \u00b7 Ford Model e (Electric Vehicles)",
-     "kind": "line",
-     "parent": "ford-motor-company",
-     "cluster": 5,
-     "sim": 0.32,
-     "shared": [
-      "electric-vehicle-development"
-     ]
-    },
-    {
-     "slug": "general-motors::gmna-north-america-vehicles",
-     "name": "General Motors \u00b7 GMNA (North America vehicles)",
-     "kind": "line",
-     "parent": "general-motors",
-     "cluster": 5,
-     "sim": 0.32,
-     "shared": [
-      "electric-vehicle-development"
-     ]
-    },
-    {
-     "slug": "off-27",
-     "name": "Anchor Manufacturing Group",
-     "kind": "off",
-     "parent": "off-27",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
+      "electric-vehicle-development",
       "vehicle-design-and-engineering"
      ]
     }
@@ -21635,39 +21462,6 @@
      ]
     },
     {
-     "slug": "honda::automobile-business",
-     "name": "Honda \u00b7 Automobile Business",
-     "kind": "line",
-     "parent": "honda",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "electric-vehicle-development"
-     ]
-    },
-    {
-     "slug": "stellantis::enlarged-europe-peugeot-citro-n-opel-fiat-alfa-romeo-maserati-ds",
-     "name": "Stellantis \u00b7 Enlarged Europe (Peugeot, Citro\u00ebn, Opel, FIAT, Alfa Romeo, Maserati, DS)",
-     "kind": "line",
-     "parent": "stellantis",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "vehicle-manufacturing"
-     ]
-    },
-    {
-     "slug": "stellantis::north-america-ram-jeep-dodge-chrysler",
-     "name": "Stellantis \u00b7 North America (RAM, Jeep, Dodge, Chrysler)",
-     "kind": "line",
-     "parent": "stellantis",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "vehicle-manufacturing"
-     ]
-    },
-    {
      "slug": "off-32",
      "name": "Punch Powertrain",
      "kind": "off",
@@ -21700,50 +21494,6 @@
    "source_url": "https://www.ycombinator.com/companies/seeing-systems",
    "confidence": 0.89,
    "neighbors": [
-    {
-     "slug": "lockheed-martin::missiles-and-fire-control",
-     "name": "Lockheed Martin \u00b7 Missiles and Fire Control",
-     "kind": "line",
-     "parent": "lockheed-martin",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "missile-defense"
-     ]
-    },
-    {
-     "slug": "northrop-grumman::defense-systems",
-     "name": "Northrop Grumman \u00b7 Defense Systems",
-     "kind": "line",
-     "parent": "northrop-grumman",
-     "cluster": 5,
-     "sim": 0.347,
-     "shared": [
-      "missile-defense"
-     ]
-    },
-    {
-     "slug": "lockheed-martin::space",
-     "name": "Lockheed Martin \u00b7 Space",
-     "kind": "line",
-     "parent": "lockheed-martin",
-     "cluster": 5,
-     "sim": 0.32,
-     "shared": [
-      "missile-defense"
-     ]
-    },
-    {
-     "slug": "northrop-grumman::mission-systems",
-     "name": "Northrop Grumman \u00b7 Mission Systems",
-     "kind": "line",
-     "parent": "northrop-grumman",
-     "cluster": 5,
-     "sim": 0.32,
-     "shared": [
-      "electronic-warfare"
-     ]
-    },
     {
      "slug": "off-129",
      "name": "L3Harris Technologies",
@@ -21812,58 +21562,15 @@
    "confidence": 0.86,
    "neighbors": [
     {
-     "slug": "hdr",
-     "name": "HDR",
+     "slug": "chevron",
+     "name": "Chevron",
      "kind": "seed",
-     "parent": "hdr",
-     "cluster": 8,
-     "sim": 0.252,
+     "parent": "chevron",
+     "cluster": 3,
+     "sim": 0.41,
      "shared": [
-      "infrastructure-engineering"
-     ]
-    },
-    {
-     "slug": "aecom",
-     "name": "AECOM",
-     "kind": "seed",
-     "parent": "aecom",
-     "cluster": 8,
-     "sim": 0.249,
-     "shared": [
-      "infrastructure-engineering"
-     ]
-    },
-    {
-     "slug": "off-100",
-     "name": "Infrastructure Alternatives",
-     "kind": "off",
-     "parent": "off-100",
-     "cluster": 8,
-     "sim": 0.347,
-     "shared": [
-      "infrastructure-engineering"
-     ]
-    },
-    {
-     "slug": "off-93",
-     "name": "David Evans and Associates",
-     "kind": "off",
-     "parent": "off-93",
-     "cluster": 8,
-     "sim": 0.32,
-     "shared": [
-      "infrastructure-engineering"
-     ]
-    },
-    {
-     "slug": "off-94",
-     "name": "SCJ Alliance",
-     "kind": "off",
-     "parent": "off-94",
-     "cluster": 8,
-     "sim": 0.32,
-     "shared": [
-      "infrastructure-engineering"
+      "lower-carbon-energy-transition",
+      "pipeline-and-logistics"
      ]
     }
    ]
@@ -21913,32 +21620,34 @@
      ]
     },
     {
-     "slug": "kaiser-permanente::kaiser-foundation-hospitals",
-     "name": "Kaiser Permanente \u00b7 Kaiser Foundation Hospitals",
-     "kind": "line",
-     "parent": "kaiser-permanente",
-     "cluster": 7,
-     "sim": 0.283,
-     "shared": [
-      "clinical-care-delivery"
-     ]
-    },
-    {
-     "slug": "cvs-health::health-care-benefits-aetna-insurance",
-     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
-     "kind": "line",
-     "parent": "cvs-health",
-     "cluster": 7,
-     "sim": 0.264,
-     "shared": [
-      "value-based-care"
-     ]
-    },
-    {
      "slug": "off-130",
      "name": "HCA Healthcare",
      "kind": "off",
      "parent": "off-130",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-83",
+     "name": "Millennium Physician Group",
+     "kind": "off",
+     "parent": "off-83",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-90",
+     "name": "PerformCare",
+     "kind": "off",
+     "parent": "off-90",
      "cluster": 7,
      "sim": 0.468,
      "shared": [
@@ -21966,63 +21675,7 @@
    "bridge": "Prior-auth is a claims workflow already staffed inside listed providers and payers.",
    "source_url": "https://www.ycombinator.com/companies/claimglide",
    "confidence": 0.9,
-   "neighbors": [
-    {
-     "slug": "progressive::commercial-lines",
-     "name": "Progressive \u00b7 Commercial Lines",
-     "kind": "line",
-     "parent": "progressive",
-     "cluster": 1,
-     "sim": 0.347,
-     "shared": [
-      "claims-adjudication"
-     ]
-    },
-    {
-     "slug": "acuity-insurance",
-     "name": "Acuity Insurance",
-     "kind": "seed",
-     "parent": "acuity-insurance",
-     "cluster": 1,
-     "sim": 0.26,
-     "shared": [
-      "claims-adjudication"
-     ]
-    },
-    {
-     "slug": "amica-insurance",
-     "name": "Amica Insurance",
-     "kind": "seed",
-     "parent": "amica-insurance",
-     "cluster": 1,
-     "sim": 0.26,
-     "shared": [
-      "claims-adjudication"
-     ]
-    },
-    {
-     "slug": "cvs-health::health-care-benefits-aetna-insurance",
-     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
-     "kind": "line",
-     "parent": "cvs-health",
-     "cluster": 7,
-     "sim": 0.26,
-     "shared": [
-      "value-based-care"
-     ]
-    },
-    {
-     "slug": "off-14",
-     "name": "CBCS",
-     "kind": "off",
-     "parent": "off-14",
-     "cluster": 1,
-     "sim": 0.32,
-     "shared": [
-      "claims-adjudication"
-     ]
-    }
-   ]
+   "neighbors": []
   },
   {
    "slug": "ruma-care",
@@ -22069,32 +21722,34 @@
      ]
     },
     {
-     "slug": "kaiser-permanente::kaiser-foundation-hospitals",
-     "name": "Kaiser Permanente \u00b7 Kaiser Foundation Hospitals",
-     "kind": "line",
-     "parent": "kaiser-permanente",
-     "cluster": 7,
-     "sim": 0.283,
-     "shared": [
-      "clinical-care-delivery"
-     ]
-    },
-    {
-     "slug": "cvs-health::health-care-benefits-aetna-insurance",
-     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
-     "kind": "line",
-     "parent": "cvs-health",
-     "cluster": 7,
-     "sim": 0.264,
-     "shared": [
-      "value-based-care"
-     ]
-    },
-    {
      "slug": "off-130",
      "name": "HCA Healthcare",
      "kind": "off",
      "parent": "off-130",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-83",
+     "name": "Millennium Physician Group",
+     "kind": "off",
+     "parent": "off-83",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-90",
+     "name": "PerformCare",
+     "kind": "off",
+     "parent": "off-90",
      "cluster": 7,
      "sim": 0.468,
      "shared": [
@@ -22149,28 +21804,6 @@
      ]
     },
     {
-     "slug": "burns-and-mcdonnell::burns-mcdonnell-engineering-design-construction",
-     "name": "Burns & McDonnell \u00b7 Burns & McDonnell (Engineering, Design, Construction)",
-     "kind": "line",
-     "parent": "burns-and-mcdonnell",
-     "cluster": 8,
-     "sim": 0.302,
-     "shared": [
-      "program-management"
-     ]
-    },
-    {
-     "slug": "camden-property-trust",
-     "name": "Camden Property Trust",
-     "kind": "seed",
-     "parent": "camden-property-trust",
-     "cluster": 8,
-     "sim": 0.271,
-     "shared": [
-      "construction-management"
-     ]
-    },
-    {
      "slug": "off-92",
      "name": "Ruekert & Mielke",
      "kind": "off",
@@ -22180,6 +21813,30 @@
      "shared": [
       "construction-management",
       "infrastructure-engineering",
+      "program-management"
+     ]
+    },
+    {
+     "slug": "off-98",
+     "name": "Capital Program Management",
+     "kind": "off",
+     "parent": "off-98",
+     "cluster": 8,
+     "sim": 0.727,
+     "shared": [
+      "construction-management",
+      "program-management"
+     ]
+    },
+    {
+     "slug": "off-104",
+     "name": "Silverman Construction Program Management",
+     "kind": "off",
+     "parent": "off-104",
+     "cluster": 8,
+     "sim": 0.727,
+     "shared": [
+      "construction-management",
       "program-management"
      ]
     }
@@ -22231,32 +21888,36 @@
      ]
     },
     {
-     "slug": "deloitte::audit-assurance",
-     "name": "Deloitte \u00b7 Audit & Assurance",
-     "kind": "line",
-     "parent": "deloitte",
-     "cluster": 6,
-     "sim": 0.347,
-     "shared": [
-      "audit-and-assurance"
-     ]
-    },
-    {
-     "slug": "deloitte::consulting",
-     "name": "Deloitte \u00b7 Consulting",
-     "kind": "line",
-     "parent": "deloitte",
-     "cluster": 6,
-     "sim": 0.32,
-     "shared": [
-      "management-consulting"
-     ]
-    },
-    {
      "slug": "off-78",
      "name": "Forvis Mazars (US)",
      "kind": "off",
      "parent": "off-78",
+     "cluster": 6,
+     "sim": 0.923,
+     "shared": [
+      "audit-and-assurance",
+      "management-consulting",
+      "transaction-advisory"
+     ]
+    },
+    {
+     "slug": "off-69",
+     "name": "Frazier & Deeter",
+     "kind": "off",
+     "parent": "off-69",
+     "cluster": 6,
+     "sim": 0.923,
+     "shared": [
+      "audit-and-assurance",
+      "management-consulting",
+      "transaction-advisory"
+     ]
+    },
+    {
+     "slug": "off-71",
+     "name": "PBMares",
+     "kind": "off",
+     "parent": "off-71",
      "cluster": 6,
      "sim": 0.923,
      "shared": [
@@ -22296,50 +21957,6 @@
      "shared": [
       "content-distribution",
       "film-and-tv-production"
-     ]
-    },
-    {
-     "slug": "the-walt-disney-company::disney-experiences-parks-cruises-consumer-products",
-     "name": "The Walt Disney Company \u00b7 Disney Experiences (parks, cruises, consumer products)",
-     "kind": "line",
-     "parent": "the-walt-disney-company",
-     "cluster": 9,
-     "sim": 0.302,
-     "shared": [
-      "theme-park-operations"
-     ]
-    },
-    {
-     "slug": "sony::pictures",
-     "name": "Sony \u00b7 Pictures",
-     "kind": "line",
-     "parent": "sony",
-     "cluster": 2,
-     "sim": 0.242,
-     "shared": [
-      "film-and-tv-production"
-     ]
-    },
-    {
-     "slug": "off-120",
-     "name": "Live Nation Entertainment",
-     "kind": "off",
-     "parent": "off-120",
-     "cluster": 9,
-     "sim": 0.393,
-     "shared": [
-      "theme-park-operations"
-     ]
-    },
-    {
-     "slug": "off-119",
-     "name": "Merlin Entertainments",
-     "kind": "off",
-     "parent": "off-119",
-     "cluster": 9,
-     "sim": 0.393,
-     "shared": [
-      "theme-park-operations"
      ]
     }
    ]

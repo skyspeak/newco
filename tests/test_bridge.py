@@ -67,7 +67,7 @@ class NeighborMixTests(unittest.TestCase):
              "tags": ["cloud-infrastructure-services", "ai-ml-platform"]},
             {"slug": "amazon::north-america-retail", "name": "Amazon · Retail",
              "kind": "line", "parent": "amazon", "cluster": 0,
-             "tags": ["fulfillment-network", "inventory-management",
+             "tags": ["fulfillment-network", "robotics-fulfillment",
                       "e-commerce-marketplace"]},
         ]
         nbrs = neighbors_for(
@@ -78,11 +78,21 @@ class NeighborMixTests(unittest.TestCase):
         pool = [
             {"slug": f"amazon::{i}", "name": f"Amazon · {i}", "kind": "line",
              "parent": "amazon", "cluster": 0,
-             "tags": ["fulfillment-network"]}
+             "tags": ["fulfillment-network", "inventory-management"]}
             for i in range(5)
         ]
-        nbrs = neighbors_for(["fulfillment-network"], 0, pool, k=5)
+        nbrs = neighbors_for(
+            ["fulfillment-network", "inventory-management"], 0, pool, k=5)
         self.assertEqual(len(nbrs), 2)
+
+    def test_one_shared_tag_is_not_a_neighbor(self):
+        pool = [{
+            "slug": "walmart-intl", "name": "Walmart · International",
+            "kind": "line", "parent": "walmart", "cluster": 0,
+            "tags": ["fulfillment-network", "store-network"],
+        }]
+        nbrs = neighbors_for(["fulfillment-network", "robotics-fulfillment"], 0, pool, k=3)
+        self.assertEqual(nbrs, [])
 
 
 class IncumbentPoolTests(unittest.TestCase):

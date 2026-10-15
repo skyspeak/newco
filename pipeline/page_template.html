@@ -176,7 +176,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--ink3);fo
   <div class="wrap">
     <div class="eyebrow">The Activity Map <span>v1 · seeded from the 2026 hot-companies indexes</span></div>
     <h1>An organizational map built on what firms&nbsp;do</h1>
-    <p class="dek">A 2026 incorporation is often a named desk already inside a hot-list ticker. Filled dots are listed firms. Hollow dots are the same work, off those lists. Amber diamonds are 2025–26 newcos, placed on the line they share. Red rings contradict their index label.</p>
+    <p class="dek">Filled dots are listed firms. Hollow dots are the same work, off those lists. Amber diamonds are 2025–26 newcos, placed only when they share two capability tags with an incumbent line or ticker. One overlapping word is not a match. Red rings contradict an index label.</p>
   </div>
   <div class="strip" id="strip"></div>
 </header>
@@ -442,10 +442,10 @@ function renderX(q){
 renderX(); document.getElementById("qx").oninput = e=>renderX(e.target.value);
 
 document.getElementById("p-newcos").innerHTML = `
-<h2>The desk already exists</h2>
-<p class="lede">${S.n_desk_hits||0} of ${(D.newcos||[]).length} newcos attach to a named line inside a split ticker, not to the whole company. YC sold a category. The map found a desk. ClaimGlide is “digital health” and sits on Progressive · Commercial Lines. Full shore: <a href="poc_bridge.html">poc_bridge.html</a>.</p>
+<h2>Two shared tags, or it is not a desk</h2>
+<p class="lede">${S.n_desk_hits||0} of ${(D.newcos||[]).length} newcos have a nearest neighbor that is a named line inside a split ticker, after dropping any pair that shares only one capability. A cable is two canonical tags in common. YC industry strings are not edges. Shore: <a href="poc_bridge.html">poc_bridge.html</a>.</p>
 <div class="viz">${newcoShoreSvg()}</div>
-<div class="hint">Amber diamond = newco. A name with a middle dot is a desk (Parent · line). Hollow = off-index. Click a diamond.</div>
+<div class="hint">Amber diamond = newco. A name with a middle dot is a line (Parent · desk). Hollow = off-index. No cable means nothing shared two tags.</div>
 <div class="scroll"><table><thead><tr><th>Newco</th><th>YC said</th><th>The desk</th><th>Shared work</th></tr></thead>
 <tbody>${(D.newcos||[]).map(n=>{
   const top=(n.nb||[])[0];
@@ -656,8 +656,8 @@ Names are written after inspecting over-represented capabilities; they are label
 <h3>Known limitations</h3>
 <p><b>The seed is a popularity artifact.</b> Employer-brand rankings favour large firms with consumer identities.</p>
 <p><b>Off-index firms are rematched to current clusters.</b> Search files keep their original batch names; assignment uses capability overlap with the live cluster, because integer ids reshuffle. Counts prove such firms exist; they do not estimate how many there are.</p>
-<p><b>Newcos are a 2025–26 incorporation cohort, not a census of Delaware filings.</b> ${S.n_newcos||0} firms from YC W26 (and a couple of 2024 peers in the same batch) were tagged in the map vocabulary and scored against <i>line-of-work nodes</i> from the unbundle stage, plus off-index firms. YC industry strings are not edges. Inactive listings and redirected pages were left off. No founder names.</p>
-<p><b>Unbundle runs before the bridge.</b> A firm with two or more tagged segments is exploded; leftover parent tags are not inherited. That file is <code>out/lines.json</code>. The newco cables use it so a logistics startup is not pulled toward Amazon because AWS smeared the ticker.</p>
+<p><b>Newcos are a 2025–26 incorporation cohort, not a census of Delaware filings.</b> ${S.n_newcos||0} firms from YC W26 (and a couple of 2024 peers in the same batch) were tagged in the map vocabulary and scored against line-of-work nodes, then against tickers if no line qualified. A neighbor needs two shared canonical tags. YC industry strings are not edges. Inactive listings and redirected pages were left off. No founder names.</p>
+<p><b>Unbundle runs before the bridge.</b> A firm with two or more tagged segments is exploded; leftover parent tags are not inherited. That file is <code>out/lines.json</code>. One shared tag is dropped so a robotics hand is not glued to Walmart International because both lists contain fulfillment-network.</p>
 <p><b>Sector buckets are a test instrument, not ground truth.</b> The mismatch rate measures disagreement between two imperfect readings.</p>
 <p><b>Function mix is an estimate.</b> Job-family weights were read from careers-page composition, not headcount. Treat them as ordinal.</p>
 <p><b>Source quality varies.</b> Mean extraction confidence ${S.mean_extraction_confidence}. Built ${esc(D.stats.generated||"2026")}.</p>
