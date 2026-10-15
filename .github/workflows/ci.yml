@@ -28,11 +28,16 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Rebuild map
         run: python pipeline/run.py --fail-on-scrub
+      - name: Stage site
+        run: |
+          mkdir -p _site
+          cp out/orgmap.html _site/index.html
+          cp out/poc_bridge.html out/poc_unbundle.html _site/
       - name: Upload orgmap
         uses: actions/upload-artifact@v4
         with:
           name: orgmap
-          path: out/orgmap.html
+          path: _site
 
   pages:
     needs: test
@@ -45,8 +50,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: orgmap
-      - name: Stage site
-        run: mkdir -p _site && cp orgmap.html _site/index.html
+          path: _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

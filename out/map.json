@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21",
+ "generated": "2026-09-14",
  "stats": {
   "n_companies": 147,
   "n_activity_statements": 824,
@@ -167,10 +167,18 @@
    "education-government-nonprofit": 1
   },
   "mean_foreign_tag_share": 0.057,
-  "n_off_index": 117,
-  "n_total_firms": 264,
+  "n_off_index": 131,
+  "n_total_firms": 278,
   "expansion_dropped": {},
-  "expansion_search_cap_note": "Off-index counts are search-capped at 10-14 candidates per cluster and are an existence proof, not a population estimate."
+  "expansion_search_cap_note": "Off-index firms are assigned to current activity clusters by capability overlap. Counts are an existence proof, not a population estimate.",
+  "expansion_reassigned": 43,
+  "n_newcos": 19,
+  "n_bridge_cables": 55,
+  "n_yc_label_drift": 18,
+  "n_line_nodes": 299,
+  "n_segment_nodes": 232,
+  "n_split_parents": 80,
+  "n_desk_hits": 10
  },
  "clusters": [
   {
@@ -15854,52 +15862,17 @@
    "n_firms": 6
   },
   {
-   "tag": "franchise-licensing",
-   "entropy": 0.655,
-   "n_firms": 5
-  },
-  {
    "tag": "fulfillment-network",
    "entropy": 0.828,
    "n_firms": 5
   },
   {
-   "tag": "semiconductor-fabrication",
-   "entropy": 1.0,
-   "n_firms": 3
-  },
-  {
-   "tag": "mergers-and-acquisitions-advisory",
-   "entropy": 0.579,
-   "n_firms": 3
+   "tag": "franchise-licensing",
+   "entropy": 0.655,
+   "n_firms": 5
   },
   {
    "tag": "data-and-analytics",
-   "entropy": 0.579,
-   "n_firms": 3
-  },
-  {
-   "tag": "field-service-technicians",
-   "entropy": 1.0,
-   "n_firms": 3
-  },
-  {
-   "tag": "sustainability-consulting",
-   "entropy": 0.579,
-   "n_firms": 3
-  },
-  {
-   "tag": "mortgage-origination",
-   "entropy": 0.579,
-   "n_firms": 3
-  },
-  {
-   "tag": "global-distribution",
-   "entropy": 1.0,
-   "n_firms": 3
-  },
-  {
-   "tag": "last-mile-delivery",
    "entropy": 0.579,
    "n_firms": 3
   },
@@ -15909,8 +15882,43 @@
    "n_firms": 3
   },
   {
+   "tag": "mortgage-origination",
+   "entropy": 0.579,
+   "n_firms": 3
+  },
+  {
+   "tag": "last-mile-delivery",
+   "entropy": 0.579,
+   "n_firms": 3
+  },
+  {
+   "tag": "field-service-technicians",
+   "entropy": 1.0,
+   "n_firms": 3
+  },
+  {
    "tag": "digital-transformation-consulting",
    "entropy": 1.0,
+   "n_firms": 3
+  },
+  {
+   "tag": "global-distribution",
+   "entropy": 1.0,
+   "n_firms": 3
+  },
+  {
+   "tag": "semiconductor-fabrication",
+   "entropy": 1.0,
+   "n_firms": 3
+  },
+  {
+   "tag": "sustainability-consulting",
+   "entropy": 0.579,
+   "n_firms": 3
+  },
+  {
+   "tag": "mergers-and-acquisitions-advisory",
+   "entropy": 0.579,
    "n_firms": 3
   }
  ],
@@ -19276,7 +19284,7 @@
   {
    "company": "CAES (Cobham Advanced Electronic Solutions)",
    "domain": "caes.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "electronic-warfare",
     "semiconductor-fabrication",
@@ -19290,7 +19298,7 @@
   {
    "company": "Exolaunch",
    "domain": "exolaunch.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "space-and-satellite"
    ],
@@ -19302,7 +19310,7 @@
   {
    "company": "Kepler Communications",
    "domain": "kepler.space",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "space-and-satellite"
    ],
@@ -19314,7 +19322,7 @@
   {
    "company": "LeoStella",
    "domain": "leostella.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "space-and-satellite",
     "vehicle-manufacturing"
@@ -19327,7 +19335,7 @@
   {
    "company": "Anchor Manufacturing Group",
    "domain": "anchor-mfg.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "vehicle-manufacturing",
     "vehicle-design-and-engineering"
@@ -19340,7 +19348,7 @@
   {
    "company": "Midwest Engineered Systems (MWES)",
    "domain": "mwes.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "industrial-automation",
     "vehicle-manufacturing"
@@ -19353,7 +19361,7 @@
   {
    "company": "Enpower Electric",
    "domain": "enpower.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "electric-vehicle-development",
     "dealer-network-distribution"
@@ -19366,7 +19374,7 @@
   {
    "company": "Electronic Warfare Associates (EWA)",
    "domain": "ewa-gsi.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "electronic-warfare",
     "space-and-satellite"
@@ -19391,7 +19399,7 @@
   {
    "company": "Punch Powertrain",
    "domain": "punchpowertrain.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "electric-vehicle-development",
     "vehicle-manufacturing",
@@ -19405,7 +19413,7 @@
   {
    "company": "SATLANTIS",
    "domain": "satlantis.com",
-   "cluster": 2,
+   "cluster": 5,
    "matched_capabilities": [
     "space-and-satellite",
     "vehicle-design-and-engineering"
@@ -19747,7 +19755,7 @@
   {
    "company": "OpenX",
    "domain": "openx.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "ad-inventory-marketplace"
    ],
@@ -19759,7 +19767,7 @@
   {
    "company": "Admixer",
    "domain": "admixer.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "ad-inventory-marketplace",
     "developer-platform"
@@ -19772,7 +19780,7 @@
   {
    "company": "Chocolate Platform",
    "domain": "chocolateplatform.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "ad-inventory-marketplace"
    ],
@@ -19784,7 +19792,7 @@
   {
    "company": "Stream Data Centers",
    "domain": "streamdatacenters.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "data-center-operations"
    ],
@@ -19796,7 +19804,7 @@
   {
    "company": "CoreSite",
    "domain": "coresite.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "data-center-operations"
    ],
@@ -19808,7 +19816,7 @@
   {
    "company": "Netrality Data Centers",
    "domain": "netrality.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "data-center-operations"
    ],
@@ -19820,7 +19828,7 @@
   {
    "company": "Havok",
    "domain": "havok.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "developer-platform",
     "content-production"
@@ -19833,7 +19841,7 @@
   {
    "company": "CRI Middleware",
    "domain": "criware.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "developer-platform",
     "content-production"
@@ -19846,7 +19854,7 @@
   {
    "company": "Crytek",
    "domain": "crytek.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "developer-platform",
     "content-production"
@@ -19871,7 +19879,7 @@
   {
    "company": "CDNetworks",
    "domain": "cdnetworks.com",
-   "cluster": 5,
+   "cluster": 2,
    "matched_capabilities": [
     "data-center-operations",
     "content-production"
@@ -20403,7 +20411,7 @@
   {
    "company": "Engage3",
    "domain": "engage3.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "competitive-pricing-intelligence",
     "product-attribute-data"
@@ -20416,7 +20424,7 @@
   {
    "company": "Datasembly",
    "domain": "datasembly.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "competitive-pricing-intelligence",
     "retail-audit-services",
@@ -20430,7 +20438,7 @@
   {
    "company": "Retail Velocity",
    "domain": "retailvelocity.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "cpg-sales-support",
     "product-attribute-data",
@@ -20444,7 +20452,7 @@
   {
    "company": "Strategic Retail Solutions",
    "domain": "srsmerchandising.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "field-service-merchandising",
     "cpg-sales-support",
@@ -20459,7 +20467,7 @@
   {
    "company": "Observa",
    "domain": "observanow.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "retail-audit-services",
     "out-of-stock-resolution",
@@ -20474,7 +20482,7 @@
   {
    "company": "Field Force Merchandising",
    "domain": "fieldforcemerchandising.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "field-service-merchandising",
     "cpg-sales-support",
@@ -20488,7 +20496,7 @@
   {
    "company": "RMS Merchandising",
    "domain": "rmservicing.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "field-service-merchandising",
     "out-of-stock-resolution",
@@ -20541,7 +20549,7 @@
   {
    "company": "Harmonya",
    "domain": "harmonya.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "product-attribute-data",
     "competitive-pricing-intelligence",
@@ -20555,7 +20563,7 @@
   {
    "company": "1WorldSync",
    "domain": "1worldsync.com",
-   "cluster": 9,
+   "cluster": 10,
    "matched_capabilities": [
     "product-attribute-data",
     "cpg-sales-support"
@@ -20564,6 +20572,200 @@
    "why_off_index": "Private B2B product data network powering 85% of leading brands and retailers; entirely invisible to consumers; operates infrastructure-level data services that generate no employer-brand awareness.",
    "source_url": "https://1worldsync.com/",
    "confidence": 0.91
+  },
+  {
+   "company": "Six Flags Entertainment Corporation",
+   "domain": "sixflags.com",
+   "cluster": 9,
+   "matched_capabilities": [
+    "theme-park-operations"
+   ],
+   "activity_evidence": "Operates North America's largest regional amusement-resort portfolio, with 20 amusement parks, 14 water parks and nine resort properties across the U.S., Canada and Mexico, plus management of an amusement park in Saudi Arabia, providing coasters, themed rides, water parks and licensed intellectual-property attractions.",
+   "why_off_index": "Regional amusement-park operator with a seasonal hourly workforce and no consumer-tech employer brand; absent from the 2026 best-places indexes despite national park operations.",
+   "source_url": "https://s204.q4cdn.com/155295784/files/doc_financials/2026/q2/Six-Flags-2Q-2026-Earnings-Release-August-6-2026.pdf",
+   "confidence": 0.93
+  },
+  {
+   "company": "United Parks & Resorts",
+   "domain": "unitedparks.com",
+   "cluster": 9,
+   "matched_capabilities": [
+    "theme-park-operations"
+   ],
+   "activity_evidence": "Owns or licenses a portfolio of theme-park brands including SeaWorld, Busch Gardens, Discovery Cove, Sesame Place, Water Country USA, Adventure Island and Aquatica, spanning 13 parks in seven markets across the United States and Abu Dhabi, combining thrill and family rides with zoological presentations and animal-rescue operations.",
+   "why_off_index": "Destination park operator whose consumer identity sits on the park brands, not the parent ticker; never appears on the 2026 employer-brand indexes that seeded this map.",
+   "source_url": "https://unitedparks.com/about-us/",
+   "confidence": 0.95
+  },
+  {
+   "company": "Merlin Entertainments",
+   "domain": "merlinentertainments.biz",
+   "cluster": 9,
+   "matched_capabilities": [
+    "theme-park-operations"
+   ],
+   "activity_evidence": "Owns and operates a global portfolio of family attractions across more than 20 countries, from shorter-dwell gateway sites such as SEA LIFE, Madame Tussauds and the London Eye to theme-park resorts including LEGOLAND, Gardaland Resort and Alton Towers Resort.",
+   "why_off_index": "UK-headquartered attraction operator with no US employer-brand ranking footprint; parks run under licensed and own brands rather than a consumer employer identity.",
+   "source_url": "https://www.merlinentertainments.biz/about-us/",
+   "confidence": 0.92
+  },
+  {
+   "company": "Live Nation Entertainment",
+   "domain": "livenationentertainment.com",
+   "cluster": 9,
+   "matched_capabilities": [
+    "theme-park-operations"
+   ],
+   "activity_evidence": "Produces live entertainment as the world's largest concert promoter, operates a leading ticketing platform for artists, venues, festivals, sports leagues and theater groups, and sells sponsorship connecting brand partners to live-music audiences.",
+   "why_off_index": "Live-events conglomerate whose workforce is venue and tour operations rather than a ranked corporate campus; not on the 2026 hot lists.",
+   "source_url": "https://www.livenationentertainment.com/about/",
+   "confidence": 0.9
+  },
+  {
+   "company": "Acosta Group",
+   "domain": "acosta.group",
+   "cluster": 10,
+   "matched_capabilities": [
+    "field-service-merchandising",
+    "out-of-stock-resolution",
+    "retail-audit-services",
+    "cpg-sales-support"
+   ],
+   "activity_evidence": "Runs in-store merchandising, technical display installation, category and space management, audits, resets and fulfillment for CPG brands and retailers across North America and Europe, using a proprietary 360 field-management system to route store visits and report execution.",
+   "why_off_index": "B2B retail-execution holding company whose field workforce is invisible to consumer employer-brand rankings; work happens under retailer roofs, not an Acosta storefront.",
+   "source_url": "https://www.acosta.group/what-we-do/retail-execution/",
+   "confidence": 0.94
+  },
+  {
+   "company": "Advantage Solutions",
+   "domain": "youradv.com",
+   "cluster": 10,
+   "matched_capabilities": [
+    "field-service-merchandising",
+    "cpg-sales-support",
+    "retail-audit-services",
+    "out-of-stock-resolution"
+   ],
+   "activity_evidence": "Provides outsourced headquarter sales, retail merchandising and omnichannel marketing for CPG brands and retailers, including in-store merchandising, sampling events, private-brand support and retailer services across grocery, mass and other channels.",
+   "why_off_index": "Commercial-services platform sitting between brands and retailers; no consumer brand and a dispersed field labor model that employer-ranking surveys do not capture.",
+   "source_url": "https://youradv.com/company/",
+   "confidence": 0.93
+  },
+  {
+   "company": "SPAR Group",
+   "domain": "sparinc.com",
+   "cluster": 10,
+   "matched_capabilities": [
+    "field-service-merchandising",
+    "retail-audit-services",
+    "cpg-sales-support"
+   ],
+   "activity_evidence": "Provides retail merchandising and in-store execution for consumer-goods companies and retailers, including store resets, assembly, merchandising and data-driven visibility into in-store performance.",
+   "why_off_index": "Specialist merchandising contractor with a dispersed merchandiser workforce and no consumer identity; too unglamorous for best-places-to-work lists.",
+   "source_url": "https://www.sparinc.com/about/",
+   "confidence": 0.88
+  },
+  {
+   "company": "Associated Wholesale Grocers",
+   "domain": "awginc.com",
+   "cluster": 0,
+   "matched_capabilities": [
+    "grocery-retail-operations",
+    "inventory-management",
+    "store-network-management",
+    "private-label-product-development"
+   ],
+   "activity_evidence": "Operates as a cooperative food wholesaler to independently owned supermarkets, serving 1,100 member companies and 3,500 locations in 33 states from nine wholesale division support centers, and also provides supermarket development services and pharmaceutical products through subsidiaries.",
+   "why_off_index": "Member-owned grocery wholesaler with no consumer banner of its own; B2B cooperative structure keeps it off employer-brand indexes.",
+   "source_url": "https://www.awginc.com/about-us",
+   "confidence": 0.94
+  },
+  {
+   "company": "United Natural Foods",
+   "domain": "unfi.com",
+   "cluster": 0,
+   "matched_capabilities": [
+    "grocery-retail-operations",
+    "inventory-management",
+    "fulfillment-network",
+    "private-label-product-development"
+   ],
+   "activity_evidence": "Wholesale grocery distributor delivering natural, organic, specialty, fresh, conventional and private-label products to more than 30,000 customer locations in the United States and Canada from dozens of distribution centers, plus retailer support services including shelf management, data and technology.",
+   "why_off_index": "B2B grocery wholesaler whose name never appears on a storefront; infrastructure firm invisible to consumer employer rankings.",
+   "source_url": "https://ir.unfi.com/overview/default.aspx",
+   "confidence": 0.92
+  },
+  {
+   "company": "Lineage",
+   "domain": "lineagelogistics.com",
+   "cluster": 0,
+   "matched_capabilities": [
+    "inventory-management",
+    "fulfillment-network",
+    "cold-chain-logistics"
+   ],
+   "activity_evidence": "Operates a global network of temperature-controlled warehouses and integrated logistics, including import/export, transportation, fulfillment and bonded warehousing for food and other cold-chain products across North America, Canada and Europe.",
+   "why_off_index": "Cold-storage REIT/operator with no consumer brand; warehouse labor and B2B contracts do not surface in best-places-to-work methodology.",
+   "source_url": "https://www.lineagelogistics.com/",
+   "confidence": 0.91
+  },
+  {
+   "company": "PACCAR",
+   "domain": "paccar.com",
+   "cluster": 5,
+   "matched_capabilities": [
+    "vehicle-manufacturing",
+    "vehicle-design-and-engineering",
+    "dealer-network-distribution",
+    "vehicle-financing"
+   ],
+   "activity_evidence": "Designs and manufactures light-, medium- and heavy-duty trucks under the Kenworth, Peterbilt and DAF nameplates, builds diesel engines, distributes truck parts through a 2,200-location dealer network, and provides finance, lease and insurance services on a portfolio of more than 180,000 trucks and trailers.",
+   "why_off_index": "Commercial-vehicle manufacturer whose consumer identity lives on the Kenworth/Peterbilt badges; parent is absent from the 2026 hot lists.",
+   "source_url": "https://www.paccar.com/about-us/",
+   "confidence": 0.95
+  },
+  {
+   "company": "General Dynamics",
+   "domain": "generaldynamics.com",
+   "cluster": 5,
+   "matched_capabilities": [
+    "electronic-warfare",
+    "vehicle-manufacturing",
+    "space-and-satellite"
+   ],
+   "activity_evidence": "Aerospace and defense company that designs and produces Gulfstream business jets, wheeled combat vehicles, nuclear-powered submarines and communications systems through four groups: Aerospace, Marine Systems, Combat Systems and Technologies.",
+   "why_off_index": "Prime defense contractor with a classified/government client base and no consumer employer brand on the 2026 indexes.",
+   "source_url": "https://www.generaldynamics.com/about",
+   "confidence": 0.93
+  },
+  {
+   "company": "L3Harris Technologies",
+   "domain": "l3harris.com",
+   "cluster": 5,
+   "matched_capabilities": [
+    "electronic-warfare",
+    "space-and-satellite",
+    "missile-defense"
+   ],
+   "activity_evidence": "Provides electronic-warfare systems spanning multi-spectral situational awareness, threat warning, sensor fusion and countermeasures, including all-digital EW suites for combat aircraft, plus communications, sensing and space mission systems across air, land, sea, space and cyber domains.",
+   "why_off_index": "Defense electronics prime whose work is sold to governments, not consumers; not present on the 2026 best-places seed.",
+   "source_url": "https://www.l3harris.com/all-capabilities/electronic-warfare",
+   "confidence": 0.92
+  },
+  {
+   "company": "HCA Healthcare",
+   "domain": "hcahealthcare.com",
+   "cluster": 7,
+   "matched_capabilities": [
+    "clinical-care-delivery",
+    "primary-care-network",
+    "hospital-operations",
+    "value-based-care"
+   ],
+   "activity_evidence": "Operates 189 hospitals and approximately 2,600 ambulatory sites of care in 19 US states and the United Kingdom, using data from tens of millions of annual patient encounters to set care protocols across an integrated local-network model.",
+   "why_off_index": "Largest US hospital operator by facility count, but a clinical-staffing machine rather than a consumer-tech brand; missing from the 2026 hot lists that seeded this map.",
+   "source_url": "https://hcahealthcare.com/about/",
+   "confidence": 0.94
   }
  ],
  "expansion_coverage": [
@@ -20576,7 +20778,7 @@
     "store-associate-workforce"
    ],
    "on_index": 25,
-   "off_index_found": 11,
+   "off_index_found": 14,
    "search_capped": true
   },
   {
@@ -20636,7 +20838,7 @@
     "vehicle-manufacturing"
    ],
    "on_index": 13,
-   "off_index_found": 11,
+   "off_index_found": 14,
    "search_capped": true
   },
   {
@@ -20660,7 +20862,7 @@
     "physician-employment-at-scale"
    ],
    "on_index": 11,
-   "off_index_found": 11,
+   "off_index_found": 12,
    "search_capped": true
   },
   {
@@ -20681,7 +20883,7 @@
     "theme-park-operations"
    ],
    "on_index": 5,
-   "off_index_found": 12,
+   "off_index_found": 7,
    "search_capped": true
   },
   {
@@ -20693,8 +20895,1506 @@
     "out-of-stock-resolution"
    ],
    "on_index": 5,
-   "off_index_found": 0,
+   "off_index_found": 12,
    "search_capped": true
+  }
+ ],
+ "newcos": [
+  {
+   "slug": "haladir",
+   "company": "Haladir",
+   "domain": "haladir.com",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "B2B / logistics AI",
+   "cluster": 0,
+   "cluster_name": "Store networks & physical distribution",
+   "matched_capabilities": [
+    "inventory-management",
+    "fulfillment-network",
+    "logistics-and-distribution"
+   ],
+   "activity_evidence": "Sits on warehouse-management, transportation-management and ERP systems and turns that data into supply-chain planning and execution decisions: routing, scheduling and resource allocation under hard operational constraints.",
+   "bridge": "A logistics decision layer, not a new retailer. The work already lives in fulfillment networks.",
+   "source_url": "https://www.ycombinator.com/companies/haladir",
+   "confidence": 0.9,
+   "neighbors": [
+    {
+     "slug": "lowe-s-companies",
+     "name": "Lowe's Companies",
+     "kind": "seed",
+     "parent": "lowe-s-companies",
+     "cluster": 0,
+     "sim": 0.482,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "walmart::walmart-international",
+     "name": "Walmart \u00b7 Walmart International",
+     "kind": "line",
+     "parent": "walmart",
+     "cluster": 0,
+     "sim": 0.347,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "fedex::federal-express-air-ground-express",
+     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
+     "kind": "line",
+     "parent": "fedex",
+     "cluster": 0,
+     "sim": 0.302,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "amazon::international-retail",
+     "name": "Amazon \u00b7 International Retail",
+     "kind": "line",
+     "parent": "amazon",
+     "cluster": 2,
+     "sim": 0.287,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "off-9",
+     "name": "Imperial PFS",
+     "kind": "off",
+     "parent": "off-9",
+     "cluster": 0,
+     "sim": 0.727,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "one-robot",
+   "company": "One Robot",
+   "domain": "onerobot.io",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "robotics / AI",
+   "cluster": 0,
+   "cluster_name": "Store networks & physical distribution",
+   "matched_capabilities": [
+    "fulfillment-network",
+    "robotics-fulfillment",
+    "inventory-management"
+   ],
+   "activity_evidence": "Builds task-specific simulation environments for robot policies on material-handling and manufacturing assembly work such as textiles and box folding, so teams can train and evaluate manipulation without being limited by physical robot time.",
+   "bridge": "Warehouse manipulation is already the staffing story inside store-network and fulfillment firms.",
+   "source_url": "https://www.ycombinator.com/companies/one-robot",
+   "confidence": 0.88,
+   "neighbors": [
+    {
+     "slug": "lowe-s-companies",
+     "name": "Lowe's Companies",
+     "kind": "seed",
+     "parent": "lowe-s-companies",
+     "cluster": 0,
+     "sim": 0.482,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    },
+    {
+     "slug": "walmart::walmart-international",
+     "name": "Walmart \u00b7 Walmart International",
+     "kind": "line",
+     "parent": "walmart",
+     "cluster": 0,
+     "sim": 0.347,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "fedex::federal-express-air-ground-express",
+     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
+     "kind": "line",
+     "parent": "fedex",
+     "cluster": 0,
+     "sim": 0.302,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "amazon::international-retail",
+     "name": "Amazon \u00b7 International Retail",
+     "kind": "line",
+     "parent": "amazon",
+     "cluster": 2,
+     "sim": 0.287,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "off-9",
+     "name": "Imperial PFS",
+     "kind": "off",
+     "parent": "off-9",
+     "cluster": 0,
+     "sim": 0.727,
+     "shared": [
+      "fulfillment-network",
+      "inventory-management"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "origami-robotics",
+   "company": "Origami Robotics",
+   "domain": "origami-robotics.com",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "robotics / physical AI",
+   "cluster": 0,
+   "cluster_name": "Store networks & physical distribution",
+   "matched_capabilities": [
+    "fulfillment-network",
+    "robotics-fulfillment"
+   ],
+   "activity_evidence": "Designs a high-degree-of-freedom robotic hand and matching data-collection device so manipulation policies trained on factory and logistics-center work can be deployed on the same hardware.",
+   "bridge": "Dexterous picking is a line of work already staffed on fulfillment floors and assembly lines.",
+   "source_url": "https://www.ycombinator.com/companies/origami-robotics",
+   "confidence": 0.86,
+   "neighbors": [
+    {
+     "slug": "walmart::walmart-international",
+     "name": "Walmart \u00b7 Walmart International",
+     "kind": "line",
+     "parent": "walmart",
+     "cluster": 0,
+     "sim": 0.468,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "amazon::international-retail",
+     "name": "Amazon \u00b7 International Retail",
+     "kind": "line",
+     "parent": "amazon",
+     "cluster": 2,
+     "sim": 0.408,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "fedex::federal-express-air-ground-express",
+     "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
+     "kind": "line",
+     "parent": "fedex",
+     "cluster": 0,
+     "sim": 0.395,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "lowe-s-companies",
+     "name": "Lowe's Companies",
+     "kind": "seed",
+     "parent": "lowe-s-companies",
+     "cluster": 0,
+     "sim": 0.346,
+     "shared": [
+      "fulfillment-network"
+     ]
+    },
+    {
+     "slug": "off-9",
+     "name": "Imperial PFS",
+     "kind": "off",
+     "parent": "off-9",
+     "cluster": 0,
+     "sim": 0.468,
+     "shared": [
+      "fulfillment-network"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "panta",
+   "company": "Panta",
+   "domain": "pantainsure.com",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "fintech / insurance",
+   "cluster": 1,
+   "cluster_name": "Money movement, risk & claims",
+   "matched_capabilities": [
+    "claims-adjudication",
+    "personal-lines-insurance",
+    "actuarial-modeling"
+   ],
+   "activity_evidence": "Operates as a licensed commercial insurance brokerage whose operations layer submits applications, chases underwriters, issues certificates and re-shops renewals for hard-to-place risks in construction, trucking, energy and manufacturing.",
+   "bridge": "Brokerage operations are the same claims-and-placement work already running at listed insurers.",
+   "source_url": "https://www.ycombinator.com/companies/panta",
+   "confidence": 0.92,
+   "neighbors": [
+    {
+     "slug": "acuity-insurance",
+     "name": "Acuity Insurance",
+     "kind": "seed",
+     "parent": "acuity-insurance",
+     "cluster": 1,
+     "sim": 0.693,
+     "shared": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "amica-insurance",
+     "name": "Amica Insurance",
+     "kind": "seed",
+     "parent": "amica-insurance",
+     "cluster": 1,
+     "sim": 0.693,
+     "shared": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "state-farm",
+     "name": "State Farm",
+     "kind": "seed",
+     "parent": "state-farm",
+     "cluster": 1,
+     "sim": 0.693,
+     "shared": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "progressive::commercial-lines",
+     "name": "Progressive \u00b7 Commercial Lines",
+     "kind": "line",
+     "parent": "progressive",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "claims-adjudication"
+     ]
+    },
+    {
+     "slug": "off-17",
+     "name": "GPW and Associates",
+     "kind": "off",
+     "parent": "off-17",
+     "cluster": 1,
+     "sim": 1.06,
+     "shared": [
+      "actuarial-modeling",
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "inventoryquant",
+   "company": "InventoryQuant",
+   "domain": "inventoryquant.com",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "insurance / AI",
+   "cluster": 1,
+   "cluster_name": "Money movement, risk & claims",
+   "matched_capabilities": [
+    "claims-adjudication",
+    "personal-lines-insurance"
+   ],
+   "activity_evidence": "Automates inventory and contents processing for insurance carriers, public adjusters and restoration firms, including adjacent estimating workflows that currently consume large amounts of claims labor.",
+   "bridge": "Contents inventory is a claims step, not a grocery step, even though the word is inventory.",
+   "source_url": "https://www.ycombinator.com/companies/inventoryquant",
+   "confidence": 0.9,
+   "neighbors": [
+    {
+     "slug": "acuity-insurance",
+     "name": "Acuity Insurance",
+     "kind": "seed",
+     "parent": "acuity-insurance",
+     "cluster": 1,
+     "sim": 0.632,
+     "shared": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "amica-insurance",
+     "name": "Amica Insurance",
+     "kind": "seed",
+     "parent": "amica-insurance",
+     "cluster": 1,
+     "sim": 0.632,
+     "shared": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "state-farm",
+     "name": "State Farm",
+     "kind": "seed",
+     "parent": "state-farm",
+     "cluster": 1,
+     "sim": 0.632,
+     "shared": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    },
+    {
+     "slug": "progressive::commercial-lines",
+     "name": "Progressive \u00b7 Commercial Lines",
+     "kind": "line",
+     "parent": "progressive",
+     "cluster": 1,
+     "sim": 0.468,
+     "shared": [
+      "claims-adjudication"
+     ]
+    },
+    {
+     "slug": "off-14",
+     "name": "CBCS",
+     "kind": "off",
+     "parent": "off-14",
+     "cluster": 1,
+     "sim": 0.877,
+     "shared": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "sequence-markets",
+   "company": "Sequence Markets",
+   "domain": "sequencemkts.com",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "crypto / trading",
+   "cluster": 1,
+   "cluster_name": "Money movement, risk & claims",
+   "matched_capabilities": [
+    "capital-markets",
+    "core-transaction-processing",
+    "payment-processing"
+   ],
+   "activity_evidence": "Runs low-latency routing and execution software so a single market view can be turned into a trade across crypto exchanges, prediction markets and tokenized-asset venues, with execution reporting on the resulting fills.",
+   "bridge": "Venue-to-venue execution is the same transaction-processing work capital-markets desks already do.",
+   "source_url": "https://www.ycombinator.com/companies/sequence-markets",
+   "confidence": 0.88,
+   "neighbors": [
+    {
+     "slug": "bank-of-america::global-markets",
+     "name": "Bank of America \u00b7 Global Markets",
+     "kind": "line",
+     "parent": "bank-of-america",
+     "cluster": 1,
+     "sim": 0.727,
+     "shared": [
+      "capital-markets",
+      "payment-processing"
+     ]
+    },
+    {
+     "slug": "bank-of-america::global-banking",
+     "name": "Bank of America \u00b7 Global Banking",
+     "kind": "line",
+     "parent": "bank-of-america",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "capital-markets"
+     ]
+    },
+    {
+     "slug": "jpmorganchase::technology",
+     "name": "JPMorganChase \u00b7 Technology",
+     "kind": "line",
+     "parent": "jpmorganchase",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "core-transaction-processing"
+     ]
+    },
+    {
+     "slug": "state-street::markets",
+     "name": "State Street \u00b7 Markets",
+     "kind": "line",
+     "parent": "state-street",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "core-transaction-processing"
+     ]
+    },
+    {
+     "slug": "off-12",
+     "name": "Finastra",
+     "kind": "off",
+     "parent": "off-12",
+     "cluster": 1,
+     "sim": 0.923,
+     "shared": [
+      "capital-markets",
+      "core-transaction-processing",
+      "payment-processing"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "copperlane",
+   "company": "Copperlane",
+   "domain": "copperlane.ai",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "fintech / mortgage",
+   "cluster": 1,
+   "cluster_name": "Money movement, risk & claims",
+   "matched_capabilities": [
+    "digital-mortgage-origination",
+    "consumer-lending",
+    "loan-servicing"
+   ],
+   "activity_evidence": "Helps mortgage lenders originate loans by pulling borrower documents, checking eligibility, flagging missing or conflicting files, and assembling complete packages for loan officers.",
+   "bridge": "Origination intake is already a named capability at listed mortgage platforms.",
+   "source_url": "https://www.ycombinator.com/companies/copperlane",
+   "confidence": 0.93,
+   "neighbors": [
+    {
+     "slug": "rocket-companies",
+     "name": "Rocket Companies",
+     "kind": "seed",
+     "parent": "rocket-companies",
+     "cluster": 10,
+     "sim": 0.633,
+     "shared": [
+      "consumer-lending",
+      "digital-mortgage-origination",
+      "loan-servicing"
+     ]
+    },
+    {
+     "slug": "american-express::international-card-services",
+     "name": "American Express \u00b7 International Card Services",
+     "kind": "line",
+     "parent": "american-express",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "consumer-lending"
+     ]
+    },
+    {
+     "slug": "american-express::u-s-consumer-services",
+     "name": "American Express \u00b7 U.S. Consumer Services",
+     "kind": "line",
+     "parent": "american-express",
+     "cluster": 1,
+     "sim": 0.32,
+     "shared": [
+      "consumer-lending"
+     ]
+    },
+    {
+     "slug": "citi::personal-banking-and-wealth-management",
+     "name": "Citi \u00b7 Personal Banking and Wealth Management",
+     "kind": "line",
+     "parent": "citi",
+     "cluster": 1,
+     "sim": 0.32,
+     "shared": [
+      "consumer-lending"
+     ]
+    },
+    {
+     "slug": "bank-of-america::consumer-banking",
+     "name": "Bank of America \u00b7 Consumer Banking",
+     "kind": "line",
+     "parent": "bank-of-america",
+     "cluster": 1,
+     "sim": 0.302,
+     "shared": [
+      "consumer-lending"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "visibl-semiconductors",
+   "company": "Visibl Semiconductors",
+   "domain": "visiblsemi.com",
+   "founded": 2024,
+   "batch": "YC W26",
+   "yc_label": "semiconductors / AI",
+   "cluster": 2,
+   "cluster_name": "Platforms, silicon & content systems",
+   "matched_capabilities": [
+    "semiconductor-design",
+    "semiconductor-fabrication",
+    "custom-silicon-design"
+   ],
+   "activity_evidence": "Acts as a custom-silicon design partner on mature nodes for power electronics, covering architecture through verification, fabrication, packaging and production-ready parts for motor drives, battery systems, EV charging, solar and grid conversion.",
+   "bridge": "Custom silicon for power is the same design-and-fab work the listed chip firms already run.",
+   "source_url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+   "confidence": 0.91,
+   "neighbors": [
+    {
+     "slug": "sony::imaging-sensing-solutions-i-ss",
+     "name": "Sony \u00b7 Imaging & Sensing Solutions (I&SS)",
+     "kind": "line",
+     "parent": "sony",
+     "cluster": 2,
+     "sim": 0.347,
+     "shared": [
+      "semiconductor-fabrication"
+     ]
+    },
+    {
+     "slug": "amazon::aws-cloud-ai-services",
+     "name": "Amazon \u00b7 AWS (Cloud & AI Services)",
+     "kind": "line",
+     "parent": "amazon",
+     "cluster": 2,
+     "sim": 0.32,
+     "shared": [
+      "custom-silicon-design"
+     ]
+    },
+    {
+     "slug": "intel::intel-foundry",
+     "name": "Intel \u00b7 Intel Foundry",
+     "kind": "line",
+     "parent": "intel",
+     "cluster": 2,
+     "sim": 0.32,
+     "shared": [
+      "semiconductor-fabrication"
+     ]
+    },
+    {
+     "slug": "apple::products-hardware",
+     "name": "Apple \u00b7 Products (Hardware)",
+     "kind": "line",
+     "parent": "apple",
+     "cluster": 2,
+     "sim": 0.302,
+     "shared": [
+      "semiconductor-design"
+     ]
+    },
+    {
+     "slug": "off-22",
+     "name": "GlobalFoundries",
+     "kind": "off",
+     "parent": "off-22",
+     "cluster": 2,
+     "sim": 0.393,
+     "shared": [
+      "semiconductor-fabrication"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "congruent",
+   "company": "Congruent",
+   "domain": "congruent.io",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "autonomy / sensors",
+   "cluster": 5,
+   "cluster_name": "Engineered hardware & defense systems",
+   "matched_capabilities": [
+    "electric-vehicle-development",
+    "vehicle-design-and-engineering",
+    "semiconductor-design"
+   ],
+   "activity_evidence": "Builds automotive radar hardware that exposes raw sensor data, plus a radar simulator, so mass-market vehicles can train end-to-end autonomy stacks on cameras and radar together instead of lidar.",
+   "bridge": "Vehicle sensing is an OEM and tier-one line of work, not a generic software category.",
+   "source_url": "https://www.ycombinator.com/companies/congruent",
+   "confidence": 0.9,
+   "neighbors": [
+    {
+     "slug": "honda::automobile-business",
+     "name": "Honda \u00b7 Automobile Business",
+     "kind": "line",
+     "parent": "honda",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "electric-vehicle-development"
+     ]
+    },
+    {
+     "slug": "ford-motor-company::ford-blue-ice-vehicles",
+     "name": "Ford Motor Company \u00b7 Ford Blue (ICE Vehicles)",
+     "kind": "line",
+     "parent": "ford-motor-company",
+     "cluster": 5,
+     "sim": 0.32,
+     "shared": [
+      "vehicle-design-and-engineering"
+     ]
+    },
+    {
+     "slug": "ford-motor-company::ford-model-e-electric-vehicles",
+     "name": "Ford Motor Company \u00b7 Ford Model e (Electric Vehicles)",
+     "kind": "line",
+     "parent": "ford-motor-company",
+     "cluster": 5,
+     "sim": 0.32,
+     "shared": [
+      "electric-vehicle-development"
+     ]
+    },
+    {
+     "slug": "general-motors::gmna-north-america-vehicles",
+     "name": "General Motors \u00b7 GMNA (North America vehicles)",
+     "kind": "line",
+     "parent": "general-motors",
+     "cluster": 5,
+     "sim": 0.32,
+     "shared": [
+      "electric-vehicle-development"
+     ]
+    },
+    {
+     "slug": "off-27",
+     "name": "Anchor Manufacturing Group",
+     "kind": "off",
+     "parent": "off-27",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "vehicle-design-and-engineering"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "robodock",
+   "company": "RoboDock",
+   "domain": "robodock.tech",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "robotics / autonomy",
+   "cluster": 5,
+   "cluster_name": "Engineered hardware & defense systems",
+   "matched_capabilities": [
+    "electric-vehicle-development",
+    "vehicle-manufacturing",
+    "autonomous-systems"
+   ],
+   "activity_evidence": "Deploys robots that plug electric and autonomous fleet vehicles into existing chargers, confirm charge initiation, and run post-trip inspections so depots can turn vehicles without a manual charging crew.",
+   "bridge": "Depot operations are the unglamorous half of vehicle programs already run by listed OEMs and carriers.",
+   "source_url": "https://www.ycombinator.com/companies/robodock",
+   "confidence": 0.9,
+   "neighbors": [
+    {
+     "slug": "general-motors::gmna-north-america-vehicles",
+     "name": "General Motors \u00b7 GMNA (North America vehicles)",
+     "kind": "line",
+     "parent": "general-motors",
+     "cluster": 5,
+     "sim": 0.635,
+     "shared": [
+      "electric-vehicle-development",
+      "vehicle-manufacturing"
+     ]
+    },
+    {
+     "slug": "honda::automobile-business",
+     "name": "Honda \u00b7 Automobile Business",
+     "kind": "line",
+     "parent": "honda",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "electric-vehicle-development"
+     ]
+    },
+    {
+     "slug": "stellantis::enlarged-europe-peugeot-citro-n-opel-fiat-alfa-romeo-maserati-ds",
+     "name": "Stellantis \u00b7 Enlarged Europe (Peugeot, Citro\u00ebn, Opel, FIAT, Alfa Romeo, Maserati, DS)",
+     "kind": "line",
+     "parent": "stellantis",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "vehicle-manufacturing"
+     ]
+    },
+    {
+     "slug": "stellantis::north-america-ram-jeep-dodge-chrysler",
+     "name": "Stellantis \u00b7 North America (RAM, Jeep, Dodge, Chrysler)",
+     "kind": "line",
+     "parent": "stellantis",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "vehicle-manufacturing"
+     ]
+    },
+    {
+     "slug": "off-32",
+     "name": "Punch Powertrain",
+     "kind": "off",
+     "parent": "off-32",
+     "cluster": 5,
+     "sim": 0.635,
+     "shared": [
+      "electric-vehicle-development",
+      "vehicle-manufacturing"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "seeing-systems",
+   "company": "Seeing Systems",
+   "domain": "seeing-systems.com",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "defense / drones",
+   "cluster": 5,
+   "cluster_name": "Engineered hardware & defense systems",
+   "matched_capabilities": [
+    "autonomous-systems",
+    "electronic-warfare",
+    "missile-defense"
+   ],
+   "activity_evidence": "Engineers modular autonomous strike and ISR drones with swappable payloads and an agentic control system, currently shipping prototypes with UK and other NATO units.",
+   "bridge": "Unmanned strike and sensing is already inside listed aerospace-and-defense programs.",
+   "source_url": "https://www.ycombinator.com/companies/seeing-systems",
+   "confidence": 0.89,
+   "neighbors": [
+    {
+     "slug": "lockheed-martin::missiles-and-fire-control",
+     "name": "Lockheed Martin \u00b7 Missiles and Fire Control",
+     "kind": "line",
+     "parent": "lockheed-martin",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "missile-defense"
+     ]
+    },
+    {
+     "slug": "northrop-grumman::defense-systems",
+     "name": "Northrop Grumman \u00b7 Defense Systems",
+     "kind": "line",
+     "parent": "northrop-grumman",
+     "cluster": 5,
+     "sim": 0.347,
+     "shared": [
+      "missile-defense"
+     ]
+    },
+    {
+     "slug": "lockheed-martin::space",
+     "name": "Lockheed Martin \u00b7 Space",
+     "kind": "line",
+     "parent": "lockheed-martin",
+     "cluster": 5,
+     "sim": 0.32,
+     "shared": [
+      "missile-defense"
+     ]
+    },
+    {
+     "slug": "northrop-grumman::mission-systems",
+     "name": "Northrop Grumman \u00b7 Mission Systems",
+     "kind": "line",
+     "parent": "northrop-grumman",
+     "cluster": 5,
+     "sim": 0.32,
+     "shared": [
+      "electronic-warfare"
+     ]
+    },
+    {
+     "slug": "off-129",
+     "name": "L3Harris Technologies",
+     "kind": "off",
+     "parent": "off-129",
+     "cluster": 5,
+     "sim": 0.635,
+     "shared": [
+      "electronic-warfare",
+      "missile-defense"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "condor-energy",
+   "company": "Condor Energy",
+   "domain": "condor.energy",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "climate / energy software",
+   "cluster": 3,
+   "cluster_name": "Molecules, barrels & regulated pipelines",
+   "matched_capabilities": [
+    "lower-carbon-energy-transition",
+    "global-energy-trading",
+    "pipeline-and-logistics"
+   ],
+   "activity_evidence": "Builds procurement software for large electricity consumers \u2014 commercial and industrial sites and data centers \u2014 to forecast load, hedge, budget power-purchase agreements and steer on-site generation and storage.",
+   "bridge": "Power procurement is the energy firm's work, even when the buyer is a retailer or a compute campus.",
+   "source_url": "https://www.ycombinator.com/companies/condor-energy",
+   "confidence": 0.84,
+   "neighbors": [
+    {
+     "slug": "chevron",
+     "name": "Chevron",
+     "kind": "seed",
+     "parent": "chevron",
+     "cluster": 3,
+     "sim": 0.693,
+     "shared": [
+      "global-energy-trading",
+      "lower-carbon-energy-transition",
+      "pipeline-and-logistics"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "squid",
+   "company": "Squid",
+   "domain": "squid.energy",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "climate / grid software",
+   "cluster": 8,
+   "cluster_name": "Built environment & infrastructure programs",
+   "matched_capabilities": [
+    "infrastructure-engineering",
+    "lower-carbon-energy-transition",
+    "pipeline-and-logistics"
+   ],
+   "activity_evidence": "Gives grid operators a single versioned model of substations and lines with evidence attached, so planning, connections and network-change decisions are not spread across spreadsheets and static reports.",
+   "bridge": "Network planning is already how regulated energy and infrastructure firms run the grid.",
+   "source_url": "https://www.ycombinator.com/companies/squid",
+   "confidence": 0.86,
+   "neighbors": [
+    {
+     "slug": "hdr",
+     "name": "HDR",
+     "kind": "seed",
+     "parent": "hdr",
+     "cluster": 8,
+     "sim": 0.252,
+     "shared": [
+      "infrastructure-engineering"
+     ]
+    },
+    {
+     "slug": "aecom",
+     "name": "AECOM",
+     "kind": "seed",
+     "parent": "aecom",
+     "cluster": 8,
+     "sim": 0.249,
+     "shared": [
+      "infrastructure-engineering"
+     ]
+    },
+    {
+     "slug": "off-100",
+     "name": "Infrastructure Alternatives",
+     "kind": "off",
+     "parent": "off-100",
+     "cluster": 8,
+     "sim": 0.347,
+     "shared": [
+      "infrastructure-engineering"
+     ]
+    },
+    {
+     "slug": "off-93",
+     "name": "David Evans and Associates",
+     "kind": "off",
+     "parent": "off-93",
+     "cluster": 8,
+     "sim": 0.32,
+     "shared": [
+      "infrastructure-engineering"
+     ]
+    },
+    {
+     "slug": "off-94",
+     "name": "SCJ Alliance",
+     "kind": "off",
+     "parent": "off-94",
+     "cluster": 8,
+     "sim": 0.32,
+     "shared": [
+      "infrastructure-engineering"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "overdrive-health",
+   "company": "Overdrive Health",
+   "domain": "",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "digital health / billing",
+   "cluster": 7,
+   "cluster_name": "Care delivery & population risk",
+   "matched_capabilities": [
+    "claims-adjudication",
+    "value-based-care",
+    "clinical-care-delivery",
+    "value-based-care-contracting"
+   ],
+   "activity_evidence": "Runs outsourced medical billing and revenue-cycle work for providers, starting with ambulance claims: insurance calls, documentation checks, benefit verification and collections on claims that traditional billers skip.",
+   "bridge": "Revenue-cycle operations sit next to listed health systems and insurers, not next to a generic AI lab.",
+   "source_url": "https://www.ycombinator.com/companies/overdrive-health",
+   "confidence": 0.91,
+   "neighbors": [
+    {
+     "slug": "unitedhealth-group::optum-health-care-delivery",
+     "name": "UnitedHealth Group \u00b7 Optum Health (Care Delivery)",
+     "kind": "line",
+     "parent": "unitedhealth-group",
+     "cluster": 7,
+     "sim": 0.505,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care-contracting"
+     ]
+    },
+    {
+     "slug": "adventhealth",
+     "name": "AdventHealth",
+     "kind": "seed",
+     "parent": "adventhealth",
+     "cluster": 7,
+     "sim": 0.385,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "kaiser-permanente::kaiser-foundation-hospitals",
+     "name": "Kaiser Permanente \u00b7 Kaiser Foundation Hospitals",
+     "kind": "line",
+     "parent": "kaiser-permanente",
+     "cluster": 7,
+     "sim": 0.283,
+     "shared": [
+      "clinical-care-delivery"
+     ]
+    },
+    {
+     "slug": "cvs-health::health-care-benefits-aetna-insurance",
+     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
+     "kind": "line",
+     "parent": "cvs-health",
+     "cluster": 7,
+     "sim": 0.264,
+     "shared": [
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-130",
+     "name": "HCA Healthcare",
+     "kind": "off",
+     "parent": "off-130",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "claimglide",
+   "company": "ClaimGlide",
+   "domain": "claimglide.com",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "digital health",
+   "cluster": 1,
+   "cluster_name": "Money movement, risk & claims",
+   "matched_capabilities": [
+    "claims-adjudication",
+    "value-based-care",
+    "value-based-care-contracting"
+   ],
+   "activity_evidence": "Automates end-to-end prior authorization for private medical practices so authorizations are submitted faster and with fewer denials than the in-house process.",
+   "bridge": "Prior-auth is a claims workflow already staffed inside listed providers and payers.",
+   "source_url": "https://www.ycombinator.com/companies/claimglide",
+   "confidence": 0.9,
+   "neighbors": [
+    {
+     "slug": "progressive::commercial-lines",
+     "name": "Progressive \u00b7 Commercial Lines",
+     "kind": "line",
+     "parent": "progressive",
+     "cluster": 1,
+     "sim": 0.347,
+     "shared": [
+      "claims-adjudication"
+     ]
+    },
+    {
+     "slug": "acuity-insurance",
+     "name": "Acuity Insurance",
+     "kind": "seed",
+     "parent": "acuity-insurance",
+     "cluster": 1,
+     "sim": 0.26,
+     "shared": [
+      "claims-adjudication"
+     ]
+    },
+    {
+     "slug": "amica-insurance",
+     "name": "Amica Insurance",
+     "kind": "seed",
+     "parent": "amica-insurance",
+     "cluster": 1,
+     "sim": 0.26,
+     "shared": [
+      "claims-adjudication"
+     ]
+    },
+    {
+     "slug": "cvs-health::health-care-benefits-aetna-insurance",
+     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
+     "kind": "line",
+     "parent": "cvs-health",
+     "cluster": 7,
+     "sim": 0.26,
+     "shared": [
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-14",
+     "name": "CBCS",
+     "kind": "off",
+     "parent": "off-14",
+     "cluster": 1,
+     "sim": 0.32,
+     "shared": [
+      "claims-adjudication"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ruma-care",
+   "company": "Ruma Care",
+   "domain": "rumacare.com",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "digital health / clinics",
+   "cluster": 7,
+   "cluster_name": "Care delivery & population risk",
+   "matched_capabilities": [
+    "clinical-care-delivery",
+    "value-based-care",
+    "pharmacy-benefit-management",
+    "value-based-care-contracting"
+   ],
+   "activity_evidence": "Automates prior authorization, copay-assistance enrollment and related admin for biologic infusion clinics, turning a process that spans dozens of payer portals and paper forms into one workflow so clinics are reimbursed for high-cost specialty drugs.",
+   "bridge": "Infusion-clinic operations are care delivery plus pharmacy-benefit work, already on the listed health-system map.",
+   "source_url": "https://www.ycombinator.com/companies/ruma-care",
+   "confidence": 0.92,
+   "neighbors": [
+    {
+     "slug": "unitedhealth-group::optum-health-care-delivery",
+     "name": "UnitedHealth Group \u00b7 Optum Health (Care Delivery)",
+     "kind": "line",
+     "parent": "unitedhealth-group",
+     "cluster": 7,
+     "sim": 0.505,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care-contracting"
+     ]
+    },
+    {
+     "slug": "adventhealth",
+     "name": "AdventHealth",
+     "kind": "seed",
+     "parent": "adventhealth",
+     "cluster": 7,
+     "sim": 0.385,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "kaiser-permanente::kaiser-foundation-hospitals",
+     "name": "Kaiser Permanente \u00b7 Kaiser Foundation Hospitals",
+     "kind": "line",
+     "parent": "kaiser-permanente",
+     "cluster": 7,
+     "sim": 0.283,
+     "shared": [
+      "clinical-care-delivery"
+     ]
+    },
+    {
+     "slug": "cvs-health::health-care-benefits-aetna-insurance",
+     "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
+     "kind": "line",
+     "parent": "cvs-health",
+     "cluster": 7,
+     "sim": 0.264,
+     "shared": [
+      "value-based-care"
+     ]
+    },
+    {
+     "slug": "off-130",
+     "name": "HCA Healthcare",
+     "kind": "off",
+     "parent": "off-130",
+     "cluster": 7,
+     "sim": 0.468,
+     "shared": [
+      "clinical-care-delivery",
+      "value-based-care"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "foreman",
+   "company": "Foreman",
+   "domain": "foreman.co",
+   "founded": 2026,
+   "batch": "YC W26",
+   "yc_label": "construction / SaaS",
+   "cluster": 8,
+   "cluster_name": "Built environment & infrastructure programs",
+   "matched_capabilities": [
+    "construction-management",
+    "program-management",
+    "infrastructure-engineering"
+   ],
+   "activity_evidence": "Replaces the spreadsheet-and-email patchwork contractors use to run a job: takeoffs, estimates, proposals, change orders, permits and photos live in one project record from first bid to final invoice.",
+   "bridge": "Job-site administration is the same program-management work listed engineering and homebuilding firms already staff.",
+   "source_url": "https://www.ycombinator.com/companies/foreman",
+   "confidence": 0.88,
+   "neighbors": [
+    {
+     "slug": "aecom",
+     "name": "AECOM",
+     "kind": "seed",
+     "parent": "aecom",
+     "cluster": 8,
+     "sim": 0.647,
+     "shared": [
+      "construction-management",
+      "infrastructure-engineering",
+      "program-management"
+     ]
+    },
+    {
+     "slug": "hdr",
+     "name": "HDR",
+     "kind": "seed",
+     "parent": "hdr",
+     "cluster": 8,
+     "sim": 0.452,
+     "shared": [
+      "infrastructure-engineering",
+      "program-management"
+     ]
+    },
+    {
+     "slug": "burns-and-mcdonnell::burns-mcdonnell-engineering-design-construction",
+     "name": "Burns & McDonnell \u00b7 Burns & McDonnell (Engineering, Design, Construction)",
+     "kind": "line",
+     "parent": "burns-and-mcdonnell",
+     "cluster": 8,
+     "sim": 0.302,
+     "shared": [
+      "program-management"
+     ]
+    },
+    {
+     "slug": "camden-property-trust",
+     "name": "Camden Property Trust",
+     "kind": "seed",
+     "parent": "camden-property-trust",
+     "cluster": 8,
+     "sim": 0.271,
+     "shared": [
+      "construction-management"
+     ]
+    },
+    {
+     "slug": "off-92",
+     "name": "Ruekert & Mielke",
+     "kind": "off",
+     "parent": "off-92",
+     "cluster": 8,
+     "sim": 0.923,
+     "shared": [
+      "construction-management",
+      "infrastructure-engineering",
+      "program-management"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "legalos",
+   "company": "LegalOS",
+   "domain": "legalos.ai",
+   "founded": 2024,
+   "batch": "YC W26",
+   "yc_label": "legal tech",
+   "cluster": 6,
+   "cluster_name": "Advisory, assurance & systems integration",
+   "matched_capabilities": [
+    "management-consulting",
+    "audit-and-assurance",
+    "transaction-advisory"
+   ],
+   "activity_evidence": "Operates as an immigration law firm that drafts work-visa petition narratives, compiles evidence and routes every filing through licensed attorney review, covering O-1, H-1B, L-1, TN, EB-1 and EB-2 NIW categories.",
+   "bridge": "Petition production is professional-services delivery, the same mode as listed advisory firms.",
+   "source_url": "https://www.ycombinator.com/companies/legalos",
+   "confidence": 0.85,
+   "neighbors": [
+    {
+     "slug": "ey",
+     "name": "EY",
+     "kind": "seed",
+     "parent": "ey",
+     "cluster": 6,
+     "sim": 0.693,
+     "shared": [
+      "audit-and-assurance",
+      "management-consulting",
+      "transaction-advisory"
+     ]
+    },
+    {
+     "slug": "plante-moran",
+     "name": "Plante Moran",
+     "kind": "seed",
+     "parent": "plante-moran",
+     "cluster": 6,
+     "sim": 0.693,
+     "shared": [
+      "audit-and-assurance",
+      "management-consulting",
+      "transaction-advisory"
+     ]
+    },
+    {
+     "slug": "deloitte::audit-assurance",
+     "name": "Deloitte \u00b7 Audit & Assurance",
+     "kind": "line",
+     "parent": "deloitte",
+     "cluster": 6,
+     "sim": 0.347,
+     "shared": [
+      "audit-and-assurance"
+     ]
+    },
+    {
+     "slug": "deloitte::consulting",
+     "name": "Deloitte \u00b7 Consulting",
+     "kind": "line",
+     "parent": "deloitte",
+     "cluster": 6,
+     "sim": 0.32,
+     "shared": [
+      "management-consulting"
+     ]
+    },
+    {
+     "slug": "off-78",
+     "name": "Forvis Mazars (US)",
+     "kind": "off",
+     "parent": "off-78",
+     "cluster": 6,
+     "sim": 0.923,
+     "shared": [
+      "audit-and-assurance",
+      "management-consulting",
+      "transaction-advisory"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "martini",
+   "company": "Martini",
+   "domain": "martini.film",
+   "founded": 2025,
+   "batch": "YC W26",
+   "yc_label": "media / generative video",
+   "cluster": 9,
+   "cluster_name": "Destination entertainment & parks",
+   "matched_capabilities": [
+    "film-and-tv-production",
+    "content-distribution",
+    "theme-park-operations"
+   ],
+   "activity_evidence": "Provides a collaborative production workspace for professional filmmaking with generative video models: camera-controlled shots, a timeline for assemblies, and team sharing of edits so commercials and films can be directed rather than prompted.",
+   "bridge": "Shot production is content operations already running at listed entertainment firms, even when the camera is a model.",
+   "source_url": "https://www.ycombinator.com/companies/martini",
+   "confidence": 0.8,
+   "neighbors": [
+    {
+     "slug": "the-walt-disney-company::disney-entertainment-film-tv-streaming",
+     "name": "The Walt Disney Company \u00b7 Disney Entertainment (film, TV, streaming)",
+     "kind": "line",
+     "parent": "the-walt-disney-company",
+     "cluster": 9,
+     "sim": 0.543,
+     "shared": [
+      "content-distribution",
+      "film-and-tv-production"
+     ]
+    },
+    {
+     "slug": "the-walt-disney-company::disney-experiences-parks-cruises-consumer-products",
+     "name": "The Walt Disney Company \u00b7 Disney Experiences (parks, cruises, consumer products)",
+     "kind": "line",
+     "parent": "the-walt-disney-company",
+     "cluster": 9,
+     "sim": 0.302,
+     "shared": [
+      "theme-park-operations"
+     ]
+    },
+    {
+     "slug": "sony::pictures",
+     "name": "Sony \u00b7 Pictures",
+     "kind": "line",
+     "parent": "sony",
+     "cluster": 2,
+     "sim": 0.242,
+     "shared": [
+      "film-and-tv-production"
+     ]
+    },
+    {
+     "slug": "off-120",
+     "name": "Live Nation Entertainment",
+     "kind": "off",
+     "parent": "off-120",
+     "cluster": 9,
+     "sim": 0.393,
+     "shared": [
+      "theme-park-operations"
+     ]
+    },
+    {
+     "slug": "off-119",
+     "name": "Merlin Entertainments",
+     "kind": "off",
+     "parent": "off-119",
+     "cluster": 9,
+     "sim": 0.393,
+     "shared": [
+      "theme-park-operations"
+     ]
+    }
+   ]
+  }
+ ],
+ "unbundle": [
+  {
+   "n": "Amazon",
+   "smear": 0.818,
+   "lines": 5
+  },
+  {
+   "n": "Microsoft",
+   "smear": 0.643,
+   "lines": 3
+  },
+  {
+   "n": "Google (Alphabet)",
+   "smear": 0.5,
+   "lines": 3
+  },
+  {
+   "n": "Apple",
+   "smear": 0.692,
+   "lines": 2
+  },
+  {
+   "n": "The Walt Disney Company",
+   "smear": 0.6,
+   "lines": 3
+  },
+  {
+   "n": "Comcast",
+   "smear": 0.455,
+   "lines": 3
+  },
+  {
+   "n": "Sony",
+   "smear": 0.625,
+   "lines": 5
+  },
+  {
+   "n": "CVS Health",
+   "smear": 0.714,
+   "lines": 3
+  },
+  {
+   "n": "UnitedHealth Group",
+   "smear": 0.688,
+   "lines": 3
+  },
+  {
+   "n": "JPMorganChase",
+   "smear": 0.5,
+   "lines": 4
   }
  ]
 }

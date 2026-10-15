@@ -70,6 +70,13 @@ def main():
         "nb": [{"n": x["company"], "s": x["slug"], "v": x["sim"]} for x in c.get("neighbors", [])[:6]],
     } for c in m["companies"]]
 
+    expansion = m.get("expansion", [])
+    off_by = {}
+    for r in expansion:
+        off_by.setdefault(r["cluster"], []).append({
+            "n": r["company"], "s": "off-" + html.escape(r["company"]).lower().replace(" ", "-")[:48],
+        })
+
     payload = {
         "stats": st,
         "clusters": [{
@@ -79,12 +86,29 @@ def main():
             "labels": c["index_labels"][:8], "nlabels": c["distinct_index_labels"],
             "sectors": list(c.get("sector_mix", {}).items())[:5],
             "sim": c["mean_internal_sim"], "members": c["members"],
+            "off": [x["n"] for x in off_by.get(c["id"], [])],
+            "offn": len(off_by.get(c["id"], [])),
         } for c in m["clusters"]],
         "companies": companies,
         "op_twins": m.get("op_twins", [])[:26],
-        "hidden": [h for h in m.get("hidden_employers", []) if h.get("name_reality_gap")][:34],
+        "hidden": [h for h in m.get("hidden_employers", []) if h.get("name_reality_gap")],
         "mismatch": m.get("sector_mismatches", [])[:50],
-        "expansion": m.get("expansion", []),
+        "expansion": [{
+            "s": "off-" + str(i), "n": r["company"], "d": r.get("domain", ""),
+            "c": r["cluster"], "t": r.get("matched_capabilities") or [],
+            "ev": r.get("activity_evidence", ""), "why": r.get("why_off_index", ""),
+            "u": r.get("source_url", ""), "cf": r.get("confidence"),
+        } for i, r in enumerate(expansion)],
+        "newcos": [{
+            "s": r["slug"], "n": r["company"], "d": r.get("domain", ""),
+            "c": r["cluster"], "t": r.get("matched_capabilities") or [],
+            "yc": r.get("yc_label", ""), "yr": r.get("founded"),
+            "bt": r.get("batch", ""),
+            "ev": r.get("activity_evidence", ""), "br": r.get("bridge", ""),
+            "u": r.get("source_url", ""), "cf": r.get("confidence"),
+            "nb": r.get("neighbors") or [],
+        } for r in m.get("newcos") or []],
+        "unbundle": m.get("unbundle") or [],
         "coverage": m.get("expansion_coverage", []),
         "ladders": m.get("ladders", [])[:6],
         "portable": m.get("portable_capabilities", [])[:24],

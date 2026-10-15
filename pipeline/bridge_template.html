@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newco Bridge — incorporated today, already on the map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b1220; --ink2:#33415c; --ink3:#64748b; --line:#dbe2ea; --line2:#eef2f6;
+  --bg:#ffffff; --panel:#f7f9fc; --blue:#1a4fd6; --blue-l:#e8eeff; --sig:#c0392b;
+  --ok:#0f766e; --ok-l:#e6f4f1; --amber:#b45309; --amber-l:#fdf3e3;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.wrap{max-width:1280px;margin:0 auto;padding:0 28px}
+header.mast{border-bottom:2px solid var(--ink)}
+header.mast .wrap{padding:22px 28px 16px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--amber);font-weight:600}
+h1{font-size:clamp(26px,3.6vw,42px);line-height:1.05;letter-spacing:-.025em;margin:8px 0 0;font-weight:700;max-width:22ch}
+.dek{margin:8px 0 0;color:var(--ink2);max-width:68ch;font-size:14.5px}
+.strip{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--line);background:var(--panel)}
+.met{padding:12px 16px;border-right:1px solid var(--line)}
+.met .v{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:600}
+.met .k{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink3);margin-top:2px}
+.stage{padding:14px 0 8px}
+.viz{border:1px solid var(--line);border-radius:6px;background:var(--panel);overflow:hidden;margin:0 0 14px}
+.viz svg{display:block;width:100%;height:auto}
+.hint{font-size:12px;color:var(--ink3);margin:0 0 12px}
+.pill{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  padding:2px 7px;border-radius:3px;background:var(--blue-l);color:var(--blue);margin:2px 3px 2px 0}
+.pill.a{background:var(--amber-l);color:var(--amber)}
+.pill.g{background:var(--ok-l);color:var(--ok)}
+.pill.n{background:#f1f5f9;color:var(--ink2)}
+.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin-top:8px}
+@media(max-width:900px){.strip,.grid{grid-template-columns:1fr 1fr} .strip{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--line);border-radius:6px;background:#fff;padding:16px}
+.card h3{margin:0 0 4px;font-size:18px;letter-spacing:-.02em}
+.card .sub{font-size:11px;color:var(--ink3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.card p{margin:0 0 10px;color:var(--ink2);font-size:13.5px}
+.flow{display:grid;grid-template-columns:minmax(120px,1fr) 18px minmax(160px,1.4fr);gap:8px;align-items:center;
+  font-size:12.5px;margin:6px 0}
+.flow .from{text-align:right;color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:11px}
+.flow .to{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ok)}
+.nb{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.nb a{font-size:12.5px;color:var(--blue);text-decoration:none;border:1px solid var(--line);padding:4px 8px;border-radius:4px}
+.nb a:hover{border-color:var(--blue);background:var(--blue-l)}
+.hbar{display:flex;align-items:center;gap:10px;margin:0 0 7px}
+.hbar .lab{width:210px;font-size:12px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.track{flex:1;height:10px;background:var(--line2);border-radius:5px;overflow:hidden;display:flex}
+.track i{display:block;height:100%;background:var(--blue)}
+.track i.new{background:var(--amber)}
+.hbar .n{width:36px;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink2)}
+footer{border-top:1px solid var(--line);padding:22px 0 48px;color:var(--ink3);font-size:12.5px}
+.node{cursor:pointer}
+.empty{color:var(--ink3);font-size:13px}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="eyebrow">Proof of concept · Newco Bridge</div>
+  <h1>The desk already exists.</h1>
+  <p class="dek">YC sold a category. The map found a named line inside an old ticker. Left shore is 2025–26. Right shore is desks (Parent · line) plus off-index firms that already staff that work.</p>
+</div></header>
+<div class="strip" id="strip"></div>
+<div class="wrap">
+  <div class="stage" id="stage"></div>
+  <p class="hint" id="caption">Click a diamond. Thickness is overlap on the map’s capability tags.</p>
+  <div class="grid">
+    <div class="card" id="detail"><div class="empty">Click a 2025–26 firm on the left shore.</div></div>
+    <div class="card" id="density"></div>
+  </div>
+</div>
+<footer><div class="wrap">
+  Firm-level sources only. No founder names. Inactive YC listings and redirected pages were left off.
+  Map home: <a href="orgmap.html">orgmap.html</a>
+</div></footer>
+<script>
+const D = /*__DATA__*/;
+const PALETTE = ["#1a4fd6","#0f766e","#c0392b","#7c3aed","#b45309","#0369a1","#be185d","#365314","#9a3412","#1e3a5f","#0e7490"];
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cname = id => (D.clusters.find(c=>c.id===id)||{}).name || ("Cluster "+id);
+const ccol = id => { const i = D.clusters.findIndex(c=>c.id===id); return PALETTE[(i<0?0:i)%PALETTE.length]; };
+const pills = (a,cls) => (a||[]).map(t=>`<span class="pill ${cls||''}">${esc(t)}</span>`).join("");
+const shoreName = f => {
+  let n = String(f.name||"");
+  if (n.length > 34) n = n.slice(0,33)+"…";
+  if (f.kind==="off") n += " · off";
+  return n;
+};
+const S = D.stats;
+
+document.getElementById("strip").innerHTML = [
+  [S.n_newcos, "newcos on the left shore"],
+  [(S.n_desk_hits||0)+"/"+S.n_newcos, "attach to a named desk"],
+  [S.n_incumbents_on_shore, "desks on the right"],
+  [S.n_line_nodes||"—", "line-of-work nodes"],
+  [S.n_yc_label_drift+"/"+S.n_newcos, "YC label ≠ activity cluster"],
+].map(m=>`<div class="met"><div class="v">${esc(m[0])}</div><div class="k">${esc(m[1])}</div></div>`).join("");
+
+function shoreSvg(){
+  const left = D.newcos.slice().sort((a,b)=>a.cluster-b.cluster || a.company.localeCompare(b.company));
+  const right = D.shore.slice();
+  const n = Math.max(left.length, right.length, 1);
+  const W=1100, row=28, top=56, H=top + n*row + 36;
+  const lx=168, rx=900;
+  const L={}, R={};
+  left.forEach((f,i)=>{ L[f.slug]={x:lx, y:top+i*row, f}; });
+  right.forEach((f,i)=>{ R[f.slug]={x:rx, y:top+i*row, f}; });
+  const maxSim = Math.max(...(D.cables.map(c=>c.sim)), 0.01);
+  const cables = D.cables.map(c=>{
+    const a=L[c.from], b=R[c.to];
+    if(!a||!b) return "";
+    const mid=(a.x+b.x)/2;
+    const w=1.1 + (c.sim/maxSim)*5.2;
+    return `<path data-from="${esc(c.from)}" d="M${a.x+14} ${a.y} C ${mid} ${a.y}, ${mid} ${b.y}, ${b.x-14} ${b.y}"
+      fill="none" stroke="${ccol(c.cluster)}" stroke-width="${w.toFixed(2)}" opacity=".28"/>`;
+  }).join("");
+  const diamonds = left.map(f=>{
+    const p=L[f.slug]; const s=7;
+    return `<g class="node" data-s="${esc(f.slug)}" role="button" tabindex="0">
+      <polygon points="${p.x},${p.y-s} ${p.x+s},${p.y} ${p.x},${p.y+s} ${p.x-s},${p.y}"
+        fill="#b45309" stroke="#0b1220" stroke-width=".4"/>
+      <text x="${p.x-14}" y="${p.y+4}" text-anchor="end" font-size="11.5"
+        font-family="Inter,sans-serif" font-weight="600" fill="#0b1220">${esc(f.company)}</text>
+    </g>`;
+  }).join("");
+  const dots = right.map(f=>{
+    const p=R[f.slug];
+    return `<g>
+      <circle cx="${p.x}" cy="${p.y}" r="${f.kind==='off'?4.2:5}" fill="${f.kind==='off'?'#fff':ccol(f.cluster)}"
+        stroke="${ccol(f.cluster)}" stroke-width="${f.kind==='line'?2.1:1.6}"/>
+      <text x="${p.x+12}" y="${p.y+4}" font-size="11.5" font-family="Inter,sans-serif"
+        fill="#0b1220">${esc(shoreName(f))}</text>
+    </g>`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Newco bridge">
+    <text x="${lx}" y="22" text-anchor="end" font-size="11" font-family="IBM Plex Mono,monospace"
+      fill="#b45309" font-weight="600">INCORPORATED 2025–26</text>
+    <text x="${rx}" y="22" font-size="11" font-family="IBM Plex Mono,monospace"
+      fill="#64748b" font-weight="600">ON THE MAP SINCE YESTERYEAR</text>
+    ${cables}${diamonds}${dots}
+  </svg>`;
+}
+
+document.getElementById("stage").innerHTML = `<div class="viz" id="bridge">${shoreSvg()}</div>`;
+
+const by = {}; D.newcos.forEach(n=>by[n.slug]=n);
+let selected = D.newcos[0] ? D.newcos[0].slug : null;
+
+function paint(slug){
+  selected = slug;
+  document.querySelectorAll("#bridge path[data-from]").forEach(p=>{
+    const on = p.getAttribute("data-from")===slug;
+    p.setAttribute("opacity", on ? ".92" : ".1");
+  });
+  const n = by[slug]; if(!n) return;
+  const top = n.neighbors[0];
+  document.getElementById("detail").innerHTML = `
+    <div class="sub">${esc(n.batch||"")} · founded ${esc(n.founded||"—")} · ${esc(n.domain||"yc listing")}</div>
+    <h3>${esc(n.company)}</h3>
+    <div class="flow">
+      <div class="from">${esc(n.yc_label||"YC tag")}</div>
+      <div>→</div>
+      <div class="to">${esc(n.cluster_name)}</div>
+    </div>
+    <p>${esc(n.activity_evidence)}</p>
+    ${n.bridge?`<p><b>The bridge.</b> ${esc(n.bridge)}</p>`:""}
+    <div>${pills(n.matched_capabilities,'a')}</div>
+    <div class="nb">${(n.neighbors||[]).map(nb=>
+      `<a href="#">${esc(nb.name)} · ${nb.sim}${nb.kind==='off'?' · off':nb.kind==='line'?' · line':''}</a>`
+    ).join("")}</div>
+    ${top?`<p class="hint" style="margin-top:10px">Nearest incumbent via ${esc((top.shared||[]).join(", "))}</p>`:""}
+    <p class="hint"><a href="${esc(n.source_url)}" target="_blank" rel="noopener">source</a></p>`;
+}
+
+document.querySelectorAll("#bridge .node").forEach(g=>{
+  g.addEventListener("click", ()=>paint(g.getAttribute("data-s")));
+  g.addEventListener("mouseenter", ()=>{
+    const slug=g.getAttribute("data-s");
+    document.querySelectorAll("#bridge path[data-from]").forEach(p=>{
+      p.setAttribute("opacity", p.getAttribute("data-from")===slug ? ".92" : ".1");
+    });
+  });
+});
+document.getElementById("bridge").addEventListener("mouseleave", ()=>{ if(selected) paint(selected); });
+if(selected) paint(selected);
+
+const per = {};
+D.clusters.forEach(c=>per[c.id]={name:c.name, n:0, i:0});
+D.newcos.forEach(n=>{ if(per[n.cluster]) per[n.cluster].n++; });
+D.shore.forEach(s=>{ if(per[s.cluster]) per[s.cluster].i++; });
+const maxC = Math.max(...Object.values(per).map(x=>Math.max(x.n,x.i)),1);
+const bars = Object.entries(per).filter(([,v])=>v.n||v.i).map(([id,v])=>`
+  <div class="hbar"><div class="lab">${esc(v.name)}</div>
+    <div class="track"><i class="new" style="width:${(v.n/maxC*100).toFixed(1)}%"></i></div>
+    <div class="n">${v.n}</div></div>
+  <div class="hbar" style="margin-bottom:12px"><div class="lab hint">incumbents on shore</div>
+    <div class="track"><i style="width:${(v.i/maxC*100).toFixed(1)}%"></i></div>
+    <div class="n">${v.i}</div></div>`).join("");
+
+document.getElementById("density").innerHTML = `
+  <h3 style="font-size:15px">Where the new firms land</h3>
+  <p class="hint">Amber = 2025–26 cohort. Blue = incumbents those firms actually share work with.</p>
+  ${bars}`;
+</script>
+</body>
+</html>

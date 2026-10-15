@@ -1,0 +1,182 @@
+[
+  {
+    "company": "Six Flags Entertainment Corporation",
+    "domain": "sixflags.com",
+    "matched_capabilities": [
+      "theme-park-operations"
+    ],
+    "activity_evidence": "Operates North America's largest regional amusement-resort portfolio, with 20 amusement parks, 14 water parks and nine resort properties across the U.S., Canada and Mexico, plus management of an amusement park in Saudi Arabia, providing coasters, themed rides, water parks and licensed intellectual-property attractions.",
+    "why_off_index": "Regional amusement-park operator with a seasonal hourly workforce and no consumer-tech employer brand; absent from the 2026 best-places indexes despite national park operations.",
+    "source_url": "https://s204.q4cdn.com/155295784/files/doc_financials/2026/q2/Six-Flags-2Q-2026-Earnings-Release-August-6-2026.pdf",
+    "confidence": 0.93
+  },
+  {
+    "company": "United Parks & Resorts",
+    "domain": "unitedparks.com",
+    "matched_capabilities": [
+      "theme-park-operations"
+    ],
+    "activity_evidence": "Owns or licenses a portfolio of theme-park brands including SeaWorld, Busch Gardens, Discovery Cove, Sesame Place, Water Country USA, Adventure Island and Aquatica, spanning 13 parks in seven markets across the United States and Abu Dhabi, combining thrill and family rides with zoological presentations and animal-rescue operations.",
+    "why_off_index": "Destination park operator whose consumer identity sits on the park brands, not the parent ticker; never appears on the 2026 employer-brand indexes that seeded this map.",
+    "source_url": "https://unitedparks.com/about-us/",
+    "confidence": 0.95
+  },
+  {
+    "company": "Merlin Entertainments",
+    "domain": "merlinentertainments.biz",
+    "matched_capabilities": [
+      "theme-park-operations"
+    ],
+    "activity_evidence": "Owns and operates a global portfolio of family attractions across more than 20 countries, from shorter-dwell gateway sites such as SEA LIFE, Madame Tussauds and the London Eye to theme-park resorts including LEGOLAND, Gardaland Resort and Alton Towers Resort.",
+    "why_off_index": "UK-headquartered attraction operator with no US employer-brand ranking footprint; parks run under licensed and own brands rather than a consumer employer identity.",
+    "source_url": "https://www.merlinentertainments.biz/about-us/",
+    "confidence": 0.92
+  },
+  {
+    "company": "Live Nation Entertainment",
+    "domain": "livenationentertainment.com",
+    "matched_capabilities": [
+      "theme-park-operations"
+    ],
+    "activity_evidence": "Produces live entertainment as the world's largest concert promoter, operates a leading ticketing platform for artists, venues, festivals, sports leagues and theater groups, and sells sponsorship connecting brand partners to live-music audiences.",
+    "why_off_index": "Live-events conglomerate whose workforce is venue and tour operations rather than a ranked corporate campus; not on the 2026 hot lists.",
+    "source_url": "https://www.livenationentertainment.com/about/",
+    "confidence": 0.9
+  },
+  {
+    "company": "Acosta Group",
+    "domain": "acosta.group",
+    "matched_capabilities": [
+      "field-service-merchandising",
+      "out-of-stock-resolution",
+      "retail-audit-services",
+      "cpg-sales-support"
+    ],
+    "activity_evidence": "Runs in-store merchandising, technical display installation, category and space management, audits, resets and fulfillment for CPG brands and retailers across North America and Europe, using a proprietary 360 field-management system to route store visits and report execution.",
+    "why_off_index": "B2B retail-execution holding company whose field workforce is invisible to consumer employer-brand rankings; work happens under retailer roofs, not an Acosta storefront.",
+    "source_url": "https://www.acosta.group/what-we-do/retail-execution/",
+    "confidence": 0.94
+  },
+  {
+    "company": "Advantage Solutions",
+    "domain": "youradv.com",
+    "matched_capabilities": [
+      "field-service-merchandising",
+      "cpg-sales-support",
+      "retail-audit-services",
+      "out-of-stock-resolution"
+    ],
+    "activity_evidence": "Provides outsourced headquarter sales, retail merchandising and omnichannel marketing for CPG brands and retailers, including in-store merchandising, sampling events, private-brand support and retailer services across grocery, mass and other channels.",
+    "why_off_index": "Commercial-services platform sitting between brands and retailers; no consumer brand and a dispersed field labor model that employer-ranking surveys do not capture.",
+    "source_url": "https://youradv.com/company/",
+    "confidence": 0.93
+  },
+  {
+    "company": "SPAR Group",
+    "domain": "sparinc.com",
+    "matched_capabilities": [
+      "field-service-merchandising",
+      "retail-audit-services",
+      "cpg-sales-support"
+    ],
+    "activity_evidence": "Provides retail merchandising and in-store execution for consumer-goods companies and retailers, including store resets, assembly, merchandising and data-driven visibility into in-store performance.",
+    "why_off_index": "Specialist merchandising contractor with a dispersed merchandiser workforce and no consumer identity; too unglamorous for best-places-to-work lists.",
+    "source_url": "https://www.sparinc.com/about/",
+    "confidence": 0.88
+  },
+  {
+    "company": "Associated Wholesale Grocers",
+    "domain": "awginc.com",
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "inventory-management",
+      "store-network-management",
+      "private-label-product-development"
+    ],
+    "activity_evidence": "Operates as a cooperative food wholesaler to independently owned supermarkets, serving 1,100 member companies and 3,500 locations in 33 states from nine wholesale division support centers, and also provides supermarket development services and pharmaceutical products through subsidiaries.",
+    "why_off_index": "Member-owned grocery wholesaler with no consumer banner of its own; B2B cooperative structure keeps it off employer-brand indexes.",
+    "source_url": "https://www.awginc.com/about-us",
+    "confidence": 0.94
+  },
+  {
+    "company": "United Natural Foods",
+    "domain": "unfi.com",
+    "matched_capabilities": [
+      "grocery-retail-operations",
+      "inventory-management",
+      "fulfillment-network",
+      "private-label-product-development"
+    ],
+    "activity_evidence": "Wholesale grocery distributor delivering natural, organic, specialty, fresh, conventional and private-label products to more than 30,000 customer locations in the United States and Canada from dozens of distribution centers, plus retailer support services including shelf management, data and technology.",
+    "why_off_index": "B2B grocery wholesaler whose name never appears on a storefront; infrastructure firm invisible to consumer employer rankings.",
+    "source_url": "https://ir.unfi.com/overview/default.aspx",
+    "confidence": 0.92
+  },
+  {
+    "company": "Lineage",
+    "domain": "lineagelogistics.com",
+    "matched_capabilities": [
+      "inventory-management",
+      "fulfillment-network",
+      "cold-chain-logistics"
+    ],
+    "activity_evidence": "Operates a global network of temperature-controlled warehouses and integrated logistics, including import/export, transportation, fulfillment and bonded warehousing for food and other cold-chain products across North America, Canada and Europe.",
+    "why_off_index": "Cold-storage REIT/operator with no consumer brand; warehouse labor and B2B contracts do not surface in best-places-to-work methodology.",
+    "source_url": "https://www.lineagelogistics.com/",
+    "confidence": 0.91
+  },
+  {
+    "company": "PACCAR",
+    "domain": "paccar.com",
+    "matched_capabilities": [
+      "vehicle-manufacturing",
+      "vehicle-design-and-engineering",
+      "dealer-network-distribution",
+      "vehicle-financing"
+    ],
+    "activity_evidence": "Designs and manufactures light-, medium- and heavy-duty trucks under the Kenworth, Peterbilt and DAF nameplates, builds diesel engines, distributes truck parts through a 2,200-location dealer network, and provides finance, lease and insurance services on a portfolio of more than 180,000 trucks and trailers.",
+    "why_off_index": "Commercial-vehicle manufacturer whose consumer identity lives on the Kenworth/Peterbilt badges; parent is absent from the 2026 hot lists.",
+    "source_url": "https://www.paccar.com/about-us/",
+    "confidence": 0.95
+  },
+  {
+    "company": "General Dynamics",
+    "domain": "generaldynamics.com",
+    "matched_capabilities": [
+      "electronic-warfare",
+      "vehicle-manufacturing",
+      "space-and-satellite"
+    ],
+    "activity_evidence": "Aerospace and defense company that designs and produces Gulfstream business jets, wheeled combat vehicles, nuclear-powered submarines and communications systems through four groups: Aerospace, Marine Systems, Combat Systems and Technologies.",
+    "why_off_index": "Prime defense contractor with a classified/government client base and no consumer employer brand on the 2026 indexes.",
+    "source_url": "https://www.generaldynamics.com/about",
+    "confidence": 0.93
+  },
+  {
+    "company": "L3Harris Technologies",
+    "domain": "l3harris.com",
+    "matched_capabilities": [
+      "electronic-warfare",
+      "space-and-satellite",
+      "missile-defense"
+    ],
+    "activity_evidence": "Provides electronic-warfare systems spanning multi-spectral situational awareness, threat warning, sensor fusion and countermeasures, including all-digital EW suites for combat aircraft, plus communications, sensing and space mission systems across air, land, sea, space and cyber domains.",
+    "why_off_index": "Defense electronics prime whose work is sold to governments, not consumers; not present on the 2026 best-places seed.",
+    "source_url": "https://www.l3harris.com/all-capabilities/electronic-warfare",
+    "confidence": 0.92
+  },
+  {
+    "company": "HCA Healthcare",
+    "domain": "hcahealthcare.com",
+    "matched_capabilities": [
+      "clinical-care-delivery",
+      "primary-care-network",
+      "hospital-operations",
+      "value-based-care"
+    ],
+    "activity_evidence": "Operates 189 hospitals and approximately 2,600 ambulatory sites of care in 19 US states and the United Kingdom, using data from tens of millions of annual patient encounters to set care protocols across an integrated local-network model.",
+    "why_off_index": "Largest US hospital operator by facility count, but a clinical-staffing machine rather than a consumer-tech brand; missing from the 2026 hot lists that seeded this map.",
+    "source_url": "https://hcahealthcare.com/about/",
+    "confidence": 0.94
+  }
+]

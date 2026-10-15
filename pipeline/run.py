@@ -8,7 +8,9 @@ Stages
   3. normalize  profiles + seed            -> out/normalized.json
   4. build      normalized.json            -> out/map.json, out/scrub_report.json
   5. expand     expansion/cluster_*.json   -> fold off-index firms into map.json
-  6. page       map.json + template        -> out/orgmap.html
+  6. lines      profiles (unbundle)        -> out/lines.json, poc_unbundle.html
+  7. bridge     newcos + lines             -> fold 2025–26 firms onto line nodes
+  8. page       map.json + template        -> out/orgmap.html
 
 Extraction of new profiles is deliberately NOT in this runner: it is an
 evidence-gathering step that a person or agent performs against schema.md.
@@ -25,6 +27,8 @@ STAGES = [
     ("normalize", "pipeline/normalize.py"),
     ("build", "pipeline/build_map.py"),
     ("expand", "pipeline/merge_expansion.py"),
+    ("lines", "pipeline/poc_unbundle.py"),
+    ("bridge", "pipeline/bridge.py"),
     ("page", "pipeline/gen_page.py"),
 ]
 

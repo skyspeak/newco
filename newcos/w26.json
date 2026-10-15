@@ -1,0 +1,306 @@
+[
+  {
+    "company": "Haladir",
+    "domain": "haladir.com",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "B2B / logistics AI",
+    "matched_capabilities": [
+      "inventory-management",
+      "fulfillment-network",
+      "logistics-and-distribution"
+    ],
+    "activity_evidence": "Sits on warehouse-management, transportation-management and ERP systems and turns that data into supply-chain planning and execution decisions: routing, scheduling and resource allocation under hard operational constraints.",
+    "bridge": "A logistics decision layer, not a new retailer. The work already lives in fulfillment networks.",
+    "source_url": "https://www.ycombinator.com/companies/haladir",
+    "confidence": 0.9
+  },
+  {
+    "company": "One Robot",
+    "domain": "onerobot.io",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "robotics / AI",
+    "matched_capabilities": [
+      "fulfillment-network",
+      "robotics-fulfillment",
+      "inventory-management"
+    ],
+    "activity_evidence": "Builds task-specific simulation environments for robot policies on material-handling and manufacturing assembly work such as textiles and box folding, so teams can train and evaluate manipulation without being limited by physical robot time.",
+    "bridge": "Warehouse manipulation is already the staffing story inside store-network and fulfillment firms.",
+    "source_url": "https://www.ycombinator.com/companies/one-robot",
+    "confidence": 0.88
+  },
+  {
+    "company": "Origami Robotics",
+    "domain": "origami-robotics.com",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "robotics / physical AI",
+    "matched_capabilities": [
+      "fulfillment-network",
+      "robotics-fulfillment"
+    ],
+    "activity_evidence": "Designs a high-degree-of-freedom robotic hand and matching data-collection device so manipulation policies trained on factory and logistics-center work can be deployed on the same hardware.",
+    "bridge": "Dexterous picking is a line of work already staffed on fulfillment floors and assembly lines.",
+    "source_url": "https://www.ycombinator.com/companies/origami-robotics",
+    "confidence": 0.86
+  },
+  {
+    "company": "Panta",
+    "domain": "pantainsure.com",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "fintech / insurance",
+    "matched_capabilities": [
+      "claims-adjudication",
+      "personal-lines-insurance",
+      "actuarial-modeling"
+    ],
+    "activity_evidence": "Operates as a licensed commercial insurance brokerage whose operations layer submits applications, chases underwriters, issues certificates and re-shops renewals for hard-to-place risks in construction, trucking, energy and manufacturing.",
+    "bridge": "Brokerage operations are the same claims-and-placement work already running at listed insurers.",
+    "source_url": "https://www.ycombinator.com/companies/panta",
+    "confidence": 0.92
+  },
+  {
+    "company": "InventoryQuant",
+    "domain": "inventoryquant.com",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "insurance / AI",
+    "matched_capabilities": [
+      "claims-adjudication",
+      "personal-lines-insurance"
+    ],
+    "activity_evidence": "Automates inventory and contents processing for insurance carriers, public adjusters and restoration firms, including adjacent estimating workflows that currently consume large amounts of claims labor.",
+    "bridge": "Contents inventory is a claims step, not a grocery step, even though the word is inventory.",
+    "source_url": "https://www.ycombinator.com/companies/inventoryquant",
+    "confidence": 0.9
+  },
+  {
+    "company": "Sequence Markets",
+    "domain": "sequencemkts.com",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "crypto / trading",
+    "matched_capabilities": [
+      "capital-markets",
+      "core-transaction-processing",
+      "payment-processing"
+    ],
+    "activity_evidence": "Runs low-latency routing and execution software so a single market view can be turned into a trade across crypto exchanges, prediction markets and tokenized-asset venues, with execution reporting on the resulting fills.",
+    "bridge": "Venue-to-venue execution is the same transaction-processing work capital-markets desks already do.",
+    "source_url": "https://www.ycombinator.com/companies/sequence-markets",
+    "confidence": 0.88
+  },
+  {
+    "company": "Copperlane",
+    "domain": "copperlane.ai",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "fintech / mortgage",
+    "matched_capabilities": [
+      "digital-mortgage-origination",
+      "consumer-lending",
+      "loan-servicing"
+    ],
+    "activity_evidence": "Helps mortgage lenders originate loans by pulling borrower documents, checking eligibility, flagging missing or conflicting files, and assembling complete packages for loan officers.",
+    "bridge": "Origination intake is already a named capability at listed mortgage platforms.",
+    "source_url": "https://www.ycombinator.com/companies/copperlane",
+    "confidence": 0.93
+  },
+  {
+    "company": "Visibl Semiconductors",
+    "domain": "visiblsemi.com",
+    "founded": 2024,
+    "batch": "YC W26",
+    "yc_label": "semiconductors / AI",
+    "matched_capabilities": [
+      "semiconductor-design",
+      "semiconductor-fabrication",
+      "custom-silicon-design"
+    ],
+    "activity_evidence": "Acts as a custom-silicon design partner on mature nodes for power electronics, covering architecture through verification, fabrication, packaging and production-ready parts for motor drives, battery systems, EV charging, solar and grid conversion.",
+    "bridge": "Custom silicon for power is the same design-and-fab work the listed chip firms already run.",
+    "source_url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+    "confidence": 0.91
+  },
+  {
+    "company": "Congruent",
+    "domain": "congruent.io",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "autonomy / sensors",
+    "matched_capabilities": [
+      "electric-vehicle-development",
+      "vehicle-design-and-engineering",
+      "semiconductor-design"
+    ],
+    "activity_evidence": "Builds automotive radar hardware that exposes raw sensor data, plus a radar simulator, so mass-market vehicles can train end-to-end autonomy stacks on cameras and radar together instead of lidar.",
+    "bridge": "Vehicle sensing is an OEM and tier-one line of work, not a generic software category.",
+    "source_url": "https://www.ycombinator.com/companies/congruent",
+    "confidence": 0.9
+  },
+  {
+    "company": "RoboDock",
+    "domain": "robodock.tech",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "robotics / autonomy",
+    "matched_capabilities": [
+      "electric-vehicle-development",
+      "vehicle-manufacturing",
+      "autonomous-systems"
+    ],
+    "activity_evidence": "Deploys robots that plug electric and autonomous fleet vehicles into existing chargers, confirm charge initiation, and run post-trip inspections so depots can turn vehicles without a manual charging crew.",
+    "bridge": "Depot operations are the unglamorous half of vehicle programs already run by listed OEMs and carriers.",
+    "source_url": "https://www.ycombinator.com/companies/robodock",
+    "confidence": 0.9
+  },
+  {
+    "company": "Seeing Systems",
+    "domain": "seeing-systems.com",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "defense / drones",
+    "matched_capabilities": [
+      "autonomous-systems",
+      "electronic-warfare",
+      "missile-defense"
+    ],
+    "activity_evidence": "Engineers modular autonomous strike and ISR drones with swappable payloads and an agentic control system, currently shipping prototypes with UK and other NATO units.",
+    "bridge": "Unmanned strike and sensing is already inside listed aerospace-and-defense programs.",
+    "source_url": "https://www.ycombinator.com/companies/seeing-systems",
+    "confidence": 0.89
+  },
+  {
+    "company": "Condor Energy",
+    "domain": "condor.energy",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "climate / energy software",
+    "matched_capabilities": [
+      "lower-carbon-energy-transition",
+      "global-energy-trading",
+      "pipeline-and-logistics"
+    ],
+    "activity_evidence": "Builds procurement software for large electricity consumers — commercial and industrial sites and data centers — to forecast load, hedge, budget power-purchase agreements and steer on-site generation and storage.",
+    "bridge": "Power procurement is the energy firm's work, even when the buyer is a retailer or a compute campus.",
+    "source_url": "https://www.ycombinator.com/companies/condor-energy",
+    "confidence": 0.84
+  },
+  {
+    "company": "Squid",
+    "domain": "squid.energy",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "climate / grid software",
+    "matched_capabilities": [
+      "infrastructure-engineering",
+      "lower-carbon-energy-transition",
+      "pipeline-and-logistics"
+    ],
+    "activity_evidence": "Gives grid operators a single versioned model of substations and lines with evidence attached, so planning, connections and network-change decisions are not spread across spreadsheets and static reports.",
+    "bridge": "Network planning is already how regulated energy and infrastructure firms run the grid.",
+    "source_url": "https://www.ycombinator.com/companies/squid",
+    "confidence": 0.86
+  },
+  {
+    "company": "Overdrive Health",
+    "domain": "",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "digital health / billing",
+    "matched_capabilities": [
+      "claims-adjudication",
+      "value-based-care",
+      "clinical-care-delivery",
+      "value-based-care-contracting"
+    ],
+    "activity_evidence": "Runs outsourced medical billing and revenue-cycle work for providers, starting with ambulance claims: insurance calls, documentation checks, benefit verification and collections on claims that traditional billers skip.",
+    "bridge": "Revenue-cycle operations sit next to listed health systems and insurers, not next to a generic AI lab.",
+    "source_url": "https://www.ycombinator.com/companies/overdrive-health",
+    "confidence": 0.91
+  },
+  {
+    "company": "ClaimGlide",
+    "domain": "claimglide.com",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "digital health",
+    "matched_capabilities": [
+      "claims-adjudication",
+      "value-based-care",
+      "value-based-care-contracting"
+    ],
+    "activity_evidence": "Automates end-to-end prior authorization for private medical practices so authorizations are submitted faster and with fewer denials than the in-house process.",
+    "bridge": "Prior-auth is a claims workflow already staffed inside listed providers and payers.",
+    "source_url": "https://www.ycombinator.com/companies/claimglide",
+    "confidence": 0.9
+  },
+  {
+    "company": "Ruma Care",
+    "domain": "rumacare.com",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "digital health / clinics",
+    "matched_capabilities": [
+      "clinical-care-delivery",
+      "value-based-care",
+      "pharmacy-benefit-management",
+      "value-based-care-contracting"
+    ],
+    "activity_evidence": "Automates prior authorization, copay-assistance enrollment and related admin for biologic infusion clinics, turning a process that spans dozens of payer portals and paper forms into one workflow so clinics are reimbursed for high-cost specialty drugs.",
+    "bridge": "Infusion-clinic operations are care delivery plus pharmacy-benefit work, already on the listed health-system map.",
+    "source_url": "https://www.ycombinator.com/companies/ruma-care",
+    "confidence": 0.92
+  },
+  {
+    "company": "Foreman",
+    "domain": "foreman.co",
+    "founded": 2026,
+    "batch": "YC W26",
+    "yc_label": "construction / SaaS",
+    "matched_capabilities": [
+      "construction-management",
+      "program-management",
+      "infrastructure-engineering"
+    ],
+    "activity_evidence": "Replaces the spreadsheet-and-email patchwork contractors use to run a job: takeoffs, estimates, proposals, change orders, permits and photos live in one project record from first bid to final invoice.",
+    "bridge": "Job-site administration is the same program-management work listed engineering and homebuilding firms already staff.",
+    "source_url": "https://www.ycombinator.com/companies/foreman",
+    "confidence": 0.88
+  },
+  {
+    "company": "LegalOS",
+    "domain": "legalos.ai",
+    "founded": 2024,
+    "batch": "YC W26",
+    "yc_label": "legal tech",
+    "matched_capabilities": [
+      "management-consulting",
+      "audit-and-assurance",
+      "transaction-advisory"
+    ],
+    "activity_evidence": "Operates as an immigration law firm that drafts work-visa petition narratives, compiles evidence and routes every filing through licensed attorney review, covering O-1, H-1B, L-1, TN, EB-1 and EB-2 NIW categories.",
+    "bridge": "Petition production is professional-services delivery, the same mode as listed advisory firms.",
+    "source_url": "https://www.ycombinator.com/companies/legalos",
+    "confidence": 0.85
+  },
+  {
+    "company": "Martini",
+    "domain": "martini.film",
+    "founded": 2025,
+    "batch": "YC W26",
+    "yc_label": "media / generative video",
+    "matched_capabilities": [
+      "film-and-tv-production",
+      "content-distribution",
+      "theme-park-operations"
+    ],
+    "activity_evidence": "Provides a collaborative production workspace for professional filmmaking with generative video models: camera-controlled shots, a timeline for assemblies, and team sharing of edits so commercials and films can be directed rather than prompted.",
+    "bridge": "Shot production is content operations already running at listed entertainment firms, even when the camera is a model.",
+    "source_url": "https://www.ycombinator.com/companies/martini",
+    "confidence": 0.8
+  }
+]

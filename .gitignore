@@ -18,3 +18,11 @@ venv/
 # Pipeline binaries (JSON/HTML snapshots are committed so the map can be read without running)
 out/similarity.npy
 out/validate_report.json
+
+# --- added by cleanup 2026-09-09 ---
+node_modules/
+.next/
+dist/
+build/
+.turbo/
+.vite/

@@ -1,0 +1,4566 @@
+{
+ "stats": {
+  "n_firms": 147,
+  "n_line_nodes": 299,
+  "n_segment_nodes": 232,
+  "n_split_parents": 80,
+  "similarity": "0.65 canonical tags + 0.35 tag tokens",
+  "knn": 6
+ },
+ "nodes": [
+  {
+   "id": "abbott::medical-devices",
+   "name": "Abbott \u00b7 Medical Devices",
+   "kind": "segment",
+   "parent": "abbott",
+   "parent_name": "Abbott",
+   "segment": "Medical Devices",
+   "weight": 0.45,
+   "tags": [
+    "cardiac-rhythm-management",
+    "continuous-glucose-monitoring",
+    "medical-device-manufacturing",
+    "neuromodulation-devices"
+   ]
+  },
+  {
+   "id": "abbott::diagnostics",
+   "name": "Abbott \u00b7 Diagnostics",
+   "kind": "segment",
+   "parent": "abbott",
+   "parent_name": "Abbott",
+   "segment": "Diagnostics",
+   "weight": 0.3,
+   "tags": [
+    "diagnostics-instruments",
+    "point-of-care-diagnostics"
+   ]
+  },
+  {
+   "id": "abbott::nutrition",
+   "name": "Abbott \u00b7 Nutrition",
+   "kind": "segment",
+   "parent": "abbott",
+   "parent_name": "Abbott",
+   "segment": "Nutrition",
+   "weight": 0.15,
+   "tags": [
+    "clinical-nutrition",
+    "global-distribution"
+   ]
+  },
+  {
+   "id": "abbvie",
+   "name": "AbbVie",
+   "kind": "firm",
+   "parent": "abbvie",
+   "parent_name": "AbbVie",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "biologic-manufacturing",
+    "clinical-trial-operations",
+    "drug-discovery-research",
+    "global-pharma-distribution",
+    "immunology-therapeutics",
+    "medical-aesthetics",
+    "neuroscience-therapeutics",
+    "oncology-therapeutics",
+    "pharmaceutical-regulatory",
+    "specialty-pharma-commercialization"
+   ]
+  },
+  {
+   "id": "acac-fitness-and-wellness-center",
+   "name": "acac Fitness & Wellness Center",
+   "kind": "firm",
+   "parent": "acac-fitness-and-wellness-center",
+   "parent_name": "acac Fitness & Wellness Center",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "aquatics-facilities",
+    "corporate-wellness-programs",
+    "fitness-club-operations",
+    "group-fitness-programming",
+    "membership-management",
+    "personal-training-services",
+    "spa-and-recovery-amenities",
+    "tennis-club-operations",
+    "youth-programs-and-childcare"
+   ]
+  },
+  {
+   "id": "accenture",
+   "name": "Accenture",
+   "kind": "firm",
+   "parent": "accenture",
+   "parent_name": "Accenture",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-deployment",
+    "cloud-migration",
+    "cybersecurity-services",
+    "digital-engineering",
+    "ecosystem-partner-integration",
+    "finance-transformation",
+    "learning-and-talent-development",
+    "managed-services-outsourcing",
+    "management-consulting",
+    "supply-chain-advisory",
+    "sustainability-consulting",
+    "technology-implementation"
+   ]
+  },
+  {
+   "id": "acuity-insurance",
+   "name": "Acuity Insurance",
+   "kind": "firm",
+   "parent": "acuity-insurance",
+   "parent_name": "Acuity Insurance",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "actuarial-modeling",
+    "claims-adjudication",
+    "commercial-lines-insurance",
+    "digital-claims-management",
+    "independent-agent-distribution",
+    "mutual-company-governance",
+    "personal-lines-insurance",
+    "policyholder-servicing",
+    "property-and-casualty-underwriting"
+   ]
+  },
+  {
+   "id": "adobe::creative-cloud",
+   "name": "Adobe \u00b7 Creative Cloud",
+   "kind": "segment",
+   "parent": "adobe",
+   "parent_name": "Adobe",
+   "segment": "Creative Cloud",
+   "weight": 0.55,
+   "tags": [
+    "ai-and-machine-learning",
+    "creative-production-tools",
+    "subscription-saas",
+    "video-production-tools"
+   ]
+  },
+  {
+   "id": "adobe::document-cloud",
+   "name": "Adobe \u00b7 Document Cloud",
+   "kind": "segment",
+   "parent": "adobe",
+   "parent_name": "Adobe",
+   "segment": "Document Cloud",
+   "weight": 0.2,
+   "tags": [
+    "document-management",
+    "e-signature",
+    "subscription-saas"
+   ]
+  },
+  {
+   "id": "adobe::experience-cloud",
+   "name": "Adobe \u00b7 Experience Cloud",
+   "kind": "segment",
+   "parent": "adobe",
+   "parent_name": "Adobe",
+   "segment": "Experience Cloud",
+   "weight": 0.25,
+   "tags": [
+    "digital-experience-platform",
+    "marketing-analytics",
+    "subscription-saas"
+   ]
+  },
+  {
+   "id": "adp",
+   "name": "ADP",
+   "kind": "firm",
+   "parent": "adp",
+   "parent_name": "ADP",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "benefits-administration",
+    "employer-of-record-services",
+    "hr-administration-outsourcing",
+    "human-capital-management-software",
+    "payroll-processing",
+    "regulatory-compliance-ops",
+    "talent-management-platform",
+    "tax-compliance-and-filing",
+    "time-and-attendance-tracking",
+    "workforce-analytics"
+   ]
+  },
+  {
+   "id": "adventhealth",
+   "name": "AdventHealth",
+   "kind": "firm",
+   "parent": "adventhealth",
+   "parent_name": "AdventHealth",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "clinical-care-delivery",
+    "home-health-services",
+    "hospice-care",
+    "inpatient-hospital-operations",
+    "outpatient-clinic-operations",
+    "physician-practice-management",
+    "population-health-management",
+    "skilled-nursing-facilities",
+    "value-based-care"
+   ]
+  },
+  {
+   "id": "aecom",
+   "name": "AECOM",
+   "kind": "firm",
+   "parent": "aecom",
+   "parent_name": "AECOM",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "climate-adaptation-consulting",
+    "construction-management",
+    "cost-management",
+    "disaster-recovery-ops",
+    "ehs-compliance",
+    "environmental-remediation",
+    "government-contracting",
+    "infrastructure-engineering",
+    "it-and-cybersecurity-services",
+    "program-management",
+    "public-private-partnerships",
+    "urban-planning"
+   ]
+  },
+  {
+   "id": "air-products",
+   "name": "Air Products",
+   "kind": "firm",
+   "parent": "air-products",
+   "parent_name": "Air Products",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "cryogenic-engineering",
+    "electronics-gases",
+    "energy-transition-infrastructure",
+    "gas-equipment-manufacturing",
+    "hydrogen-supply-and-projects",
+    "industrial-gas-production",
+    "large-scale-plant-operations",
+    "on-site-gas-production",
+    "pipeline-gas-distribution",
+    "process-engineering"
+   ]
+  },
+  {
+   "id": "akzonobel::decorative-paints",
+   "name": "AkzoNobel \u00b7 Decorative Paints",
+   "kind": "segment",
+   "parent": "akzonobel",
+   "parent_name": "AkzoNobel",
+   "segment": "Decorative Paints",
+   "weight": 0.5,
+   "tags": [
+    "decorative-paints",
+    "paints-manufacturing"
+   ]
+  },
+  {
+   "id": "akzonobel::performance-coatings",
+   "name": "AkzoNobel \u00b7 Performance Coatings",
+   "kind": "segment",
+   "parent": "akzonobel",
+   "parent_name": "AkzoNobel",
+   "segment": "Performance Coatings",
+   "weight": 0.5,
+   "tags": [
+    "industrial-coatings",
+    "marine-coatings",
+    "powder-coatings",
+    "protective-coatings"
+   ]
+  },
+  {
+   "id": "alaska-airlines::passenger-air-service-alaska-hawaiian-brands",
+   "name": "Alaska Airlines \u00b7 Passenger Air Service (Alaska & Hawaiian brands)",
+   "kind": "segment",
+   "parent": "alaska-airlines",
+   "parent_name": "Alaska Airlines",
+   "segment": "Passenger Air Service (Alaska & Hawaiian brands)",
+   "weight": 0.8,
+   "tags": [
+    "loyalty-programs",
+    "scheduled-passenger-air-service",
+    "widebody-international-routes"
+   ]
+  },
+  {
+   "id": "alaska-airlines::horizon-air-regional-operations",
+   "name": "Alaska Airlines \u00b7 Horizon Air Regional Operations",
+   "kind": "segment",
+   "parent": "alaska-airlines",
+   "parent_name": "Alaska Airlines",
+   "segment": "Horizon Air Regional Operations",
+   "weight": 0.1,
+   "tags": [
+    "hub-and-spoke-network-operations",
+    "regional-airline-operations"
+   ]
+  },
+  {
+   "id": "alaska-airlines::cargo",
+   "name": "Alaska Airlines \u00b7 Cargo",
+   "kind": "segment",
+   "parent": "alaska-airlines",
+   "parent_name": "Alaska Airlines",
+   "segment": "Cargo",
+   "weight": 0.1,
+   "tags": [
+    "cargo-air-transport",
+    "island-community-air-service"
+   ]
+  },
+  {
+   "id": "albemarle::energy-storage-lithium",
+   "name": "Albemarle \u00b7 Energy Storage (Lithium)",
+   "kind": "segment",
+   "parent": "albemarle",
+   "parent_name": "Albemarle",
+   "segment": "Energy Storage (Lithium)",
+   "weight": 0.55,
+   "tags": [
+    "battery-materials-supply",
+    "critical-minerals-supply-chain",
+    "lithium-mining-processing"
+   ]
+  },
+  {
+   "id": "albemarle::specialties-bromine",
+   "name": "Albemarle \u00b7 Specialties (Bromine)",
+   "kind": "segment",
+   "parent": "albemarle",
+   "parent_name": "Albemarle",
+   "segment": "Specialties (Bromine)",
+   "weight": 0.25,
+   "tags": [
+    "bromine-chemistry",
+    "flame-retardant-production",
+    "specialty-chemicals-manufacturing"
+   ]
+  },
+  {
+   "id": "albemarle::ketjen-refining-catalysts",
+   "name": "Albemarle \u00b7 Ketjen (Refining Catalysts)",
+   "kind": "segment",
+   "parent": "albemarle",
+   "parent_name": "Albemarle",
+   "segment": "Ketjen (Refining Catalysts)",
+   "weight": 0.2,
+   "tags": [
+    "oil-refining-catalysts",
+    "specialty-chemicals-manufacturing"
+   ]
+  },
+  {
+   "id": "alcon::surgical",
+   "name": "Alcon \u00b7 Surgical",
+   "kind": "segment",
+   "parent": "alcon",
+   "parent_name": "Alcon",
+   "segment": "Surgical",
+   "weight": 0.55,
+   "tags": [
+    "clinical-research-and-development",
+    "intraocular-lens-design",
+    "ophthalmic-surgical-equipment",
+    "surgical-consumables-supply"
+   ]
+  },
+  {
+   "id": "alcon::vision-care",
+   "name": "Alcon \u00b7 Vision Care",
+   "kind": "segment",
+   "parent": "alcon",
+   "parent_name": "Alcon",
+   "segment": "Vision Care",
+   "weight": 0.45,
+   "tags": [
+    "contact-lens-manufacturing",
+    "eye-care-product-distribution",
+    "healthcare-provider-sales"
+   ]
+  },
+  {
+   "id": "amazon::aws-cloud-ai-services",
+   "name": "Amazon \u00b7 AWS (Cloud & AI Services)",
+   "kind": "segment",
+   "parent": "amazon",
+   "parent_name": "Amazon",
+   "segment": "AWS (Cloud & AI Services)",
+   "weight": 0.18,
+   "tags": [
+    "ai-ml-platform",
+    "cloud-infrastructure-services",
+    "custom-silicon-design"
+   ]
+  },
+  {
+   "id": "amazon::north-america-retail-advertising",
+   "name": "Amazon \u00b7 North America Retail & Advertising",
+   "kind": "segment",
+   "parent": "amazon",
+   "parent_name": "Amazon",
+   "segment": "North America Retail & Advertising",
+   "weight": 0.46,
+   "tags": [
+    "ad-inventory-marketplace",
+    "e-commerce-marketplace",
+    "fulfillment-network",
+    "third-party-seller-platform"
+   ]
+  },
+  {
+   "id": "amazon::international-retail",
+   "name": "Amazon \u00b7 International Retail",
+   "kind": "segment",
+   "parent": "amazon",
+   "parent_name": "Amazon",
+   "segment": "International Retail",
+   "weight": 0.22,
+   "tags": [
+    "e-commerce-marketplace",
+    "fulfillment-network"
+   ]
+  },
+  {
+   "id": "amazon::entertainment-devices",
+   "name": "Amazon \u00b7 Entertainment & Devices",
+   "kind": "segment",
+   "parent": "amazon",
+   "parent_name": "Amazon",
+   "segment": "Entertainment & Devices",
+   "weight": 0.07,
+   "tags": [
+    "consumer-electronics",
+    "streaming-content"
+   ]
+  },
+  {
+   "id": "amazon::health-services",
+   "name": "Amazon \u00b7 Health Services",
+   "kind": "segment",
+   "parent": "amazon",
+   "parent_name": "Amazon",
+   "segment": "Health Services",
+   "weight": 0.03,
+   "tags": [
+    "pharmacy-fulfillment",
+    "primary-care-delivery"
+   ]
+  },
+  {
+   "id": "amc",
+   "name": "AMC",
+   "kind": "firm",
+   "parent": "amc",
+   "parent_name": "AMC",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "concessions-operations",
+    "in-theater-advertising",
+    "loyalty-and-subscription-program",
+    "movie-exhibition",
+    "premium-format-screening",
+    "ticket-distribution-platform"
+   ]
+  },
+  {
+   "id": "amd::data-center",
+   "name": "AMD \u00b7 Data Center",
+   "kind": "segment",
+   "parent": "amd",
+   "parent_name": "AMD",
+   "segment": "Data Center",
+   "weight": 0.5,
+   "tags": [
+    "cpu-architecture-development",
+    "data-center-ai-acceleration",
+    "gpu-architecture-development"
+   ]
+  },
+  {
+   "id": "amd::client-pc-laptop",
+   "name": "AMD \u00b7 Client (PC/Laptop)",
+   "kind": "segment",
+   "parent": "amd",
+   "parent_name": "AMD",
+   "segment": "Client (PC/Laptop)",
+   "weight": 0.25,
+   "tags": [
+    "consumer-processor-design",
+    "cpu-architecture-development"
+   ]
+  },
+  {
+   "id": "amd::embedded-adaptive-fpga",
+   "name": "AMD \u00b7 Embedded (Adaptive/FPGA)",
+   "kind": "segment",
+   "parent": "amd",
+   "parent_name": "AMD",
+   "segment": "Embedded (Adaptive/FPGA)",
+   "weight": 0.13,
+   "tags": [
+    "embedded-systems-silicon",
+    "fpga-and-adaptive-computing"
+   ]
+  },
+  {
+   "id": "american-electric-power",
+   "name": "American Electric Power",
+   "kind": "firm",
+   "parent": "american-electric-power",
+   "parent_name": "American Electric Power",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "electricity-distribution",
+    "electricity-generation",
+    "electricity-transmission",
+    "energy-transition",
+    "grid-infrastructure",
+    "rate-case-regulatory-compliance",
+    "regulated-utility-operations",
+    "renewable-energy"
+   ]
+  },
+  {
+   "id": "american-express::u-s-consumer-services",
+   "name": "American Express \u00b7 U.S. Consumer Services",
+   "kind": "segment",
+   "parent": "american-express",
+   "parent_name": "American Express",
+   "segment": "U.S. Consumer Services",
+   "weight": 0.35,
+   "tags": [
+    "co-brand-partnerships",
+    "consumer-lending",
+    "loyalty-programs"
+   ]
+  },
+  {
+   "id": "american-express::commercial-services",
+   "name": "American Express \u00b7 Commercial Services",
+   "kind": "segment",
+   "parent": "american-express",
+   "parent_name": "American Express",
+   "segment": "Commercial Services",
+   "weight": 0.28,
+   "tags": [
+    "b2b-payments",
+    "corporate-card-expense-management",
+    "travel-and-lifestyle-services"
+   ]
+  },
+  {
+   "id": "american-express::international-card-services",
+   "name": "American Express \u00b7 International Card Services",
+   "kind": "segment",
+   "parent": "american-express",
+   "parent_name": "American Express",
+   "segment": "International Card Services",
+   "weight": 0.18,
+   "tags": [
+    "consumer-lending",
+    "payment-network-operations"
+   ]
+  },
+  {
+   "id": "american-express::global-merchant-and-network-services",
+   "name": "American Express \u00b7 Global Merchant and Network Services",
+   "kind": "segment",
+   "parent": "american-express",
+   "parent_name": "American Express",
+   "segment": "Global Merchant and Network Services",
+   "weight": 0.19,
+   "tags": [
+    "fraud-detection",
+    "merchant-acquiring",
+    "payment-network-operations"
+   ]
+  },
+  {
+   "id": "american-red-cross::disaster-relief",
+   "name": "American Red Cross \u00b7 Disaster Relief",
+   "kind": "segment",
+   "parent": "american-red-cross",
+   "parent_name": "American Red Cross",
+   "segment": "Disaster Relief",
+   "weight": 0.3,
+   "tags": [
+    "disaster-relief-operations",
+    "emergency-response-logistics"
+   ]
+  },
+  {
+   "id": "american-red-cross::biomedical-services-blood",
+   "name": "American Red Cross \u00b7 Biomedical Services (Blood)",
+   "kind": "segment",
+   "parent": "american-red-cross",
+   "parent_name": "American Red Cross",
+   "segment": "Biomedical Services (Blood)",
+   "weight": 0.3,
+   "tags": [
+    "blood-collection-and-supply",
+    "cold-chain-logistics"
+   ]
+  },
+  {
+   "id": "american-red-cross::training-health-safety",
+   "name": "American Red Cross \u00b7 Training & Health Safety",
+   "kind": "segment",
+   "parent": "american-red-cross",
+   "parent_name": "American Red Cross",
+   "segment": "Training & Health Safety",
+   "weight": 0.15,
+   "tags": [
+    "community-preparedness",
+    "safety-training-and-certification"
+   ]
+  },
+  {
+   "id": "ameriprise::advice-and-wealth-management",
+   "name": "Ameriprise \u00b7 Advice and Wealth Management",
+   "kind": "segment",
+   "parent": "ameriprise",
+   "parent_name": "Ameriprise",
+   "segment": "Advice and Wealth Management",
+   "weight": 0.55,
+   "tags": [
+    "financial-advisor-network",
+    "financial-advisory",
+    "retirement-planning",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "ameriprise::asset-management-columbia-threadneedle",
+   "name": "Ameriprise \u00b7 Asset Management (Columbia Threadneedle)",
+   "kind": "segment",
+   "parent": "ameriprise",
+   "parent_name": "Ameriprise",
+   "segment": "Asset Management (Columbia Threadneedle)",
+   "weight": 0.25,
+   "tags": [
+    "institutional-asset-management"
+   ]
+  },
+  {
+   "id": "ameriprise::retirement-and-protection-solutions",
+   "name": "Ameriprise \u00b7 Retirement and Protection Solutions",
+   "kind": "segment",
+   "parent": "ameriprise",
+   "parent_name": "Ameriprise",
+   "segment": "Retirement and Protection Solutions",
+   "weight": 0.2,
+   "tags": [
+    "annuity-products",
+    "insurance-products"
+   ]
+  },
+  {
+   "id": "amgen",
+   "name": "Amgen",
+   "kind": "firm",
+   "parent": "amgen",
+   "parent_name": "Amgen",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-drug-discovery",
+    "biologic-drug-discovery",
+    "cell-based-manufacturing",
+    "clinical-trial-operations",
+    "cold-chain-logistics",
+    "genomics-and-human-genetics",
+    "global-commercial-launch",
+    "oncology-pipeline",
+    "rare-disease-therapeutics",
+    "regulatory-submissions",
+    "supply-chain-reliability"
+   ]
+  },
+  {
+   "id": "amica-insurance",
+   "name": "Amica Insurance",
+   "kind": "firm",
+   "parent": "amica-insurance",
+   "parent_name": "Amica Insurance",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "actuarial-modeling",
+    "annuity-products",
+    "auto-insurance-underwriting",
+    "claims-adjudication",
+    "direct-writer-insurance",
+    "homeowners-underwriting",
+    "life-insurance",
+    "mutual-insurer-governance",
+    "personal-lines-insurance"
+   ]
+  },
+  {
+   "id": "apple::products-hardware",
+   "name": "Apple \u00b7 Products (Hardware)",
+   "kind": "segment",
+   "parent": "apple",
+   "parent_name": "Apple",
+   "segment": "Products (Hardware)",
+   "weight": 0.6,
+   "tags": [
+    "consumer-hardware-design",
+    "retail-store-operations",
+    "semiconductor-design",
+    "supply-chain-manufacturing"
+   ]
+  },
+  {
+   "id": "apple::services",
+   "name": "Apple \u00b7 Services",
+   "kind": "segment",
+   "parent": "apple",
+   "parent_name": "Apple",
+   "segment": "Services",
+   "weight": 0.4,
+   "tags": [
+    "app-marketplace",
+    "consumer-payments",
+    "developer-ecosystem",
+    "digital-content-streaming",
+    "subscription-services"
+   ]
+  },
+  {
+   "id": "at-and-t::mobility",
+   "name": "AT&T \u00b7 Mobility",
+   "kind": "segment",
+   "parent": "at-and-t",
+   "parent_name": "AT&T",
+   "segment": "Mobility",
+   "weight": 0.54,
+   "tags": [
+    "5g-network-infrastructure",
+    "first-responder-network",
+    "wireless-network-operations"
+   ]
+  },
+  {
+   "id": "at-and-t::consumer-wireline",
+   "name": "AT&T \u00b7 Consumer Wireline",
+   "kind": "segment",
+   "parent": "at-and-t",
+   "parent_name": "AT&T",
+   "segment": "Consumer Wireline",
+   "weight": 0.18,
+   "tags": [
+    "consumer-internet-services",
+    "fiber-broadband-deployment",
+    "fixed-wireless-access"
+   ]
+  },
+  {
+   "id": "at-and-t::business-wireline",
+   "name": "AT&T \u00b7 Business Wireline",
+   "kind": "segment",
+   "parent": "at-and-t",
+   "parent_name": "AT&T",
+   "segment": "Business Wireline",
+   "weight": 0.25,
+   "tags": [
+    "enterprise-connectivity-services",
+    "managed-network-services",
+    "software-defined-networking"
+   ]
+  },
+  {
+   "id": "bain-and-company",
+   "name": "Bain & Company",
+   "kind": "firm",
+   "parent": "bain-and-company",
+   "parent_name": "Bain & Company",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "change-management",
+    "customer-experience-design",
+    "digital-transformation-consulting",
+    "go-to-market-strategy",
+    "management-consulting",
+    "organizational-effectiveness",
+    "private-equity-advisory",
+    "sustainability-consulting"
+   ]
+  },
+  {
+   "id": "baird::private-wealth-management",
+   "name": "Baird \u00b7 Private Wealth Management",
+   "kind": "segment",
+   "parent": "baird",
+   "parent_name": "Baird",
+   "segment": "Private Wealth Management",
+   "weight": 0.4,
+   "tags": [
+    "financial-planning",
+    "private-wealth-management",
+    "trust-and-fiduciary-services"
+   ]
+  },
+  {
+   "id": "baird::investment-banking-capital-markets",
+   "name": "Baird \u00b7 Investment Banking & Capital Markets",
+   "kind": "segment",
+   "parent": "baird",
+   "parent_name": "Baird",
+   "segment": "Investment Banking & Capital Markets",
+   "weight": 0.35,
+   "tags": [
+    "equity-capital-markets",
+    "fixed-income-capital-markets",
+    "investment-banking",
+    "mergers-and-acquisitions-advisory"
+   ]
+  },
+  {
+   "id": "baird::asset-management",
+   "name": "Baird \u00b7 Asset Management",
+   "kind": "segment",
+   "parent": "baird",
+   "parent_name": "Baird",
+   "segment": "Asset Management",
+   "weight": 0.15,
+   "tags": [
+    "institutional-advisory",
+    "institutional-asset-management"
+   ]
+  },
+  {
+   "id": "bank-of-america::consumer-banking",
+   "name": "Bank of America \u00b7 Consumer Banking",
+   "kind": "segment",
+   "parent": "bank-of-america",
+   "parent_name": "Bank of America",
+   "segment": "Consumer Banking",
+   "weight": 0.35,
+   "tags": [
+    "consumer-lending",
+    "digital-banking",
+    "physical-branch-network",
+    "retail-deposit-banking"
+   ]
+  },
+  {
+   "id": "bank-of-america::global-wealth-and-investment-management-merrill",
+   "name": "Bank of America \u00b7 Global Wealth and Investment Management (Merrill)",
+   "kind": "segment",
+   "parent": "bank-of-america",
+   "parent_name": "Bank of America",
+   "segment": "Global Wealth and Investment Management (Merrill)",
+   "weight": 0.2,
+   "tags": [
+    "financial-advisory",
+    "investment-advisory",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "bank-of-america::global-banking",
+   "name": "Bank of America \u00b7 Global Banking",
+   "kind": "segment",
+   "parent": "bank-of-america",
+   "parent_name": "Bank of America",
+   "segment": "Global Banking",
+   "weight": 0.25,
+   "tags": [
+    "capital-markets",
+    "corporate-banking"
+   ]
+  },
+  {
+   "id": "bank-of-america::global-markets",
+   "name": "Bank of America \u00b7 Global Markets",
+   "kind": "segment",
+   "parent": "bank-of-america",
+   "parent_name": "Bank of America",
+   "segment": "Global Markets",
+   "weight": 0.2,
+   "tags": [
+    "capital-markets",
+    "payment-processing"
+   ]
+  },
+  {
+   "id": "bath-and-body-works",
+   "name": "Bath & Body Works",
+   "kind": "firm",
+   "parent": "bath-and-body-works",
+   "parent_name": "Bath & Body Works",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "consumer-fragrance-products",
+    "distribution-fulfillment",
+    "franchise-licensing",
+    "loyalty-programs",
+    "omnichannel-retail",
+    "product-formulation",
+    "seasonal-merchandise-planning",
+    "specialty-retail-stores"
+   ]
+  },
+  {
+   "id": "best-buy",
+   "name": "Best Buy",
+   "kind": "firm",
+   "parent": "best-buy",
+   "parent_name": "Best Buy",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "appliance-installation",
+    "b2b-technology-supply",
+    "consumer-electronics-retail",
+    "health-tech-services",
+    "in-home-service-technicians",
+    "omnichannel-retail",
+    "product-financing",
+    "tech-repair-services",
+    "trade-in-and-refurbishment"
+   ]
+  },
+  {
+   "id": "boeing::commercial-airplanes",
+   "name": "Boeing \u00b7 Commercial Airplanes",
+   "kind": "segment",
+   "parent": "boeing",
+   "parent_name": "Boeing",
+   "segment": "Commercial Airplanes",
+   "weight": 0.45,
+   "tags": [
+    "aerospace-engineering",
+    "commercial-aircraft-manufacturing"
+   ]
+  },
+  {
+   "id": "boeing::defense-space-security",
+   "name": "Boeing \u00b7 Defense, Space & Security",
+   "kind": "segment",
+   "parent": "boeing",
+   "parent_name": "Boeing",
+   "segment": "Defense, Space & Security",
+   "weight": 0.35,
+   "tags": [
+    "defense-aircraft-manufacturing",
+    "military-systems-integration",
+    "space-and-satellite",
+    "weapon-systems"
+   ]
+  },
+  {
+   "id": "boeing::boeing-global-services",
+   "name": "Boeing \u00b7 Boeing Global Services",
+   "kind": "segment",
+   "parent": "boeing",
+   "parent_name": "Boeing",
+   "segment": "Boeing Global Services",
+   "weight": 0.2,
+   "tags": [
+    "aftermarket-mro-services",
+    "digital-aviation-analytics",
+    "flight-training",
+    "supply-chain-management"
+   ]
+  },
+  {
+   "id": "booz-allen-hamilton",
+   "name": "Booz Allen Hamilton",
+   "kind": "firm",
+   "parent": "booz-allen-hamilton",
+   "parent_name": "Booz Allen Hamilton",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-and-machine-learning",
+    "cloud-migration",
+    "cybersecurity-services",
+    "data-analytics-for-government",
+    "defense-technology",
+    "digital-transformation",
+    "government-technology-services",
+    "intelligence-community-support",
+    "national-security-consulting",
+    "quantum-computing",
+    "space-domain-awareness"
+   ]
+  },
+  {
+   "id": "brightview-senior-living",
+   "name": "Brightview Senior Living",
+   "kind": "firm",
+   "parent": "brightview-senior-living",
+   "parent_name": "Brightview Senior Living",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "assisted-living",
+    "clinical-care-delivery",
+    "food-and-dining-services",
+    "independent-senior-living",
+    "memory-care",
+    "residential-real-estate-development",
+    "senior-living-operations",
+    "wellness-programming"
+   ]
+  },
+  {
+   "id": "burns-and-mcdonnell::burns-mcdonnell-engineering-design-construction",
+   "name": "Burns & McDonnell \u00b7 Burns & McDonnell (Engineering, Design, Construction)",
+   "kind": "segment",
+   "parent": "burns-and-mcdonnell",
+   "parent_name": "Burns & McDonnell",
+   "segment": "Burns & McDonnell (Engineering, Design, Construction)",
+   "weight": 0.8,
+   "tags": [
+    "electric-power-engineering",
+    "engineering-design",
+    "infrastructure-construction",
+    "program-management"
+   ]
+  },
+  {
+   "id": "burns-and-mcdonnell::azco-heavy-industrial-construction",
+   "name": "Burns & McDonnell \u00b7 AZCO (Heavy Industrial Construction)",
+   "kind": "segment",
+   "parent": "burns-and-mcdonnell",
+   "parent_name": "Burns & McDonnell",
+   "segment": "AZCO (Heavy Industrial Construction)",
+   "weight": 0.08,
+   "tags": [
+    "field-service-technicians",
+    "infrastructure-construction"
+   ]
+  },
+  {
+   "id": "cadence-design-systems",
+   "name": "Cadence Design Systems",
+   "kind": "firm",
+   "parent": "cadence-design-systems",
+   "parent_name": "Cadence Design Systems",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-assisted-design",
+    "chip-verification",
+    "cloud-eda-services",
+    "digital-twin-technology",
+    "eda-software",
+    "ip-licensing",
+    "molecular-simulation",
+    "pcb-design-tools",
+    "semiconductor-design-tools",
+    "system-design-and-simulation"
+   ]
+  },
+  {
+   "id": "camden-property-trust",
+   "name": "Camden Property Trust",
+   "kind": "firm",
+   "parent": "camden-property-trust",
+   "parent_name": "Camden Property Trust",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "apartment-community-operations",
+    "construction-management",
+    "multifamily-property-management",
+    "real-estate-acquisition",
+    "real-estate-development",
+    "reit-capital-structure",
+    "residential-leasing"
+   ]
+  },
+  {
+   "id": "capital-one::credit-card",
+   "name": "Capital One \u00b7 Credit Card",
+   "kind": "segment",
+   "parent": "capital-one",
+   "parent_name": "Capital One",
+   "segment": "Credit Card",
+   "weight": 0.6,
+   "tags": [
+    "card-network-operations",
+    "consumer-lending",
+    "credit-card-issuance",
+    "fraud-detection"
+   ]
+  },
+  {
+   "id": "capital-one::consumer-banking",
+   "name": "Capital One \u00b7 Consumer Banking",
+   "kind": "segment",
+   "parent": "capital-one",
+   "parent_name": "Capital One",
+   "segment": "Consumer Banking",
+   "weight": 0.2,
+   "tags": [
+    "auto-lending",
+    "consumer-deposit-services"
+   ]
+  },
+  {
+   "id": "caterpillar-inc::construction-industries",
+   "name": "Caterpillar Inc \u00b7 Construction Industries",
+   "kind": "segment",
+   "parent": "caterpillar-inc",
+   "parent_name": "Caterpillar Inc",
+   "segment": "Construction Industries",
+   "weight": 0.4,
+   "tags": [
+    "construction-equipment-manufacturing",
+    "dealer-network-distribution"
+   ]
+  },
+  {
+   "id": "caterpillar-inc::energy-transportation-power-and-energy",
+   "name": "Caterpillar Inc \u00b7 Energy & Transportation (Power and Energy)",
+   "kind": "segment",
+   "parent": "caterpillar-inc",
+   "parent_name": "Caterpillar Inc",
+   "segment": "Energy & Transportation (Power and Energy)",
+   "weight": 0.3,
+   "tags": [
+    "diesel-electric-locomotives",
+    "heavy-diesel-engine-manufacturing",
+    "industrial-turbines"
+   ]
+  },
+  {
+   "id": "cheesecake-factory::the-cheesecake-factory-restaurants",
+   "name": "Cheesecake Factory \u00b7 The Cheesecake Factory Restaurants",
+   "kind": "segment",
+   "parent": "cheesecake-factory",
+   "parent_name": "Cheesecake Factory",
+   "segment": "The Cheesecake Factory Restaurants",
+   "weight": 0.65,
+   "tags": [
+    "full-service-restaurant-operations",
+    "scratch-kitchen-production"
+   ]
+  },
+  {
+   "id": "cheesecake-factory::north-italia-fox-restaurant-concepts",
+   "name": "Cheesecake Factory \u00b7 North Italia & Fox Restaurant Concepts",
+   "kind": "segment",
+   "parent": "cheesecake-factory",
+   "parent_name": "Cheesecake Factory",
+   "segment": "North Italia & Fox Restaurant Concepts",
+   "weight": 0.25,
+   "tags": [
+    "full-service-restaurant-operations",
+    "multi-brand-restaurant-portfolio"
+   ]
+  },
+  {
+   "id": "cheesecake-factory::bakery-division",
+   "name": "Cheesecake Factory \u00b7 Bakery Division",
+   "kind": "segment",
+   "parent": "cheesecake-factory",
+   "parent_name": "Cheesecake Factory",
+   "segment": "Bakery Division",
+   "weight": 0.1,
+   "tags": [
+    "food-supply-chain",
+    "industrial-bakery-manufacturing"
+   ]
+  },
+  {
+   "id": "chevron::upstream",
+   "name": "Chevron \u00b7 Upstream",
+   "kind": "segment",
+   "parent": "chevron",
+   "parent_name": "Chevron",
+   "segment": "Upstream",
+   "weight": 0.6,
+   "tags": [
+    "digital-oilfield-operations",
+    "geoscience-and-geology",
+    "upstream-oil-and-gas"
+   ]
+  },
+  {
+   "id": "chevron::downstream-and-chemicals",
+   "name": "Chevron \u00b7 Downstream and Chemicals",
+   "kind": "segment",
+   "parent": "chevron",
+   "parent_name": "Chevron",
+   "segment": "Downstream and Chemicals",
+   "weight": 0.4,
+   "tags": [
+    "chemical-manufacturing",
+    "fuel-retail-network",
+    "lubricants-manufacturing",
+    "petroleum-refining"
+   ]
+  },
+  {
+   "id": "chick-fil-a",
+   "name": "Chick-fil-A",
+   "kind": "firm",
+   "parent": "chick-fil-a",
+   "parent_name": "Chick-fil-A",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "community-engagement-programs",
+    "customer-hospitality-training",
+    "drive-thru-service",
+    "employee-scholarship-program",
+    "food-preparation-and-quality-control",
+    "franchise-operator-model",
+    "quick-service-restaurant-operations",
+    "supply-chain-and-fresh-sourcing"
+   ]
+  },
+  {
+   "id": "christus-health",
+   "name": "CHRISTUS Health",
+   "kind": "firm",
+   "parent": "christus-health",
+   "parent_name": "CHRISTUS Health",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "clinical-care-delivery",
+    "community-health-outreach",
+    "emergency-services",
+    "faith-based-health-system",
+    "hospital-operations",
+    "international-health-operations",
+    "nonprofit-health-system"
+   ]
+  },
+  {
+   "id": "cinemark",
+   "name": "Cinemark",
+   "kind": "firm",
+   "parent": "cinemark",
+   "parent_name": "Cinemark",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "film-exhibition",
+    "food-beverage-concessions",
+    "in-venue-advertising",
+    "loyalty-programs",
+    "movie-theatre-operations",
+    "premium-large-format",
+    "real-estate-lease-management"
+   ]
+  },
+  {
+   "id": "cisco",
+   "name": "Cisco",
+   "kind": "firm",
+   "parent": "cisco",
+   "parent_name": "Cisco",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-infrastructure",
+    "cloud-infrastructure-services",
+    "collaboration-platform",
+    "enterprise-networking",
+    "hardware-manufacturing",
+    "managed-network-services",
+    "network-security",
+    "observability-and-monitoring",
+    "professional-certification",
+    "software-defined-networking",
+    "zero-trust-security"
+   ]
+  },
+  {
+   "id": "citi::institutional-clients-group-banking-markets-tts",
+   "name": "Citi \u00b7 Institutional Clients Group (Banking, Markets, TTS)",
+   "kind": "segment",
+   "parent": "citi",
+   "parent_name": "Citi",
+   "segment": "Institutional Clients Group (Banking, Markets, TTS)",
+   "weight": 0.6,
+   "tags": [
+    "capital-markets",
+    "institutional-client-services",
+    "investment-banking",
+    "trade-finance",
+    "treasury-and-cash-management"
+   ]
+  },
+  {
+   "id": "citi::personal-banking-and-wealth-management",
+   "name": "Citi \u00b7 Personal Banking and Wealth Management",
+   "kind": "segment",
+   "parent": "citi",
+   "parent_name": "Citi",
+   "segment": "Personal Banking and Wealth Management",
+   "weight": 0.4,
+   "tags": [
+    "co-brand-partnerships",
+    "consumer-banking",
+    "consumer-lending"
+   ]
+  },
+  {
+   "id": "comcast::residential-connectivity-platforms-xfinity",
+   "name": "Comcast \u00b7 Residential Connectivity & Platforms (Xfinity)",
+   "kind": "segment",
+   "parent": "comcast",
+   "parent_name": "Comcast",
+   "segment": "Residential Connectivity & Platforms (Xfinity)",
+   "weight": 0.4,
+   "tags": [
+    "broadband-internet-service",
+    "cable-tv-and-video-distribution",
+    "wireless-mobile-service"
+   ]
+  },
+  {
+   "id": "comcast::nbcuniversal-media",
+   "name": "Comcast \u00b7 NBCUniversal Media",
+   "kind": "segment",
+   "parent": "comcast",
+   "parent_name": "Comcast",
+   "segment": "NBCUniversal Media",
+   "weight": 0.25,
+   "tags": [
+    "ad-inventory-marketplace",
+    "broadcast-and-cable-network-production",
+    "content-licensing-and-syndication",
+    "streaming-platform-operations"
+   ]
+  },
+  {
+   "id": "comcast::sky-international",
+   "name": "Comcast \u00b7 Sky (International)",
+   "kind": "segment",
+   "parent": "comcast",
+   "parent_name": "Comcast",
+   "segment": "Sky (International)",
+   "weight": 0.08,
+   "tags": [
+    "broadband-internet-service",
+    "cable-tv-and-video-distribution"
+   ]
+  },
+  {
+   "id": "costco-wholesale::warehouse-retail",
+   "name": "Costco Wholesale \u00b7 Warehouse Retail",
+   "kind": "segment",
+   "parent": "costco-wholesale",
+   "parent_name": "Costco Wholesale",
+   "segment": "Warehouse Retail",
+   "weight": 0.85,
+   "tags": [
+    "high-volume-purchasing",
+    "membership-warehouse-club",
+    "private-label-brands"
+   ]
+  },
+  {
+   "id": "costco-wholesale::costco-wholesale-industries",
+   "name": "Costco Wholesale \u00b7 Costco Wholesale Industries",
+   "kind": "segment",
+   "parent": "costco-wholesale",
+   "parent_name": "Costco Wholesale",
+   "segment": "Costco Wholesale Industries",
+   "weight": 0.1,
+   "tags": [
+    "food-manufacturing",
+    "meat-processing",
+    "optical-and-pharmacy-services"
+   ]
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "kind": "firm",
+   "parent": "costco",
+   "parent_name": "Costco",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "bulk-merchandising",
+    "cross-docking-logistics",
+    "direct-supplier-procurement",
+    "e-commerce-retail",
+    "fuel-retail",
+    "global-retail-operations",
+    "membership-warehouse-retail",
+    "private-label-brand"
+   ]
+  },
+  {
+   "id": "credit-acceptance",
+   "name": "Credit Acceptance",
+   "kind": "firm",
+   "parent": "credit-acceptance",
+   "parent_name": "Credit Acceptance",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "collections-operations",
+    "consumer-auto-lending",
+    "credit-risk-management",
+    "dealer-financing-programs",
+    "loan-servicing",
+    "subprime-credit-underwriting"
+   ]
+  },
+  {
+   "id": "crew-carwash",
+   "name": "Crew Carwash",
+   "kind": "firm",
+   "parent": "crew-carwash",
+   "parent_name": "Crew Carwash",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "automated-car-wash-operations",
+    "consumer-vehicle-services",
+    "frontline-workforce-management",
+    "real-estate-site-development",
+    "subscription-membership-services"
+   ]
+  },
+  {
+   "id": "cvs-health::health-care-benefits-aetna-insurance",
+   "name": "CVS Health \u00b7 Health Care Benefits (Aetna Insurance)",
+   "kind": "segment",
+   "parent": "cvs-health",
+   "parent_name": "CVS Health",
+   "segment": "Health Care Benefits (Aetna Insurance)",
+   "weight": 0.4,
+   "tags": [
+    "health-insurance-underwriting",
+    "medicare-advantage",
+    "value-based-care"
+   ]
+  },
+  {
+   "id": "cvs-health::health-services-caremark-pbm",
+   "name": "CVS Health \u00b7 Health Services (Caremark PBM)",
+   "kind": "segment",
+   "parent": "cvs-health",
+   "parent_name": "CVS Health",
+   "segment": "Health Services (Caremark PBM)",
+   "weight": 0.35,
+   "tags": [
+    "pharmacy-benefit-management",
+    "pharmacy-formulary-management",
+    "specialty-pharmacy"
+   ]
+  },
+  {
+   "id": "cvs-health::pharmacy-consumer-wellness-retail-minuteclinic",
+   "name": "CVS Health \u00b7 Pharmacy & Consumer Wellness (Retail + MinuteClinic)",
+   "kind": "segment",
+   "parent": "cvs-health",
+   "parent_name": "CVS Health",
+   "segment": "Pharmacy & Consumer Wellness (Retail + MinuteClinic)",
+   "weight": 0.25,
+   "tags": [
+    "clinical-care-delivery",
+    "consumer-health-retail",
+    "retail-pharmacy-network",
+    "walk-in-clinic-operations"
+   ]
+  },
+  {
+   "id": "david-weekley-homes",
+   "name": "David Weekley Homes",
+   "kind": "firm",
+   "parent": "david-weekley-homes",
+   "parent_name": "David Weekley Homes",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "construction-management",
+    "customer-satisfaction-programs",
+    "energy-efficient-construction",
+    "home-design-and-customization",
+    "land-acquisition",
+    "multi-market-development",
+    "new-community-development",
+    "residential-homebuilding",
+    "sales-and-contract-management"
+   ]
+  },
+  {
+   "id": "deloitte::audit-assurance",
+   "name": "Deloitte \u00b7 Audit & Assurance",
+   "kind": "segment",
+   "parent": "deloitte",
+   "parent_name": "Deloitte",
+   "segment": "Audit & Assurance",
+   "weight": 0.25,
+   "tags": [
+    "audit-and-assurance",
+    "regulatory-compliance-ops"
+   ]
+  },
+  {
+   "id": "deloitte::consulting",
+   "name": "Deloitte \u00b7 Consulting",
+   "kind": "segment",
+   "parent": "deloitte",
+   "parent_name": "Deloitte",
+   "segment": "Consulting",
+   "weight": 0.3,
+   "tags": [
+    "enterprise-transformation",
+    "management-consulting",
+    "technology-consulting"
+   ]
+  },
+  {
+   "id": "deloitte::tax",
+   "name": "Deloitte \u00b7 Tax",
+   "kind": "segment",
+   "parent": "deloitte",
+   "parent_name": "Deloitte",
+   "segment": "Tax",
+   "weight": 0.2,
+   "tags": [
+    "regulatory-compliance-ops",
+    "tax-advisory"
+   ]
+  },
+  {
+   "id": "deloitte::financial-advisory",
+   "name": "Deloitte \u00b7 Financial Advisory",
+   "kind": "segment",
+   "parent": "deloitte",
+   "parent_name": "Deloitte",
+   "segment": "Financial Advisory",
+   "weight": 0.15,
+   "tags": [
+    "deals-and-restructuring",
+    "financial-advisory"
+   ]
+  },
+  {
+   "id": "delta-air-lines",
+   "name": "Delta Air Lines",
+   "kind": "firm",
+   "parent": "delta-air-lines",
+   "parent_name": "Delta Air Lines",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "aircraft-maintenance-and-repair",
+    "airport-lounge-operations",
+    "cargo-air-transport",
+    "co-brand-credit-card-partnership",
+    "ground-handling-operations",
+    "hub-and-spoke-network-operations",
+    "loyalty-programs",
+    "revenue-management-and-pricing",
+    "scheduled-passenger-air-service",
+    "sustainability-and-carbon-management"
+   ]
+  },
+  {
+   "id": "deutsche-telekom::t-mobile-us-united-states",
+   "name": "Deutsche Telekom \u00b7 T-Mobile US (United States)",
+   "kind": "segment",
+   "parent": "deutsche-telekom",
+   "parent_name": "Deutsche Telekom",
+   "segment": "T-Mobile US (United States)",
+   "weight": 0.65,
+   "tags": [
+    "5g-campus-networks",
+    "mobile-network-operations"
+   ]
+  },
+  {
+   "id": "deutsche-telekom::germany",
+   "name": "Deutsche Telekom \u00b7 Germany",
+   "kind": "segment",
+   "parent": "deutsche-telekom",
+   "parent_name": "Deutsche Telekom",
+   "segment": "Germany",
+   "weight": 0.22,
+   "tags": [
+    "fiber-broadband-infrastructure",
+    "fixed-line-telecom",
+    "iptv-platform",
+    "mobile-network-operations"
+   ]
+  },
+  {
+   "id": "deutsche-telekom::europe",
+   "name": "Deutsche Telekom \u00b7 Europe",
+   "kind": "segment",
+   "parent": "deutsche-telekom",
+   "parent_name": "Deutsche Telekom",
+   "segment": "Europe",
+   "weight": 0.11,
+   "tags": [
+    "fixed-line-telecom",
+    "mobile-network-operations"
+   ]
+  },
+  {
+   "id": "deutsche-telekom::t-systems-systems-solutions",
+   "name": "Deutsche Telekom \u00b7 T-Systems (Systems Solutions)",
+   "kind": "segment",
+   "parent": "deutsche-telekom",
+   "parent_name": "Deutsche Telekom",
+   "segment": "T-Systems (Systems Solutions)",
+   "weight": 0.03,
+   "tags": [
+    "cloud-and-managed-services",
+    "digital-transformation-consulting",
+    "enterprise-it-services"
+   ]
+  },
+  {
+   "id": "dick-s-sporting-goods::dick-s-sporting-goods-core-retail",
+   "name": "Dick's Sporting Goods \u00b7 Dick's Sporting Goods Core Retail",
+   "kind": "segment",
+   "parent": "dick-s-sporting-goods",
+   "parent_name": "Dick's Sporting Goods",
+   "segment": "Dick's Sporting Goods Core Retail",
+   "weight": 0.6,
+   "tags": [
+    "experiential-retail-formats",
+    "omnichannel-retail",
+    "specialty-sporting-goods-retail"
+   ]
+  },
+  {
+   "id": "dick-s-sporting-goods::foot-locker-business",
+   "name": "Dick's Sporting Goods \u00b7 Foot Locker Business",
+   "kind": "segment",
+   "parent": "dick-s-sporting-goods",
+   "parent_name": "Dick's Sporting Goods",
+   "segment": "Foot Locker Business",
+   "weight": 0.3,
+   "tags": [
+    "athletic-footwear-retail",
+    "store-network-management"
+   ]
+  },
+  {
+   "id": "dick-s-sporting-goods::gamechanger-technology-platform",
+   "name": "Dick's Sporting Goods \u00b7 GameChanger Technology Platform",
+   "kind": "segment",
+   "parent": "dick-s-sporting-goods",
+   "parent_name": "Dick's Sporting Goods",
+   "segment": "GameChanger Technology Platform",
+   "weight": 0.1,
+   "tags": [
+    "sports-community-engagement",
+    "youth-sports-technology-platform"
+   ]
+  },
+  {
+   "id": "dutch-bros",
+   "name": "Dutch Bros",
+   "kind": "firm",
+   "parent": "dutch-bros",
+   "parent_name": "Dutch Bros",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "beverage-customization",
+    "drive-thru-foodservice",
+    "franchise-expansion",
+    "loyalty-and-rewards-program",
+    "mobile-ordering",
+    "quick-service-restaurant-operations"
+   ]
+  },
+  {
+   "id": "eli-lilly-and-company",
+   "name": "Eli Lilly and Company",
+   "kind": "firm",
+   "parent": "eli-lilly-and-company",
+   "parent_name": "Eli Lilly and Company",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "clinical-trial-operations",
+    "diabetes-and-metabolic-medicine",
+    "drug-manufacturing-at-scale",
+    "global-commercial-launch",
+    "immunology-therapeutics",
+    "manufacturing-capacity-expansion",
+    "oncology-pipeline",
+    "patient-access-programs",
+    "pharmaceutical-research-and-development",
+    "regulatory-submissions"
+   ]
+  },
+  {
+   "id": "epam-systems",
+   "name": "EPAM Systems",
+   "kind": "firm",
+   "parent": "epam-systems",
+   "parent_name": "EPAM Systems",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-implementation",
+    "cloud-migration",
+    "data-engineering",
+    "digital-product-development",
+    "genai-consulting",
+    "offshore-nearshore-delivery",
+    "platform-engineering",
+    "quality-assurance",
+    "software-engineering",
+    "ux-and-design-consulting"
+   ]
+  },
+  {
+   "id": "epic-games::games-fortnite-rocket-league-fall-guys",
+   "name": "Epic Games \u00b7 Games (Fortnite, Rocket League, Fall Guys)",
+   "kind": "segment",
+   "parent": "epic-games",
+   "parent_name": "Epic Games",
+   "segment": "Games (Fortnite, Rocket League, Fall Guys)",
+   "weight": 0.5,
+   "tags": [
+    "creator-content-platform",
+    "in-game-economy-management",
+    "live-service-game-operations"
+   ]
+  },
+  {
+   "id": "epic-games::unreal-engine-platform",
+   "name": "Epic Games \u00b7 Unreal Engine Platform",
+   "kind": "segment",
+   "parent": "epic-games",
+   "parent_name": "Epic Games",
+   "segment": "Unreal Engine Platform",
+   "weight": 0.3,
+   "tags": [
+    "developer-platform-tools",
+    "game-engine-development",
+    "real-time-3d-rendering"
+   ]
+  },
+  {
+   "id": "epic-games::epic-games-store-online-services",
+   "name": "Epic Games \u00b7 Epic Games Store & Online Services",
+   "kind": "segment",
+   "parent": "epic-games",
+   "parent_name": "Epic Games",
+   "segment": "Epic Games Store & Online Services",
+   "weight": 0.2,
+   "tags": [
+    "cross-platform-services",
+    "digital-game-marketplace"
+   ]
+  },
+  {
+   "id": "ey",
+   "name": "EY",
+   "kind": "firm",
+   "parent": "ey",
+   "parent_name": "EY",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-strategy-consulting",
+    "audit-and-assurance",
+    "digital-transformation-advisory",
+    "management-consulting",
+    "regulatory-compliance-ops",
+    "supply-chain-advisory",
+    "sustainability-consulting",
+    "tax-advisory",
+    "transaction-advisory"
+   ]
+  },
+  {
+   "id": "fedex::federal-express-air-ground-express",
+   "name": "FedEx \u00b7 Federal Express (Air-Ground Express)",
+   "kind": "segment",
+   "parent": "fedex",
+   "parent_name": "FedEx",
+   "segment": "Federal Express (Air-Ground Express)",
+   "weight": 0.78,
+   "tags": [
+    "air-express-network",
+    "fulfillment-network",
+    "last-mile-delivery",
+    "package-sortation"
+   ]
+  },
+  {
+   "id": "fedex::fedex-freight-ltl",
+   "name": "FedEx \u00b7 FedEx Freight (LTL)",
+   "kind": "segment",
+   "parent": "fedex",
+   "parent_name": "FedEx",
+   "segment": "FedEx Freight (LTL)",
+   "weight": 0.18,
+   "tags": [
+    "freight-forwarding",
+    "less-than-truckload-freight"
+   ]
+  },
+  {
+   "id": "fedex::fedex-logistics-office-dataworks",
+   "name": "FedEx \u00b7 FedEx Logistics / Office / Dataworks",
+   "kind": "segment",
+   "parent": "fedex",
+   "parent_name": "FedEx",
+   "segment": "FedEx Logistics / Office / Dataworks",
+   "weight": 0.04,
+   "tags": [
+    "digital-logistics-platform",
+    "international-customs-brokerage",
+    "supply-chain-management"
+   ]
+  },
+  {
+   "id": "fidelity-investments::personal-investing",
+   "name": "Fidelity Investments \u00b7 Personal Investing",
+   "kind": "segment",
+   "parent": "fidelity-investments",
+   "parent_name": "Fidelity Investments",
+   "segment": "Personal Investing",
+   "weight": 0.4,
+   "tags": [
+    "digital-investing-platform",
+    "mutual-fund-management",
+    "retail-brokerage",
+    "robo-advisory"
+   ]
+  },
+  {
+   "id": "fidelity-investments::workplace-services",
+   "name": "Fidelity Investments \u00b7 Workplace Services",
+   "kind": "segment",
+   "parent": "fidelity-investments",
+   "parent_name": "Fidelity Investments",
+   "segment": "Workplace Services",
+   "weight": 0.3,
+   "tags": [
+    "fund-platform-marketplace",
+    "retirement-plan-administration"
+   ]
+  },
+  {
+   "id": "fidelity-investments::institutional-wealth-management",
+   "name": "Fidelity Investments \u00b7 Institutional / Wealth Management",
+   "kind": "segment",
+   "parent": "fidelity-investments",
+   "parent_name": "Fidelity Investments",
+   "segment": "Institutional / Wealth Management",
+   "weight": 0.3,
+   "tags": [
+    "fund-platform-marketplace",
+    "institutional-asset-management",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "five-below",
+   "name": "Five Below",
+   "kind": "firm",
+   "parent": "five-below",
+   "parent_name": "Five Below",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "discount-specialty-retail",
+    "licensed-character-merchandise",
+    "multi-category-retail",
+    "trend-driven-buying",
+    "value-price-retail",
+    "youth-merchandise-curation"
+   ]
+  },
+  {
+   "id": "foot-locker",
+   "name": "Foot Locker",
+   "kind": "firm",
+   "parent": "foot-locker",
+   "parent_name": "Foot Locker",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "athletic-footwear-retail",
+    "brand-curation-and-exclusive-access",
+    "e-commerce-and-digital-retail",
+    "global-retail-franchise-and-licensing",
+    "loyalty-programs",
+    "omnichannel-retail",
+    "sneaker-culture-community",
+    "store-network-management"
+   ]
+  },
+  {
+   "id": "ford-motor-company::ford-blue-ice-vehicles",
+   "name": "Ford Motor Company \u00b7 Ford Blue (ICE Vehicles)",
+   "kind": "segment",
+   "parent": "ford-motor-company",
+   "parent_name": "Ford Motor Company",
+   "segment": "Ford Blue (ICE Vehicles)",
+   "weight": 0.5,
+   "tags": [
+    "dealer-network-distribution",
+    "vehicle-assembly-manufacturing",
+    "vehicle-design-and-engineering"
+   ]
+  },
+  {
+   "id": "ford-motor-company::ford-model-e-electric-vehicles",
+   "name": "Ford Motor Company \u00b7 Ford Model e (Electric Vehicles)",
+   "kind": "segment",
+   "parent": "ford-motor-company",
+   "parent_name": "Ford Motor Company",
+   "segment": "Ford Model e (Electric Vehicles)",
+   "weight": 0.15,
+   "tags": [
+    "connected-vehicle-software",
+    "driver-assist-technology",
+    "electric-vehicle-development"
+   ]
+  },
+  {
+   "id": "ford-motor-company::ford-pro-commercial-vehicles",
+   "name": "Ford Motor Company \u00b7 Ford Pro (Commercial Vehicles)",
+   "kind": "segment",
+   "parent": "ford-motor-company",
+   "parent_name": "Ford Motor Company",
+   "segment": "Ford Pro (Commercial Vehicles)",
+   "weight": 0.25,
+   "tags": [
+    "fleet-and-commercial-vehicles",
+    "vehicle-assembly-manufacturing"
+   ]
+  },
+  {
+   "id": "gap::old-navy",
+   "name": "Gap \u00b7 Old Navy",
+   "kind": "segment",
+   "parent": "gap",
+   "parent_name": "Gap",
+   "segment": "Old Navy",
+   "weight": 0.45,
+   "tags": [
+    "fashion-design-and-sourcing",
+    "omnichannel-retail"
+   ]
+  },
+  {
+   "id": "gap::gap",
+   "name": "Gap \u00b7 Gap",
+   "kind": "segment",
+   "parent": "gap",
+   "parent_name": "Gap",
+   "segment": "Gap",
+   "weight": 0.25,
+   "tags": [
+    "fashion-design-and-sourcing",
+    "store-operations"
+   ]
+  },
+  {
+   "id": "gap::banana-republic",
+   "name": "Gap \u00b7 Banana Republic",
+   "kind": "segment",
+   "parent": "gap",
+   "parent_name": "Gap",
+   "segment": "Banana Republic",
+   "weight": 0.15,
+   "tags": [
+    "brand-marketing",
+    "fashion-design-and-sourcing"
+   ]
+  },
+  {
+   "id": "gap::athleta",
+   "name": "Gap \u00b7 Athleta",
+   "kind": "segment",
+   "parent": "gap",
+   "parent_name": "Gap",
+   "segment": "Athleta",
+   "weight": 0.15,
+   "tags": [
+    "fashion-design-and-sourcing",
+    "omnichannel-retail"
+   ]
+  },
+  {
+   "id": "general-motors::gmna-north-america-vehicles",
+   "name": "General Motors \u00b7 GMNA (North America vehicles)",
+   "kind": "segment",
+   "parent": "general-motors",
+   "parent_name": "General Motors",
+   "segment": "GMNA (North America vehicles)",
+   "weight": 0.7,
+   "tags": [
+    "automotive-software",
+    "electric-vehicle-development",
+    "vehicle-manufacturing"
+   ]
+  },
+  {
+   "id": "general-motors::gm-financial",
+   "name": "General Motors \u00b7 GM Financial",
+   "kind": "segment",
+   "parent": "general-motors",
+   "parent_name": "General Motors",
+   "segment": "GM Financial",
+   "weight": 0.15,
+   "tags": [
+    "auto-financing",
+    "fleet-services"
+   ]
+  },
+  {
+   "id": "google-alphabet::google-services-search-youtube-android-workspace-maps-play",
+   "name": "Google (Alphabet) \u00b7 Google Services (Search, YouTube, Android, Workspace, Maps, Play)",
+   "kind": "segment",
+   "parent": "google-alphabet",
+   "parent_name": "Google (Alphabet)",
+   "segment": "Google Services (Search, YouTube, Android, Workspace, Maps, Play)",
+   "weight": 0.75,
+   "tags": [
+    "ad-inventory-marketplace",
+    "app-marketplace",
+    "mobile-os-platform",
+    "search-engine-operation",
+    "video-streaming-platform"
+   ]
+  },
+  {
+   "id": "google-alphabet::google-cloud",
+   "name": "Google (Alphabet) \u00b7 Google Cloud",
+   "kind": "segment",
+   "parent": "google-alphabet",
+   "parent_name": "Google (Alphabet)",
+   "segment": "Google Cloud",
+   "weight": 0.15,
+   "tags": [
+    "cloud-infrastructure-services",
+    "data-center-operations",
+    "saas-productivity-suite"
+   ]
+  },
+  {
+   "id": "google-alphabet::hardware-pixel-devices",
+   "name": "Google (Alphabet) \u00b7 Hardware (Pixel devices)",
+   "kind": "segment",
+   "parent": "google-alphabet",
+   "parent_name": "Google (Alphabet)",
+   "segment": "Hardware (Pixel devices)",
+   "weight": 0.05,
+   "tags": [
+    "ai-and-machine-learning",
+    "consumer-hardware-design"
+   ]
+  },
+  {
+   "id": "grainger",
+   "name": "Grainger",
+   "kind": "firm",
+   "parent": "grainger",
+   "parent_name": "Grainger",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "b2b-e-commerce",
+    "consultative-b2b-sales",
+    "industrial-branch-network",
+    "industrial-supply-chain",
+    "mro-distribution",
+    "on-site-inventory-management",
+    "safety-products-distribution",
+    "supplier-managed-inventory"
+   ]
+  },
+  {
+   "id": "h-e-b::h-e-b-stores-texas-flagship",
+   "name": "H-E-B \u00b7 H-E-B Stores (Texas flagship)",
+   "kind": "segment",
+   "parent": "h-e-b",
+   "parent_name": "H-E-B",
+   "segment": "H-E-B Stores (Texas flagship)",
+   "weight": 0.7,
+   "tags": [
+    "grocery-retail-operations",
+    "omnichannel-grocery",
+    "pharmacy-operations"
+   ]
+  },
+  {
+   "id": "h-e-b::manufacturing-and-supply-chain",
+   "name": "H-E-B \u00b7 Manufacturing and Supply Chain",
+   "kind": "segment",
+   "parent": "h-e-b",
+   "parent_name": "H-E-B",
+   "segment": "Manufacturing and Supply Chain",
+   "weight": 0.15,
+   "tags": [
+    "cold-chain-logistics",
+    "food-production-and-baking",
+    "private-label-food-manufacturing"
+   ]
+  },
+  {
+   "id": "h-e-b::mexico-and-discount-formats",
+   "name": "H-E-B \u00b7 Mexico and Discount Formats",
+   "kind": "segment",
+   "parent": "h-e-b",
+   "parent_name": "H-E-B",
+   "segment": "Mexico and Discount Formats",
+   "weight": 0.15,
+   "tags": [
+    "grocery-retail-operations",
+    "regional-distribution-network"
+   ]
+  },
+  {
+   "id": "hdr",
+   "name": "HDR",
+   "kind": "firm",
+   "parent": "hdr",
+   "parent_name": "HDR",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "architecture-services",
+    "coastal-engineering",
+    "defense-and-intelligence-facilities",
+    "environmental-consulting",
+    "infrastructure-engineering",
+    "power-systems-engineering",
+    "program-management",
+    "right-of-way-services",
+    "sustainability-and-resilience",
+    "transportation-planning",
+    "water-infrastructure"
+   ]
+  },
+  {
+   "id": "healthpartners::health-insurance",
+   "name": "HealthPartners \u00b7 Health Insurance",
+   "kind": "segment",
+   "parent": "healthpartners",
+   "parent_name": "HealthPartners",
+   "segment": "Health Insurance",
+   "weight": 0.45,
+   "tags": [
+    "employer-health-benefits",
+    "health-insurance-underwriting",
+    "medicare-medicaid-plans",
+    "population-health-management"
+   ]
+  },
+  {
+   "id": "healthpartners::care-delivery-hospitals-and-clinics",
+   "name": "HealthPartners \u00b7 Care Delivery (Hospitals and Clinics)",
+   "kind": "segment",
+   "parent": "healthpartners",
+   "parent_name": "HealthPartners",
+   "segment": "Care Delivery (Hospitals and Clinics)",
+   "weight": 0.55,
+   "tags": [
+    "clinical-care-delivery",
+    "dental-care-network",
+    "hospital-operations"
+   ]
+  },
+  {
+   "id": "hilton",
+   "name": "Hilton",
+   "kind": "firm",
+   "parent": "hilton",
+   "parent_name": "Hilton",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "food-and-beverage-operations",
+    "hospitality-brand-portfolio",
+    "hotel-franchise-operations",
+    "hotel-management-contracts",
+    "loyalty-programs",
+    "luxury-and-lifestyle-brand-management",
+    "mobile-and-digital-guest-experience",
+    "property-development-pipeline",
+    "revenue-management-and-pricing"
+   ]
+  },
+  {
+   "id": "honda::automobile-business",
+   "name": "Honda \u00b7 Automobile Business",
+   "kind": "segment",
+   "parent": "honda",
+   "parent_name": "Honda",
+   "segment": "Automobile Business",
+   "weight": 0.66,
+   "tags": [
+    "automobile-manufacturing",
+    "electric-vehicle-development"
+   ]
+  },
+  {
+   "id": "honda::power-products-and-other",
+   "name": "Honda \u00b7 Power Products and Other",
+   "kind": "segment",
+   "parent": "honda",
+   "parent_name": "Honda",
+   "segment": "Power Products and Other",
+   "weight": 0.02,
+   "tags": [
+    "business-aircraft-manufacturing",
+    "marine-engine-manufacturing",
+    "power-equipment-manufacturing",
+    "small-engine-manufacturing"
+   ]
+  },
+  {
+   "id": "houston-methodist::hospital-system-acute-care",
+   "name": "Houston Methodist \u00b7 Hospital System (Acute Care)",
+   "kind": "segment",
+   "parent": "houston-methodist",
+   "parent_name": "Houston Methodist",
+   "segment": "Hospital System (Acute Care)",
+   "weight": 0.55,
+   "tags": [
+    "clinical-care-delivery",
+    "hospital-operations",
+    "specialty-care-referral"
+   ]
+  },
+  {
+   "id": "houston-methodist::physician-organization",
+   "name": "Houston Methodist \u00b7 Physician Organization",
+   "kind": "segment",
+   "parent": "houston-methodist",
+   "parent_name": "Houston Methodist",
+   "segment": "Physician Organization",
+   "weight": 0.3,
+   "tags": [
+    "outpatient-and-ambulatory-services",
+    "physician-employment-at-scale",
+    "primary-care-network"
+   ]
+  },
+  {
+   "id": "houston-methodist::academic-institute-research",
+   "name": "Houston Methodist \u00b7 Academic Institute (Research)",
+   "kind": "segment",
+   "parent": "houston-methodist",
+   "parent_name": "Houston Methodist",
+   "segment": "Academic Institute (Research)",
+   "weight": 0.15,
+   "tags": [
+    "academic-medical-research",
+    "clinical-trial-operations"
+   ]
+  },
+  {
+   "id": "hyatt",
+   "name": "Hyatt",
+   "kind": "firm",
+   "parent": "hyatt",
+   "parent_name": "Hyatt",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "asset-light-hospitality",
+    "franchise-licensing",
+    "hotel-management-contracts",
+    "hotel-operations",
+    "loyalty-programs",
+    "luxury-hospitality",
+    "meetings-and-events",
+    "select-service-hotels"
+   ]
+  },
+  {
+   "id": "ibm::software-hybrid-cloud-ai",
+   "name": "IBM \u00b7 Software (hybrid cloud, AI)",
+   "kind": "segment",
+   "parent": "ibm",
+   "parent_name": "IBM",
+   "segment": "Software (hybrid cloud, AI)",
+   "weight": 0.4,
+   "tags": [
+    "cybersecurity-services",
+    "data-governance",
+    "enterprise-ai-platform",
+    "hybrid-cloud"
+   ]
+  },
+  {
+   "id": "ibm::consulting",
+   "name": "IBM \u00b7 Consulting",
+   "kind": "segment",
+   "parent": "ibm",
+   "parent_name": "IBM",
+   "segment": "Consulting",
+   "weight": 0.35,
+   "tags": [
+    "erp-implementation",
+    "it-consulting-and-services",
+    "managed-services"
+   ]
+  },
+  {
+   "id": "ibm::infrastructure-mainframe-servers-storage",
+   "name": "IBM \u00b7 Infrastructure (mainframe, servers, storage)",
+   "kind": "segment",
+   "parent": "ibm",
+   "parent_name": "IBM",
+   "segment": "Infrastructure (mainframe, servers, storage)",
+   "weight": 0.25,
+   "tags": [
+    "hardware-engineering",
+    "mainframe-computing"
+   ]
+  },
+  {
+   "id": "in-n-out-burger",
+   "name": "In-N-Out Burger",
+   "kind": "firm",
+   "parent": "in-n-out-burger",
+   "parent_name": "In-N-Out Burger",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "cold-chain-logistics",
+    "food-safety-and-quality-assurance",
+    "fresh-food-preparation",
+    "owned-distribution-centers",
+    "quick-service-restaurant-operations",
+    "restaurant-crew-training",
+    "supplier-management",
+    "vertically-integrated-supply-chain"
+   ]
+  },
+  {
+   "id": "infosys",
+   "name": "Infosys",
+   "kind": "firm",
+   "parent": "infosys",
+   "parent_name": "Infosys",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "ai-and-ml-implementation",
+    "business-process-outsourcing",
+    "cloud-migration",
+    "cybersecurity-services",
+    "data-and-analytics-services",
+    "digital-transformation-consulting",
+    "enterprise-software-implementation",
+    "fintech-saas-platform",
+    "insurance-bpo-platform",
+    "managed-it-services"
+   ]
+  },
+  {
+   "id": "intel::intel-products-client-computing-data-center-ai-network-edge",
+   "name": "Intel \u00b7 Intel Products (Client Computing, Data Center & AI, Network & Edge)",
+   "kind": "segment",
+   "parent": "intel",
+   "parent_name": "Intel",
+   "segment": "Intel Products (Client Computing, Data Center & AI, Network & Edge)",
+   "weight": 0.72,
+   "tags": [
+    "ai-accelerator-silicon",
+    "data-center-infrastructure",
+    "pc-processor-platform",
+    "semiconductor-design"
+   ]
+  },
+  {
+   "id": "intel::intel-foundry",
+   "name": "Intel \u00b7 Intel Foundry",
+   "kind": "segment",
+   "parent": "intel",
+   "parent_name": "Intel",
+   "segment": "Intel Foundry",
+   "weight": 0.28,
+   "tags": [
+    "advanced-packaging",
+    "foundry-services",
+    "semiconductor-fabrication"
+   ]
+  },
+  {
+   "id": "intuitive-surgical",
+   "name": "Intuitive Surgical",
+   "kind": "firm",
+   "parent": "intuitive-surgical",
+   "parent_name": "Intuitive Surgical",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "24x7-field-service-for-medical-equipment",
+    "clinical-training-and-simulation",
+    "hospital-technology-sales-and-support",
+    "medical-robotics-design-and-manufacturing",
+    "minimally-invasive-surgery-platform",
+    "recurring-revenue-per-procedure-model",
+    "regulatory-clearance-and-compliance",
+    "robotic-bronchoscopy",
+    "surgical-data-and-analytics",
+    "surgical-instrument-consumables"
+   ]
+  },
+  {
+   "id": "john-deere::production-precision-agriculture",
+   "name": "John Deere \u00b7 Production & Precision Agriculture",
+   "kind": "segment",
+   "parent": "john-deere",
+   "parent_name": "John Deere",
+   "segment": "Production & Precision Agriculture",
+   "weight": 0.55,
+   "tags": [
+    "agricultural-equipment-manufacturing",
+    "autonomous-vehicle-systems",
+    "farm-management-software-platform",
+    "precision-agriculture-technology"
+   ]
+  },
+  {
+   "id": "john-deere::small-agriculture-turf",
+   "name": "John Deere \u00b7 Small Agriculture & Turf",
+   "kind": "segment",
+   "parent": "john-deere",
+   "parent_name": "John Deere",
+   "segment": "Small Agriculture & Turf",
+   "weight": 0.2,
+   "tags": [
+    "agricultural-equipment-manufacturing",
+    "dealer-network-distribution"
+   ]
+  },
+  {
+   "id": "john-deere::construction-forestry",
+   "name": "John Deere \u00b7 Construction & Forestry",
+   "kind": "segment",
+   "parent": "john-deere",
+   "parent_name": "John Deere",
+   "segment": "Construction & Forestry",
+   "weight": 0.2,
+   "tags": [
+    "construction-equipment-manufacturing",
+    "equipment-telematics-and-data"
+   ]
+  },
+  {
+   "id": "johnson-and-johnson::innovative-medicine-pharmaceuticals",
+   "name": "Johnson & Johnson \u00b7 Innovative Medicine (Pharmaceuticals)",
+   "kind": "segment",
+   "parent": "johnson-and-johnson",
+   "parent_name": "Johnson & Johnson",
+   "segment": "Innovative Medicine (Pharmaceuticals)",
+   "weight": 0.55,
+   "tags": [
+    "clinical-trial-operations",
+    "immunology-treatments",
+    "oncology-therapies",
+    "pharmaceutical-drug-development",
+    "regulatory-approval-management"
+   ]
+  },
+  {
+   "id": "johnson-and-johnson::medtech-medical-devices",
+   "name": "Johnson & Johnson \u00b7 MedTech (Medical Devices)",
+   "kind": "segment",
+   "parent": "johnson-and-johnson",
+   "parent_name": "Johnson & Johnson",
+   "segment": "MedTech (Medical Devices)",
+   "weight": 0.45,
+   "tags": [
+    "electrophysiology-systems",
+    "ophthalmic-products",
+    "orthopedic-implants",
+    "surgical-devices"
+   ]
+  },
+  {
+   "id": "jones-financial-edward-jones",
+   "name": "Jones Financial (Edward Jones)",
+   "kind": "firm",
+   "parent": "jones-financial-edward-jones",
+   "parent_name": "Jones Financial (Edward Jones)",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "branch-office-network",
+    "financial-advisory",
+    "individual-investor-focus",
+    "investment-product-distribution",
+    "portfolio-management",
+    "retail-wealth-management",
+    "retirement-planning"
+   ]
+  },
+  {
+   "id": "jpmorganchase::consumer-community-banking",
+   "name": "JPMorganChase \u00b7 Consumer & Community Banking",
+   "kind": "segment",
+   "parent": "jpmorganchase",
+   "parent_name": "JPMorganChase",
+   "segment": "Consumer & Community Banking",
+   "weight": 0.45,
+   "tags": [
+    "consumer-lending",
+    "fraud-detection",
+    "payment-processing",
+    "retail-banking-branches"
+   ]
+  },
+  {
+   "id": "jpmorganchase::commercial-investment-banking",
+   "name": "JPMorganChase \u00b7 Commercial & Investment Banking",
+   "kind": "segment",
+   "parent": "jpmorganchase",
+   "parent_name": "JPMorganChase",
+   "segment": "Commercial & Investment Banking",
+   "weight": 0.35,
+   "tags": [
+    "asset-custody",
+    "capital-markets",
+    "investment-banking",
+    "risk-management"
+   ]
+  },
+  {
+   "id": "jpmorganchase::asset-wealth-management",
+   "name": "JPMorganChase \u00b7 Asset & Wealth Management",
+   "kind": "segment",
+   "parent": "jpmorganchase",
+   "parent_name": "JPMorganChase",
+   "segment": "Asset & Wealth Management",
+   "weight": 0.15,
+   "tags": [
+    "institutional-asset-management",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "jpmorganchase::technology",
+   "name": "JPMorganChase \u00b7 Technology",
+   "kind": "segment",
+   "parent": "jpmorganchase",
+   "parent_name": "JPMorganChase",
+   "segment": "Technology",
+   "weight": 0.05,
+   "tags": [
+    "core-transaction-processing",
+    "software-engineering-at-scale"
+   ]
+  },
+  {
+   "id": "kaiser-permanente::kaiser-foundation-health-plan",
+   "name": "Kaiser Permanente \u00b7 Kaiser Foundation Health Plan",
+   "kind": "segment",
+   "parent": "kaiser-permanente",
+   "parent_name": "Kaiser Permanente",
+   "segment": "Kaiser Foundation Health Plan",
+   "weight": 0.35,
+   "tags": [
+    "population-health-management",
+    "prepaid-health-insurance"
+   ]
+  },
+  {
+   "id": "kaiser-permanente::kaiser-foundation-hospitals",
+   "name": "Kaiser Permanente \u00b7 Kaiser Foundation Hospitals",
+   "kind": "segment",
+   "parent": "kaiser-permanente",
+   "parent_name": "Kaiser Permanente",
+   "segment": "Kaiser Foundation Hospitals",
+   "weight": 0.4,
+   "tags": [
+    "clinical-care-delivery",
+    "hospital-operations"
+   ]
+  },
+  {
+   "id": "kaiser-permanente::permanente-medical-groups",
+   "name": "Kaiser Permanente \u00b7 Permanente Medical Groups",
+   "kind": "segment",
+   "parent": "kaiser-permanente",
+   "parent_name": "Kaiser Permanente",
+   "segment": "Permanente Medical Groups",
+   "weight": 0.25,
+   "tags": [
+    "physician-employment-at-scale",
+    "preventive-care",
+    "primary-care-network"
+   ]
+  },
+  {
+   "id": "kbr::mission-technology-solutions",
+   "name": "KBR \u00b7 Mission Technology Solutions",
+   "kind": "segment",
+   "parent": "kbr",
+   "parent_name": "KBR",
+   "segment": "Mission Technology Solutions",
+   "weight": 0.55,
+   "tags": [
+    "cybersecurity-services",
+    "defense-and-intelligence-services",
+    "government-services-contracting",
+    "space-mission-support"
+   ]
+  },
+  {
+   "id": "kbr::sustainable-technology-solutions",
+   "name": "KBR \u00b7 Sustainable Technology Solutions",
+   "kind": "segment",
+   "parent": "kbr",
+   "parent_name": "KBR",
+   "segment": "Sustainable Technology Solutions",
+   "weight": 0.45,
+   "tags": [
+    "energy-transition-engineering",
+    "engineering-procurement-construction",
+    "industrial-process-engineering"
+   ]
+  },
+  {
+   "id": "keller-williams",
+   "name": "Keller Williams",
+   "kind": "firm",
+   "parent": "keller-williams",
+   "parent_name": "Keller Williams",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "agent-recruitment-training",
+    "franchise-licensing",
+    "mortgage-origination",
+    "proptech-agent-tools",
+    "real-estate-data-analytics",
+    "real-estate-franchise-network",
+    "residential-property-transactions"
+   ]
+  },
+  {
+   "id": "kimley-horn",
+   "name": "Kimley-Horn",
+   "kind": "firm",
+   "parent": "kimley-horn",
+   "parent_name": "Kimley-Horn",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "civil-engineering",
+    "entitlement-services",
+    "environmental-permitting",
+    "infrastructure-design",
+    "land-use-planning",
+    "site-development-planning",
+    "stormwater-and-drainage",
+    "traffic-planning",
+    "transportation-engineering",
+    "urban-planning"
+   ]
+  },
+  {
+   "id": "lear-corporation::seating",
+   "name": "Lear Corporation \u00b7 Seating",
+   "kind": "segment",
+   "parent": "lear-corporation",
+   "parent_name": "Lear Corporation",
+   "segment": "Seating",
+   "weight": 0.6,
+   "tags": [
+    "automotive-tier-1-supply",
+    "just-in-time-manufacturing",
+    "vehicle-seating-systems"
+   ]
+  },
+  {
+   "id": "lear-corporation::e-systems",
+   "name": "Lear Corporation \u00b7 E-Systems",
+   "kind": "segment",
+   "parent": "lear-corporation",
+   "parent_name": "Lear Corporation",
+   "segment": "E-Systems",
+   "weight": 0.4,
+   "tags": [
+    "battery-management-systems",
+    "electrical-distribution-systems",
+    "ev-powertrain-components",
+    "wiring-harness-manufacturing"
+   ]
+  },
+  {
+   "id": "lockheed-martin::aeronautics",
+   "name": "Lockheed Martin \u00b7 Aeronautics",
+   "kind": "segment",
+   "parent": "lockheed-martin",
+   "parent_name": "Lockheed Martin",
+   "segment": "Aeronautics",
+   "weight": 0.4,
+   "tags": [
+    "defense-systems-integration",
+    "tactical-aircraft-manufacturing"
+   ]
+  },
+  {
+   "id": "lockheed-martin::missiles-and-fire-control",
+   "name": "Lockheed Martin \u00b7 Missiles and Fire Control",
+   "kind": "segment",
+   "parent": "lockheed-martin",
+   "parent_name": "Lockheed Martin",
+   "segment": "Missiles and Fire Control",
+   "weight": 0.19,
+   "tags": [
+    "missile-defense",
+    "precision-munitions"
+   ]
+  },
+  {
+   "id": "lockheed-martin::rotary-and-mission-systems",
+   "name": "Lockheed Martin \u00b7 Rotary and Mission Systems",
+   "kind": "segment",
+   "parent": "lockheed-martin",
+   "parent_name": "Lockheed Martin",
+   "segment": "Rotary and Mission Systems",
+   "weight": 0.23,
+   "tags": [
+    "combat-simulation-training",
+    "command-and-control",
+    "electronic-warfare",
+    "radar-and-sensors",
+    "rotary-wing-aircraft",
+    "undersea-systems"
+   ]
+  },
+  {
+   "id": "lockheed-martin::space",
+   "name": "Lockheed Martin \u00b7 Space",
+   "kind": "segment",
+   "parent": "lockheed-martin",
+   "parent_name": "Lockheed Martin",
+   "segment": "Space",
+   "weight": 0.17,
+   "tags": [
+    "hypersonics",
+    "missile-defense",
+    "space-systems"
+   ]
+  },
+  {
+   "id": "longhorn-steakhouse",
+   "name": "LongHorn Steakhouse",
+   "kind": "firm",
+   "parent": "longhorn-steakhouse",
+   "parent_name": "LongHorn Steakhouse",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "casual-dining-restaurant-operations",
+    "community-food-donation-program",
+    "customer-hospitality-training",
+    "food-preparation-and-quality-control",
+    "full-service-restaurant-staffing",
+    "restaurant-brand-management",
+    "supply-chain-and-fresh-protein-sourcing"
+   ]
+  },
+  {
+   "id": "lowe-s-companies",
+   "name": "Lowe's Companies",
+   "kind": "firm",
+   "parent": "lowe-s-companies",
+   "parent_name": "Lowe's Companies",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "big-box-retail-operations",
+    "fulfillment-network",
+    "home-improvement-merchandising",
+    "inventory-management",
+    "omnichannel-retail",
+    "pro-contractor-services",
+    "store-associate-workforce",
+    "supply-chain-management"
+   ]
+  },
+  {
+   "id": "lululemon",
+   "name": "lululemon",
+   "kind": "firm",
+   "parent": "lululemon",
+   "parent_name": "lululemon",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "athletic-apparel-design",
+    "brand-community-building",
+    "direct-to-consumer-retail",
+    "e-commerce-retail",
+    "global-retail-expansion",
+    "performance-apparel-manufacturing",
+    "retail-store-operations"
+   ]
+  },
+  {
+   "id": "major-league-baseball",
+   "name": "Major League Baseball",
+   "kind": "firm",
+   "parent": "major-league-baseball",
+   "parent_name": "Major League Baseball",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "broadcast-rights-management",
+    "cable-television-network",
+    "global-sports-expansion",
+    "live-sports-streaming",
+    "player-discipline-and-integrity",
+    "sponsorship-and-ad-sales",
+    "sports-data-and-analytics",
+    "sports-ip-licensing",
+    "sports-league-governance",
+    "stadium-and-event-operations"
+   ]
+  },
+  {
+   "id": "marriott-international::u-s-and-canada-managed-franchised",
+   "name": "Marriott International \u00b7 U.S. and Canada (managed + franchised)",
+   "kind": "segment",
+   "parent": "marriott-international",
+   "parent_name": "Marriott International",
+   "segment": "U.S. and Canada (managed + franchised)",
+   "weight": 0.55,
+   "tags": [
+    "franchise-licensing",
+    "hotel-management-contracts",
+    "loyalty-programs"
+   ]
+  },
+  {
+   "id": "marriott-international::international",
+   "name": "Marriott International \u00b7 International",
+   "kind": "segment",
+   "parent": "marriott-international",
+   "parent_name": "Marriott International",
+   "segment": "International",
+   "weight": 0.45,
+   "tags": [
+    "hotel-management-contracts",
+    "luxury-hospitality"
+   ]
+  },
+  {
+   "id": "mars::petcare-nutrition-health-services",
+   "name": "Mars \u00b7 Petcare (nutrition + health services)",
+   "kind": "segment",
+   "parent": "mars",
+   "parent_name": "Mars",
+   "segment": "Petcare (nutrition + health services)",
+   "weight": 0.45,
+   "tags": [
+    "animal-genetics-diagnostics",
+    "pet-food-production",
+    "veterinary-clinic-operations"
+   ]
+  },
+  {
+   "id": "mars::snacking-confectionery-snacks-via-kellanova",
+   "name": "Mars \u00b7 Snacking (confectionery, snacks via Kellanova)",
+   "kind": "segment",
+   "parent": "mars",
+   "parent_name": "Mars",
+   "segment": "Snacking (confectionery, snacks via Kellanova)",
+   "weight": 0.45,
+   "tags": [
+    "confectionery-production",
+    "consumer-packaged-goods-manufacturing",
+    "global-brand-management"
+   ]
+  },
+  {
+   "id": "mars::food-nutrition",
+   "name": "Mars \u00b7 Food & Nutrition",
+   "kind": "segment",
+   "parent": "mars",
+   "parent_name": "Mars",
+   "segment": "Food & Nutrition",
+   "weight": 0.1,
+   "tags": [
+    "consumer-packaged-goods-manufacturing",
+    "food-manufacturing"
+   ]
+  },
+  {
+   "id": "mass-general-brigham::clinical-care",
+   "name": "Mass General Brigham \u00b7 Clinical Care",
+   "kind": "segment",
+   "parent": "mass-general-brigham",
+   "parent_name": "Mass General Brigham",
+   "segment": "Clinical Care",
+   "weight": 0.6,
+   "tags": [
+    "behavioral-health-services",
+    "clinical-care-delivery",
+    "specialty-and-subspecialty-care",
+    "surgical-services"
+   ]
+  },
+  {
+   "id": "mass-general-brigham::research",
+   "name": "Mass General Brigham \u00b7 Research",
+   "kind": "segment",
+   "parent": "mass-general-brigham",
+   "parent_name": "Mass General Brigham",
+   "segment": "Research",
+   "weight": 0.25,
+   "tags": [
+    "biomedical-research",
+    "clinical-trial-operations"
+   ]
+  },
+  {
+   "id": "mass-general-brigham::education-and-community",
+   "name": "Mass General Brigham \u00b7 Education and Community",
+   "kind": "segment",
+   "parent": "mass-general-brigham",
+   "parent_name": "Mass General Brigham",
+   "segment": "Education and Community",
+   "weight": 0.15,
+   "tags": [
+    "community-health-centers",
+    "health-equity-programs",
+    "physician-training"
+   ]
+  },
+  {
+   "id": "maximus::federal-services",
+   "name": "Maximus \u00b7 Federal Services",
+   "kind": "segment",
+   "parent": "maximus",
+   "parent_name": "Maximus",
+   "segment": "Federal Services",
+   "weight": 0.55,
+   "tags": [
+    "defense-services",
+    "federal-health-program-operations",
+    "government-it-modernization",
+    "veterans-services"
+   ]
+  },
+  {
+   "id": "maximus::us-services-state-and-local",
+   "name": "Maximus \u00b7 US Services (State and Local)",
+   "kind": "segment",
+   "parent": "maximus",
+   "parent_name": "Maximus",
+   "segment": "US Services (State and Local)",
+   "weight": 0.45,
+   "tags": [
+    "benefits-eligibility-processing",
+    "clinical-assessment-services",
+    "government-contact-center-operations",
+    "human-services-case-management",
+    "medicaid-enterprise-services"
+   ]
+  },
+  {
+   "id": "mayo-clinic",
+   "name": "Mayo Clinic",
+   "kind": "firm",
+   "parent": "mayo-clinic",
+   "parent_name": "Mayo Clinic",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "clinical-care-delivery",
+    "clinical-trial-operations",
+    "complex-case-diagnosis",
+    "digital-health-platform",
+    "health-equity-programs",
+    "medical-research",
+    "multi-specialty-care",
+    "nonprofit-health-system",
+    "physician-training",
+    "team-based-medicine"
+   ]
+  },
+  {
+   "id": "medline",
+   "name": "Medline",
+   "kind": "firm",
+   "parent": "medline",
+   "parent_name": "Medline",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "clinical-solutions-and-education",
+    "front-line-care-products",
+    "healthcare-supply-chain-distribution",
+    "inventory-management",
+    "laboratory-and-diagnostics-products",
+    "medical-surgical-product-manufacturing",
+    "supply-chain-optimization-consulting",
+    "surgical-supplies",
+    "vertically-integrated-logistics"
+   ]
+  },
+  {
+   "id": "merck::pharmaceutical-human-health",
+   "name": "Merck \u00b7 Pharmaceutical (Human Health)",
+   "kind": "segment",
+   "parent": "merck",
+   "parent_name": "Merck",
+   "segment": "Pharmaceutical (Human Health)",
+   "weight": 0.85,
+   "tags": [
+    "clinical-trial-operations",
+    "immunology-treatments",
+    "oncology-therapies",
+    "pharmaceutical-drug-development",
+    "regulatory-approval-management",
+    "vaccine-development"
+   ]
+  },
+  {
+   "id": "merck::animal-health",
+   "name": "Merck \u00b7 Animal Health",
+   "kind": "segment",
+   "parent": "merck",
+   "parent_name": "Merck",
+   "segment": "Animal Health",
+   "weight": 0.15,
+   "tags": [
+    "animal-health-pharmaceuticals",
+    "drug-manufacturing"
+   ]
+  },
+  {
+   "id": "meta::family-of-apps-facebook-instagram-whatsapp-messenger",
+   "name": "Meta \u00b7 Family of Apps (Facebook, Instagram, WhatsApp, Messenger)",
+   "kind": "segment",
+   "parent": "meta",
+   "parent_name": "Meta",
+   "segment": "Family of Apps (Facebook, Instagram, WhatsApp, Messenger)",
+   "weight": 0.97,
+   "tags": [
+    "ad-inventory-marketplace",
+    "mobile-app-development",
+    "social-network-platforms"
+   ]
+  },
+  {
+   "id": "meta::reality-labs-vr-ar",
+   "name": "Meta \u00b7 Reality Labs (VR/AR)",
+   "kind": "segment",
+   "parent": "meta",
+   "parent_name": "Meta",
+   "segment": "Reality Labs (VR/AR)",
+   "weight": 0.03,
+   "tags": [
+    "consumer-ai-products",
+    "mixed-reality-hardware"
+   ]
+  },
+  {
+   "id": "methodist-health-system",
+   "name": "Methodist Health System",
+   "kind": "firm",
+   "parent": "methodist-health-system",
+   "parent_name": "Methodist Health System",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "accountable-care-organization",
+    "clinical-care-delivery",
+    "community-health-outreach",
+    "faith-based-health-system",
+    "hospital-operations",
+    "medical-education",
+    "nonprofit-health-system",
+    "robotic-surgery",
+    "transplant-programs",
+    "trauma-care"
+   ]
+  },
+  {
+   "id": "microsoft::productivity-and-business-processes",
+   "name": "Microsoft \u00b7 Productivity and Business Processes",
+   "kind": "segment",
+   "parent": "microsoft",
+   "parent_name": "Microsoft",
+   "segment": "Productivity and Business Processes",
+   "weight": 0.32,
+   "tags": [
+    "enterprise-crm-erp",
+    "professional-networking",
+    "saas-productivity-suite"
+   ]
+  },
+  {
+   "id": "microsoft::intelligent-cloud",
+   "name": "Microsoft \u00b7 Intelligent Cloud",
+   "kind": "segment",
+   "parent": "microsoft",
+   "parent_name": "Microsoft",
+   "segment": "Intelligent Cloud",
+   "weight": 0.43,
+   "tags": [
+    "ai-and-machine-learning",
+    "cloud-infrastructure-services",
+    "cybersecurity-services",
+    "developer-platform",
+    "hybrid-cloud"
+   ]
+  },
+  {
+   "id": "microsoft::more-personal-computing",
+   "name": "Microsoft \u00b7 More Personal Computing",
+   "kind": "segment",
+   "parent": "microsoft",
+   "parent_name": "Microsoft",
+   "segment": "More Personal Computing",
+   "weight": 0.25,
+   "tags": [
+    "ai-coding-assistant",
+    "data-and-analytics",
+    "enterprise-os",
+    "gaming-platform"
+   ]
+  },
+  {
+   "id": "morgan-stanley::wealth-management",
+   "name": "Morgan Stanley \u00b7 Wealth Management",
+   "kind": "segment",
+   "parent": "morgan-stanley",
+   "parent_name": "Morgan Stanley",
+   "segment": "Wealth Management",
+   "weight": 0.45,
+   "tags": [
+    "equity-compensation-administration",
+    "institutional-asset-management",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "morgan-stanley::institutional-securities",
+   "name": "Morgan Stanley \u00b7 Institutional Securities",
+   "kind": "segment",
+   "parent": "morgan-stanley",
+   "parent_name": "Morgan Stanley",
+   "segment": "Institutional Securities",
+   "weight": 0.4,
+   "tags": [
+    "capital-markets",
+    "equity-research",
+    "investment-banking",
+    "mergers-and-acquisitions-advisory",
+    "sales-and-trading"
+   ]
+  },
+  {
+   "id": "morgan-stanley::investment-management",
+   "name": "Morgan Stanley \u00b7 Investment Management",
+   "kind": "segment",
+   "parent": "morgan-stanley",
+   "parent_name": "Morgan Stanley",
+   "segment": "Investment Management",
+   "weight": 0.15,
+   "tags": [
+    "esg-and-sustainable-finance",
+    "institutional-asset-management",
+    "private-market-investing"
+   ]
+  },
+  {
+   "id": "nike::nike-brand-north-america",
+   "name": "Nike \u00b7 Nike Brand \u2014 North America",
+   "kind": "segment",
+   "parent": "nike",
+   "parent_name": "Nike",
+   "segment": "Nike Brand \u2014 North America",
+   "weight": 0.43,
+   "tags": [
+    "athletic-footwear-design",
+    "direct-to-consumer-retail",
+    "e-commerce-operations"
+   ]
+  },
+  {
+   "id": "nike::nike-brand-international-emea-greater-china-apla",
+   "name": "Nike \u00b7 Nike Brand \u2014 International (EMEA, Greater China, APLA)",
+   "kind": "segment",
+   "parent": "nike",
+   "parent_name": "Nike",
+   "segment": "Nike Brand \u2014 International (EMEA, Greater China, APLA)",
+   "weight": 0.48,
+   "tags": [
+    "global-distribution-network",
+    "omnichannel-retail",
+    "outsourced-manufacturing"
+   ]
+  },
+  {
+   "id": "nike::converse",
+   "name": "Nike \u00b7 Converse",
+   "kind": "segment",
+   "parent": "nike",
+   "parent_name": "Nike",
+   "segment": "Converse",
+   "weight": 0.09,
+   "tags": [
+    "direct-to-consumer-retail",
+    "licensed-ip-management"
+   ]
+  },
+  {
+   "id": "northrop-grumman::aeronautics-systems",
+   "name": "Northrop Grumman \u00b7 Aeronautics Systems",
+   "kind": "segment",
+   "parent": "northrop-grumman",
+   "parent_name": "Northrop Grumman",
+   "segment": "Aeronautics Systems",
+   "weight": 0.3,
+   "tags": [
+    "autonomous-defense-systems",
+    "digital-engineering",
+    "stealth-aircraft-development"
+   ]
+  },
+  {
+   "id": "northrop-grumman::defense-systems",
+   "name": "Northrop Grumman \u00b7 Defense Systems",
+   "kind": "segment",
+   "parent": "northrop-grumman",
+   "parent_name": "Northrop Grumman",
+   "segment": "Defense Systems",
+   "weight": 0.25,
+   "tags": [
+    "advanced-weapons-manufacturing",
+    "missile-defense"
+   ]
+  },
+  {
+   "id": "northrop-grumman::mission-systems",
+   "name": "Northrop Grumman \u00b7 Mission Systems",
+   "kind": "segment",
+   "parent": "northrop-grumman",
+   "parent_name": "Northrop Grumman",
+   "segment": "Mission Systems",
+   "weight": 0.3,
+   "tags": [
+    "autonomous-defense-systems",
+    "defense-electronics",
+    "electronic-warfare"
+   ]
+  },
+  {
+   "id": "northrop-grumman::space-systems",
+   "name": "Northrop Grumman \u00b7 Space Systems",
+   "kind": "segment",
+   "parent": "northrop-grumman",
+   "parent_name": "Northrop Grumman",
+   "segment": "Space Systems",
+   "weight": 0.15,
+   "tags": [
+    "satellite-development",
+    "space-systems-integration"
+   ]
+  },
+  {
+   "id": "nvidia::data-center",
+   "name": "NVIDIA \u00b7 Data Center",
+   "kind": "segment",
+   "parent": "nvidia",
+   "parent_name": "NVIDIA",
+   "segment": "Data Center",
+   "weight": 0.85,
+   "tags": [
+    "accelerated-computing",
+    "ai-inference-platform",
+    "ai-training-infrastructure",
+    "data-center-networking"
+   ]
+  },
+  {
+   "id": "nvidia::gaming",
+   "name": "NVIDIA \u00b7 Gaming",
+   "kind": "segment",
+   "parent": "nvidia",
+   "parent_name": "NVIDIA",
+   "segment": "Gaming",
+   "weight": 0.1,
+   "tags": [
+    "gaming-graphics",
+    "gpu-computing"
+   ]
+  },
+  {
+   "id": "nvidia::professional-visualization-automotive-oem",
+   "name": "NVIDIA \u00b7 Professional Visualization & Automotive & OEM",
+   "kind": "segment",
+   "parent": "nvidia",
+   "parent_name": "NVIDIA",
+   "segment": "Professional Visualization & Automotive & OEM",
+   "weight": 0.05,
+   "tags": [
+    "autonomous-vehicle-compute",
+    "digital-twin-platform",
+    "scientific-simulation"
+   ]
+  },
+  {
+   "id": "nyc-health-hospitals",
+   "name": "NYC Health + Hospitals",
+   "kind": "firm",
+   "parent": "nyc-health-hospitals",
+   "parent_name": "NYC Health + Hospitals",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "24x7-emergency-and-inpatient-care",
+    "behavioral-health-services",
+    "clinical-care-delivery",
+    "community-health-centers",
+    "long-term-skilled-nursing",
+    "medicaid-and-medicare-operations",
+    "primary-care-access",
+    "public-hospital-operations",
+    "rehabilitation-therapy",
+    "safety-net-healthcare"
+   ]
+  },
+  {
+   "id": "pepsico::frito-lay-north-america",
+   "name": "PepsiCo \u00b7 Frito-Lay North America",
+   "kind": "segment",
+   "parent": "pepsico",
+   "parent_name": "PepsiCo",
+   "segment": "Frito-Lay North America",
+   "weight": 0.25,
+   "tags": [
+    "direct-store-delivery-logistics",
+    "snack-food-manufacturing"
+   ]
+  },
+  {
+   "id": "pepsico::pepsico-beverages-north-america",
+   "name": "PepsiCo \u00b7 PepsiCo Beverages North America",
+   "kind": "segment",
+   "parent": "pepsico",
+   "parent_name": "PepsiCo",
+   "segment": "PepsiCo Beverages North America",
+   "weight": 0.3,
+   "tags": [
+    "beverage-manufacturing",
+    "direct-store-delivery-logistics"
+   ]
+  },
+  {
+   "id": "pepsico::quaker-foods-north-america",
+   "name": "PepsiCo \u00b7 Quaker Foods North America",
+   "kind": "segment",
+   "parent": "pepsico",
+   "parent_name": "PepsiCo",
+   "segment": "Quaker Foods North America",
+   "weight": 0.08,
+   "tags": [
+    "consumer-packaged-goods-distribution",
+    "snack-food-manufacturing"
+   ]
+  },
+  {
+   "id": "pepsico::international-latam-europe-apac-africa-me",
+   "name": "PepsiCo \u00b7 International (LATAM, Europe, APAC, Africa, ME)",
+   "kind": "segment",
+   "parent": "pepsico",
+   "parent_name": "PepsiCo",
+   "segment": "International (LATAM, Europe, APAC, Africa, ME)",
+   "weight": 0.37,
+   "tags": [
+    "brand-portfolio-management",
+    "global-marketing-and-advertising",
+    "route-to-market-operations"
+   ]
+  },
+  {
+   "id": "pinnacle-financial-partners",
+   "name": "Pinnacle Financial Partners",
+   "kind": "firm",
+   "parent": "pinnacle-financial-partners",
+   "parent_name": "Pinnacle Financial Partners",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "commercial-lending",
+    "commercial-real-estate-lending",
+    "deposit-gathering",
+    "mortgage-banking",
+    "private-banking",
+    "relationship-banking",
+    "specialty-professional-lending",
+    "treasury-and-cash-management",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "plante-moran",
+   "name": "Plante Moran",
+   "kind": "firm",
+   "parent": "plante-moran",
+   "parent_name": "Plante Moran",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "audit-and-assurance",
+    "financial-advisory",
+    "management-consulting",
+    "mergers-and-acquisitions-advisory",
+    "nonprofit-and-public-sector-advisory",
+    "regulatory-compliance-ops",
+    "tax-compliance-and-planning",
+    "transaction-advisory",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "pnc",
+   "name": "PNC",
+   "kind": "firm",
+   "parent": "pnc",
+   "parent_name": "PNC",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "commercial-banking",
+    "consumer-lending",
+    "core-transaction-processing",
+    "digital-banking",
+    "fraud-detection",
+    "mortgage-origination",
+    "retail-banking",
+    "treasury-management",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "power-home-remodeling",
+   "name": "Power Home Remodeling",
+   "kind": "firm",
+   "parent": "power-home-remodeling",
+   "parent_name": "Power Home Remodeling",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "direct-to-consumer-sales",
+    "field-service-technicians",
+    "in-home-consultation",
+    "residential-exterior-installation",
+    "roofing-installation",
+    "siding-installation",
+    "window-and-door-installation"
+   ]
+  },
+  {
+   "id": "procter-and-gamble::fabric-home-care",
+   "name": "Procter & Gamble \u00b7 Fabric & Home Care",
+   "kind": "segment",
+   "parent": "procter-and-gamble",
+   "parent_name": "Procter & Gamble",
+   "segment": "Fabric & Home Care",
+   "weight": 0.36,
+   "tags": [
+    "consumer-goods-manufacturing",
+    "global-brand-management"
+   ]
+  },
+  {
+   "id": "procter-and-gamble::baby-feminine-family-care",
+   "name": "Procter & Gamble \u00b7 Baby, Feminine & Family Care",
+   "kind": "segment",
+   "parent": "procter-and-gamble",
+   "parent_name": "Procter & Gamble",
+   "segment": "Baby, Feminine & Family Care",
+   "weight": 0.24,
+   "tags": [
+    "consumer-goods-manufacturing",
+    "supply-chain-management"
+   ]
+  },
+  {
+   "id": "procter-and-gamble::beauty",
+   "name": "Procter & Gamble \u00b7 Beauty",
+   "kind": "segment",
+   "parent": "procter-and-gamble",
+   "parent_name": "Procter & Gamble",
+   "segment": "Beauty",
+   "weight": 0.18,
+   "tags": [
+    "consumer-goods-manufacturing",
+    "global-brand-management"
+   ]
+  },
+  {
+   "id": "procter-and-gamble::health-care",
+   "name": "Procter & Gamble \u00b7 Health Care",
+   "kind": "segment",
+   "parent": "procter-and-gamble",
+   "parent_name": "Procter & Gamble",
+   "segment": "Health Care",
+   "weight": 0.14,
+   "tags": [
+    "consumer-goods-manufacturing",
+    "product-innovation"
+   ]
+  },
+  {
+   "id": "procter-and-gamble::grooming",
+   "name": "Procter & Gamble \u00b7 Grooming",
+   "kind": "segment",
+   "parent": "procter-and-gamble",
+   "parent_name": "Procter & Gamble",
+   "segment": "Grooming",
+   "weight": 0.08,
+   "tags": [
+    "consumer-goods-manufacturing",
+    "global-brand-management"
+   ]
+  },
+  {
+   "id": "progressive::personal-lines-auto",
+   "name": "Progressive \u00b7 Personal Lines (auto)",
+   "kind": "segment",
+   "parent": "progressive",
+   "parent_name": "Progressive",
+   "segment": "Personal Lines (auto)",
+   "weight": 0.7,
+   "tags": [
+    "auto-insurance-underwriting",
+    "direct-to-consumer-insurance",
+    "telematics-pricing"
+   ]
+  },
+  {
+   "id": "progressive::commercial-lines",
+   "name": "Progressive \u00b7 Commercial Lines",
+   "kind": "segment",
+   "parent": "progressive",
+   "parent_name": "Progressive",
+   "segment": "Commercial Lines",
+   "weight": 0.2,
+   "tags": [
+    "auto-insurance-underwriting",
+    "claims-adjudication"
+   ]
+  },
+  {
+   "id": "publix",
+   "name": "Publix",
+   "kind": "firm",
+   "parent": "publix",
+   "parent_name": "Publix",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "employee-ownership-model",
+    "employer-pharmacy-solutions",
+    "fresh-prepared-foods",
+    "grocery-retail-operations",
+    "in-store-bakery-deli",
+    "omnichannel-retail",
+    "pharmacy-dispensing",
+    "specialty-pharmacy",
+    "vaccine-administration"
+   ]
+  },
+  {
+   "id": "pwc::audit-assurance",
+   "name": "PwC \u00b7 Audit & Assurance",
+   "kind": "segment",
+   "parent": "pwc",
+   "parent_name": "PwC",
+   "segment": "Audit & Assurance",
+   "weight": 0.35,
+   "tags": [
+    "esg-reporting-assurance",
+    "financial-statement-audit"
+   ]
+  },
+  {
+   "id": "pwc::tax",
+   "name": "PwC \u00b7 Tax",
+   "kind": "segment",
+   "parent": "pwc",
+   "parent_name": "PwC",
+   "segment": "Tax",
+   "weight": 0.25,
+   "tags": [
+    "regulatory-compliance-ops",
+    "tax-compliance-advisory"
+   ]
+  },
+  {
+   "id": "pwc::advisory-consulting-deals",
+   "name": "PwC \u00b7 Advisory (Consulting + Deals)",
+   "kind": "segment",
+   "parent": "pwc",
+   "parent_name": "PwC",
+   "segment": "Advisory (Consulting + Deals)",
+   "weight": 0.4,
+   "tags": [
+    "cybersecurity-advisory",
+    "deals-and-m-and-a-advisory",
+    "digital-transformation-advisory",
+    "management-consulting"
+   ]
+  },
+  {
+   "id": "rdsolutions",
+   "name": "RDSolutions",
+   "kind": "firm",
+   "parent": "rdsolutions",
+   "parent_name": "RDSolutions",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "competitive-pricing-intelligence",
+    "cpg-sales-support",
+    "field-service-merchandising",
+    "out-of-stock-resolution",
+    "product-attribute-data",
+    "retail-audit-services",
+    "retail-intelligence-platform",
+    "shelf-execution-management",
+    "store-level-data-analytics"
+   ]
+  },
+  {
+   "id": "roche::pharmaceuticals",
+   "name": "Roche \u00b7 Pharmaceuticals",
+   "kind": "segment",
+   "parent": "roche",
+   "parent_name": "Roche",
+   "segment": "Pharmaceuticals",
+   "weight": 0.72,
+   "tags": [
+    "clinical-trial-operations",
+    "neurology-therapeutics",
+    "oncology-therapeutics",
+    "pharmaceutical-drug-development",
+    "regulatory-drug-approval"
+   ]
+  },
+  {
+   "id": "roche::diagnostics",
+   "name": "Roche \u00b7 Diagnostics",
+   "kind": "segment",
+   "parent": "roche",
+   "parent_name": "Roche",
+   "segment": "Diagnostics",
+   "weight": 0.28,
+   "tags": [
+    "biomarker-and-companion-diagnostics",
+    "digital-health-and-ai-diagnostics",
+    "in-vitro-diagnostics",
+    "laboratory-instrument-manufacturing"
+   ]
+  },
+  {
+   "id": "rocket-companies",
+   "name": "Rocket Companies",
+   "kind": "firm",
+   "parent": "rocket-companies",
+   "parent_name": "Rocket Companies",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "consumer-lending",
+    "customer-retention-and-loyalty",
+    "digital-mortgage-origination",
+    "e-closing-and-digital-closing",
+    "fintech-product-development",
+    "loan-servicing",
+    "mortgage-platform-technology",
+    "personal-loan-origination",
+    "real-estate-agent-marketplace"
+   ]
+  },
+  {
+   "id": "rtx::collins-aerospace",
+   "name": "RTX \u00b7 Collins Aerospace",
+   "kind": "segment",
+   "parent": "rtx",
+   "parent_name": "RTX",
+   "segment": "Collins Aerospace",
+   "weight": 0.35,
+   "tags": [
+    "aerospace-systems-integration",
+    "aftermarket-mro-services",
+    "avionics-and-flight-systems",
+    "commercial-aviation-components"
+   ]
+  },
+  {
+   "id": "rtx::pratt-whitney",
+   "name": "RTX \u00b7 Pratt & Whitney",
+   "kind": "segment",
+   "parent": "rtx",
+   "parent_name": "RTX",
+   "segment": "Pratt & Whitney",
+   "weight": 0.35,
+   "tags": [
+    "aftermarket-mro-services",
+    "aircraft-engine-manufacturing"
+   ]
+  },
+  {
+   "id": "rtx::raytheon",
+   "name": "RTX \u00b7 Raytheon",
+   "kind": "segment",
+   "parent": "rtx",
+   "parent_name": "RTX",
+   "segment": "Raytheon",
+   "weight": 0.3,
+   "tags": [
+    "defense-prime-contractor",
+    "electronic-warfare",
+    "missile-systems",
+    "radar-systems"
+   ]
+  },
+  {
+   "id": "ryan",
+   "name": "Ryan",
+   "kind": "firm",
+   "parent": "ryan",
+   "parent_name": "Ryan",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "credits-and-incentives",
+    "income-tax-advisory",
+    "international-tax",
+    "property-tax-management",
+    "sales-and-use-tax",
+    "tax-advocacy-and-lobbying",
+    "tax-compliance-management",
+    "tax-recovery-and-refunds",
+    "tax-technology-software",
+    "unclaimed-property"
+   ]
+  },
+  {
+   "id": "samsung-electronics::device-experience-dx-smartphones-tvs-appliances",
+   "name": "Samsung Electronics \u00b7 Device eXperience (DX) \u2014 smartphones, TVs, appliances",
+   "kind": "segment",
+   "parent": "samsung-electronics",
+   "parent_name": "Samsung Electronics",
+   "segment": "Device eXperience (DX) \u2014 smartphones, TVs, appliances",
+   "weight": 0.46,
+   "tags": [
+    "consumer-electronics-manufacturing",
+    "smartphone-manufacturing"
+   ]
+  },
+  {
+   "id": "samsung-electronics::device-solutions-ds-memory-foundry-system-lsi",
+   "name": "Samsung Electronics \u00b7 Device Solutions (DS) \u2014 memory, foundry, System LSI",
+   "kind": "segment",
+   "parent": "samsung-electronics",
+   "parent_name": "Samsung Electronics",
+   "segment": "Device Solutions (DS) \u2014 memory, foundry, System LSI",
+   "weight": 0.37,
+   "tags": [
+    "ai-chip-manufacturing",
+    "foundry-services",
+    "high-bandwidth-memory",
+    "memory-manufacturing",
+    "semiconductor-fabrication",
+    "system-on-chip-design"
+   ]
+  },
+  {
+   "id": "servicenow",
+   "name": "ServiceNow",
+   "kind": "firm",
+   "parent": "servicenow",
+   "parent_name": "ServiceNow",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "agentic-ai-platform",
+    "ai-operations-management",
+    "crm-and-customer-service-platform",
+    "data-integration-platform",
+    "enterprise-workflow-automation",
+    "hr-service-delivery",
+    "itsm-platform",
+    "low-code-app-development",
+    "saas-enterprise-software",
+    "security-operations"
+   ]
+  },
+  {
+   "id": "shell::integrated-gas-and-upstream",
+   "name": "Shell \u00b7 Integrated Gas and Upstream",
+   "kind": "segment",
+   "parent": "shell",
+   "parent_name": "Shell",
+   "segment": "Integrated Gas and Upstream",
+   "weight": 0.4,
+   "tags": [
+    "lng-trading-and-supply",
+    "pipeline-and-infrastructure-operations",
+    "upstream-oil-and-gas"
+   ]
+  },
+  {
+   "id": "shell::downstream-refining-chemicals-retail",
+   "name": "Shell \u00b7 Downstream (Refining, Chemicals, Retail)",
+   "kind": "segment",
+   "parent": "shell",
+   "parent_name": "Shell",
+   "segment": "Downstream (Refining, Chemicals, Retail)",
+   "weight": 0.45,
+   "tags": [
+    "fuel-retail-network",
+    "lubricants-production",
+    "oil-refining",
+    "petrochemicals-manufacturing"
+   ]
+  },
+  {
+   "id": "shell::renewables-and-energy-solutions",
+   "name": "Shell \u00b7 Renewables and Energy Solutions",
+   "kind": "segment",
+   "parent": "shell",
+   "parent_name": "Shell",
+   "segment": "Renewables and Energy Solutions",
+   "weight": 0.15,
+   "tags": [
+    "biofuels-production",
+    "carbon-capture-and-storage",
+    "renewable-energy-sales"
+   ]
+  },
+  {
+   "id": "siemens::digital-industries-factory-industrial-automation",
+   "name": "Siemens \u00b7 Digital Industries (factory/industrial automation)",
+   "kind": "segment",
+   "parent": "siemens",
+   "parent_name": "Siemens",
+   "segment": "Digital Industries (factory/industrial automation)",
+   "weight": 0.35,
+   "tags": [
+    "digital-twin-software",
+    "industrial-ai",
+    "industrial-automation",
+    "smart-factory"
+   ]
+  },
+  {
+   "id": "siemens::smart-infrastructure-buildings-grids",
+   "name": "Siemens \u00b7 Smart Infrastructure (buildings, grids)",
+   "kind": "segment",
+   "parent": "siemens",
+   "parent_name": "Siemens",
+   "segment": "Smart Infrastructure (buildings, grids)",
+   "weight": 0.35,
+   "tags": [
+    "building-automation",
+    "energy-management",
+    "grid-technology",
+    "hvac-and-fire-controls"
+   ]
+  },
+  {
+   "id": "siemens::mobility-rail-transit",
+   "name": "Siemens \u00b7 Mobility (rail/transit)",
+   "kind": "segment",
+   "parent": "siemens",
+   "parent_name": "Siemens",
+   "segment": "Mobility (rail/transit)",
+   "weight": 0.2,
+   "tags": [
+    "electrification",
+    "rail-systems"
+   ]
+  },
+  {
+   "id": "sony::game-network-services-g-ns",
+   "name": "Sony \u00b7 Game & Network Services (G&NS)",
+   "kind": "segment",
+   "parent": "sony",
+   "parent_name": "Sony",
+   "segment": "Game & Network Services (G&NS)",
+   "weight": 0.28,
+   "tags": [
+    "direct-to-consumer-content",
+    "gaming-platform",
+    "software-engineering"
+   ]
+  },
+  {
+   "id": "sony::music",
+   "name": "Sony \u00b7 Music",
+   "kind": "segment",
+   "parent": "sony",
+   "parent_name": "Sony",
+   "segment": "Music",
+   "weight": 0.18,
+   "tags": [
+    "direct-to-consumer-content",
+    "ip-portfolio-management",
+    "music-label-and-publishing"
+   ]
+  },
+  {
+   "id": "sony::pictures",
+   "name": "Sony \u00b7 Pictures",
+   "kind": "segment",
+   "parent": "sony",
+   "parent_name": "Sony",
+   "segment": "Pictures",
+   "weight": 0.14,
+   "tags": [
+    "anime-streaming-platform",
+    "content-ip-licensing",
+    "film-and-tv-production",
+    "ip-portfolio-management"
+   ]
+  },
+  {
+   "id": "sony::entertainment-technology-services-et-s",
+   "name": "Sony \u00b7 Entertainment, Technology & Services (ET&S)",
+   "kind": "segment",
+   "parent": "sony",
+   "parent_name": "Sony",
+   "segment": "Entertainment, Technology & Services (ET&S)",
+   "weight": 0.22,
+   "tags": [
+    "cmos-image-sensor-manufacturing",
+    "consumer-electronics-manufacturing"
+   ]
+  },
+  {
+   "id": "sony::imaging-sensing-solutions-i-ss",
+   "name": "Sony \u00b7 Imaging & Sensing Solutions (I&SS)",
+   "kind": "segment",
+   "parent": "sony",
+   "parent_name": "Sony",
+   "segment": "Imaging & Sensing Solutions (I&SS)",
+   "weight": 0.14,
+   "tags": [
+    "cmos-image-sensor-manufacturing",
+    "semiconductor-fabrication"
+   ]
+  },
+  {
+   "id": "stake-center-locating",
+   "name": "Stake Center Locating",
+   "kind": "firm",
+   "parent": "stake-center-locating",
+   "parent_name": "Stake Center Locating",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "b2b-utility-services",
+    "damage-prevention-services",
+    "fiber-optic-network-locating",
+    "field-service-technicians",
+    "infrastructure-protection-services",
+    "real-time-excavation-status-tracking",
+    "safety-training-and-compliance",
+    "underground-utility-locating"
+   ]
+  },
+  {
+   "id": "starbucks",
+   "name": "Starbucks",
+   "kind": "firm",
+   "parent": "starbucks",
+   "parent_name": "Starbucks",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "barista-workforce-management",
+    "beverage-manufacturing",
+    "coffeehouse-retail-operations",
+    "cold-chain-logistics",
+    "food-and-beverage-distribution",
+    "franchise-licensing",
+    "global-supply-chain-sourcing",
+    "loyalty-programs",
+    "mobile-ordering"
+   ]
+  },
+  {
+   "id": "state-farm",
+   "name": "State Farm",
+   "kind": "firm",
+   "parent": "state-farm",
+   "parent_name": "State Farm",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "actuarial-modeling",
+    "agent-distribution-network",
+    "auto-insurance-underwriting",
+    "claims-adjudication",
+    "homeowners-insurance",
+    "insurtech-investing",
+    "life-insurance",
+    "mutual-insurer-structure",
+    "personal-lines-insurance"
+   ]
+  },
+  {
+   "id": "state-street::investment-servicing",
+   "name": "State Street \u00b7 Investment Servicing",
+   "kind": "segment",
+   "parent": "state-street",
+   "parent_name": "State Street",
+   "segment": "Investment Servicing",
+   "weight": 0.55,
+   "tags": [
+    "asset-custody",
+    "fund-administration",
+    "regulatory-reporting",
+    "securities-settlement"
+   ]
+  },
+  {
+   "id": "state-street::investment-management-ssga",
+   "name": "State Street \u00b7 Investment Management (SSGA)",
+   "kind": "segment",
+   "parent": "state-street",
+   "parent_name": "State Street",
+   "segment": "Investment Management (SSGA)",
+   "weight": 0.3,
+   "tags": [
+    "etf-servicing",
+    "institutional-asset-management"
+   ]
+  },
+  {
+   "id": "state-street::markets",
+   "name": "State Street \u00b7 Markets",
+   "kind": "segment",
+   "parent": "state-street",
+   "parent_name": "State Street",
+   "segment": "Markets",
+   "weight": 0.1,
+   "tags": [
+    "core-transaction-processing",
+    "foreign-exchange-trading"
+   ]
+  },
+  {
+   "id": "state-street::data-intelligence-alpha-platform",
+   "name": "State Street \u00b7 Data Intelligence & Alpha Platform",
+   "kind": "segment",
+   "parent": "state-street",
+   "parent_name": "State Street",
+   "segment": "Data Intelligence & Alpha Platform",
+   "weight": 0.05,
+   "tags": [
+    "data-intelligence",
+    "investment-analytics-platform"
+   ]
+  },
+  {
+   "id": "stellantis::north-america-ram-jeep-dodge-chrysler",
+   "name": "Stellantis \u00b7 North America (RAM, Jeep, Dodge, Chrysler)",
+   "kind": "segment",
+   "parent": "stellantis",
+   "parent_name": "Stellantis",
+   "segment": "North America (RAM, Jeep, Dodge, Chrysler)",
+   "weight": 0.45,
+   "tags": [
+    "multi-brand-automotive",
+    "vehicle-manufacturing"
+   ]
+  },
+  {
+   "id": "stellantis::enlarged-europe-peugeot-citro-n-opel-fiat-alfa-romeo-maserati-ds",
+   "name": "Stellantis \u00b7 Enlarged Europe (Peugeot, Citro\u00ebn, Opel, FIAT, Alfa Romeo, Maserati, DS)",
+   "kind": "segment",
+   "parent": "stellantis",
+   "parent_name": "Stellantis",
+   "segment": "Enlarged Europe (Peugeot, Citro\u00ebn, Opel, FIAT, Alfa Romeo, Maserati, DS)",
+   "weight": 0.4,
+   "tags": [
+    "multi-brand-automotive",
+    "vehicle-manufacturing"
+   ]
+  },
+  {
+   "id": "stellantis::mobility-free2move-leasys-and-financial-services",
+   "name": "Stellantis \u00b7 Mobility (Free2move, Leasys) and Financial Services",
+   "kind": "segment",
+   "parent": "stellantis",
+   "parent_name": "Stellantis",
+   "segment": "Mobility (Free2move, Leasys) and Financial Services",
+   "weight": 0.15,
+   "tags": [
+    "auto-financing",
+    "fleet-services",
+    "mobility-services"
+   ]
+  },
+  {
+   "id": "synchrony::partner-finance-credit-cards",
+   "name": "Synchrony \u00b7 Partner Finance (Credit Cards)",
+   "kind": "segment",
+   "parent": "synchrony",
+   "parent_name": "Synchrony",
+   "segment": "Partner Finance (Credit Cards)",
+   "weight": 0.75,
+   "tags": [
+    "consumer-lending",
+    "credit-risk-management",
+    "point-of-sale-financing",
+    "private-label-credit-cards"
+   ]
+  },
+  {
+   "id": "synchrony::synchrony-bank-savings",
+   "name": "Synchrony \u00b7 Synchrony Bank (Savings)",
+   "kind": "segment",
+   "parent": "synchrony",
+   "parent_name": "Synchrony",
+   "segment": "Synchrony Bank (Savings)",
+   "weight": 0.15,
+   "tags": [
+    "online-banking",
+    "regulatory-compliance-ops",
+    "savings-products"
+   ]
+  },
+  {
+   "id": "synchrony::carecredit-health-wellness",
+   "name": "Synchrony \u00b7 CareCredit (Health & Wellness)",
+   "kind": "segment",
+   "parent": "synchrony",
+   "parent_name": "Synchrony",
+   "segment": "CareCredit (Health & Wellness)",
+   "weight": 0.1,
+   "tags": [
+    "digital-payments-platform",
+    "healthcare-financing",
+    "point-of-sale-financing"
+   ]
+  },
+  {
+   "id": "target::core-retail-stores-digital",
+   "name": "Target \u00b7 Core Retail (Stores + Digital)",
+   "kind": "segment",
+   "parent": "target",
+   "parent_name": "Target",
+   "segment": "Core Retail (Stores + Digital)",
+   "weight": 0.88,
+   "tags": [
+    "mass-merchandise-retail",
+    "omnichannel-fulfillment",
+    "private-label-product-development"
+   ]
+  },
+  {
+   "id": "target::roundel-retail-media",
+   "name": "Target \u00b7 Roundel (Retail Media)",
+   "kind": "segment",
+   "parent": "target",
+   "parent_name": "Target",
+   "segment": "Roundel (Retail Media)",
+   "weight": 0.06,
+   "tags": [
+    "first-party-shopper-data",
+    "retail-media-ad-marketplace"
+   ]
+  },
+  {
+   "id": "the-walt-disney-company::disney-entertainment-film-tv-streaming",
+   "name": "The Walt Disney Company \u00b7 Disney Entertainment (film, TV, streaming)",
+   "kind": "segment",
+   "parent": "the-walt-disney-company",
+   "parent_name": "The Walt Disney Company",
+   "segment": "Disney Entertainment (film, TV, streaming)",
+   "weight": 0.4,
+   "tags": [
+    "broadcast-tv-network",
+    "content-distribution",
+    "film-and-tv-production",
+    "ip-licensing",
+    "streaming-platform-operation"
+   ]
+  },
+  {
+   "id": "the-walt-disney-company::espn-sports-media",
+   "name": "The Walt Disney Company \u00b7 ESPN (sports media)",
+   "kind": "segment",
+   "parent": "the-walt-disney-company",
+   "parent_name": "The Walt Disney Company",
+   "segment": "ESPN (sports media)",
+   "weight": 0.2,
+   "tags": [
+    "broadcast-tv-network",
+    "sports-media-rights",
+    "streaming-platform-operation"
+   ]
+  },
+  {
+   "id": "the-walt-disney-company::disney-experiences-parks-cruises-consumer-products",
+   "name": "The Walt Disney Company \u00b7 Disney Experiences (parks, cruises, consumer products)",
+   "kind": "segment",
+   "parent": "the-walt-disney-company",
+   "parent_name": "The Walt Disney Company",
+   "segment": "Disney Experiences (parks, cruises, consumer products)",
+   "weight": 0.4,
+   "tags": [
+    "character-franchise-management",
+    "consumer-products-licensing",
+    "cruise-line-operations",
+    "theme-park-operations"
+   ]
+  },
+  {
+   "id": "toyota::vehicle-manufacturing-sales",
+   "name": "Toyota \u00b7 Vehicle Manufacturing & Sales",
+   "kind": "segment",
+   "parent": "toyota",
+   "parent_name": "Toyota",
+   "segment": "Vehicle Manufacturing & Sales",
+   "weight": 0.8,
+   "tags": [
+    "automotive-manufacturing",
+    "dealer-network-distribution",
+    "vehicle-design-and-engineering"
+   ]
+  },
+  {
+   "id": "toyota::r-d-and-advanced-mobility",
+   "name": "Toyota \u00b7 R&D and Advanced Mobility",
+   "kind": "segment",
+   "parent": "toyota",
+   "parent_name": "Toyota",
+   "segment": "R&D and Advanced Mobility",
+   "weight": 0.05,
+   "tags": [
+    "advanced-mobility-research",
+    "automotive-r-and-d",
+    "hybrid-and-electric-vehicle-development"
+   ]
+  },
+  {
+   "id": "trader-joe-s",
+   "name": "Trader Joe's",
+   "kind": "firm",
+   "parent": "trader-joe-s",
+   "parent_name": "Trader Joe's",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "customer-experience-operations",
+    "direct-supplier-sourcing",
+    "everyday-low-price-retail",
+    "grocery-retail-operations",
+    "private-label-product-development",
+    "product-curation-and-buying",
+    "small-format-grocery",
+    "store-brand-food-marketing"
+   ]
+  },
+  {
+   "id": "u-s-steel::north-american-flat-rolled-including-big-river-steel",
+   "name": "U.S. Steel \u00b7 North American Flat-Rolled (including Big River Steel)",
+   "kind": "segment",
+   "parent": "u-s-steel",
+   "parent_name": "U.S. Steel",
+   "segment": "North American Flat-Rolled (including Big River Steel)",
+   "weight": 0.75,
+   "tags": [
+    "automotive-steel-supply",
+    "electric-arc-furnace-steelmaking",
+    "flat-rolled-steel-production",
+    "integrated-steelmaking",
+    "low-carbon-steel"
+   ]
+  },
+  {
+   "id": "u-s-steel::mini-mill-big-river-steel-eaf",
+   "name": "U.S. Steel \u00b7 Mini Mill (Big River Steel EAF)",
+   "kind": "segment",
+   "parent": "u-s-steel",
+   "parent_name": "U.S. Steel",
+   "segment": "Mini Mill (Big River Steel EAF)",
+   "weight": 0.15,
+   "tags": [
+    "advanced-high-strength-steel",
+    "electric-arc-furnace-steelmaking",
+    "low-carbon-steel"
+   ]
+  },
+  {
+   "id": "u-s-steel::europe-us-steel-kosice",
+   "name": "U.S. Steel \u00b7 Europe (US Steel Kosice)",
+   "kind": "segment",
+   "parent": "u-s-steel",
+   "parent_name": "U.S. Steel",
+   "segment": "Europe (US Steel Kosice)",
+   "weight": 0.1,
+   "tags": [
+    "european-steel-operations",
+    "flat-rolled-steel-production",
+    "integrated-steelmaking"
+   ]
+  },
+  {
+   "id": "unitedhealth-group::unitedhealthcare-health-insurance-benefits",
+   "name": "UnitedHealth Group \u00b7 UnitedHealthcare (Health Insurance/Benefits)",
+   "kind": "segment",
+   "parent": "unitedhealth-group",
+   "parent_name": "UnitedHealth Group",
+   "segment": "UnitedHealthcare (Health Insurance/Benefits)",
+   "weight": 0.55,
+   "tags": [
+    "employer-health-benefits-administration",
+    "health-insurance-underwriting",
+    "medicaid-managed-care",
+    "medicare-advantage"
+   ]
+  },
+  {
+   "id": "unitedhealth-group::optum-health-care-delivery",
+   "name": "UnitedHealth Group \u00b7 Optum Health (Care Delivery)",
+   "kind": "segment",
+   "parent": "unitedhealth-group",
+   "parent_name": "UnitedHealth Group",
+   "segment": "Optum Health (Care Delivery)",
+   "weight": 0.15,
+   "tags": [
+    "clinical-care-delivery",
+    "clinical-professionals-staffing",
+    "value-based-care-contracting"
+   ]
+  },
+  {
+   "id": "unitedhealth-group::optum-insight-data-technology",
+   "name": "UnitedHealth Group \u00b7 Optum Insight (Data & Technology)",
+   "kind": "segment",
+   "parent": "unitedhealth-group",
+   "parent_name": "UnitedHealth Group",
+   "segment": "Optum Insight (Data & Technology)",
+   "weight": 0.15,
+   "tags": [
+    "healthcare-data-analytics",
+    "healthcare-software-and-technology"
+   ]
+  },
+  {
+   "id": "ups::u-s-domestic-package",
+   "name": "UPS \u00b7 U.S. Domestic Package",
+   "kind": "segment",
+   "parent": "ups",
+   "parent_name": "UPS",
+   "segment": "U.S. Domestic Package",
+   "weight": 0.62,
+   "tags": [
+    "ground-package-delivery",
+    "last-mile-delivery",
+    "package-sortation"
+   ]
+  },
+  {
+   "id": "ups::international-package",
+   "name": "UPS \u00b7 International Package",
+   "kind": "segment",
+   "parent": "ups",
+   "parent_name": "UPS",
+   "segment": "International Package",
+   "weight": 0.22,
+   "tags": [
+    "air-express-network",
+    "customs-brokerage",
+    "international-freight"
+   ]
+  },
+  {
+   "id": "ups::supply-chain-solutions",
+   "name": "UPS \u00b7 Supply Chain Solutions",
+   "kind": "segment",
+   "parent": "ups",
+   "parent_name": "UPS",
+   "segment": "Supply Chain Solutions",
+   "weight": 0.16,
+   "tags": [
+    "cold-chain-logistics",
+    "contract-logistics",
+    "supply-chain-management"
+   ]
+  },
+  {
+   "id": "walmart::walmart-us",
+   "name": "Walmart \u00b7 Walmart US",
+   "kind": "segment",
+   "parent": "walmart",
+   "parent_name": "Walmart",
+   "segment": "Walmart US",
+   "weight": 0.65,
+   "tags": [
+    "big-box-retail-operations",
+    "global-supply-chain",
+    "omnichannel-retail"
+   ]
+  },
+  {
+   "id": "walmart::sam-s-club",
+   "name": "Walmart \u00b7 Sam's Club",
+   "kind": "segment",
+   "parent": "walmart",
+   "parent_name": "Walmart",
+   "segment": "Sam's Club",
+   "weight": 0.13,
+   "tags": [
+    "membership-warehouse-club",
+    "omnichannel-retail",
+    "private-label-brands"
+   ]
+  },
+  {
+   "id": "walmart::walmart-international",
+   "name": "Walmart \u00b7 Walmart International",
+   "kind": "segment",
+   "parent": "walmart",
+   "parent_name": "Walmart",
+   "segment": "Walmart International",
+   "weight": 0.22,
+   "tags": [
+    "big-box-retail-operations",
+    "fulfillment-network"
+   ]
+  },
+  {
+   "id": "wegmans-food-markets-inc",
+   "name": "Wegmans Food Markets, Inc",
+   "kind": "firm",
+   "parent": "wegmans-food-markets-inc",
+   "parent_name": "Wegmans Food Markets, Inc",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "food-quality-standards",
+    "fresh-food-and-prepared-meals",
+    "grocery-retail-operations",
+    "in-store-pharmacy",
+    "private-label-brand",
+    "regional-food-sourcing",
+    "supermarket-operations"
+   ]
+  },
+  {
+   "id": "wells-fargo::consumer-banking-and-lending",
+   "name": "Wells Fargo \u00b7 Consumer Banking and Lending",
+   "kind": "segment",
+   "parent": "wells-fargo",
+   "parent_name": "Wells Fargo",
+   "segment": "Consumer Banking and Lending",
+   "weight": 0.4,
+   "tags": [
+    "consumer-lending",
+    "digital-banking",
+    "mortgage-origination",
+    "retail-banking-branches"
+   ]
+  },
+  {
+   "id": "wells-fargo::commercial-banking",
+   "name": "Wells Fargo \u00b7 Commercial Banking",
+   "kind": "segment",
+   "parent": "wells-fargo",
+   "parent_name": "Wells Fargo",
+   "segment": "Commercial Banking",
+   "weight": 0.25,
+   "tags": [
+    "commercial-banking",
+    "payment-processing"
+   ]
+  },
+  {
+   "id": "wells-fargo::corporate-and-investment-banking",
+   "name": "Wells Fargo \u00b7 Corporate and Investment Banking",
+   "kind": "segment",
+   "parent": "wells-fargo",
+   "parent_name": "Wells Fargo",
+   "segment": "Corporate and Investment Banking",
+   "weight": 0.2,
+   "tags": [
+    "capital-markets",
+    "investment-banking",
+    "risk-management"
+   ]
+  },
+  {
+   "id": "wells-fargo::wealth-and-investment-management",
+   "name": "Wells Fargo \u00b7 Wealth and Investment Management",
+   "kind": "segment",
+   "parent": "wells-fargo",
+   "parent_name": "Wells Fargo",
+   "segment": "Wealth and Investment Management",
+   "weight": 0.15,
+   "tags": [
+    "fraud-detection",
+    "wealth-management"
+   ]
+  },
+  {
+   "id": "world-wide-technology",
+   "name": "World Wide Technology",
+   "kind": "firm",
+   "parent": "world-wide-technology",
+   "parent_name": "World Wide Technology",
+   "segment": null,
+   "weight": 1.0,
+   "tags": [
+    "cloud-infrastructure-services",
+    "cybersecurity-services",
+    "enterprise-ai-implementation",
+    "government-it-contracting",
+    "it-product-resale",
+    "managed-services",
+    "network-engineering",
+    "professional-services",
+    "systems-integration",
+    "technology-lab-services"
+   ]
+  }
+ ]
+}

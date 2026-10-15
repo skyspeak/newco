@@ -2,7 +2,9 @@
 
 An organizational map of US employers built on **what firms actually do**, not the industry label a ranking slapped on them.
 
-Best-places-to-work indexes describe Amazon as "Software Development" and Hilton as hospitality. Activity evidence shows a fulfillment network plus a cloud utility in one case, and a room-night machine in the other. This repo extracts firm-level activity profiles, clusters them by work rather than NAICS, and surfaces the gaps: mislabeled peers, hidden employers, and off-index firms doing the same work.
+The distinctive finding: a 2026 incorporation is often a **named desk already inside a hot-list ticker**. YC called ClaimGlide digital health. The map puts it on Progressive · Commercial Lines. Martini is not “generative video”; it sits on Disney · Entertainment. Conglomerates smear that desk into one ticker. Unbundle splits the ticker. The newco bridge places the new firm on the line.
+
+Best-places-to-work indexes describe Amazon as "Software Development" and Hilton as hospitality. Activity evidence shows a fulfillment network plus a cloud utility in one case, and a room-night machine in the other. The rest of the map is the same work, found off those lists, clustered by capability rather than NAICS.
 
 The interactive map is generated at `out/orgmap.html`.
 
@@ -14,7 +16,9 @@ profiles/*.json            2. validate    schema + privacy gate
 profiles + seed            3. normalize   canonical tags / families / tokens
 out/normalized.json        4. build       similarity, clusters, wedges
 expansion/cluster_*.json   5. expand      off-index existence proof
-out/map.json + template    6. page        out/orgmap.html
+profiles/*.json            6. lines       explode tickers → out/lines.json
+newcos/*.json              7. bridge      2025–26 firms ↔ line-of-work nodes
+out/map.json + template    8. page        out/orgmap.html
 ```
 
 Extraction of new profiles is **not** in the runner. A person or agent reads sources against `schema.md` and writes one JSON file per firm. The pipeline only accepts profiles that already exist on disk — fabricated records poison the graph.
@@ -26,6 +30,13 @@ make map          # or: python3 pipeline/run.py --fail-on-scrub
 ```
 
 Resume from a later stage with `python3 pipeline/run.py --from normalize`. Open `out/orgmap.html` in a browser.
+
+Unbundle and the newco bridge share one artifact. `make map` explodes conglomerates into line-of-work nodes (`out/lines.json`), then places 2025–26 incorporations on those lines rather than on smeared tickers.
+
+```bash
+make poc          # writes out/lines.json and out/poc_unbundle.html
+make bridge       # reads lines.json; writes out/poc_bridge.html
+```
 
 ## Contract
 
@@ -45,8 +56,9 @@ Every profile must satisfy `schema.md`. Hard rules:
 seed/          composite best-places indexes (CSV → one row per company)
 profiles/      147 extracted activity profiles (the map's input)
 expansion/     off-index firms per activity cluster (existence proof, search-capped)
+newcos/        2025–26 incorporation cohort, tagged in the map vocabulary
 pipeline/      stages + page template
-out/           normalized.json, map.json, orgmap.html
+out/           map.json, lines.json, orgmap.html, poc_bridge.html, poc_unbundle.html
 tests/         privacy, sector voting, tag canonicalization, schema
 schema.md      the only structure allowed into the map
 ```

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unbundle PoC — line of work, not ticker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b1220; --ink2:#33415c; --ink3:#64748b; --line:#dbe2ea; --line2:#eef2f6;
+  --bg:#ffffff; --panel:#f7f9fc; --blue:#1a4fd6; --blue-l:#e8eeff; --sig:#c0392b;
+  --sig-l:#fdecea; --ok:#0f766e; --ok-l:#e6f4f1; --amber:#b45309; --amber-l:#fdf3e3;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+header.mast{border-bottom:2px solid var(--ink)}
+header.mast .wrap{padding:22px 28px 16px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--blue);font-weight:600}
+h1{font-size:clamp(26px,3.6vw,40px);line-height:1.05;letter-spacing:-.025em;margin:8px 0 0;font-weight:700}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line);background:var(--panel)}
+.met{padding:12px 16px;border-right:1px solid var(--line)}
+.met .v{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:600}
+.met .k{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink3);margin-top:2px}
+nav.tabs{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:2px;padding:0 28px}
+.tab{border:0;background:none;padding:12px 14px;font:inherit;font-size:13px;font-weight:500;
+  color:var(--ink3);cursor:pointer;border-bottom:2px solid transparent}
+.tab.on{color:var(--blue);border-bottom-color:var(--blue);font-weight:600}
+section.pane{display:none;padding:22px 0 64px}
+section.pane.on{display:block}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}
+.chip{border:1px solid var(--line);background:#fff;padding:6px 10px;border-radius:4px;
+  font-size:12.5px;cursor:pointer;font-family:inherit}
+.chip.on{border-color:var(--blue);background:var(--blue-l);color:var(--blue);font-weight:600}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:900px){.grid2,.strip{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--line);border-radius:6px;background:#fff}
+.card h3{margin:0;padding:12px 14px 0;font-size:13px;font-weight:650}
+.card .sub{padding:2px 14px 8px;font-size:10.5px;color:var(--ink3);font-family:'IBM Plex Mono',monospace}
+svg{display:block;width:100%;height:auto}
+.smear-row{display:flex;align-items:center;gap:14px;margin:0 0 16px}
+.smear-num{font-family:'IBM Plex Mono',monospace;font-size:32px;font-weight:600;letter-spacing:-.03em;min-width:4.2ch}
+.smear-num.hi{color:var(--sig)}
+.track{flex:1;height:12px;background:var(--line2);border-radius:7px;overflow:hidden}
+.track i{display:block;height:100%;background:var(--sig)}
+.note{font-size:12.5px;color:var(--ink2);max-width:72ch;margin:0 0 14px}
+.pill{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  padding:2px 7px;border-radius:3px;background:var(--blue-l);color:var(--blue);margin:2px 3px 2px 0}
+.pill.n{background:#f1f5f9;color:var(--ink2)}
+.pill.g{background:var(--ok-l);color:var(--ok)}
+.assume{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.assume .card{padding:14px;font-size:13px;color:var(--ink2)}
+.assume .card b{display:block;color:var(--ink);margin-bottom:4px}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="eyebrow">Proof of concept</div>
+  <h1>A ticker is a bag of work</h1>
+</div></header>
+<div class="strip" id="strip"></div>
+<nav class="tabs"><div class="wrap">
+  <button class="tab on" data-p="before">Before / after</button>
+  <button class="tab" data-p="invert">I do this work</button>
+  <button class="tab" data-p="assume">Assumptions</button>
+</div></nav>
+<div class="wrap">
+<section class="pane on" id="p-before"></section>
+<section class="pane" id="p-invert"></section>
+<section class="pane" id="p-assume"></section>
+</div>
+<script>
+const D = /*__DATA__*/;
+const $ = id => document.getElementById(id);
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));}
+function short(n, nmax){
+  const s = String(n||"");
+  return s.length<=nmax ? s : s.slice(0,nmax-1)+"…";
+}
+
+const S = D.stats;
+$("strip").innerHTML = [
+  [S.n_firms, "firm nodes"],
+  [S.n_line_nodes, "line-of-work nodes"],
+  [S.n_segment_nodes, "segments split"],
+  [S.n_split_parents, "parents split"],
+].map(([v,k])=>`<div class="met"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
+
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on",x===b));
+  document.querySelectorAll("section.pane").forEach(p=>p.classList.toggle("on", p.id==="p-"+b.dataset.p));
+});
+
+function hubSvg(hub, neighbors, hue){
+  const W=560, H=460, cx=W/2, cy=H/2, R=148;
+  const nbr = neighbors||[];
+  const lines = nbr.map((n,i)=>{
+    const a = -Math.PI/2 + i*(2*Math.PI/Math.max(nbr.length,1));
+    const x = cx + Math.cos(a)*R, y = cy + Math.sin(a)*R;
+    const w = 1.2 + (n.sim||0)*6;
+    return {n,x,y,a,w};
+  });
+  const fill = hue==="split" ? "var(--ok)" : "var(--blue)";
+  return `<svg viewBox="0 0 ${W} ${H}" role="img">
+    ${lines.map(p=>`<line x1="${cx}" y1="${cy}" x2="${p.x}" y2="${p.y}" stroke="${hue==="split"?"#0f766e":"#1a4fd6"}" stroke-width="${p.w}" opacity=".45"/>`).join("")}
+    ${lines.map(p=>`
+      <circle cx="${p.x}" cy="${p.y}" r="${10+p.n.sim*10}" fill="${hue==="split"?"#0f766e":"#1a4fd6"}" opacity=".9">
+        <title>${esc(p.n.name)} · ${p.n.sim}</title>
+      </circle>
+      <text x="${p.x}" y="${p.y + (Math.sin(p.a)>=0?22:-14)}" text-anchor="middle"
+        font-size="10" font-family="Inter,sans-serif" fill="#33415c">${esc(short(p.n.name,26))}</text>
+    `).join("")}
+    <circle cx="${cx}" cy="${cy}" r="22" fill="${fill}"/>
+    <text x="${cx}" y="${cy+42}" text-anchor="middle" font-size="12" font-weight="650"
+      font-family="Inter,sans-serif" fill="#0b1220">${esc(short(hub,32))}</text>
+  </svg>`;
+}
+
+let cur = D.showcases[0] && D.showcases[0].slug;
+let lineId = null;
+function renderBefore(slug, lid){
+  cur = slug || cur;
+  const s = D.showcases.find(x=>x.slug===cur) || D.showcases[0];
+  lineId = lid || (s.lines[0] && s.lines[0].id) || null;
+  const line = s.lines.find(l=>l.id===lineId) || s.lines[0];
+  const hi = s.smear >= 0.5;
+  $("p-before").innerHTML = `
+    <div class="chips">${D.showcases.map(x=>`<button class="chip ${x.slug===s.slug?'on':''}" data-s="${x.slug}">${esc(x.company)}
+      <span class="mono">${x.smear}</span></button>`).join("")}</div>
+    <div class="smear-row">
+      <div class="smear-num ${hi?'hi':''}">${s.smear}</div>
+      <div class="track"><i style="width:${Math.round(s.smear*100)}%"></i></div>
+      <div class="mono" style="font-size:11px;color:var(--ink3);white-space:nowrap">neighborhood smear</div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <h3>As one ticker</h3>
+        <div class="sub">6 nearest firms</div>
+        ${hubSvg(s.company, s.bundled, "firm")}
+      </div>
+      <div class="card">
+        <h3>As a line of work</h3>
+        <div class="sub">cross-firm neighbors only</div>
+        <div class="chips" style="padding:0 12px">${s.lines.map(l=>`<button class="chip ${line && l.id===line.id?'on':''}" data-l="${l.id}">${esc(short(l.segment||l.name,28))}</button>`).join("")}</div>
+        ${line ? hubSvg(line.segment||line.name, line.neighbors, "split") : '<div style="padding:40px;color:var(--ink3)">Did not split.</div>'}
+      </div>
+    </div>`;
+  $("p-before").querySelectorAll("[data-s]").forEach(c=>c.onclick=()=>renderBefore(c.dataset.s));
+  $("p-before").querySelectorAll("[data-l]").forEach(c=>c.onclick=()=>renderBefore(s.slug, c.dataset.l));
+}
+renderBefore();
+
+function invertSvg(hits){
+  const W=1100, H=Math.max(380, 70+hits.length*70);
+  const cx=90;
+  return `<svg viewBox="0 0 ${W} ${H}">
+    ${hits.map((h,i)=>{
+      const y = 48 + i*68;
+      const nbr = (h.neighbors||[]).slice(0,4);
+      return `<g>
+        <circle cx="${cx}" cy="${y}" r="16" fill="${h.kind==='segment'?'#0f766e':'#1a4fd6'}"/>
+        <text x="${cx+28}" y="${y-4}" font-size="13" font-weight="650" font-family="Inter,sans-serif" fill="#0b1220">${esc(short(h.name,42))}</text>
+        <text x="${cx+28}" y="${y+12}" font-size="10" font-family="IBM Plex Mono,monospace" fill="#64748b">${esc(h.kind)}</text>
+        ${nbr.map((n,j)=>{
+          const x = 520 + j*140;
+          return `<line x1="${cx+16}" y1="${y}" x2="${x-12}" y2="${y}" stroke="#dbe2ea"/>
+            <circle cx="${x}" cy="${y}" r="${7+n.sim*8}" fill="#1a4fd6" opacity=".8"><title>${esc(n.name)}</title></circle>
+            <text x="${x}" y="${y+22}" text-anchor="middle" font-size="9.5" font-family="Inter,sans-serif" fill="#33415c">${esc(short(n.name,16))}</text>`;
+        }).join("")}
+      </g>`;
+    }).join("")}
+  </svg>`;
+}
+
+function renderInvert(tag){
+  const inv = D.invert;
+  const block = inv.find(x=>x.tag===tag) || inv[0];
+  if(!block){ $("p-invert").innerHTML = "<p>No tags.</p>"; return; }
+  $("p-invert").innerHTML = `
+    <p class="note">Each row is a line of work that carries this capability. Dots to the right are other parents that sit next to it.</p>
+    <div class="chips">${inv.map(x=>`<button class="chip ${x.tag===block.tag?'on':''}" data-t="${esc(x.tag)}">${esc(x.tag)} · ${x.hits.length}</button>`).join("")}</div>
+    <div class="card">${invertSvg(block.hits)}</div>`;
+  $("p-invert").querySelectorAll(".chip").forEach(c=>c.onclick=()=>renderInvert(c.dataset.t));
+}
+renderInvert();
+
+$("p-assume").innerHTML = `
+  <div class="assume">
+    <div class="card"><b>Same similarity both sides</b>${esc(S.similarity)}. k=${S.knn}. Statements and function mix stay off so they cannot re-smear AWS toward warehouses.</div>
+    <div class="card"><b>Two tags to exist</b>A segment with one capability is not an atom. Thin divisions stay on the parent.</div>
+    <div class="card"><b>Two segments to split</b>One named division is not a conglomerate.</div>
+    <div class="card"><b>No inherited leftover tags</b>AWS cannot carry fulfillment just because Amazon does.</div>
+    <div class="card"><b>Weights do not enter similarity</b>They only order invert hits. They are extractor estimates.</div>
+    <div class="card"><b>This is not the production map</b>orgmap.html still clusters tickers. If smear holds, cluster the line graph next.</div>
+  </div>`;
+</script>
+</body>
+</html>
